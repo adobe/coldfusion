@@ -1,0 +1,634 @@
+{
+    "theme-name": "vernal_dark",
+    "cycle-palette": true,
+    "palette": [
+        ["#fff", "#3CD8E7", "#3CD8E7", "#fff", "#fff"],
+        ["#fff", "#FF9456", "#FF9456", "#fff", "#fff"],
+        ["#fff", "#F199CA", "#F199CA", "#fff", "#fff"],
+        ["#fff", "#6CCB70", "#6CCB70", "#fff", "#fff"],
+        ["#fff", "#FD9595", "#FD9595", "#fff", "#fff"],
+        ["#fff", "#87BEF9", "#87BEF9", "#fff", "#fff"],
+        ["#fff", "#D9E177", "#D9E177", "#fff", "#fff"],
+        ["#fff", "#FFB5B5", "#FFB5B5", "#fff", "#fff"],
+        ["#fff", "#6BB2FF", "#6BB2FF", "#fff", "#fff"],
+        ["#fff", "#E08555", "#E08555", "#fff", "#fff"],
+        ["#fff", "#F24982", "#F24982", "#fff", "#fff"],
+        ["#fff", "#8FE898", "#8FE898", "#fff", "#fff"],
+        ["#fff", "#EB7D7D", "#EB7D7D", "#fff", "#fff"],
+        ["#fff", "#9ACCFF", "#9ACCFF", "#fff", "#fff"],
+        ["#fff", "#BCC261", "#BCC261", "#fff", "#fff"],
+        ["#fff", "#66B8CE", "#66B8CE", "#fff", "#fff"],
+        ["#fff", "#F87943", "#F87943", "#fff", "#fff"],
+        ["#fff", "#0EC3E0", "#0EC3E0","#fff", "#fff"], 
+        ["#fff", "#F197B4", "#F197B4", "#fff", "#fff"],
+        ["#fff", "#58C75D", "#58C75D", "#fff", "#fff"]
+    ],
+    "graph": {
+        "background-color": "#95cceb",
+        "title": {
+            "font-size": 24,
+            "bold": 1,
+            "color": "##cc6475",
+            "background-color": "#d8e0f4",
+            "padding": 16,
+            "adjustLayout": true
+        },
+        "subtitle": {
+            "font-size": 11,
+            "bold": 1,
+            "color": "#a4a4a4",
+            "margin-top": 30,
+            "padding": 6,
+            "adjustLayout": true
+        },
+        "source": {
+            "font-size": 10,
+            "color": "#fff",
+            "width": "100%",
+            "bold": 1,
+            "text-align": "right",
+            "height": 20,
+            "margin": "auto 0 0 auto",
+            "padding": 5
+        },
+        "nodata": {
+            "font-size": 12,
+            "color": "#333",
+            "text-align": "center",
+            "vertical-align": "middle",
+            "text": ""
+        },
+        "SCALE": {
+            "font-size": 11,
+            "line-width": 1,
+            "line-color": "#b4b7cc",
+            "item": {
+                "flat": true
+            },
+            "ref-line": {
+                "line-width": 1,
+                "line-color": "#3e6c7b"
+            },
+            "guide": {
+                "visible": 1,
+                "line-width": 2,
+                "line-style": "dotted",
+                "line-color": "#0d083a",
+                "alpha": 0.8
+            },
+            "minor-guide": {
+                "visible": 1,
+                "line-width": 1,
+                "line-style": "solid",
+                "line-color": "#aaa",
+                "alpha": 0.1
+            },
+            "tick": {
+                "visible": 1,
+                "size": 6,
+                "placement": "outer",
+                "line-width": 1,
+                "line-color": "#c7c7c7"
+            },
+            "minor-tick": {
+                "visible": 1,
+                "size": 4,
+                "placement": "outer",
+                "line-width": 1,
+                "line-color": "#c7c7c7"
+            },
+            "label": {
+                "color": "#a4a4a4",
+                "flat": true
+            }
+        },
+        "label": {
+            "color": "#999797"
+        },
+        "scroll-x": {
+            "bar": {
+                "height": 16
+            },
+            "handle": {
+                "height": 16
+            }
+        },
+        "scroll-y": {
+            "bar": {
+                "width": 10
+            },
+            "handle": {
+                "width": 16
+            }
+        },
+        "legend": {
+            "adjust-layout": true,
+            "margin": "auto 10 auto auto",
+            "marker": {
+                "border-width": 0,
+                "border-color": ""
+            },
+            "item": {
+                "font-color": "#b4b7cc"
+            },
+            "icon": {
+                "alpha": 0.5,
+                "line-color": "#b4b7cc",
+                "line-width": 1,
+                "max-height": 1
+            },
+            "background-color": "#2d2e44",
+            "border-radius": 4,
+            "border-width": 1,
+            "alpha": 0.75,
+            "border-alpha": 0.75,
+            "border-color": "none",
+            "shadow-distance": 3,
+            "header": {
+                "padding": "8 8",
+                "color": "#566675",
+                "font-size": 10,
+                "border-color": "#56566b",
+                "background-color": "#191926"
+            },
+            "footer": {
+                "color": "#fff",
+                "padding": "2 6",
+                "background-color": "#008AA0",
+                "border-color": "#666"
+            }
+        },
+        "plot": {
+            "value-box": {
+                "flat": true,
+                "color": "#000"
+            },
+            "marker": {
+                "line-width": 1,
+                "border-color": "black",
+                "border-width": 1
+            },
+            "hover-marker": {
+                "line-width": 1,
+                "border-width": 1,
+                "alpha": 0.3,
+                "backgroundColor": "#fff",
+                "backgroundColor1": "#fff"
+            },
+            "hoverState": {
+                "alpha": 0.3,
+                "backgroundColor": "white",
+                "backgroundColor1": "white"
+            }
+        },
+        "plotarea": {
+            "margin": "80px dynamic dynamic dynamic"
+        },
+        "guide": {
+            "line-width": 1,
+            "line-color": "#ccc",
+            "alpha": 1,
+            "scale-label": {
+                "text": "%l",
+                "padding": "3 6"
+            },
+            "plot-label": {
+                "padding": "3 6"
+            }
+        }
+    },
+    "hbar": {
+        "plot": {
+            "borderColor": "#000",
+            "borderWidth": 1
+        }
+    },
+    "venn": {
+        "title": {
+            "adjustLayout": true
+        },
+        "plot": {
+            "value-box": {
+                "fontSize": "10px",
+                "fontColor": "white"
+            }
+        },
+        "legend": {
+            "position": "350 50 auto auto",
+            "adjustLayout": false,
+            "layout": "float"
+        },
+        "tooltip": {
+            "text": "%t",
+            "borderRadius": "5px",
+            "fontSize": "15px"
+        }
+    },
+    "hbullet": {
+        "plot": {
+            "goal": {
+                "border-width": 1,
+                "border-color": "black"
+            }
+        }
+    },
+    "vbullet": {
+        "plot": {
+            "goal": {
+                "border-width": 1,
+                "border-color": "black"
+            }
+        }
+    },
+    "bubble": {
+        "plot": {
+            "size-factor": 0.3,
+            "marker": {
+                "line-width": 1,
+                "border-color": "#222234",
+                "border-width": 1
+            }
+        }
+    },
+    "hbubble": {
+        "plot": {
+            "size-factor": 0.3
+        },
+        "scaleX": {
+            "padding": "10",
+            "label": {
+                "fontColor": "#b4b7cc"
+            }
+        },
+        "scaleY": {
+            "padding": "10",
+            "label": {
+                "fontColor": "#b4b7cc"
+            }
+        }
+    },
+    "vfunnel": {
+        "plot": {
+            "value-box": {
+                "text": "%v",
+                "placement": "right-out",
+                "font-color": "gray",
+                "font-size": 12,
+                "font-weight": "normal",
+                "padding": "50 26"
+            }
+        }
+    },
+    "pie": {
+        "plot": {
+            "borderColor": "#222234",
+            "borderWidth": 2,
+            "value-box": {
+                "placement": "in",
+                "text": "%node-percent-value%",
+                "font-size": 10
+            }
+        },
+        "legend": {
+            "margin": "80 100 auto auto",
+            "adjustLayout": false
+        }
+    },
+    "radar": {
+        "legend": {
+            "layout": "float",
+            "margin": "auto auto 0 auto"
+        },
+        "scaleV": {
+            "visible": "false"
+        },
+        "scaleK": {
+            "font-color": "red",
+            "guide": {
+                "alpha": 0.3,
+                "backgroundColor": "#c5c5c5 #718eb4",
+                "lineColor": "#222234",
+                "lineStyle": "solid"
+            },
+            "item": {
+                "font-size": "11px",
+                "font-weight": "normal",
+                "fontColor": "#b4b7cc"
+            },
+            "refLine": {
+                "lineColor": "#fff"
+            },
+            "tick": {
+                "lineColor": "#fff",
+                "lineWidth": "2px",
+                "lineStyle": "dotted",
+                "size": 20
+            }
+        }
+    },
+    "vbar": {
+        "scaleX": {
+            "guide": {
+                "visible": false
+            },
+            "item": {
+                "fontColor": "#ec397a",
+                "fontSize": "15px"
+            }
+        },
+        "scaleY": {
+            "item": {
+                "fontColor": "#ec397a",
+                "fontSize": "15px"
+            }
+        }
+    },
+    "line": {
+        "legend": {
+            "align": "center",
+            "marginTop": "9%",
+            "borderColor": "none",
+            "item": {
+                "fontColor": "#b4b7cc"
+            },
+            "layout": "float",
+            "marker": {
+                "shadow": false,
+                "size": "5px"
+            },
+            "shadow": false
+        },
+        "plot": {
+            "hoverMarker": {
+                "size": "7px"
+            },
+            "marker": {
+                "type": "square",
+                "size": "4px"
+            },
+            "selectedMarker": {
+                "type": "star7",
+                "backgroundColor": "#FFBC2F",
+                "size": "10px"
+            },
+            "selectionMode": "plot"
+        },
+        "plotarea": {
+            "margin": "8% 7% 18% 10%"
+        },
+        "scaleX": {
+            "item": {
+                "fontColor": "#b4b7cc"
+            },
+            "itemsOverlap": true,
+            "label": {
+                "fontColor": "#b4b7cc ",
+                "fontSize": "11px"
+            },
+            "lineColor": "#666",
+            "tick": {
+                "lineColor": "#b4b7cc"
+            },
+            "zooming": true
+        },
+        "scaleY": {
+            "fontColor": "#b4b7cc",
+            "item": {
+                "paddingRight": "5px",
+                "color": "#b4b7cc"
+            },
+            "label": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            },
+            "lineColor": "#b4b7cc",
+            "mirrored": 1,
+            "tick": {
+                "lineColor": "#b4b7cc"
+            }
+        },
+        "tooltip": {
+            "text": "%v",
+            "borderRadius": "5px",
+            "shadow": false,
+            "textAlign": "left"
+        },
+        "zoom": {
+            "alpha": 0.25,
+            "backgroundColor": "yellow",
+            "preserveZoom": true
+        }
+    },
+    "area": {
+        "plot": {
+            "tooltip": {
+                "visible": false
+            },
+            "alphaArea": 0.6
+        },
+        "plotarea": {
+            "margin": "dynamic"
+        },
+        "scaleX": {
+            "item": {
+                "fontColor": "#b4b7cc",
+                "paddingTop": "5px"
+            },
+            "label": {
+                "fontColor": "#b4b7cc"
+            },
+            "lineColor": "#AAA5A5",
+            "tick": {
+                "lineColor": "#AAA5A5"
+            }
+        },
+        "scaleY": {
+            "guide": {
+                "lineColor": "#AAA5A5",
+                "lineStyle": "dotted"
+            },
+            "item": {
+                "fontColor": "#b4b7cc",
+                "paddingRight": "5px"
+            },
+            "label": {
+                "fontColor": "#b4b7cc"
+            },
+            "lineColor": "#AAA5A5",
+            "short": true,
+            "tick": {
+                "lineColor": "#AAA5A5"
+            }
+        },
+        "crosshairX": {
+            "lineColor": "#AAA5A5",
+            "plotLabel": {
+                "backgroundColor": "#EBEBEC",
+                "borderColor": "#AAA5A5",
+                "borderRadius": "2px",
+                "borderWidth": "2px",
+                "fontColor": "#616161"
+            },
+            "scaleLabel": {
+                "backgroundColor": "#EBEBEC",
+                "borderColor": "#AAA5A5",
+                "fontColor": "#424242"
+            }
+        },
+        "legend": {
+            "layout": "float",
+            "adjustLayout": "true",
+            "margin": "auto auto 10 auto"
+        }
+    },
+    "scatter": {
+        "plotarea": {
+            "margin": "60px 40px dynamic dynamic"
+        },
+        "scaleX": {
+            "itemsOverlap": true,
+            "label": {
+                "fontColor": "#b4b7cc"
+            },
+            "item": {
+                "fontColor": "#b4b7cc"
+            },
+            "maxItems": 16,
+            "offsetStart": "20px",
+            "offsetEnd": "20px"
+        },
+        "scaleY": {
+            "label": {
+                "fontColor": "#b4b7cc"
+            },
+            "item": {
+                "fontColor": "#b4b7cc"
+            },
+            "minValue": "auto",
+            "offsetStart": "20px",
+            "offsetEnd": "20px"
+        },
+        "labels": [
+            {
+                "fontColor": "#b4b7cc",
+                "fontSize": "10px",
+                "x": "91%",
+                "y": "23%"
+            }
+        ]
+    },
+    "piano": {
+        "fillType": "radial",
+        "plot": {
+            "tooltip": {
+                "padding": "5px 10px",
+                "borderColor": "none",
+                "borderRadius": "8px",
+                "borderWidth": "0px",
+                "fontColor": "#fff",
+                "fontSize": "10px",
+                "fontWeight": "normal",
+                "shadow": false
+            },
+            "valueBox": {
+                "visible": false
+            }
+        },
+        "plotarea": {
+            "margin": "30px 30px 85px 105px",
+            "backgroundColor": "none"
+        },
+        "scaleX": {
+            "alpha": 0.5,
+            "guide": {
+                "visible": false
+            },
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            },
+            "itemsOverlap": true,
+            "label": {
+                "paddingTop": "15px",
+                "bold": true,
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            },
+            "tick": {
+                "visible": false
+            }
+        },
+        "scaleY": {
+            "alpha": 0.5,
+            "guide": {
+                "visible": false
+            },
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px",
+                "textAlign": "right"
+            },
+            "label": {
+                "paddingRight": "20px",
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            }
+        }
+    },
+    "hfunnel": {
+        "scaleY": {
+            "placement": "opposite",
+            "item": {
+                "fontColor": "#b4b7cc ",
+                "fontSize": "11px",
+                "fontWeight": "normal"
+            }
+        },
+        "plot": {
+            "valueBox": {
+                "text": "%v",
+                "placement": "left-out",
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px",
+                "fontWeight": "normal"
+            }
+        }
+    },
+    "stock": {
+        "scaleX": {
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            },
+            "label": {
+                "fontColor": "#b4b7cc"
+            }
+        },
+        "scaleY": {
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            },
+            "label": {
+                "fontColor": "#b4b7cc"
+            }
+        }
+    },
+    "vbar3d": {
+        "plot": {
+            "borderColor": "#222234"
+        },
+        "scaleY": {
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            }
+        },
+        "scaleX": {
+            "item": {
+                "fontColor": "#b4b7cc",
+                "fontSize": "11px"
+            }
+        }
+    }
+}
