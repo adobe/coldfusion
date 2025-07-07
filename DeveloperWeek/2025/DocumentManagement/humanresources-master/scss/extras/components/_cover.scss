@@ -1,0 +1,38 @@
+	.templateux-cover {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: -1;
+		&:before {
+			content: "";
+			position: absolute;
+			background: rgba(#000, .3);
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+		&, .row {
+			min-height: 800px;
+		}
+		.heading {
+			font-size: 30px;
+		// line-height: 1.1;
+		color: $black;
+		@include media-breakpoint-up(md) {
+			
+			font-size: 50px;
+		}
+	}
+	.lead {
+		color: lighten($black, 60%);
+		line-height: 1.8;
+	}
+
+	> .container {
+		position: relative;
+		z-index: 29;
+
+	}
+}
