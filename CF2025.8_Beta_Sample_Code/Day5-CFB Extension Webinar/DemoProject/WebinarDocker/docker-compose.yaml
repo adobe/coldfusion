@@ -1,0 +1,19 @@
+services:
+
+
+  cf-main:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8510:8500"
+      - "5010:5010"
+      - "38525:38525"
+    environment:
+      acceptEULA: "YES"
+      password: "admin"
+    volumes:
+      - "/Applications/WebinarDocker/:/app/"
+
+
