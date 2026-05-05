@@ -1,0 +1,10 @@
+2026-04-14 08:00:01 INFO  Application started successfully
+2026-04-14 08:00:02 INFO  Database connection pool initialized (min=5, max=20)
+2026-04-14 08:05:15 WARN  Slow query detected: SELECT * FROM orders WHERE status='pending' (took 1240ms)
+2026-04-14 08:10:30 INFO  Scheduled task 'ReportGenerator' completed in 3.2s
+2026-04-14 08:15:44 ERROR NullPointerException in UserService.getProfile() at line 142
+2026-04-14 08:15:44 ERROR   at com.techflow.service.UserService.getProfile(UserService.java:142)
+2026-04-14 08:15:44 ERROR   at com.techflow.controller.UserController.handleRequest(UserController.java:87)
+2026-04-14 08:20:10 INFO  Cache hit ratio: 94.2% (last 5 minutes)
+2026-04-14 08:25:00 WARN  Memory usage at 78% of max heap (3.1GB / 4.0GB)
+2026-04-14 08:30:00 INFO  Health check: all services UP

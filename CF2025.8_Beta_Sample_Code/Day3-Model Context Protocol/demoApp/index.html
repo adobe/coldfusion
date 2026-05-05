@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MCP Feature Explorer</title>
+<style>
+:root { --bg:#1a1a2e; --panel:#16213e; --accent:#0f3460; --blue:#4cc9f0; --green:#4ade80; --red:#f87171; --yellow:#fbbf24; --text:#e2e8f0; --muted:#94a3b8; --mono:'Menlo','Consolas',monospace; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+header{background:var(--panel);padding:16px 24px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:16px}
+header h1{font-size:20px;font-weight:600}
+header span{color:var(--muted);font-size:13px}
+.tabs{display:flex;background:var(--accent);padding:4px;gap:2px;overflow-x:auto}
+.tab{padding:10px 20px;cursor:pointer;font-size:13px;font-weight:500;color:var(--muted);border:none;background:transparent;white-space:nowrap;border-radius:4px;transition:.15s}
+.tab:hover{color:var(--text);background:rgba(255,255,255,.05)}
+.tab.active{color:var(--blue);background:var(--panel)}
+.content{padding:24px;max-width:1200px;margin:0 auto}
+.section{display:none}
+.section.active{display:block}
+.card{background:var(--panel);border-radius:8px;padding:20px;margin-bottom:16px;border:1px solid var(--accent)}
+.card h3{color:var(--blue);font-size:15px;margin-bottom:12px}
+.card p{color:var(--muted);font-size:13px;margin-bottom:12px;line-height:1.5}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:12px}
+label{display:block;color:var(--muted);font-size:12px;margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+select,input[type=text]{background:var(--bg);color:var(--text);border:1px solid var(--accent);padding:8px 12px;border-radius:4px;font-size:13px;font-family:var(--mono);min-width:200px}
+select:focus,input:focus{outline:none;border-color:var(--blue)}
+button{background:var(--blue);color:var(--bg);border:none;padding:8px 18px;border-radius:4px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
+button:hover{opacity:.85}
+button:disabled{opacity:.4;cursor:not-allowed}
+.output{background:var(--bg);border:1px solid var(--accent);border-radius:4px;padding:16px;margin-top:12px;font-family:var(--mono);font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-all;max-height:500px;overflow-y:auto;min-height:60px;color:var(--muted)}
+.output.has-data{color:var(--text)}
+.status{display:inline-block;padding:2px 8px;border-radius:3px;font-size:11px;font-weight:600;text-transform:uppercase}
+.status.ok{background:rgba(74,222,128,.15);color:var(--green)}
+.status.err{background:rgba(248,113,113,.15);color:var(--red)}
+.status.loading{background:rgba(251,191,36,.15);color:var(--yellow)}
+.tag{display:inline-block;background:var(--accent);color:var(--blue);padding:2px 8px;border-radius:3px;font-size:11px;margin:2px;cursor:pointer}
+.tag:hover{background:var(--blue);color:var(--bg)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:800px){.grid2{grid-template-columns:1fr}}
+.code{background:var(--bg);border:1px solid var(--accent);border-radius:4px;padding:12px;font-family:var(--mono);font-size:12px;line-height:1.5;color:var(--green);margin:8px 0;overflow-x:auto;white-space:pre}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MCP Feature Explorer</h1>
+  <span>Model Context Protocol - Interactive Demo</span>
+</header>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" data-tab="tools">Tools</button>
+  <button class="tab" data-tab="resources">Resources</button>
+  <button class="tab" data-tab="prompts">Prompts</button>
+  <button class="tab" data-tab="logging">Logging</button>
+  <button class="tab" data-tab="sampling">Sampling</button>
+  <button class="tab" data-tab="elicitation">Elicitation</button>
+  <button class="tab" data-tab="roots">Roots</button>
+  <button class="tab" data-tab="misc">Misc</button>
+</div>
+
+<div class="content">
+
+<!-- ===== TOOLS ===== -->
+<div class="section active" id="sec-tools">
+  <div class="card">
+    <h3>Tools - listTools() and callTool()</h3>
+    <p>Tools are callable functions exposed by MCP servers. The model discovers available tools via <code>listTools()</code> and invokes them via <code>callTool()</code>.</p>
+    <div class="code">mcpClient = MCPClient({
+    transport:  { type: "HTTP", URL: serverUrl },
+    clientInfo: { name: "demo-client", version: "1.0.0" }
+})
+
+// discover available tools
+tools = mcpClient.listTools()
+
+// invoke a tool
+result = mcpClient.callTool({
+    name:      "echoMessage",
+    arguments: { messageText: "hello" }
+})</div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>List Tools</h3>
+      <div class="row">
+        <div><label>Server</label><select id="tools-server"><option value="ts">TypeScript (assorted-tools)</option><option value="cf">ColdFusion (echo)</option></select></div>
+        <button onclick="runListTools()">listTools()</button>
+      </div>
+      <div id="tools-list-status"></div>
+      <div class="output" id="tools-list-out">Click listTools() to discover server tools</div>
+    </div>
+    <div class="card">
+      <h3>Call Tool</h3>
+      <div class="row">
+        <div><label>Tool Name</label><input type="text" id="tool-name" value="echo_message" placeholder="tool name"></div>
+      </div>
+      <div class="row">
+        <div><label>Arguments (JSON)</label><input type="text" id="tool-args" value='{"messageText":"Hello from MCP demo!"}' style="min-width:350px"></div>
+        <button onclick="runCallTool()">callTool()</button>
+      </div>
+      <div id="tools-call-status"></div>
+      <div class="output" id="tools-call-out">Select a tool from the list or type a name, then click callTool()</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== RESOURCES ===== -->
+<div class="section" id="sec-resources">
+  <div class="card">
+    <h3>Resources - listResources() and readResource()</h3>
+    <p>Resources are data the server exposes for reading - documents, files, database records. The client discovers them via <code>listResources()</code> and reads content via <code>readResource(uri)</code>.</p>
+    <div class="code">// discover available resources
+resList = mcpClient.listResources()
+// resList.resources -> array of { uri, name, mimeType }
+
+// read a specific resource by URI
+content = mcpClient.readResource(
+    "file:///resources/logs/app.log"
+)
+writeOutput( content.contents[1].text )</div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>List Resources</h3>
+      <button onclick="runListResources()">listResources()</button>
+      <div id="res-list-status"></div>
+      <div class="output" id="res-list-out">Click to discover server resources</div>
+    </div>
+    <div class="card">
+      <h3>Read Resource</h3>
+      <div class="row">
+        <div><label>URI</label><input type="text" id="res-uri" value="" placeholder="select from list or type URI" style="min-width:350px"></div>
+        <button onclick="runReadResource()">readResource()</button>
+      </div>
+      <div id="res-read-status"></div>
+      <div class="output" id="res-read-out">Select a resource URI from the list, then click readResource()</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PROMPTS ===== -->
+<div class="section" id="sec-prompts">
+  <div class="card">
+    <h3>Prompts - listPrompts() and getPrompt()</h3>
+    <p>Prompts are reusable message templates the server provides. Users select a prompt and fill in arguments; <code>getPrompt()</code> returns structured messages ready to send to an LLM.</p>
+    <div class="code">// discover available prompts
+prompts = mcpClient.listPrompts()
+// prompts.prompts -> [{ name, description, arguments }]
+
+// get a filled prompt template
+prompt = mcpClient.getPrompt({
+    name:      "explain_code",
+    arguments: {
+        code:     "x = x + 1",
+        language: "CFML"
+    }
+})
+// prompt.messages -> ready to send to an LLM</div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h3>List Prompts</h3>
+      <div class="row">
+        <div><label>Server</label><select id="prompts-server"><option value="ts">TypeScript</option><option value="cf">ColdFusion</option></select></div>
+        <button onclick="runListPrompts()">listPrompts()</button>
+      </div>
+      <div id="pmt-list-status"></div>
+      <div class="output" id="pmt-list-out">Click to discover server prompts</div>
+    </div>
+    <div class="card">
+      <h3>Get Prompt</h3>
+      <div class="row">
+        <div><label>Prompt Name</label><input type="text" id="pmt-name" value="" placeholder="select from list"></div>
+      </div>
+      <div class="row">
+        <div><label>Arguments (JSON)</label><input type="text" id="pmt-args" value="{}" style="min-width:350px"></div>
+        <button onclick="runGetPrompt()">getPrompt()</button>
+      </div>
+      <div id="pmt-get-status"></div>
+      <div class="output" id="pmt-get-out">Select a prompt from the list, then click getPrompt()</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== LOGGING ===== -->
+<div class="section" id="sec-logging">
+  <div class="card">
+    <h3>Logging - Server-to-Client Log Messages</h3>
+    <p>Servers emit structured log messages to clients in real time. The client registers a <code>loggingConsumer</code> callback that receives log entries with level and data. Levels: debug, info, notice, warning, error, critical, alert, emergency.</p>
+    <div class="code">mcpClient = MCPClient({
+    transport:  { type: "HTTP", URL: serverUrl },
+    clientInfo: { name: "demo-client", version: "1.0.0" },
+    // register a callback to receive server log messages
+    loggingConsumer: function(message) {
+        // message.level = "info", "warning", "error", etc.
+        // message.data  = log payload from the server
+        writeLog(
+            text = "[MCP] " & message.level & ": " & message.data,
+            file = "mcp-demo"
+        )
+    }
+})</div>
+  </div>
+  <div class="card">
+    <h3>Trigger Server Logging</h3>
+    <p>Calls the <code>test_logging</code> tool on the TS logging server. The server emits log messages which are captured by the client's loggingConsumer.</p>
+    <button onclick="runLogging()">Call test_logging tool</button>
+    <div id="log-status"></div>
+    <div class="output" id="log-out">Click to trigger server-side logging and capture log messages</div>
+  </div>
+</div>
+
+<!-- ===== SAMPLING ===== -->
+<div class="section" id="sec-sampling">
+  <div class="card">
+    <h3>Sampling - Server Requests LLM Completion from Client</h3>
+    <p>Sampling reverses the usual flow: the <strong>server</strong> asks the <strong>client</strong> to run an LLM completion on its behalf. The client registers a <code>samplingConsumer</code> callback; the server calls <code>sampling/createMessage</code> and the client returns the model's response.</p>
+    <div class="code">mcpClient = MCPClient({
+    transport:    { type: "HTTP", URL: serverUrl },
+    clientInfo:   { name: "demo-client", version: "1.0.0" },
+    capabilities: { sampling: true },
+    // invoked when server sends sampling/createMessage
+    samplingConsumer: function(request) {
+        // request.messages  -> messages to send to LLM
+        // request.maxTokens -> token budget
+        // call your LLM here and return the response
+        return {
+            role:       "assistant",
+            content:    { type: "text", text: llmResponse },
+            model:      "gpt-4o",
+            stopReason: "endTurn"
+        }
+    }
+})
+
+// Tool call triggers sampling/createMessage back to client
+result = mcpClient.callTool({
+    name:      "send_sampling_request_for_summarizer",
+    arguments: { text: "...", maxTokens: 150 }
+})</div>
+  </div>
+  <div class="card">
+    <h3>Summarize via Sampling</h3>
+    <p>Calls <code>send_sampling_request_for_summarizer</code>. The TypeScript server sends a <code>sampling/createMessage</code> back to this client; the <code>samplingConsumer</code> returns a mock summary.</p>
+    <div class="row">
+      <div style="flex:1"><label>Text to Summarize</label><textarea id="sampling-text" rows="4" style="width:100%;background:var(--bg);color:var(--text);border:1px solid var(--accent);padding:8px 12px;border-radius:4px;font-size:12px;font-family:var(--mono);resize:vertical">The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to Large Language Models. It supports tools, resources, prompts, sampling, and logging over JSON-RPC 2.0. MCP enables better AI responses by giving LLMs structured access to external data and actions through a flexible, extensible client-server architecture.</textarea></div>
+    </div>
+    <div class="row">
+      <div><label>Max Tokens</label><input type="text" id="sampling-maxtokens" value="150" style="min-width:80px"></div>
+      <button onclick="runSampling()">Run Sampling</button>
+    </div>
+    <div id="sampling-status"></div>
+    <div class="output" id="sampling-out">Click to trigger the sampling flow</div>
+  </div>
+</div>
+
+<!-- ===== ELICITATION ===== -->
+<div class="section" id="sec-elicitation">
+  <div class="card">
+    <h3>Elicitation - Server Asks the User for Input</h3>
+    <p>During a tool call, the server may need information only the human can provide. It sends an elicitation request with a JSON schema describing the form fields. The client's <code>elicitationConsumer</code> returns the user's input.</p>
+    <div class="code">mcpClient = MCPClient({
+    transport:    { type: "HTTP", URL: serverUrl },
+    clientInfo:   { name: "demo-client", version: "1.0.0" },
+    capabilities: { elicitation: true },
+    // callback invoked when server needs user input
+    elicitationConsumer: function(request) {
+        // request contains: message, requestedSchema
+        // return action + content matching the schema
+        return {
+            action:  "accept",
+            content: {
+                username: "Alice",
+                email:    "alice@example.com"
+            }
+        }
+    }
+})</div>
+  </div>
+  <div class="card">
+    <h3>Register User (triggers elicitation)</h3>
+    <p>Calls the <code>register_user</code> tool. The server sends an elicitation request asking for username/email; the consumer auto-responds with these values:</p>
+    <div class="row">
+      <div><label>Username</label><input type="text" id="elicit-username" value="Demo User"></div>
+      <div><label>Email</label><input type="text" id="elicit-email" value="demo@example.com"></div>
+      <button onclick="runElicitation()">Call register_user</button>
+    </div>
+    <div id="elicit-status"></div>
+    <div class="output" id="elicit-out">Click to trigger elicitation flow</div>
+  </div>
+</div>
+
+<!-- ===== ROOTS ===== -->
+<div class="section" id="sec-roots">
+  <div class="card">
+    <h3>Roots - Scoping Server File System Access</h3>
+    <p>Roots define which parts of the filesystem the client is willing to share with the server. The client registers roots via <code>addRoot()</code>; the server can then list files within those boundaries.</p>
+    <div class="code">mcpClient = MCPClient({
+    transport:    { type: "HTTP", URL: serverUrl },
+    clientInfo:   { name: "demo-client", version: "1.0.0" },
+    capabilities: { roots: true }
+})
+
+// register a filesystem root the server may access
+mcpClient.addRoot("file:///var/data/docs", "Documents")
+
+// verify registered roots
+roots = mcpClient.listRoots()
+
+// server can now list files within the root
+files = mcpClient.callTool({
+    name:      "list_directory",
+    arguments: { path: "/var/data/docs" }
+})</div>
+  </div>
+  <div class="card">
+    <h3>Add Root and List Directory</h3>
+    <div class="row">
+      <div><label>Directory Path</label><input type="text" id="root-dir" value="" placeholder="leave empty for default (APIP/data/knowledge-base)" style="min-width:450px"></div>
+      <button onclick="runRoots()">Add Root + List Files</button>
+    </div>
+    <div id="roots-status"></div>
+    <div class="output" id="roots-out">Click to add a root and list its directory contents</div>
+  </div>
+</div>
+
+<!-- ===== MISC ===== -->
+<div class="section" id="sec-misc">
+
+  <!-- Basic Auth -->
+  <div class="card">
+    <h3>Basic Auth - Password-protected MCP Server</h3>
+    <p>The server enforces HTTP Basic Authentication. The client encodes credentials into the <code>Authorization</code> header on every request.</p>
+    <div class="grid2">
+      <div class="code">// Server: require basicAuth
+serverConfig = {
+    serverInfo: { name: "my-server", version: "1.0" },
+    capabilities: { tools: true },
+    tools: [{ cfc: "my.tools.Echo" }],
+    basicAuth: {
+        username: "mcp-client-user",
+        password: "s3cr3tP@$$"
+    }
+}
+McpServer(serverConfig).handleRequest()</div>
+      <div class="code">// Client: attach Authorization header
+credentials = toBase64(username & ":" & password)
+mcpClient = MCPClient({
+    transport: {
+        type: "HTTP", URL: serverUrl,
+        headers: {
+            "Authorization": "Basic " & credentials
+        }
+    },
+    clientInfo: { name: "my-client", version: "1.0" }
+})</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Try Basic Auth</h3>
+    <div class="row">
+      <div><label>Username</label><input type="text" id="auth-user" value="mcp-client-user"></div>
+      <div><label>Password</label><input type="text" id="auth-pass" value="s3cr3tP@$$"></div>
+      <button onclick="runBasicAuth(false)">Valid Credentials</button>
+      <button style="background:var(--red)" onclick="runBasicAuth(true)">Invalid Credentials</button>
+    </div>
+    <div id="auth-status"></div>
+    <div class="output" id="auth-out">Click a button to test basicAuth</div>
+  </div>
+
+  <!-- CORS -->
+  <div class="card" style="margin-top:8px">
+    <h3>CORS - Cross-Origin Resource Sharing</h3>
+    <p>The server advertises allowed origins. Browsers send an OPTIONS preflight before the real request; the server responds with <code>Access-Control-*</code> headers granting or denying access.</p>
+    <div class="code">// Server: enable CORS with allowed origins
+serverConfig = {
+    serverInfo: { name: "my-server", version: "1.0" },
+    capabilities: { tools: true },
+    tools: [{ cfc: "my.tools.Echo" }],
+    corsEnabled: "true",
+    corsAllowedOrigins: [
+        "http://localhost:8521",
+        "https://myapp.example.com"
+    ]
+}
+McpServer(serverConfig).handleRequest()</div>
+  </div>
+  <div class="card">
+    <h3>Try CORS</h3>
+    <p>Calls the CORS-enabled server and performs an OPTIONS preflight to capture the returned <code>Access-Control-*</code> response headers.</p>
+    <button onclick="runCors()">Test CORS</button>
+    <div id="cors-status"></div>
+    <div class="output" id="cors-out">Click to connect to the CORS-enabled server and inspect headers</div>
+  </div>
+
+  <!-- maxRequestBodySize -->
+  <div class="card" style="margin-top:8px">
+    <h3>maxRequestBodySize - Enforce Request Size Limits</h3>
+    <p>The server rejects any incoming HTTP request whose body exceeds the configured byte limit. Useful for preventing oversized payloads from reaching tool handlers.</p>
+    <div class="code">// Server: set a 512-byte request body limit
+serverConfig = {
+    serverInfo: { name: "my-server", version: "1.0" },
+    capabilities: { tools: true },
+    tools: [{ cfc: "my.tools.Echo" }],
+    maxRequestBodySize: 512
+}
+McpServer(serverConfig).handleRequest()</div>
+  </div>
+  <div class="card">
+    <h3>Try maxRequestBodySize (limit: 512 bytes)</h3>
+    <div class="row">
+      <button onclick="runMaxBody(false)">Small Payload (5 bytes)</button>
+      <button style="background:var(--red)" onclick="runMaxBody(true)">Large Payload (400+ bytes)</button>
+    </div>
+    <div id="maxbody-status"></div>
+    <div class="output" id="maxbody-out">Click a button to test the body size limit</div>
+  </div>
+
+</div>
+
+</div><!-- .content -->
+
+<script>
+// ---- Tab switching ----
+document.getElementById('tabs').addEventListener('click', e => {
+    if (!e.target.classList.contains('tab')) return;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    e.target.classList.add('active');
+    document.getElementById('sec-' + e.target.dataset.tab).classList.add('active');
+});
+
+// ---- Helpers ----
+function status(id, type, text) {
+    const s = document.getElementById(id);
+    s.innerHTML = `<span class="status ${type}">${text}</span>`;
+}
+function out(id, data) {
+    const el = document.getElementById(id);
+    el.textContent = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+    el.classList.add('has-data');
+}
+// CF serializes struct keys as UPPERCASE; normalize to lowercase for JS
+function lowerKeys(obj) {
+    if (Array.isArray(obj)) return obj.map(lowerKeys);
+    if (obj && typeof obj === 'object') {
+        return Object.fromEntries(
+            Object.entries(obj).map(([k, v]) => [k.toLowerCase(), lowerKeys(v)])
+        );
+    }
+    return obj;
+}
+async function api(endpoint, params = {}) {
+    const qs = new URLSearchParams(params).toString();
+    const res = await fetch('api/' + endpoint + '?' + qs);
+    const json = await res.json();
+    return lowerKeys(json);
+}
+
+// ---- TOOLS ----
+async function runListTools() {
+    status('tools-list-status', 'loading', 'connecting...');
+    const server = document.getElementById('tools-server').value;
+    const data = await api('tools.cfm', { action: 'listTools', server });
+    if (data.success) {
+        status('tools-list-status', 'ok', data.tools.length + ' tools found');
+        let txt = 'Server: ' + data.serverurl + '\n\n';
+        data.tools.forEach(t => {
+            txt += '  ' + t.name + '\n    ' + (t.description||'') + '\n\n';
+        });
+        out('tools-list-out', txt);
+    } else {
+        status('tools-list-status', 'err', 'error');
+        out('tools-list-out', data.error);
+    }
+}
+async function runCallTool() {
+    const name = document.getElementById('tool-name').value.trim();
+    const args = document.getElementById('tool-args').value.trim();
+    if (!name) return;
+    status('tools-call-status', 'loading', 'calling ' + name + '...');
+    const server = document.getElementById('tools-server').value;
+    const data = await api('tools.cfm', { action: 'callTool', server, toolName: name, toolArgs: args });
+    if (data.success) {
+        status('tools-call-status', 'ok', 'success');
+        out('tools-call-out', data.response);
+    } else {
+        status('tools-call-status', 'err', 'error');
+        out('tools-call-out', data.error);
+    }
+}
+
+// ---- RESOURCES ----
+async function runListResources() {
+    status('res-list-status', 'loading', 'connecting...');
+    const data = await api('resources.cfm', { action: 'listResources' });
+    if (data.success) {
+        status('res-list-status', 'ok', data.resources.length + ' resources');
+        let txt = 'Server: ' + data.serverurl + '\n\n';
+        data.resources.forEach(r => {
+            txt += '  [' + (r.mimetype||'') + '] ' + r.uri + '\n    ' + (r.name||'') + '\n\n';
+        });
+        out('res-list-out', txt);
+        // Auto-populate URI field with first resource
+        if (data.resources.length) {
+            document.getElementById('res-uri').value = data.resources[0].uri;
+        }
+    } else {
+        status('res-list-status', 'err', 'error');
+        out('res-list-out', data.error);
+    }
+}
+async function runReadResource() {
+    const uri = document.getElementById('res-uri').value.trim();
+    if (!uri) return;
+    status('res-read-status', 'loading', 'reading...');
+    const data = await api('resources.cfm', { action: 'readResource', uri });
+    if (data.success) {
+        status('res-read-status', 'ok', 'loaded');
+        out('res-read-out', data.contents);
+    } else {
+        status('res-read-status', 'err', 'error');
+        out('res-read-out', data.error);
+    }
+}
+
+// ---- PROMPTS ----
+async function runListPrompts() {
+    status('pmt-list-status', 'loading', 'connecting...');
+    const server = document.getElementById('prompts-server').value;
+    const data = await api('prompts.cfm', { action: 'listPrompts', server });
+    if (data.success) {
+        status('pmt-list-status', 'ok', data.prompts.length + ' prompts');
+        let txt = 'Server: ' + data.serverurl + '\n\n';
+        data.prompts.forEach(p => {
+            txt += '  ' + p.name + '\n    ' + (p.description||'') + '\n';
+            if (p.arguments && p.arguments.length) {
+                txt += '    args: ' + p.arguments.map(a => a.name + (a.required ? '*' : '')).join(', ') + '\n';
+            }
+            txt += '\n';
+        });
+        out('pmt-list-out', txt);
+        if (data.prompts.length) {
+            document.getElementById('pmt-name').value = data.prompts[0].name;
+        }
+    } else {
+        status('pmt-list-status', 'err', 'error');
+        out('pmt-list-out', data.error);
+    }
+}
+async function runGetPrompt() {
+    const name = document.getElementById('pmt-name').value.trim();
+    const args = document.getElementById('pmt-args').value.trim();
+    if (!name) return;
+    status('pmt-get-status', 'loading', 'getting prompt...');
+    const server = document.getElementById('prompts-server').value;
+    const data = await api('prompts.cfm', { action: 'getPrompt', server, promptName: name, promptArgs: args });
+    if (data.success) {
+        status('pmt-get-status', 'ok', 'loaded');
+        out('pmt-get-out', data.prompt);
+    } else {
+        status('pmt-get-status', 'err', 'error');
+        out('pmt-get-out', data.error);
+    }
+}
+
+// ---- LOGGING ----
+async function runLogging() {
+    status('log-status', 'loading', 'triggering server logs...');
+    const data = await api('logging.cfm');
+    if (data.success) {
+        const n = data.capturedlogs ? data.capturedlogs.length : 0;
+        status('log-status', 'ok', n + ' log messages captured');
+        let txt = 'Server: ' + data.serverurl + '\n';
+        txt += 'isLoggingSupported: ' + data.isloggingsupported + '\n\n';
+        txt += '--- Tool Response ---\n' + JSON.stringify(data.toolresponse, null, 2) + '\n\n';
+        txt += '--- Captured Log Messages ---\n';
+        if (data.capturedlogs) {
+            data.capturedlogs.forEach((l, i) => {
+                txt += (i+1) + '. [' + (l.level||'?').toUpperCase() + '] ' + (typeof l.data === 'string' ? l.data : JSON.stringify(l.data)) + '\n';
+            });
+        }
+        if (!n) txt += '(none captured - logs may have arrived before consumer was ready)\n';
+        out('log-out', txt);
+    } else {
+        status('log-status', 'err', 'error');
+        out('log-out', data.error);
+    }
+}
+
+// ---- SAMPLING ----
+async function runSampling() {
+    const text      = document.getElementById('sampling-text').value.trim();
+    const maxTokens = document.getElementById('sampling-maxtokens').value || '150';
+    if (!text) { out('sampling-out', 'Enter some text to summarize.'); return; }
+    status('sampling-status', 'loading', 'calling server...');
+    const data = await api('sampling.cfm', { text, maxTokens });
+    if (data.success) {
+        status('sampling-status', 'ok', 'sampling completed');
+        let txt = 'Server: ' + data.serverurl + '\n\n';
+        txt += '--- Sampling Request (server -> client) ---\n';
+        txt += JSON.stringify(data.samplingrequest, null, 2) + '\n\n';
+        txt += '--- Consumer Response (client -> server) ---\n';
+        txt += 'model:      cf-mock-summarizer-v1\n';
+        txt += 'stopReason: endTurn\n\n';
+        txt += '--- Tool Response ---\n';
+        txt += JSON.stringify(data.toolresponse, null, 2);
+        out('sampling-out', txt);
+    } else {
+        status('sampling-status', 'err', 'error');
+        out('sampling-out', data.error || JSON.stringify(data));
+    }
+}
+
+// ---- ELICITATION ----
+async function runElicitation() {
+    const username = document.getElementById('elicit-username').value;
+    const email = document.getElementById('elicit-email').value;
+    status('elicit-status', 'loading', 'calling register_user...');
+    const data = await api('elicitation.cfm', { username, email });
+    if (data.success) {
+        status('elicit-status', 'ok', 'elicitation completed');
+        let txt = 'Server: ' + data.serverurl + '\n\n';
+        txt += '--- Elicitation Requests Received ---\n';
+        if (data.elicitationrequests && data.elicitationrequests.length) {
+            data.elicitationrequests.forEach((r, i) => {
+                txt += (i+1) + '. ' + JSON.stringify(r, null, 2) + '\n\n';
+            });
+        } else {
+            txt += '(no elicitation requests captured)\n\n';
+        }
+        txt += '--- Consumer Response ---\n';
+        txt += 'username: ' + data.providedusername + '\nemail: ' + data.providedemail + '\n\n';
+        txt += '--- Tool Response ---\n' + JSON.stringify(data.toolresponse, null, 2);
+        out('elicit-out', txt);
+    } else {
+        status('elicit-status', 'err', 'error');
+        out('elicit-out', data.error);
+    }
+}
+
+// ---- MISC: Basic Auth ----
+async function runBasicAuth(useInvalid) {
+    const username = useInvalid ? 'wrong-user'  : document.getElementById('auth-user').value;
+    const password = useInvalid ? 'wrong-pass'  : document.getElementById('auth-pass').value;
+    const action   = useInvalid ? 'basicAuthInvalid' : 'basicAuth';
+    status('auth-status', 'loading', useInvalid ? 'trying invalid credentials...' : 'authenticating...');
+    const data = await api('misc.cfm', { action, username, password });
+    if (data.success) {
+        status('auth-status', 'ok', useInvalid ? 'rejected (expected)' : 'authenticated');
+        let txt = 'Server: ' + data.serverurl + '\n';
+        if (!useInvalid) {
+            txt += 'Username: ' + data.username + '\n';
+            txt += 'Auth Header: ' + data.authheader + '\n';
+            txt += 'Tools found: ' + data.toolcount + '\n\n';
+            txt += '--- Tool Response ---\n' + JSON.stringify(data.toolresponse, null, 2);
+        } else {
+            txt += 'Rejected: ' + data.rejected + '\n';
+            txt += 'Error type: ' + data.errortype + '\n';
+            txt += 'Error: ' + data.errormessage;
+        }
+        out('auth-out', txt);
+    } else {
+        status('auth-status', 'err', 'error');
+        out('auth-out', data.error);
+    }
+}
+
+// ---- MISC: CORS ----
+async function runCors() {
+    status('cors-status', 'loading', 'testing CORS...');
+    const data = await api('misc.cfm', { action: 'cors' });
+    if (data.success) {
+        status('cors-status', 'ok', 'CORS headers received');
+        let txt = 'Server: ' + data.serverurl + '\n';
+        txt += 'Tools found: ' + data.toolcount + '\n';
+        txt += 'Preflight status: ' + data.preflightstatus + '\n\n';
+        txt += '--- CORS Response Headers ---\n';
+        const h = data.corsheaders || {};
+        Object.keys(h).sort().forEach(k => { txt += '  ' + k + ': ' + h[k] + '\n'; });
+        if (!Object.keys(h).length) txt += '(no Access-Control-* headers returned)\n';
+        out('cors-out', txt);
+    } else {
+        status('cors-status', 'err', 'error');
+        out('cors-out', data.error);
+    }
+}
+
+// ---- MISC: maxRequestBodySize ----
+async function runMaxBody(useLarge) {
+    const action = useLarge ? 'maxBodyLarge' : 'maxBodySmall';
+    status('maxbody-status', 'loading', useLarge ? 'sending large payload...' : 'sending small payload...');
+    const data = await api('misc.cfm', { action });
+    if (data.success) {
+        status('maxbody-status', 'ok', useLarge ? 'rejected as expected' : 'accepted');
+        let txt = 'Server: ' + data.serverurl + '\n';
+        txt += 'Server limit: ' + data.maxbodysize + '\n';
+        txt += 'Payload size: ' + data.payloadsize + '\n';
+        if (!useLarge) {
+            txt += 'Within limit: ' + data.withinlimit + '\n\n';
+            txt += '--- Tool Response ---\n' + JSON.stringify(data.toolresponse, null, 2);
+        } else {
+            txt += 'Rejected: ' + data.rejected + '\n';
+            txt += 'Error type: ' + data.errortype + '\n';
+            txt += 'Error: ' + data.errormessage;
+        }
+        out('maxbody-out', txt);
+    } else {
+        status('maxbody-status', 'err', 'error');
+        out('maxbody-out', data.error);
+    }
+}
+
+// ---- ROOTS ----
+async function runRoots() {
+    const dir = document.getElementById('root-dir').value.trim();
+    status('roots-status', 'loading', 'adding root...');
+    const data = await api('roots.cfm', { rootDir: dir });
+    if (data.success) {
+        status('roots-status', 'ok', 'root registered');
+        let txt = 'Server: ' + data.serverurl + '\n';
+        txt += 'Root URI: ' + data.rooturi + '\n';
+        txt += 'Root Name: ' + data.rootname + '\n\n';
+        txt += '--- Registered Roots ---\n' + JSON.stringify(data.roots, null, 2) + '\n\n';
+        txt += '--- Directory Contents ---\n' + JSON.stringify(data.directory, null, 2);
+        out('roots-out', txt);
+    } else {
+        status('roots-status', 'err', 'error');
+        out('roots-out', data.error);
+    }
+}
+</script>
+
+</body>
+</html>
