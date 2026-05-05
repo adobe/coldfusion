@@ -1,0 +1,46 @@
+# ColdFusion 2025 Developer Guide
+
+## What is ColdFusion?
+Adobe ColdFusion is a rapid web development platform built on Java. It allows developers to build dynamic web applications, APIs, and integrations quickly using CFML (ColdFusion Markup Language). ColdFusion 2025 introduces native AI/LLM integration via ChatModel, AIService, RAG, and VectorStore APIs.
+
+## ColdFusion AI Features (2025)
+- ChatModel: Connect to OpenAI, Anthropic, Mistral, Azure OpenAI, Ollama
+- AIService: Combine ChatModel + FunctionTools + ChatMemory + RAG
+- EmbeddingModel: Generate vector embeddings for semantic search
+- VectorStore: Store and search embeddings (InMemory, Pinecone, Qdrant, Milvus, Chroma)
+- RAG: Retrieval-Augmented Generation using documents and vector search
+- MCP: Model Context Protocol client and server support
+
+## cfquery - Database Queries
+Use cfquery to execute SQL against a datasource:
+  <cfquery name="result" datasource="myDB">
+    SELECT * FROM users WHERE active = 1
+  </cfquery>
+  <cfoutput query="result">#result.name#</cfoutput>
+
+## cfhttp - HTTP Requests
+Make HTTP calls with cfhttp:
+  <cfhttp url="https://api.example.com/data" method="GET" result="response">
+    <cfhttpparam type="header" name="Authorization" value="Bearer token">
+  </cfhttp>
+
+## ColdFusion ORM
+ColdFusion supports Hibernate ORM for object-relational mapping:
+  component persistent="true" table="products" {
+    property name="id" fieldtype="id" generator="native";
+    property name="name";
+    property name="price" type="numeric";
+  }
+
+## Session Management
+ColdFusion has built-in session management:
+  application.sessionTimeout = createTimeSpan(0, 2, 0, 0);
+  session.userId = authenticate(username, password);
+
+## Error Handling
+Use try-catch for error handling:
+  try {
+    result = someOperation();
+  } catch (any e) {
+    writeLog(text=e.message, type="error");
+  }

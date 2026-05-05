@@ -1,0 +1,45 @@
+NEXORA — WARRANTY POLICY
+Effective: January 1, 2026
+
+STANDARD LIMITED WARRANTY
+All Nexora hardware products come with a 1-year limited warranty against defects in materials and workmanship.
+The warranty period begins on the original date of purchase.
+Proof of purchase (order number or receipt) is required to make a warranty claim.
+
+WHAT IS COVERED
+- Manufacturing defects in materials and workmanship
+- Hardware failures under normal use conditions
+- Battery degradation greater than 20% capacity loss in the first year (for battery-powered devices)
+- Display defects (dead pixels, backlight failure) not caused by physical damage
+
+WHAT IS NOT COVERED
+- Physical damage from drops, impacts, or accidents
+- Liquid damage including water damage, spills, rain, humidity, or any accidental water exposure
+- Accidental damage of any kind is not covered by the standard warranty (see Nexora Protect Plan for accidental coverage)
+- Damage from misuse, abuse, or modifications
+
+FREQUENTLY ASKED QUESTIONS — WARRANTY
+Q: Does the warranty cover accidental water damage?
+A: No. The standard Nexora warranty does not cover accidental water damage or any liquid damage. If you want coverage for accidental incidents including water damage, purchase the Nexora Protect Plan within 30 days of buying your device.
+- Normal wear and tear (scratches, dents, worn edges)
+- Cosmetic damage that does not affect functionality
+- Damage from third-party repairs or unauthorized parts
+- Products with removed, defaced, or altered serial numbers
+
+EXTENDED WARRANTY — NEXORA PROTECT PLAN
+2-Year Nexora Protect: $29.99 (add at checkout)
+3-Year Nexora Protect: $49.99 (add at checkout)
+Benefits: Covers one accidental damage incident per year plus all standard warranty coverage.
+Nexora Protect can be added within 30 days of purchase via your account or by contacting support.
+
+HOW TO MAKE A WARRANTY CLAIM
+Contact support via live chat, email (warranty@nexora.com), or phone 1-800-NEXORA.
+Provide: your order number, product model and serial number, description of the defect, and photos if possible.
+Our team will review your claim within 2 business days.
+If approved: we ship a replacement unit or arrange a repair.
+Repair turnaround time: 7-10 business days.
+We cover all shipping costs for approved warranty claims.
+
+INTERNATIONAL WARRANTY
+The warranty is valid in the country of original purchase.
+For international warranty service, contact warranty@nexora.com.

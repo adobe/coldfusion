@@ -1,0 +1,32 @@
+# Adobe Products Overview
+
+## Adobe Creative Cloud
+Adobe Creative Cloud is a subscription service giving access to 20+ creative desktop and mobile apps.
+- Photoshop: Industry-standard image editing and compositing
+- Illustrator: Vector graphics and logo design
+- Premiere Pro: Professional video editing
+- After Effects: Motion graphics and visual effects
+- InDesign: Page layout for print and digital
+- XD: UI/UX design and prototyping
+- Lightroom: Photo editing and management
+Pricing: All Apps plan at $54.99/month (individual) or $89.99/month (business)
+
+## Adobe Acrobat
+PDF creation, editing, signing, and sharing. Acrobat Pro DC includes AI-powered tools for summarising, comparing, and generating content in PDFs.
+Pricing: Acrobat Pro at $19.99/month
+
+## Adobe Experience Platform (AEP)
+Real-time customer data platform. Collects, standardises, and activates customer data across channels.
+Features: Real-time CDP, Journey Analytics, Journey Optimizer, Customer AI.
+
+## Adobe ColdFusion
+ColdFusion is a rapid web development platform targeting Java enterprise developers.
+- ColdFusion 2025 Professional: $1299 one-time license
+- ColdFusion 2025 Standard: $799 one-time license
+- ColdFusion Developer Edition: Free (limited to 2 IPs and 2 CPUs)
+Key features: AI/LLM integration, REST APIs, PDF generation, ORM, WebSockets, Server Monitor
+
+## Adobe Firefly
+Adobe's generative AI image model. Trained on licensed and public-domain content.
+Available in: Creative Cloud apps, Firefly web app, and via API.
+Capabilities: Text-to-image, generative fill, text effects, vector recoloring.

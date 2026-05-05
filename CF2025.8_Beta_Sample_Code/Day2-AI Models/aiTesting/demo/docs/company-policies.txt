@@ -1,0 +1,33 @@
+# Company IT and Software Policies
+
+## Software Procurement Policy
+All software purchases must be approved by the IT department and budgeted through the departmental expense system.
+- Purchases under $500: Manager approval only
+- Purchases $500–$5000: Manager + Finance Director approval
+- Purchases over $5000: Executive Committee approval required
+Preferred vendors: Adobe, Microsoft, Atlassian, AWS, GitHub
+
+## Remote Work Policy
+Employees may work remotely up to 3 days per week with manager approval.
+- Core hours: 10am–3pm local time
+- VPN required for all internal system access
+- Security training must be completed annually
+
+## Data Retention Policy
+- Customer data: Retained for 7 years post contract termination
+- Employee records: Retained for 10 years post employment
+- Application logs: 90 days rolling retention
+- Backups: Taken daily, retained for 30 days
+
+## Password Policy
+- Minimum 12 characters
+- Must include uppercase, lowercase, numbers, and symbols
+- Changed every 90 days
+- Cannot reuse last 10 passwords
+- MFA required for all cloud services
+
+## Support Escalation Process
+Level 1: Helpdesk (response within 2 hours, Mon–Fri 8am–6pm)
+Level 2: Senior Engineer (response within 4 hours)
+Level 3: Architecture Team (response within 1 business day)
+Critical/P1 Issues: 24/7 on-call rotation, 30-minute response SLA
