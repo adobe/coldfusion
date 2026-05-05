@@ -1,0 +1,71 @@
+[2024-12-01 00:00:01] INFO  Application started successfully
+[2024-12-01 00:00:02] ERROR Database connection pool failed (min=5, max=50)
+[2024-12-01 00:00:03] INFO  Cache service started - Redis cluster connected
+[2024-12-01 00:00:04] INFO  Message queue listener started on port 5672
+[2024-12-01 00:00:05] INFO  Health check endpoint /api/health active
+[2024-12-01 00:01:15] INFO  User authentication: user_id=1001 login successful
+[2024-12-01 00:01:16] DEBUG Session created: session_id=abc123def456
+[2024-12-01 00:01:45] INFO  API request: GET /api/users/1001 - 200 OK (45ms)
+[2024-12-01 00:02:12] INFO  API request: POST /api/orders - 201 Created (128ms)
+[2024-12-01 00:02:13] DEBUG Order processing: order_id=ORD-2024-00001
+[2024-12-01 00:02:14] INFO  Payment gateway: transaction_id=TXN-789012 authorized
+[2024-12-01 00:02:15] INFO  Email notification queued: order_confirmation
+[2024-12-01 00:03:00] INFO  Scheduled task: cache_cleanup started
+[2024-12-01 00:03:01] DEBUG Cache entries removed: 247 expired items
+[2024-12-01 00:03:02] INFO  Scheduled task: cache_cleanup completed (2.1s)
+[2024-12-01 00:05:30] INFO  User authentication: user_id=1002 login successful
+[2024-12-01 00:05:31] DEBUG Session created: session_id=xyz789ghi012
+[2024-12-01 00:06:00] INFO  API request: GET /api/products?category=electronics - 200 OK (89ms)
+[2024-12-01 00:06:45] INFO  API request: PUT /api/cart/1002 - 200 OK (34ms)
+[2024-12-01 00:07:12] WARN  Rate limit approaching: client_ip=192.168.1.100 (85/100 requests)
+[2024-12-01 00:08:00] INFO  Database query: SELECT * FROM inventory WHERE stock < 10
+[2024-12-01 00:08:01] INFO  Low stock alert: 15 products below threshold
+[2024-12-01 00:10:00] INFO  Metrics exported: cpu=45%, memory=62%, connections=127
+[2024-12-01 00:15:00] INFO  Scheduled task: session_cleanup started
+[2024-12-01 00:15:02] DEBUG Expired sessions removed: 34
+[2024-12-01 00:15:03] INFO  Scheduled task: session_cleanup completed (3.2s)
+[2024-12-01 00:20:15] INFO  User authentication: user_id=1003 login successful
+[2024-12-01 00:20:16] DEBUG Session created: session_id=mno345pqr678
+[2024-12-01 00:21:00] INFO  API request: GET /api/dashboard - 200 OK (156ms)
+[2024-12-01 00:22:30] INFO  API request: POST /api/reports/generate - 202 Accepted
+[2024-12-01 00:22:31] DEBUG Report generation queued: report_id=RPT-2024-0001
+[2024-12-01 00:25:00] INFO  Background job: report_generator processing RPT-2024-0001
+[2024-12-01 00:25:45] INFO  Report generated: RPT-2024-0001 (45 pages, 2.3MB)
+[2024-12-01 00:25:46] INFO  Email notification queued: report_ready
+[2024-12-01 00:30:00] INFO  Metrics exported: cpu=52%, memory=58%, connections=143
+[2024-12-01 00:35:00] INFO  Database connection pool: active=23, idle=27, waiting=0
+[2024-12-01 00:40:00] INFO  Cache hit ratio: 94.7% (last 30 minutes)
+[2024-12-01 00:45:00] INFO  Scheduled task: log_rotation started
+[2024-12-01 00:45:05] INFO  Log files rotated: 3 files archived, 156MB freed
+[2024-12-01 00:45:06] INFO  Scheduled task: log_rotation completed (6.1s)
+[2024-12-01 00:50:00] INFO  Metrics exported: cpu=38%, memory=61%, connections=98
+[2024-12-01 00:55:00] INFO  User session expired: user_id=1001
+[2024-12-01 00:55:01] DEBUG Session destroyed: session_id=abc123def456
+[2024-12-01 01:00:00] INFO  Hourly health check: all services operational
+[2024-12-01 01:00:01] INFO  Database: response_time=12ms, status=healthy
+[2024-12-01 01:00:02] INFO  Cache: response_time=2ms, status=healthy
+[2024-12-01 01:00:03] INFO  Queue: messages_pending=45, status=healthy
+[2024-12-01 01:05:00] INFO  API request: POST /api/users/register - 201 Created (89ms)
+[2024-12-01 01:05:01] DEBUG New user created: user_id=1004
+[2024-12-01 01:05:02] INFO  Welcome email queued: user_id=1004
+[2024-12-01 01:10:00] INFO  Metrics exported: cpu=41%, memory=59%, connections=112
+[2024-12-01 01:15:00] INFO  User authentication: user_id=1002 token refresh
+[2024-12-01 01:15:01] DEBUG Token refreshed: new_expiry=2024-12-01T02:15:00Z
+[2024-12-01 01:20:00] INFO  API request: GET /api/notifications/1002 - 200 OK (23ms)
+[2024-12-01 01:20:01] DEBUG Notifications retrieved: 7 unread messages
+[2024-12-01 01:25:00] INFO  Scheduled task: database_backup started
+[2024-12-01 01:25:30] INFO  Database backup: tables=47, rows=1,234,567
+[2024-12-01 01:26:15] INFO  Database backup compressed: 892MB -> 234MB
+[2024-12-01 01:26:45] INFO  Database backup uploaded to S3: backup_2024-12-01_0125.gz
+[2024-12-01 01:26:46] INFO  Scheduled task: database_backup completed (106s)
+[2024-12-01 01:30:00] INFO  Metrics exported: cpu=67%, memory=71%, connections=134
+[2024-12-01 01:35:00] INFO  User session expired: user_id=1003
+[2024-12-01 01:35:01] DEBUG Session destroyed: session_id=mno345pqr678
+[2024-12-01 01:40:00] INFO  API request: POST /api/webhooks/payment - 200 OK (12ms)
+[2024-12-01 01:40:01] DEBUG Webhook processed: event=payment.completed
+[2024-12-01 01:40:02] INFO  Order status updated: order_id=ORD-2024-00001 -> shipped
+[2024-12-01 01:45:00] INFO  Email batch processed: 23 emails sent, 0 failures
+[2024-12-01 01:50:00] INFO  Metrics exported: cpu=44%, memory=63%, connections=89
+[2024-12-01 01:55:00] INFO  Cache eviction: LRU policy, 128 entries removed
+[2024-12-01 02:00:00] INFO  Hourly health check: all services operational
+

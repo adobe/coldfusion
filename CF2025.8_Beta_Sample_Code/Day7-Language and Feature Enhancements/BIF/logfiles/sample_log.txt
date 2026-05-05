@@ -1,0 +1,708 @@
+2024-12-03 08:00:01 [INFO] Application starting...
+2024-12-03 08:00:02 [INFO] Loading configuration from /etc/myapp/config.xml
+2024-12-03 08:00:02 [INFO] Database connection pool initialized (min=5, max=50)
+2024-12-03 08:00:03 [INFO] Cache service started - Redis connection established
+2024-12-03 08:00:03 [INFO] Message queue listener started on port 5672
+2024-12-03 08:00:04 [INFO] HTTP server listening on port 8080
+2024-12-03 08:00:04 [INFO] HTTPS server listening on port 8443
+2024-12-03 08:00:05 [INFO] Application ready - startup time: 4.2 seconds
+2024-12-03 08:01:00 [DEBUG] Initializing thread pool: core=10, max=50
+2024-12-03 08:01:01 [DEBUG] Loading plugin: authentication-module v2.3.1
+2024-12-03 08:01:02 [DEBUG] Loading plugin: payment-gateway v1.8.0
+2024-12-03 08:01:03 [DEBUG] Loading plugin: notification-service v3.1.2
+2024-12-03 08:01:04 [DEBUG] Loading plugin: analytics-tracker v2.0.5
+2024-12-03 08:01:05 [INFO] All plugins loaded successfully (4 plugins)
+2024-12-03 08:02:00 [INFO] Scheduled task registered: cleanup-expired-sessions (every 15 min)
+2024-12-03 08:02:01 [INFO] Scheduled task registered: sync-inventory (every 5 min)
+2024-12-03 08:02:02 [INFO] Scheduled task registered: generate-reports (daily at 00:00)
+2024-12-03 08:02:03 [INFO] Scheduled task registered: backup-database (daily at 02:00)
+2024-12-03 08:02:04 [INFO] Scheduled task registered: health-check (every 1 min)
+2024-12-03 08:05:00 [INFO] Health check: all services operational
+2024-12-03 08:06:00 [INFO] Health check: all services operational
+2024-12-03 08:07:00 [INFO] Health check: all services operational
+2024-12-03 08:08:00 [INFO] Health check: all services operational
+2024-12-03 08:09:00 [INFO] Health check: all services operational
+2024-12-03 08:10:00 [INFO] Health check: all services operational
+2024-12-03 08:10:15 [INFO] User login: admin@company.com (session: sess_001)
+2024-12-03 08:10:16 [DEBUG] Loading user preferences for user_id=1
+2024-12-03 08:10:17 [DEBUG] User role: ADMIN, permissions: [READ, WRITE, DELETE, MANAGE]
+2024-12-03 08:11:00 [INFO] Health check: all services operational
+2024-12-03 08:12:00 [INFO] Health check: all services operational
+2024-12-03 08:12:30 [INFO] API request: GET /api/v1/dashboard (latency: 125ms)
+2024-12-03 08:12:31 [DEBUG] Dashboard data loaded: 15 widgets
+2024-12-03 08:13:00 [INFO] Health check: all services operational
+2024-12-03 08:14:00 [INFO] Health check: all services operational
+2024-12-03 08:15:00 [INFO] Health check: all services operational
+2024-12-03 08:15:22 [INFO] User login: john.doe@company.com (session: sess_002)
+2024-12-03 08:15:23 [DEBUG] Loading user preferences for user_id=12345
+2024-12-03 08:15:24 [DEBUG] User role: SALES_REP, permissions: [READ, WRITE]
+2024-12-03 08:16:00 [INFO] Health check: all services operational
+2024-12-03 08:16:45 [INFO] API request: GET /api/v1/products (latency: 45ms)
+2024-12-03 08:16:46 [DEBUG] Products fetched: 250 items from cache
+2024-12-03 08:17:00 [INFO] Health check: all services operational
+2024-12-03 08:17:02 [INFO] API request: POST /api/v1/orders (latency: 120ms)
+2024-12-03 08:17:03 [DEBUG] Order created: order_id=ORD-2024-78234
+2024-12-03 08:17:04 [DEBUG] Inventory updated: SKU-12345 quantity reduced by 2
+2024-12-03 08:17:05 [INFO] Email queued: order confirmation to john.doe@company.com
+2024-12-03 08:18:00 [INFO] Health check: all services operational
+2024-12-03 08:18:30 [WARN] High memory usage detected: 78% of heap used
+2024-12-03 08:18:31 [INFO] Triggering garbage collection...
+2024-12-03 08:18:32 [INFO] GC completed - memory freed: 1.2GB
+2024-12-03 08:18:33 [INFO] Memory usage after GC: 45% of heap used
+2024-12-03 08:19:00 [INFO] Health check: all services operational
+2024-12-03 08:20:00 [INFO] Health check: all services operational
+2024-12-03 08:20:15 [INFO] User login: jane.smith@company.com (session: sess_003)
+2024-12-03 08:20:16 [DEBUG] Loading user preferences for user_id=12346
+2024-12-03 08:21:00 [INFO] Health check: all services operational
+2024-12-03 08:22:00 [INFO] Health check: all services operational
+2024-12-03 08:22:30 [INFO] API request: GET /api/v1/customers?page=1 (latency: 89ms)
+2024-12-03 08:22:31 [DEBUG] Customers fetched: page 1 of 45, 20 per page
+2024-12-03 08:23:00 [INFO] Health check: all services operational
+2024-12-03 08:24:00 [INFO] Health check: all services operational
+2024-12-03 08:25:00 [INFO] Health check: all services operational
+2024-12-03 08:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 08:25:16 [DEBUG] Connecting to warehouse API...
+2024-12-03 08:25:17 [DEBUG] Fetching inventory updates since 2024-12-03 08:20:00
+2024-12-03 08:25:20 [DEBUG] Received 45 inventory updates
+2024-12-03 08:25:21 [DEBUG] Processing update 1/45: SKU-00123
+2024-12-03 08:25:22 [DEBUG] Processing update 2/45: SKU-00456
+2024-12-03 08:25:23 [DEBUG] Processing update 3/45: SKU-00789
+2024-12-03 08:25:24 [DEBUG] Processing updates 4-45...
+2024-12-03 08:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 08:26:00 [INFO] Health check: all services operational
+2024-12-03 08:27:00 [INFO] Health check: all services operational
+2024-12-03 08:28:00 [INFO] Health check: all services operational
+2024-12-03 08:29:00 [INFO] Health check: all services operational
+2024-12-03 08:30:00 [INFO] Health check: all services operational
+2024-12-03 08:30:15 [INFO] Scheduled task started: cleanup-expired-sessions
+2024-12-03 08:30:16 [DEBUG] Scanning for expired sessions...
+2024-12-03 08:30:17 [DEBUG] Found 23 expired sessions
+2024-12-03 08:30:18 [INFO] Scheduled task completed: cleanup-expired-sessions (removed 23 sessions)
+2024-12-03 08:31:00 [INFO] Health check: all services operational
+2024-12-03 08:32:00 [INFO] Health check: all services operational
+2024-12-03 08:33:00 [INFO] Health check: all services operational
+2024-12-03 08:34:00 [INFO] Health check: all services operational
+2024-12-03 08:35:00 [INFO] Health check: all services operational
+2024-12-03 08:35:22 [INFO] User login: bob.wilson@company.com (session: sess_004)
+2024-12-03 08:35:23 [DEBUG] Loading user preferences for user_id=12347
+2024-12-03 08:36:00 [INFO] Health check: all services operational
+2024-12-03 08:37:00 [INFO] Health check: all services operational
+2024-12-03 08:38:00 [INFO] Health check: all services operational
+2024-12-03 08:39:00 [INFO] Health check: all services operational
+2024-12-03 08:40:00 [INFO] Health check: all services operational
+2024-12-03 08:40:30 [INFO] API request: PUT /api/v1/products/SKU-12345 (latency: 67ms)
+2024-12-03 08:40:31 [DEBUG] Product updated: SKU-12345, price changed from $99.99 to $89.99
+2024-12-03 08:40:32 [INFO] Cache invalidated: product_SKU-12345
+2024-12-03 08:41:00 [INFO] Health check: all services operational
+2024-12-03 08:42:00 [INFO] Health check: all services operational
+2024-12-03 08:43:00 [INFO] Health check: all services operational
+2024-12-03 08:44:00 [INFO] Health check: all services operational
+2024-12-03 08:45:00 [INFO] Health check: all services operational
+2024-12-03 08:45:12 [WARN] Slow query detected (2.3s): SELECT * FROM orders WHERE customer_id=12345 AND status='pending'
+2024-12-03 08:45:13 [DEBUG] Query plan analysis initiated
+2024-12-03 08:45:14 [INFO] Index recommendation: CREATE INDEX idx_orders_customer_status ON orders(customer_id, status)
+2024-12-03 08:46:00 [INFO] Health check: all services operational
+2024-12-03 08:47:00 [INFO] Health check: all services operational
+2024-12-03 08:48:00 [INFO] Health check: all services operational
+2024-12-03 08:49:00 [INFO] Health check: all services operational
+2024-12-03 08:50:00 [INFO] Health check: all services operational
+2024-12-03 08:50:30 [INFO] API request: POST /api/v1/orders (latency: 134ms)
+2024-12-03 08:50:31 [DEBUG] Order created: order_id=ORD-2024-78235
+2024-12-03 08:50:32 [DEBUG] Payment processing started for ORD-2024-78235
+2024-12-03 08:50:33 [DEBUG] Payment authorized: transaction_id=TXN-45678
+2024-12-03 08:50:34 [INFO] Order completed: ORD-2024-78235
+2024-12-03 08:51:00 [INFO] Health check: all services operational
+2024-12-03 08:52:00 [INFO] Health check: all services operational
+2024-12-03 08:53:00 [INFO] Health check: all services operational
+2024-12-03 08:54:00 [INFO] Health check: all services operational
+2024-12-03 08:55:00 [INFO] Health check: all services operational
+2024-12-03 08:56:00 [INFO] Health check: all services operational
+2024-12-03 08:57:00 [INFO] Health check: all services operational
+2024-12-03 08:58:00 [INFO] Health check: all services operational
+2024-12-03 08:59:00 [INFO] Health check: all services operational
+2024-12-03 09:00:00 [INFO] Health check: all services operational
+2024-12-03 09:00:01 [INFO] Backup job started
+2024-12-03 09:00:02 [DEBUG] Creating database snapshot...
+2024-12-03 09:00:10 [DEBUG] Snapshot created: snapshot_20241203_090000
+2024-12-03 09:00:11 [DEBUG] Compressing snapshot...
+2024-12-03 09:05:23 [INFO] Backup completed: 2.4GB compressed to 890MB
+2024-12-03 09:05:24 [DEBUG] Uploading to S3: s3://backups/daily/2024-12-03/
+2024-12-03 09:06:00 [INFO] Health check: all services operational
+2024-12-03 09:07:00 [INFO] Health check: all services operational
+2024-12-03 09:08:00 [INFO] Health check: all services operational
+2024-12-03 09:08:30 [INFO] Backup upload completed
+2024-12-03 09:09:00 [INFO] Health check: all services operational
+2024-12-03 09:10:00 [INFO] Health check: all services operational
+2024-12-03 09:11:00 [INFO] Health check: all services operational
+2024-12-03 09:12:00 [INFO] Health check: all services operational
+2024-12-03 09:13:00 [INFO] Health check: all services operational
+2024-12-03 09:14:00 [INFO] Health check: all services operational
+2024-12-03 09:15:00 [INFO] Health check: all services operational
+2024-12-03 09:15:44 [ERROR] Database connection timeout after 30 seconds
+2024-12-03 09:15:44 [ERROR] java.sql.SQLException: Connection timed out
+2024-12-03 09:15:44 [ERROR]     at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2181)
+2024-12-03 09:15:44 [ERROR]     at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:787)
+2024-12-03 09:15:44 [ERROR]     at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+2024-12-03 09:15:44 [ERROR]     at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2024-12-03 09:15:44 [ERROR]     at com.myapp.db.ConnectionPool.getConnection(ConnectionPool.java:145)
+2024-12-03 09:15:44 [ERROR]     at com.myapp.service.OrderService.findOrders(OrderService.java:89)
+2024-12-03 09:15:44 [ERROR]     at com.myapp.controller.OrderController.list(OrderController.java:45)
+2024-12-03 09:15:44 [ERROR]     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2024-12-03 09:15:44 [ERROR]     at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2024-12-03 09:15:44 [ERROR]     at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+2024-12-03 09:15:44 [ERROR]     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2024-12-03 09:15:44 [ERROR]     at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:213)
+2024-12-03 09:15:44 [ERROR] Caused by: java.net.SocketTimeoutException: connect timed out
+2024-12-03 09:15:44 [ERROR]     at java.net.PlainSocketImpl.socketConnect(Native Method)
+2024-12-03 09:15:44 [ERROR]     at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2024-12-03 09:15:44 [ERROR]     ... 15 more
+2024-12-03 09:15:45 [INFO] Attempting database reconnection (attempt 1/3)
+2024-12-03 09:15:46 [DEBUG] Testing connection to primary database server...
+2024-12-03 09:15:47 [DEBUG] Primary server unresponsive, trying secondary...
+2024-12-03 09:15:48 [INFO] Connected to secondary database server
+2024-12-03 09:15:49 [INFO] Database connection restored successfully
+2024-12-03 09:15:50 [INFO] Replaying 3 failed transactions...
+2024-12-03 09:15:51 [DEBUG] Replaying transaction 1/3: TXN-45679
+2024-12-03 09:15:52 [DEBUG] Replaying transaction 2/3: TXN-45680
+2024-12-03 09:15:53 [DEBUG] Replaying transaction 3/3: TXN-45681
+2024-12-03 09:15:54 [INFO] All transactions replayed successfully
+2024-12-03 09:16:00 [INFO] Health check: all services operational
+2024-12-03 09:17:00 [INFO] Health check: all services operational
+2024-12-03 09:18:00 [INFO] Health check: all services operational
+2024-12-03 09:19:00 [INFO] Health check: all services operational
+2024-12-03 09:20:00 [INFO] Health check: all services operational
+2024-12-03 09:20:30 [INFO] User login: alice.johnson@company.com (session: sess_005)
+2024-12-03 09:20:31 [DEBUG] Loading user preferences for user_id=12348
+2024-12-03 09:21:00 [INFO] Health check: all services operational
+2024-12-03 09:22:00 [INFO] Health check: all services operational
+2024-12-03 09:23:00 [INFO] Health check: all services operational
+2024-12-03 09:24:00 [INFO] Health check: all services operational
+2024-12-03 09:25:00 [INFO] Health check: all services operational
+2024-12-03 09:26:00 [INFO] Health check: all services operational
+2024-12-03 09:27:00 [INFO] Health check: all services operational
+2024-12-03 09:28:00 [INFO] Health check: all services operational
+2024-12-03 09:29:00 [INFO] Health check: all services operational
+2024-12-03 09:30:00 [INFO] Health check: all services operational
+2024-12-03 09:30:01 [INFO] Cache statistics: hits=45234, misses=892, hit_rate=98.1%
+2024-12-03 09:30:02 [DEBUG] Cache entries: 12,456 items, 1.2GB memory used
+2024-12-03 09:31:00 [INFO] Health check: all services operational
+2024-12-03 09:32:00 [INFO] Health check: all services operational
+2024-12-03 09:33:00 [INFO] Health check: all services operational
+2024-12-03 09:34:00 [INFO] Health check: all services operational
+2024-12-03 09:35:00 [INFO] Health check: all services operational
+2024-12-03 09:36:00 [INFO] Health check: all services operational
+2024-12-03 09:37:00 [INFO] Health check: all services operational
+2024-12-03 09:38:00 [INFO] Health check: all services operational
+2024-12-03 09:39:00 [INFO] Health check: all services operational
+2024-12-03 09:40:00 [INFO] Health check: all services operational
+2024-12-03 09:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 09:40:20 [DEBUG] Fetching inventory updates since 2024-12-03 09:25:00
+2024-12-03 09:40:25 [DEBUG] Received 67 inventory updates
+2024-12-03 09:40:35 [INFO] Scheduled task completed: sync-inventory (20 seconds)
+2024-12-03 09:41:00 [INFO] Health check: all services operational
+2024-12-03 09:42:00 [INFO] Health check: all services operational
+2024-12-03 09:43:00 [INFO] Health check: all services operational
+2024-12-03 09:44:00 [INFO] Health check: all services operational
+2024-12-03 09:45:00 [INFO] Health check: all services operational
+2024-12-03 09:45:15 [INFO] Scheduled task started: cleanup-expired-sessions
+2024-12-03 09:45:18 [INFO] Scheduled task completed: cleanup-expired-sessions (removed 12 sessions)
+2024-12-03 09:45:22 [INFO] User logout: john.doe@company.com (session duration: 1h 30m)
+2024-12-03 09:46:00 [INFO] Health check: all services operational
+2024-12-03 09:47:00 [INFO] Health check: all services operational
+2024-12-03 09:48:00 [INFO] Health check: all services operational
+2024-12-03 09:49:00 [INFO] Health check: all services operational
+2024-12-03 09:50:00 [INFO] Health check: all services operational
+2024-12-03 09:51:00 [INFO] Health check: all services operational
+2024-12-03 09:52:00 [INFO] Health check: all services operational
+2024-12-03 09:53:00 [INFO] Health check: all services operational
+2024-12-03 09:54:00 [INFO] Health check: all services operational
+2024-12-03 09:55:00 [INFO] Health check: all services operational
+2024-12-03 09:56:00 [INFO] Health check: all services operational
+2024-12-03 09:57:00 [INFO] Health check: all services operational
+2024-12-03 09:58:00 [INFO] Health check: all services operational
+2024-12-03 09:59:00 [INFO] Health check: all services operational
+2024-12-03 10:00:00 [INFO] Health check: all services operational
+2024-12-03 10:00:01 [INFO] Metrics exported to monitoring service
+2024-12-03 10:00:02 [DEBUG] Metrics: requests=12456, errors=23, avg_latency=78ms
+2024-12-03 10:01:00 [INFO] Health check: all services operational
+2024-12-03 10:02:00 [INFO] Health check: all services operational
+2024-12-03 10:03:00 [INFO] Health check: all services operational
+2024-12-03 10:04:00 [INFO] Health check: all services operational
+2024-12-03 10:05:00 [INFO] Health check: all services operational
+2024-12-03 10:06:00 [INFO] Health check: all services operational
+2024-12-03 10:07:00 [INFO] Health check: all services operational
+2024-12-03 10:08:00 [INFO] Health check: all services operational
+2024-12-03 10:09:00 [INFO] Health check: all services operational
+2024-12-03 10:10:00 [INFO] Health check: all services operational
+2024-12-03 10:10:30 [INFO] API request: GET /api/v1/reports/sales (latency: 234ms)
+2024-12-03 10:10:31 [DEBUG] Report generated: sales summary for 2024-12-02
+2024-12-03 10:11:00 [INFO] Health check: all services operational
+2024-12-03 10:12:00 [INFO] Health check: all services operational
+2024-12-03 10:13:00 [INFO] Health check: all services operational
+2024-12-03 10:14:00 [INFO] Health check: all services operational
+2024-12-03 10:15:00 [INFO] Health check: all services operational
+2024-12-03 10:15:33 [WARN] Rate limit approaching for API key: api_key_xyz (980/1000 requests)
+2024-12-03 10:15:34 [DEBUG] Sending rate limit warning email to api_key_xyz owner
+2024-12-03 10:16:00 [INFO] Health check: all services operational
+2024-12-03 10:17:00 [INFO] Health check: all services operational
+2024-12-03 10:18:00 [INFO] Health check: all services operational
+2024-12-03 10:19:00 [INFO] Health check: all services operational
+2024-12-03 10:20:00 [INFO] Health check: all services operational
+2024-12-03 10:21:00 [INFO] Health check: all services operational
+2024-12-03 10:22:00 [INFO] Health check: all services operational
+2024-12-03 10:23:00 [INFO] Health check: all services operational
+2024-12-03 10:24:00 [INFO] Health check: all services operational
+2024-12-03 10:25:00 [INFO] Health check: all services operational
+2024-12-03 10:26:00 [INFO] Health check: all services operational
+2024-12-03 10:27:00 [INFO] Health check: all services operational
+2024-12-03 10:28:00 [INFO] Health check: all services operational
+2024-12-03 10:29:00 [INFO] Health check: all services operational
+2024-12-03 10:30:00 [INFO] Health check: all services operational
+2024-12-03 10:30:01 [INFO] SSL certificate check: valid until 2025-03-15
+2024-12-03 10:30:02 [DEBUG] Certificate fingerprint: SHA256:ab12cd34ef56...
+2024-12-03 10:31:00 [INFO] Health check: all services operational
+2024-12-03 10:32:00 [INFO] Health check: all services operational
+2024-12-03 10:33:00 [INFO] Health check: all services operational
+2024-12-03 10:34:00 [INFO] Health check: all services operational
+2024-12-03 10:35:00 [INFO] Health check: all services operational
+2024-12-03 10:36:00 [INFO] Health check: all services operational
+2024-12-03 10:37:00 [INFO] Health check: all services operational
+2024-12-03 10:38:00 [INFO] Health check: all services operational
+2024-12-03 10:39:00 [INFO] Health check: all services operational
+2024-12-03 10:40:00 [INFO] Health check: all services operational
+2024-12-03 10:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 10:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 10:41:00 [INFO] Health check: all services operational
+2024-12-03 10:42:00 [INFO] Health check: all services operational
+2024-12-03 10:43:00 [INFO] Health check: all services operational
+2024-12-03 10:44:00 [INFO] Health check: all services operational
+2024-12-03 10:45:00 [INFO] Health check: all services operational
+2024-12-03 10:45:11 [INFO] New user registration: michael.brown@company.com
+2024-12-03 10:45:12 [DEBUG] Creating user account: user_id=12349
+2024-12-03 10:45:13 [DEBUG] Sending welcome email to michael.brown@company.com
+2024-12-03 10:45:14 [INFO] User registration completed: michael.brown@company.com
+2024-12-03 10:46:00 [INFO] Health check: all services operational
+2024-12-03 10:47:00 [INFO] Health check: all services operational
+2024-12-03 10:48:00 [INFO] Health check: all services operational
+2024-12-03 10:49:00 [INFO] Health check: all services operational
+2024-12-03 10:50:00 [INFO] Health check: all services operational
+2024-12-03 10:51:00 [INFO] Health check: all services operational
+2024-12-03 10:52:00 [INFO] Health check: all services operational
+2024-12-03 10:53:00 [INFO] Health check: all services operational
+2024-12-03 10:54:00 [INFO] Health check: all services operational
+2024-12-03 10:55:00 [INFO] Health check: all services operational
+2024-12-03 10:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 10:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 10:56:00 [INFO] Health check: all services operational
+2024-12-03 10:57:00 [INFO] Health check: all services operational
+2024-12-03 10:58:00 [INFO] Health check: all services operational
+2024-12-03 10:59:00 [INFO] Health check: all services operational
+2024-12-03 11:00:00 [INFO] Health check: all services operational
+2024-12-03 11:00:01 [INFO] Scheduled maintenance window starting in 2 hours
+2024-12-03 11:00:02 [DEBUG] Maintenance notification sent to 156 active users
+2024-12-03 11:01:00 [INFO] Health check: all services operational
+2024-12-03 11:02:00 [INFO] Health check: all services operational
+2024-12-03 11:03:00 [INFO] Health check: all services operational
+2024-12-03 11:04:00 [INFO] Health check: all services operational
+2024-12-03 11:05:00 [INFO] Health check: all services operational
+2024-12-03 11:06:00 [INFO] Health check: all services operational
+2024-12-03 11:07:00 [INFO] Health check: all services operational
+2024-12-03 11:08:00 [INFO] Health check: all services operational
+2024-12-03 11:09:00 [INFO] Health check: all services operational
+2024-12-03 11:10:00 [INFO] Health check: all services operational
+2024-12-03 11:10:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 11:10:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 11:11:00 [INFO] Health check: all services operational
+2024-12-03 11:12:00 [INFO] Health check: all services operational
+2024-12-03 11:13:00 [INFO] Health check: all services operational
+2024-12-03 11:14:00 [INFO] Health check: all services operational
+2024-12-03 11:15:00 [INFO] Health check: all services operational
+2024-12-03 11:15:15 [INFO] Scheduled task started: cleanup-expired-sessions
+2024-12-03 11:15:20 [DEBUG] Session cleanup: removed 145 expired sessions
+2024-12-03 11:15:22 [INFO] Scheduled task completed: cleanup-expired-sessions
+2024-12-03 11:16:00 [INFO] Health check: all services operational
+2024-12-03 11:17:00 [INFO] Health check: all services operational
+2024-12-03 11:18:00 [INFO] Health check: all services operational
+2024-12-03 11:19:00 [INFO] Health check: all services operational
+2024-12-03 11:20:00 [INFO] Health check: all services operational
+2024-12-03 11:21:00 [INFO] Health check: all services operational
+2024-12-03 11:22:00 [INFO] Health check: all services operational
+2024-12-03 11:23:00 [INFO] Health check: all services operational
+2024-12-03 11:24:00 [INFO] Health check: all services operational
+2024-12-03 11:25:00 [INFO] Health check: all services operational
+2024-12-03 11:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 11:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 11:26:00 [INFO] Health check: all services operational
+2024-12-03 11:27:00 [INFO] Health check: all services operational
+2024-12-03 11:28:00 [INFO] Health check: all services operational
+2024-12-03 11:29:00 [INFO] Health check: all services operational
+2024-12-03 11:30:00 [INFO] Health check: all services operational
+2024-12-03 11:30:45 [INFO] API request: PUT /api/v1/users/12345 (latency: 78ms)
+2024-12-03 11:30:46 [DEBUG] User profile updated: user_id=12345
+2024-12-03 11:31:00 [INFO] Health check: all services operational
+2024-12-03 11:32:00 [INFO] Health check: all services operational
+2024-12-03 11:33:00 [INFO] Health check: all services operational
+2024-12-03 11:34:00 [INFO] Health check: all services operational
+2024-12-03 11:35:00 [INFO] Health check: all services operational
+2024-12-03 11:36:00 [INFO] Health check: all services operational
+2024-12-03 11:37:00 [INFO] Health check: all services operational
+2024-12-03 11:38:00 [INFO] Health check: all services operational
+2024-12-03 11:39:00 [INFO] Health check: all services operational
+2024-12-03 11:40:00 [INFO] Health check: all services operational
+2024-12-03 11:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 11:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 11:41:00 [INFO] Health check: all services operational
+2024-12-03 11:42:00 [INFO] Health check: all services operational
+2024-12-03 11:43:00 [INFO] Health check: all services operational
+2024-12-03 11:44:00 [INFO] Health check: all services operational
+2024-12-03 11:45:00 [INFO] Health check: all services operational
+2024-12-03 11:45:01 [INFO] Load balancer health: all 4 nodes healthy
+2024-12-03 11:45:02 [DEBUG] Node status: node-1 (OK), node-2 (OK), node-3 (OK), node-4 (OK)
+2024-12-03 11:46:00 [INFO] Health check: all services operational
+2024-12-03 11:47:00 [INFO] Health check: all services operational
+2024-12-03 11:48:00 [INFO] Health check: all services operational
+2024-12-03 11:49:00 [INFO] Health check: all services operational
+2024-12-03 11:50:00 [INFO] Health check: all services operational
+2024-12-03 11:51:00 [INFO] Health check: all services operational
+2024-12-03 11:52:00 [INFO] Health check: all services operational
+2024-12-03 11:53:00 [INFO] Health check: all services operational
+2024-12-03 11:54:00 [INFO] Health check: all services operational
+2024-12-03 11:55:00 [INFO] Health check: all services operational
+2024-12-03 11:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 11:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 11:56:00 [INFO] Health check: all services operational
+2024-12-03 11:57:00 [INFO] Health check: all services operational
+2024-12-03 11:58:00 [INFO] Health check: all services operational
+2024-12-03 11:59:00 [INFO] Health check: all services operational
+2024-12-03 12:00:00 [INFO] Health check: all services operational
+2024-12-03 12:00:01 [INFO] Peak hour traffic monitoring enabled
+2024-12-03 12:00:02 [DEBUG] Traffic threshold set to: 5000 req/min
+2024-12-03 12:01:00 [INFO] Health check: all services operational
+2024-12-03 12:02:00 [INFO] Health check: all services operational
+2024-12-03 12:03:00 [INFO] Health check: all services operational
+2024-12-03 12:04:00 [INFO] Health check: all services operational
+2024-12-03 12:05:00 [INFO] Health check: all services operational
+2024-12-03 12:06:00 [INFO] Health check: all services operational
+2024-12-03 12:07:00 [INFO] Health check: all services operational
+2024-12-03 12:08:00 [INFO] Health check: all services operational
+2024-12-03 12:09:00 [INFO] Health check: all services operational
+2024-12-03 12:10:00 [INFO] Health check: all services operational
+2024-12-03 12:10:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 12:10:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 12:11:00 [INFO] Health check: all services operational
+2024-12-03 12:12:00 [INFO] Health check: all services operational
+2024-12-03 12:13:00 [INFO] Health check: all services operational
+2024-12-03 12:14:00 [INFO] Health check: all services operational
+2024-12-03 12:15:00 [INFO] Health check: all services operational
+2024-12-03 12:15:33 [WARN] CPU usage spike: 89% (threshold: 80%)
+2024-12-03 12:15:34 [INFO] Auto-scaling triggered: adding 2 new instances
+2024-12-03 12:15:35 [DEBUG] Provisioning instance: node-5
+2024-12-03 12:15:40 [DEBUG] Provisioning instance: node-6
+2024-12-03 12:16:00 [INFO] New instances online: node-5, node-6
+2024-12-03 12:16:01 [INFO] Load redistributed across 6 nodes
+2024-12-03 12:16:02 [DEBUG] CPU usage normalized: 52%
+2024-12-03 12:17:00 [INFO] Health check: all services operational
+2024-12-03 12:18:00 [INFO] Health check: all services operational
+2024-12-03 12:19:00 [INFO] Health check: all services operational
+2024-12-03 12:20:00 [INFO] Health check: all services operational
+2024-12-03 12:21:00 [INFO] Health check: all services operational
+2024-12-03 12:22:00 [INFO] Health check: all services operational
+2024-12-03 12:23:00 [INFO] Health check: all services operational
+2024-12-03 12:24:00 [INFO] Health check: all services operational
+2024-12-03 12:25:00 [INFO] Health check: all services operational
+2024-12-03 12:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 12:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 12:26:00 [INFO] Health check: all services operational
+2024-12-03 12:27:00 [INFO] Health check: all services operational
+2024-12-03 12:28:00 [INFO] Health check: all services operational
+2024-12-03 12:29:00 [INFO] Health check: all services operational
+2024-12-03 12:30:00 [INFO] Health check: all services operational
+2024-12-03 12:30:01 [INFO] Current active users: 1,234
+2024-12-03 12:30:02 [DEBUG] Peak concurrent connections: 2,456
+2024-12-03 12:31:00 [INFO] Health check: all services operational
+2024-12-03 12:32:00 [INFO] Health check: all services operational
+2024-12-03 12:33:00 [INFO] Health check: all services operational
+2024-12-03 12:34:00 [INFO] Health check: all services operational
+2024-12-03 12:35:00 [INFO] Health check: all services operational
+2024-12-03 12:36:00 [INFO] Health check: all services operational
+2024-12-03 12:37:00 [INFO] Health check: all services operational
+2024-12-03 12:38:00 [INFO] Health check: all services operational
+2024-12-03 12:39:00 [INFO] Health check: all services operational
+2024-12-03 12:40:00 [INFO] Health check: all services operational
+2024-12-03 12:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 12:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 12:41:00 [INFO] Health check: all services operational
+2024-12-03 12:42:00 [INFO] Health check: all services operational
+2024-12-03 12:43:00 [INFO] Health check: all services operational
+2024-12-03 12:44:00 [INFO] Health check: all services operational
+2024-12-03 12:45:00 [INFO] Health check: all services operational
+2024-12-03 12:45:22 [ERROR] Payment gateway timeout for order ORD-2024-78456
+2024-12-03 12:45:22 [ERROR] java.util.concurrent.TimeoutException: Payment request timed out after 30 seconds
+2024-12-03 12:45:22 [ERROR]     at com.myapp.payment.StripeGateway.processPayment(StripeGateway.java:234)
+2024-12-03 12:45:22 [ERROR]     at com.myapp.service.PaymentService.charge(PaymentService.java:112)
+2024-12-03 12:45:22 [ERROR]     at com.myapp.controller.CheckoutController.complete(CheckoutController.java:78)
+2024-12-03 12:45:22 [ERROR]     at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2024-12-03 12:45:22 [ERROR]     at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2024-12-03 12:45:22 [ERROR]     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2024-12-03 12:45:22 [ERROR]     at java.lang.Thread.run(Thread.java:748)
+2024-12-03 12:45:23 [INFO] Payment retry scheduled for order ORD-2024-78456
+2024-12-03 12:45:24 [DEBUG] Retry attempt 1/3 for order ORD-2024-78456
+2024-12-03 12:45:25 [INFO] Payment retry successful for order ORD-2024-78456
+2024-12-03 12:45:26 [DEBUG] Transaction completed: TXN-45682
+2024-12-03 12:46:00 [INFO] Health check: all services operational
+2024-12-03 12:47:00 [INFO] Health check: all services operational
+2024-12-03 12:48:00 [INFO] Health check: all services operational
+2024-12-03 12:49:00 [INFO] Health check: all services operational
+2024-12-03 12:50:00 [INFO] Health check: all services operational
+2024-12-03 12:51:00 [INFO] Health check: all services operational
+2024-12-03 12:52:00 [INFO] Health check: all services operational
+2024-12-03 12:53:00 [INFO] Health check: all services operational
+2024-12-03 12:54:00 [INFO] Health check: all services operational
+2024-12-03 12:55:00 [INFO] Health check: all services operational
+2024-12-03 12:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 12:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 12:56:00 [INFO] Health check: all services operational
+2024-12-03 12:57:00 [INFO] Health check: all services operational
+2024-12-03 12:58:00 [INFO] Health check: all services operational
+2024-12-03 12:59:00 [INFO] Health check: all services operational
+2024-12-03 13:00:00 [INFO] Health check: all services operational
+2024-12-03 13:00:01 [INFO] Maintenance window begins - entering read-only mode
+2024-12-03 13:00:02 [DEBUG] Write operations disabled
+2024-12-03 13:00:03 [INFO] Database schema migration started: v2.5.0 -> v2.6.0
+2024-12-03 13:00:04 [DEBUG] Creating migration backup...
+2024-12-03 13:01:00 [DEBUG] Backup completed: migration_backup_20241203_130000
+2024-12-03 13:02:00 [INFO] Migration step 1/5: Adding new columns to orders table
+2024-12-03 13:02:15 [DEBUG] ALTER TABLE orders ADD COLUMN shipping_tracking VARCHAR(100)
+2024-12-03 13:02:30 [DEBUG] ALTER TABLE orders ADD COLUMN estimated_delivery DATE
+2024-12-03 13:03:00 [INFO] Migration step 1/5 completed
+2024-12-03 13:04:00 [INFO] Migration step 2/5: Creating shipping_tracking table
+2024-12-03 13:04:30 [DEBUG] CREATE TABLE shipping_tracking (...)
+2024-12-03 13:05:00 [INFO] Migration step 2/5 completed
+2024-12-03 13:06:00 [INFO] Migration step 3/5: Updating foreign key constraints
+2024-12-03 13:06:30 [DEBUG] Adding FK: shipping_tracking.order_id -> orders.id
+2024-12-03 13:06:45 [INFO] Migration step 3/5 completed
+2024-12-03 13:07:00 [INFO] Migration step 4/5: Rebuilding indexes
+2024-12-03 13:08:00 [DEBUG] Rebuilding index: idx_orders_customer
+2024-12-03 13:09:00 [DEBUG] Rebuilding index: idx_orders_status
+2024-12-03 13:10:00 [DEBUG] Rebuilding index: idx_orders_date
+2024-12-03 13:11:00 [DEBUG] Creating new index: idx_shipping_tracking_order
+2024-12-03 13:12:00 [INFO] Migration step 4/5 completed
+2024-12-03 13:12:30 [INFO] Migration step 5/5: Validating data integrity
+2024-12-03 13:12:45 [DEBUG] Running integrity checks on 45,678 rows
+2024-12-03 13:13:00 [INFO] Database migration completed successfully
+2024-12-03 13:13:01 [INFO] Exiting read-only mode - full operations restored
+2024-12-03 13:13:02 [DEBUG] Write operations enabled
+2024-12-03 13:14:00 [INFO] Health check: all services operational
+2024-12-03 13:15:00 [INFO] Health check: all services operational
+2024-12-03 13:15:01 [INFO] Post-migration health check: PASSED
+2024-12-03 13:15:02 [DEBUG] All 5 migration steps verified
+2024-12-03 13:16:00 [INFO] Health check: all services operational
+2024-12-03 13:17:00 [INFO] Health check: all services operational
+2024-12-03 13:18:00 [INFO] Health check: all services operational
+2024-12-03 13:19:00 [INFO] Health check: all services operational
+2024-12-03 13:20:00 [INFO] Health check: all services operational
+2024-12-03 13:21:00 [INFO] Health check: all services operational
+2024-12-03 13:22:00 [INFO] Health check: all services operational
+2024-12-03 13:23:00 [INFO] Health check: all services operational
+2024-12-03 13:24:00 [INFO] Health check: all services operational
+2024-12-03 13:25:00 [INFO] Health check: all services operational
+2024-12-03 13:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 13:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 13:26:00 [INFO] Health check: all services operational
+2024-12-03 13:27:00 [INFO] Health check: all services operational
+2024-12-03 13:28:00 [INFO] Health check: all services operational
+2024-12-03 13:29:00 [INFO] Health check: all services operational
+2024-12-03 13:30:00 [INFO] Health check: all services operational
+2024-12-03 13:30:01 [INFO] Auto-scaling: removing 1 instance (low traffic)
+2024-12-03 13:30:02 [DEBUG] Draining connections from node-6
+2024-12-03 13:30:30 [INFO] Node node-6 gracefully shutdown
+2024-12-03 13:30:31 [DEBUG] Active nodes: node-1, node-2, node-3, node-4, node-5
+2024-12-03 13:31:00 [INFO] Health check: all services operational
+2024-12-03 13:32:00 [INFO] Health check: all services operational
+2024-12-03 13:33:00 [INFO] Health check: all services operational
+2024-12-03 13:34:00 [INFO] Health check: all services operational
+2024-12-03 13:35:00 [INFO] Health check: all services operational
+2024-12-03 13:36:00 [INFO] Health check: all services operational
+2024-12-03 13:37:00 [INFO] Health check: all services operational
+2024-12-03 13:38:00 [INFO] Health check: all services operational
+2024-12-03 13:39:00 [INFO] Health check: all services operational
+2024-12-03 13:40:00 [INFO] Health check: all services operational
+2024-12-03 13:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 13:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 13:41:00 [INFO] Health check: all services operational
+2024-12-03 13:42:00 [INFO] Health check: all services operational
+2024-12-03 13:43:00 [INFO] Health check: all services operational
+2024-12-03 13:44:00 [INFO] Health check: all services operational
+2024-12-03 13:45:00 [INFO] Health check: all services operational
+2024-12-03 13:45:15 [INFO] Scheduled task started: cleanup-expired-sessions
+2024-12-03 13:45:20 [INFO] Scheduled task completed: cleanup-expired-sessions (removed 89 sessions)
+2024-12-03 13:46:00 [INFO] Health check: all services operational
+2024-12-03 13:47:00 [INFO] Health check: all services operational
+2024-12-03 13:48:00 [INFO] Health check: all services operational
+2024-12-03 13:49:00 [INFO] Health check: all services operational
+2024-12-03 13:50:00 [INFO] Health check: all services operational
+2024-12-03 13:51:00 [INFO] Health check: all services operational
+2024-12-03 13:52:00 [INFO] Health check: all services operational
+2024-12-03 13:53:00 [INFO] Health check: all services operational
+2024-12-03 13:54:00 [INFO] Health check: all services operational
+2024-12-03 13:55:00 [INFO] Health check: all services operational
+2024-12-03 13:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 13:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 13:56:00 [INFO] Health check: all services operational
+2024-12-03 13:57:00 [INFO] Health check: all services operational
+2024-12-03 13:58:00 [INFO] Health check: all services operational
+2024-12-03 13:59:00 [INFO] Health check: all services operational
+2024-12-03 14:00:00 [INFO] Health check: all services operational
+2024-12-03 14:00:01 [INFO] Daily statistics summary generated
+2024-12-03 14:00:02 [DEBUG] Stats: orders=1,234, revenue=$98,765, new_users=45
+2024-12-03 14:01:00 [INFO] Health check: all services operational
+2024-12-03 14:02:00 [INFO] Health check: all services operational
+2024-12-03 14:03:00 [INFO] Health check: all services operational
+2024-12-03 14:04:00 [INFO] Health check: all services operational
+2024-12-03 14:05:00 [INFO] Health check: all services operational
+2024-12-03 14:06:00 [INFO] Health check: all services operational
+2024-12-03 14:07:00 [INFO] Health check: all services operational
+2024-12-03 14:08:00 [INFO] Health check: all services operational
+2024-12-03 14:09:00 [INFO] Health check: all services operational
+2024-12-03 14:10:00 [INFO] Health check: all services operational
+2024-12-03 14:10:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 14:10:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 14:11:00 [INFO] Health check: all services operational
+2024-12-03 14:12:00 [INFO] Health check: all services operational
+2024-12-03 14:13:00 [INFO] Health check: all services operational
+2024-12-03 14:14:00 [INFO] Health check: all services operational
+2024-12-03 14:15:00 [INFO] Health check: all services operational
+2024-12-03 14:15:22 [DEBUG] WebSocket connections: 456 active
+2024-12-03 14:15:23 [DEBUG] Real-time notifications queue: 12 pending
+2024-12-03 14:16:00 [INFO] Health check: all services operational
+2024-12-03 14:17:00 [INFO] Health check: all services operational
+2024-12-03 14:18:00 [INFO] Health check: all services operational
+2024-12-03 14:19:00 [INFO] Health check: all services operational
+2024-12-03 14:20:00 [INFO] Health check: all services operational
+2024-12-03 14:21:00 [INFO] Health check: all services operational
+2024-12-03 14:22:00 [INFO] Health check: all services operational
+2024-12-03 14:23:00 [INFO] Health check: all services operational
+2024-12-03 14:24:00 [INFO] Health check: all services operational
+2024-12-03 14:25:00 [INFO] Health check: all services operational
+2024-12-03 14:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 14:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 14:26:00 [INFO] Health check: all services operational
+2024-12-03 14:27:00 [INFO] Health check: all services operational
+2024-12-03 14:28:00 [INFO] Health check: all services operational
+2024-12-03 14:29:00 [INFO] Health check: all services operational
+2024-12-03 14:30:00 [INFO] Health check: all services operational
+2024-12-03 14:30:01 [INFO] CDN cache purge completed for /static/js/*
+2024-12-03 14:30:02 [DEBUG] Purged 234 cached assets
+2024-12-03 14:31:00 [INFO] Health check: all services operational
+2024-12-03 14:32:00 [INFO] Health check: all services operational
+2024-12-03 14:33:00 [INFO] Health check: all services operational
+2024-12-03 14:34:00 [INFO] Health check: all services operational
+2024-12-03 14:35:00 [INFO] Health check: all services operational
+2024-12-03 14:36:00 [INFO] Health check: all services operational
+2024-12-03 14:37:00 [INFO] Health check: all services operational
+2024-12-03 14:38:00 [INFO] Health check: all services operational
+2024-12-03 14:39:00 [INFO] Health check: all services operational
+2024-12-03 14:40:00 [INFO] Health check: all services operational
+2024-12-03 14:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 14:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 14:41:00 [INFO] Health check: all services operational
+2024-12-03 14:42:00 [INFO] Health check: all services operational
+2024-12-03 14:43:00 [INFO] Health check: all services operational
+2024-12-03 14:44:00 [INFO] Health check: all services operational
+2024-12-03 14:45:00 [INFO] Health check: all services operational
+2024-12-03 14:45:11 [INFO] Email notification sent: 234 order confirmations
+2024-12-03 14:45:12 [DEBUG] Email queue processed: 234 emails in 45 seconds
+2024-12-03 14:46:00 [INFO] Health check: all services operational
+2024-12-03 14:47:00 [INFO] Health check: all services operational
+2024-12-03 14:48:00 [INFO] Health check: all services operational
+2024-12-03 14:49:00 [INFO] Health check: all services operational
+2024-12-03 14:50:00 [INFO] Health check: all services operational
+2024-12-03 14:51:00 [INFO] Health check: all services operational
+2024-12-03 14:52:00 [INFO] Health check: all services operational
+2024-12-03 14:53:00 [INFO] Health check: all services operational
+2024-12-03 14:54:00 [INFO] Health check: all services operational
+2024-12-03 14:55:00 [INFO] Health check: all services operational
+2024-12-03 14:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 14:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 14:56:00 [INFO] Health check: all services operational
+2024-12-03 14:57:00 [INFO] Health check: all services operational
+2024-12-03 14:58:00 [INFO] Health check: all services operational
+2024-12-03 14:59:00 [INFO] Health check: all services operational
+2024-12-03 15:00:00 [INFO] Health check: all services operational
+2024-12-03 15:00:01 [INFO] Fraud detection scan: 0 suspicious transactions found
+2024-12-03 15:00:02 [DEBUG] Scanned 567 transactions in the last hour
+2024-12-03 15:01:00 [INFO] Health check: all services operational
+2024-12-03 15:02:00 [INFO] Health check: all services operational
+2024-12-03 15:03:00 [INFO] Health check: all services operational
+2024-12-03 15:04:00 [INFO] Health check: all services operational
+2024-12-03 15:05:00 [INFO] Health check: all services operational
+2024-12-03 15:06:00 [INFO] Health check: all services operational
+2024-12-03 15:07:00 [INFO] Health check: all services operational
+2024-12-03 15:08:00 [INFO] Health check: all services operational
+2024-12-03 15:09:00 [INFO] Health check: all services operational
+2024-12-03 15:10:00 [INFO] Health check: all services operational
+2024-12-03 15:10:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 15:10:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 15:11:00 [INFO] Health check: all services operational
+2024-12-03 15:12:00 [INFO] Health check: all services operational
+2024-12-03 15:13:00 [INFO] Health check: all services operational
+2024-12-03 15:14:00 [INFO] Health check: all services operational
+2024-12-03 15:15:00 [INFO] Health check: all services operational
+2024-12-03 15:15:15 [INFO] Scheduled task started: cleanup-expired-sessions
+2024-12-03 15:15:20 [INFO] Scheduled task completed: cleanup-expired-sessions (removed 67 sessions)
+2024-12-03 15:16:00 [INFO] Health check: all services operational
+2024-12-03 15:17:00 [INFO] Health check: all services operational
+2024-12-03 15:18:00 [INFO] Health check: all services operational
+2024-12-03 15:19:00 [INFO] Health check: all services operational
+2024-12-03 15:20:00 [INFO] Health check: all services operational
+2024-12-03 15:21:00 [INFO] Health check: all services operational
+2024-12-03 15:22:00 [INFO] Health check: all services operational
+2024-12-03 15:23:00 [INFO] Health check: all services operational
+2024-12-03 15:24:00 [INFO] Health check: all services operational
+2024-12-03 15:25:00 [INFO] Health check: all services operational
+2024-12-03 15:25:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 15:25:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 15:26:00 [INFO] Health check: all services operational
+2024-12-03 15:27:00 [INFO] Health check: all services operational
+2024-12-03 15:28:00 [INFO] Health check: all services operational
+2024-12-03 15:29:00 [INFO] Health check: all services operational
+2024-12-03 15:30:00 [INFO] Health check: all services operational
+2024-12-03 15:30:01 [INFO] Cache statistics: hits=89,234, misses=1,456, hit_rate=98.4%
+2024-12-03 15:30:02 [DEBUG] Cache memory: 2.1GB used, 0.9GB available
+2024-12-03 15:31:00 [INFO] Health check: all services operational
+2024-12-03 15:32:00 [INFO] Health check: all services operational
+2024-12-03 15:33:00 [INFO] Health check: all services operational
+2024-12-03 15:34:00 [INFO] Health check: all services operational
+2024-12-03 15:35:00 [INFO] Health check: all services operational
+2024-12-03 15:36:00 [INFO] Health check: all services operational
+2024-12-03 15:37:00 [INFO] Health check: all services operational
+2024-12-03 15:38:00 [INFO] Health check: all services operational
+2024-12-03 15:39:00 [INFO] Health check: all services operational
+2024-12-03 15:40:00 [INFO] Health check: all services operational
+2024-12-03 15:40:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 15:40:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 15:41:00 [INFO] Health check: all services operational
+2024-12-03 15:42:00 [INFO] Health check: all services operational
+2024-12-03 15:43:00 [INFO] Health check: all services operational
+2024-12-03 15:44:00 [INFO] Health check: all services operational
+2024-12-03 15:45:00 [INFO] Health check: all services operational
+2024-12-03 15:45:30 [INFO] User logout: admin@company.com (session duration: 7h 35m)
+2024-12-03 15:46:00 [INFO] Health check: all services operational
+2024-12-03 15:47:00 [INFO] Health check: all services operational
+2024-12-03 15:48:00 [INFO] Health check: all services operational
+2024-12-03 15:49:00 [INFO] Health check: all services operational
+2024-12-03 15:50:00 [INFO] Health check: all services operational
+2024-12-03 15:51:00 [INFO] Health check: all services operational
+2024-12-03 15:52:00 [INFO] Health check: all services operational
+2024-12-03 15:53:00 [INFO] Health check: all services operational
+2024-12-03 15:54:00 [INFO] Health check: all services operational
+2024-12-03 15:55:00 [INFO] Health check: all services operational
+2024-12-03 15:55:15 [INFO] Scheduled task started: sync-inventory
+2024-12-03 15:55:30 [INFO] Scheduled task completed: sync-inventory (15 seconds)
+2024-12-03 15:56:00 [INFO] Health check: all services operational
+2024-12-03 15:57:00 [INFO] Health check: all services operational
+2024-12-03 15:58:00 [INFO] Health check: all services operational
+2024-12-03 15:59:00 [INFO] Health check: all services operational
+2024-12-03 16:00:00 [INFO] Health check: all services operational
+2024-12-03 16:00:01 [INFO] Metrics exported to monitoring service
+2024-12-03 16:00:02 [DEBUG] Daily request count: 156,789
