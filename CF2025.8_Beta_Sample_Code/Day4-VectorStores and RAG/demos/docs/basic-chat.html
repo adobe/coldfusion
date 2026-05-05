@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>simpleRAG().chat() &mdash; multi-turn</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Simple RAG &middot; chat()</div>
+  <h1>simpleRAG().chat()</h1>
+  <div class="subtitle">Multi-turn conversation that keeps the turn history so follow-ups stay on topic.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>Same <code>simpleRAG</code> service, different entry point. <code>.chat()</code> retains prior messages in the session, so the model can resolve pronouns and follow-up questions (&ldquo;what about its storage limit?&rdquo;) against the previous turn.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">simpleRAG</span>(
+    <span class="fn">expandPath</span>(<span class="str">"../Documents/company-handbook.txt"</span>),
+    chatModel,
+    { <span class="kw">vectorStore</span>: vs, <span class="kw">chunkSize</span>: <span class="num">500</span>, <span class="kw">chunkOverlap</span>: <span class="num">100</span> }
+);
+rag.<span class="fn">ingest</span>();
+
+<span class="cmt">// first turn</span>
+rag.<span class="fn">chat</span>(<span class="str">"What is the annual leave entitlement?"</span>);
+
+<span class="cmt">// follow-up — the service still remembers turn 1</span>
+rag.<span class="fn">chat</span>(<span class="str">"How many days can I carry forward?"</span>);</code></pre>
+
+<h2>When to use each</h2>
+<table>
+<thead><tr><th>Method</th><th>Use for</th></tr></thead>
+<tbody>
+<tr><td><code>ask()</code></td><td>Standalone questions where each call is independent.</td></tr>
+<tr><td><code>chat()</code></td><td>Conversational flows where context from earlier turns matters.</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

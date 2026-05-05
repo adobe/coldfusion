@@ -1,0 +1,468 @@
+A321
+A Condor A321
+Role
+Narrow-body jet airliner
+National origin
+Multi-national[a]
+Manufacturer
+Airbus
+First flight
+11 March 1993
+Introduction
+1994 with Lufthansa
+Status
+In service
+Primary users
+American Airlines
+China Southern Airlines
+China Eastern Airlines
+Turkish Airlines
+Produced
+1992–present
+Number built
+1,570 as of
+30 September 2017[1]
+Developed from Airbus A320
+Developed into
+Airbus A320neo family
+Airbus A321
+The Airbus A321 is a member of the Airbus A320 family of short- to
+medium-range, narrow-body, commercial passenger twin-engine jet airliners
+manufactured by Airbus.[b] It was the first derivative of the baseline Airbus
+A320 aircraft, and carries up to 236 passengers with a maximum range of
+3,200 nmi (5,900 km; 3,700 mi).[2] Final assembly of the aircraft takes place
+in Hamburg, Germany, or Mobile, Alabama.
+The A321 is a stretched-fuselage variant of the Airbus A320 and entered
+service in 1994 with Lufthansa, around six years after the original A320. The
+aircraft shares a common type rating with all other Airbus A320 family
+variants, allowing existing A320 family pilots to fly the aircraft without the
+need for further training.
+In December 2010, Airbus announced a new generation of the A320 family,
+the A320neo (new engine option).[3] The similarly lengthened fuselage
+A321neo variant offers new, more efficient engines, combined with airframe
+improvements and the addition of winglets, named Sharklets by Airbus. The
+aircraft will deliver fuel savings of up to 15%.
+As of 30 September 2017, a total of 1,570 Airbus A321 aircraft have been
+delivered, of which 1,551 are in service. In addition, another 1,701 airliners
+are on firm order (comprising 231 A321ceo and 1,470 A321neo). As of
+September 2017, American Airlines was the largest operator of the Airbus
+A321, operating 219 aircraft.[1]
+The A321LR is a proposed long-range variant of the A321neo, which Airbus
+predicts provides an overall 25–30% lower operating cost than the Boeing
+757 on routes of up to 4,100 nmi (7,600 km; 4,700 mi) where a wide-body
+would be uneconomical.
+The Airbus A321 was the first derivative of the A320, also known as the Stretched A320, A320-500 and A325.[5][6] Its launch
+came on 24 November 1988, around the same time as the A320 entered service, after commitments for 183 aircraft from 10
+customers were secured.[5][7] The aircraft would be a minimum-changed derivative, apart from a number of minor modifications
+to the wing, and the fuselage stretch itself. The wing would incorporate double-slotted flaps and minor trailing edge
+modifications,[8] increasing the wing area from 124 m2 (1,330 sq ft) to 128 m2 (1,380 sq ft).[9] The fuselage was lengthened by
+four plugs (two ahead and two behind the wings), giving the A321 an overall length of 6.94 metres (22 ft 9 in) longer than the
+A320.[8][10][2] This is achieved by adding a 4.27 m (14 ft 0 in) front plug immediately forward of wing, and a 2.67 m (8 ft 9 in)
+This is an old revision of this page, as edited by TheMagikBOT (talk | contribs) at 17:49, 15 December 2017
+(Added page protection template where none existed). The present address (URL) is a permanent link to this
+revision, which may differ significantly from the current revision.
+Development
+Background, design and production
+Alitalia was the second to receive
+the stretched A321, after
+Lufthansa.[4]
+An Airbus A321 on final assembly
+line 3 in the Airbus plant at Hamburg
+Finkenwerder Airport
+An Austrian Airlines Airbus A321
+Airbus A32X family
+rear plug.[11] To maintain performance, double-slotted flaps were included, in addition to
+increasing the wing area by 4  m2 (43  sq  ft), to 128  m2 (1,380  sq  ft).[9] Other minor
+modifications were made to accommodate the A321-100's 9,600 kg (21,200 lb) increase
+in maximum takeoff weight to 83,000 kg (183,000 lb).[8] The length increase required
+the overwing exits of the A320 to be enlarged and repositioned in front of and behind the
+wings.[4] The A321 is the largest variant of the A320 family.[10][2] The centre fuselage
+and undercarriage were reinforced to accommodate the increase in maximum takeoff
+weight of 9,600 kg (21,200 lb), taking it to 83,000 kg (183,000 lb).[8]
+The maiden flight of the Airbus A321 came on 11 March 1993, when the prototype,
+registration F-WWIA, flew with IAE V2500 engines; the second prototype, equipped
+with CFM56-5B turbofans, flew in May 1993.[4] Lufthansa and Alitalia were the first to
+order the stretched Airbuses, with 20 and 40 aircraft requested, respectively.[4] The first
+of Lufthansa's V2500-A5-powered A321s arrived on 27 January 1994, while Alitalia
+received its first CFM56-5B-powered aircraft on 22 March 1994.[4] The A321-100
+entered service in January 1994 with Lufthansa.
+Final assembly for the A321 would be, as a first
+for any Airbus, carried out in Germany (then West
+Germany).[12] This came after a dispute between
+the French, who claimed the move would incur
+$150  million (€135 million) in unnecessary
+expenditure associated with the new plant,[13] and
+the Germans, arguing it would be more productive
+for Airbus in the long run. The second production
+line was located at Hamburg, which would also subsequently produce the smaller Airbus
+A319 and A318. For the first time, Airbus entered the bond market, through which it
+raised $480 million (€475 million) to finance development costs.[14] An additional $180 million (€175 million) was borrowed
+from European Investment Bank and private investors.[15]
+A total of 1,562 of the A321ceo model have been delivered, with 231 remaining on order as of 30 September 2017.[1]
+The Airbus A321 is a narrow-body (single-aisle) aircraft with a retractable tricycle landing gear and is powered by two wing
+pylon-mounted turbofan engines. It is a low-wing cantilever monoplane with a conventional tail unit having a single vertical
+stabilizer and rudder. Two suppliers provide turbofan engines for the A321: CFM with its CFM56 and International Aero
+Engines with the V2500 engine.
+The original derivative of the A321, the A321-100, featured a reduction in range
+compared to the A320 as extra fuel tankage was not added to the initial design to
+compensate for the extra weight. The maximum takeoff weight (MTOW) of the A321-
+100 was increased to 83,000  kg (183,000  lb). The A321-100 entered service with
+Lufthansa in 1994. Only about 90 were ever produced.[16]
+Design
+Variants
+A321-100
+A321-200
+An Airbus A321neo operating for
+Virgin America. Virgin America was
+the type's first operator.[18]
+Airbus launched the heavier and longer range A321-200 development in 1995 which has a full-passenger transcontinental US
+range. This is achieved through higher thrust engines (V2533-A5 or CFM56-5B3), minor structural strengthening, and an
+increase in fuel capacity with the installation of one or two optional 2,990 L (790 US gal) tanks in the rear underfloor hold.[17]
+The additional fuel tankage increases the total capacity of this model to 30,030 L (7,930 US gal). These modifications also
+increased the maximum takeoff weight of the A321-200 to 93,000 kg (205,000 lb). This variant first flew in December 1996,
+and entered service with Monarch Airlines in April 1997. Its direct competitors include the 757–200 and the 737-900/900ER.
+The A321neo will be part of the Airbus A320neo family of airliners developed since
+December 2010 by Airbus,[19] with the suffix "neo" meaning "new engine option". It is
+the last step of the A320 Enhanced (A320E) modernisation programme, which was
+started in 2006. The A321neo replaces the original A321, which is now referred to as
+A321ceo, for "current engine option".
+In addition to the new engines, the modernisation programme also included such
+improvements as: aerodynamic refinements, large curved winglets (sharklets), weight
+savings, a new aircraft cabin with larger hand luggage spaces, and an improved air
+purification system.[20][21] Customers will have a choice of either the CFM International
+LEAP-1A or the Pratt & Whitney PW1100G engines.
+These improvements in combination are predicted to result in 15% lower fuel
+consumption per aircraft, 8% lower operating costs, reduced noise production, and a reduction of nitrogen oxide (NOx)
+emissions by at least 10% compared to the A320 series, as well as an increase in range of approximately 500 nautical miles
+(900 km).[22]
+Eight A321neos have been delivered, with orders for a further 1,470 aircraft as of 30 September 2017.[1]
+The A321neo weight variant with increased MTOW of 97 tonnes – often called A321LR or sometimes A321neoLR (LR = long-
+range) – transports 206 passengers in a 2-class layout with increased range to 4,000 nmi (7,400 km; 4,600 mi) by using three
+additional 2,990 L (790 US gal) fuel tanks.[23] An extended 2-class layout additionally including a premium economy class with
+164 passengers allows a range of up to 4,100 nmi (7,600 km; 4,700 mi).[24][25] Historically this is the second MTOW increase
+after the initial A321-100 with 83 tonnes, which was quickly replaced by the -200 with 93.5 tonnes.
+In October 2014 Airbus started to offer it also as a replacement for the aging Boeing 757-200, including the modified version
+with winglets, known as the 757-200W. Compared to the 757-200W, Airbus predicts an A321LR gives overall 25–30% lower
+operating cost depending on the number of seats[26][27] on routes where a wide-body would be uneconomical. Although Boeing
+has nicknamed a response to the A321LR as "Middle of Market" (MOM),[28] they denied working on for example a new
+"757MAX", a modification of the 737 MAX 9 or Boeing 767 or the 787-3.[29][30][31][32]
+A321neo
+A321LR
+Operators
+As of 30 September 2017, 1,551 Airbus A321 aircraft were in service with 108 operators,[1] with American Airlines and China
+Southern Airlines operating the largest A321 fleets of 217 and 96 aircraft respectively.[1]
+Type
+Orders
+Deliveries
+Total
+Backlog
+Total
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+A321
+1,793
+231
+1,562
+129
+222
+184
+150
+102
+83
+66
+51
+87
+66
+A321neo
+1,478
+1,470
+8
+8
+—
+—
+—
+—
+—
+—
+—
+—
+—
+Total
+3,271
+1,701
+1,570
+137
+222
+184
+150
+102
+83
+66
+51
+87
+66
+Type
+Deliveries
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+A321
+51
+30
+17
+35
+33
+35
+49
+28
+33
+35
+22
+16
+22
+16
+A321neo
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+—
+Total
+51
+30
+17
+35
+33
+35
+49
+28
+33
+35
+22
+16
+22
+16
+Data through end of September 2017[1][33]
+Orders and deliveries
+Accidents and incidents
+For the Airbus A321, 31 aviation accidents and incidents have occurred,[34] including four hull-loss accidents / criminal
+occurrences with a total of 377 fatalities as of October 2017.[35][36]
+Airbus A321[2]
+Cockpit crew
+2
+1-class max. seating[37]
+236 at 28 in (71 cm) pitch[38]
+1-class, typical[37]
+199 at 32 in (81 cm) pitch
+2-class, typical[37]
+185 (16F @ 36 in, 169Y @ 32 in)
+Cargo volume
+51.70 m3 (1,826 cu ft)
+Unit load devices
+10× LD3-45
+Length
+44.51 m (146 ft 0 in)
+Wheelbase
+16.91 m (55 ft 6 in)
+Track
+7.59 m (24 ft 11 in)
+Wingspan
+35.8 m (117 ft 5 in) [c]
+Wing area
+122.4 m2 (1,318 sq ft)[39]
+Wing sweepback
+25 degrees[39]
+Tail height
+11.76 m (38 ft 7 in)
+Cabin width
+3.70 m (12 ft 2 in)
+Fuselage width
+3.95 m (13 ft 0 in)
+Fuselage height
+4.14 m (13 ft 7 in)
+Maximum takeoff weight (MTOW)
+93.5 t (206,000 lb)
+Maximum landing weight (MLW)
+77.8 t (172,000 lb)
+Maximum zero-fuel weight (MZFW)
+73.8 t (163,000 lb)
+Operating empty weight (OEW)[37]
+48.5 t (107,000 lb)
+Cruising speed
+Mach 0.78 (829 km/h; 515 mph)[40]
+Maximum speed
+Mach 0.82 (871 km/h; 541 mph)
+Range, typical payload[d]
+3,200 nmi, 5,950 km[c]
+Fuel capacity
+24,050–30,030 L (6,350–7,930 US gal)
+Service ceiling
+39,100–41,000 ft (11,900–12,500 m)[41]
+Engines (×2)
+CFM56-5B, 68.3 in (1.73 m) fan
+IAE V2500A5, 63.5 in (1.61 m) fan
+Thrust (×2)
+133–147 kN (30,000–33,000 lbf)
+Specifications
+Engines
+Aviation portal
+Aircraft model
+Certification date
+Engines[41]
+A321-111
+27 May 1995
+CFM56-5B1 or 5B1/P or 5B1/2P
+A321-112
+15 February 1995
+CFM56-5B2 or 5B2/P
+A321-131
+17 December 1993
+IAE Model V2530-A5
+A321-211
+20 March 1997
+CFM56-5B3 or 5B3/P or 5B3/2P
+A321-212
+31 August 2001
+CFM56-5B1 or 5B1/P or 5B1/2P
+A321-213
+31 August 2001
+CFM56-5B2 or 5B2/P
+A321-231
+20 March 1997
+IAE Model V2533-A5
+A321-232
+31 August 2001
+IAE Model V2530-A5
+Related development
+Airbus A318
+Airbus A319
+Airbus A320 family
+Aircraft of comparable role, configuration, and era
+Boeing 737-900
+Boeing 757
+Irkut MC-21
+Tupolev Tu-204
+Related lists
+List of Airbus A320 operators
+List of jet airliners
+Footnotes
+a. The Airbus A321 is built in Hamburg, Germany or Mobile, Alabama, United States
+b. Airbus was originally a consortium of European aerospace companies named, Airbus Industrie, and is now fully
+owned by Airbus, originally named EADS. Airbus' name has been Airbus SAS since 2001.
+c. with sharklets
+d. Passengers and bags
+References
+1. "Airbus Orders & Deliveries" (http://www.aircraft.airbus.com/market/orders-deliveries/). Airbus. 30 September
+2017. Retrieved 7 October 2017.
+2. "A321 Dimensions & key data" (http://www.airbus.com/aircraftfamilies/passengeraircraft/a320family/a321/specific
+ations/). Airbus.
+3. "Airbus offers new fuel saving engine options for A320 Family" (http://www.airbus.com/presscentre/pressrelease
+s/press-release-detail/detail/airbus-offers-new-fuel-saving-engine-options-for-a320-family/). Airbus. 1 December
+2010. Retrieved 31 December 2011.
+4. Eden 2008, p. 25
+5. Norris & Wagner 1999, p. 50
+6. Laming & Hewson 2000, p. 23
+7. Reed 1992, p. 84
+See also
+References
+8. Norris & Wagner 1999, p. 51
+9. Moxon; Julian (17 March 1993). "A321: Taking on the 757" (http://www.flightglobal.com/pdfarchive/view/1993/199
+3%20-%200507.html). Flight International. Retrieved 25 February 2011.
+10. "Specifications Airbus A320" (http://www.airbus.com/aircraftfamilies/passengeraircraft/a320family/a320/specificati
+ons/). Airbus. Retrieved 13 February 2012.
+11. Gunston 2009, pp. 213–214
+12. Sebdon, Gilbert (7 February 1990). "A321 victory for West Germany" (http://www.flightglobal.com/pdfarchive/vie
+w/1990/1990%20-%200274.html). Flight International. Retrieved 24 February 2011.
+13. Norris & Wagner 1999, p. 53
+14. Reed 1992, p. 84
+15. Norris & Wagner 1999, p. 52
+16. "Airbus A321-100 Production List" (https://www.planespotters.net/production-list/Airbus/A321/A321-100).
+www.planespotters.net. Retrieved 16 September 2017.
+17. Gunston 2009, pp. 214–215
+18. Creedy, Steve (21 April 2017). "Airbus delivers first A321neo" (http://www.airlineratings.com/news/1184/airbus-de
+livers-first-a321neo). Airline Ratings. Retrieved 14 June 2017.
+19. "Airbus A320 (A320ceo and A320neo) Aircraft family" (https://web.archive.org/web/20130303214628/http://www.
+airbus.com/aircraftfamilies/passengeraircraft/a320family/). Airbus.com. 3 March 2013. Archived from the original
+(http://www.airbus.com/aircraftfamilies/passengeraircraft/a320family/) on 3 March 2013. Retrieved 21 April 2013.
+{{cite web}}: Unknown parameter |deadurl= ignored (|url-status= suggested) (help)
+20. "Pictures: Airbus aims to thwart Boeing's narrowbody plans with upgraded 'A320 Enhanced' " (http://www.flightglo
+bal.com/news/articles/pictures-airbus-aims-to-thwart-boeings-narrowbody-plans-with-upgraded-a320-207273/).
+Flight International. 20 June 2006. Retrieved 8 July 2013.
+21. "Avianca takes delivery of Sharklet equipped A320" (http://www.airbus.com/presscentre/pressreleases/press-rele
+ase-detail/detail/avianca-takes-delivery-of-sharklet-equipped-a320). Airbus.com. Retrieved 27 March 2013.
+22. "A320neo family information, Maximum benefit and minimum change" (http://www.airbus.com/aircraftfamilies/pas
+sengeraircraft/a320family/). Airbus.com. 1 July 2011. Retrieved 30 December 2011.
+23. Exclusive: Airbus launches "A321neoLR" long range to replace 757-200W (http://leehamnews.com/2014/10/21/e
+xclusive-airbus-launches-a321neolr-long-range-to-replace-757-200w/) Leeham
+24. "Airbus Launches Long-Range A321neo Version" (http://aviationweek.com/commercial-aviation/airbus-launches-
+long-range-a321neo-version). Aviation Week. 13 January 2015.
+25. Analyst results: Part 2: Boeing 757: Airbus A321neoLR as a replacement on long and thin routes (http://leehamn
+ews.com/2014/10/22/part-2-boeing-757-finding-the-replacement-we-expect-a-long-range-a321neo-variant/)
+Leeham
+26. Airbus Studies New Extended-Range A321neo Variant (http://www.ainonline.com/aviation-news/2014-10-22/airb
+us-studies-new-extended-range-a321neo-variant) AINonline
+27. Airbus Launches Long-Range A321neo (http://www.ainonline.com/aviation-news/air-transport/2015-01-13/airbus
+-launches-long-range-a321neo) AINonline
+28. Paris Air Show Buzzes Over Boeing Jet That Doesn’t Exist Yet (https://www.bloomberg.com/news/articles/2015-0
+6-17/boeing-jet-that-doesn-t-exist-yet-becomes-talk-of-paris-air-show) Bloomberg
+29. Boeing Sees No Business Case For 757 MAX (http://aviationweek.com/commercial-aviation/boeing-sees-no-bus
+iness-case-757-max) Aviation Week
+30. Exclusive: Boeing says it has no plans for long-range 737 MAX (http://www.todayonline.com/business/exclusive-
+boeing-says-it-has-no-plans-long-range-737-max) Today
+31. Odds and Ends: No Boeing response to A321neoLR (http://leehamnews.com/2014/11/20/odds-and-ends-after-dl
+-loss-boeing-wins-kuwait-its-huge-no-response-to-a321neolr/) Leehamnews
+32. Paul Ausick (19 August 2015). "Boeing Sees Opportunities for 767, but Not for the Middle of the Market (NYSE:
+BA) - 24/7 Wall St" (http://247wallst.com/aerospace-defense/2015/08/19/boeing-sees-opportunities-for-767-but-n
+ot-for-the-middle-of-the-market/). 247wallst.com.
+33. "Historical Orders and Deliveries 1974–2009" (https://web.archive.org/web/20101223223239/http://www.airbus.c
+om/fileadmin/media_gallery/files/reports_results_reviews/Summary_Historial_Orders_Deliveries_1974-2009.xls).
+Airbus S.A.S. January 2010. Archived from the original (http://www.airbus.com/fileadmin/media_gallery/files/repo
+rts_results_reviews/Summary_Historial_Orders_Deliveries_1974-2009.xls) (Microsoft Excel) on 23 December
+2010. Retrieved 10 December 2012.
+34. Airbus A321 occurrences (http://aviation-safety.net/database/types/Airbus-A321/database). Aviation Safety, 3
+October 2017.
+35. Airbus A321 hull-loss occurrences (http://aviation-safety.net/database/types/Airbus-A321/losses). Aviation Safety,
+3 October 2017.
+36. A321 accident statistics (http://aviation-safety.net/database/types/Airbus-A321/statistics). Aviation Safety, 3
+October 2017.
+37. "All About the Airbus A320 Family" (https://fr.scribd.com/doc/30183955/All-About-Airbus-A-320-Family). Airbus.
+2009.
+38. "Airbus Studies 236-Seat A321" (http://aviationweek.com/commercial-aviation/airbus-studies-236-seat-a321).
+Aviation Week. 10 December 2012.
+39. "Airbus Aircraft Data File" (http://booksite.elsevier.com/9780340741528/appendices/data-a/table-1/table.htm).
+Civil Jet Aircraft Design. Elsevier. July 1999.
+40. "A320 Family Technology" (http://www.airbus.com/aircraftfamilies/passengeraircraft/a320family/technology-and-i
+nnovation/). Airbus.
+41. "Type Certificate Data Sheet" (https://www.easa.europa.eu/system/files/dfu/TCDS_EASA%20A%20064_%20Air
+bus_%20A318_A319_A320_A321_Iss_22.pdf) (PDF). EASA. 28 June 2016.
+Official Airbus website of the A321 (http://www.airbus.com/aircraftfamilies/passengeraircraft/a320family/a321/)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Airbus_A321&oldid=815574881"
+External links

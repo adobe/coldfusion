@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Query routing</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Query Routing</div>
+  <h1>Routing to the right knowledge base</h1>
+  <div class="subtitle">Multiple content retrievers, one routing model, per-question dispatch.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The runner ingests each source into its own Milvus collection &mdash; product docs, the HR handbook and the FAQ &mdash; then registers them as three separate retrievers. A <code>routingModel</code> inspects each incoming question and picks the retrievers whose <code>description</code> best fits it.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : {
+            <span class="kw">routingModel</span> : chatModel,
+            <span class="kw">contentRetrievers</span> : [
+                { <span class="kw">vectorStore</span>: vsProduct,  <span class="kw">description</span>: <span class="str">"Product features, pricing, integrations"</span> },
+                { <span class="kw">vectorStore</span>: vsHandbook, <span class="kw">description</span>: <span class="str">"Employee policies, leave, expenses"</span> },
+                { <span class="kw">vectorStore</span>: vsFAQ,      <span class="kw">description</span>: <span class="str">"Customer support FAQs"</span> }
+            ]
+        }
+    }
+});</code></pre>
+
+<h2>How routing decides</h2>
+<ul>
+  <li>The <code>description</code> on each retriever is what the routing model reads.</li>
+  <li>Questions can route to one retriever, several, or none &mdash; there is no forced pick.</li>
+  <li>Use a dedicated, cheap model for routing to keep latency low.</li>
+</ul>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

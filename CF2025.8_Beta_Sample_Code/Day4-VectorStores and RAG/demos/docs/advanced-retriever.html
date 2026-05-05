@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Content retriever</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Content Retriever</div>
+  <h1>Content retriever configuration</h1>
+  <div class="subtitle">Fine-grained control over what the retriever pulls back for each question.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The runner configures a single <code>contentRetriever</code> with a tight similarity threshold and a specific <code>description</code>. The panel lets you see how <code>maxResults</code> and <code>minScore</code> shape the answer &mdash; too low and the model gets noise, too high and there is nothing to ground on.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : {
+            <span class="kw">contentRetrievers</span> : [{
+                <span class="kw">vectorStore</span> : vs,
+                <span class="kw">maxResults</span>  : <span class="num">4</span>,
+                <span class="kw">minScore</span>    : <span class="num">0.5</span>,
+                <span class="kw">description</span> : <span class="str">"Product documentation"</span>
+            }]
+        }
+    }
+});</code></pre>
+
+<h2>Retriever fields</h2>
+<table>
+<thead><tr><th>Field</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td><code>vectorStore</code></td><td>Which backing store this retriever queries.</td></tr>
+<tr><td><code>maxResults</code></td><td>Top-k chunks returned per query.</td></tr>
+<tr><td><code>minScore</code></td><td>Similarity floor &mdash; chunks below this score are discarded.</td></tr>
+<tr><td><code>description</code></td><td>Human-readable label used by the query router to pick this retriever.</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>simpleRAG().ask() &mdash; stateless Q&amp;A</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Simple RAG &middot; ask()</div>
+  <h1>simpleRAG().ask()</h1>
+  <div class="subtitle">One-shot, stateless Q&amp;A grounded in a single document.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The app builds a <code>simpleRAG</code> service pointing at <code>product-docs.txt</code>, ingests it into Milvus, and exposes <code>.ask()</code>. Each question is answered independently &mdash; no memory of previous turns.</p>
+
+<h2>The code</h2>
+<pre><code><span class="fn">chatModel</span> = <span class="fn">chatModel</span>({
+    <span class="kw">provider</span>  : <span class="str">"openai"</span>,
+    <span class="kw">modelName</span> : <span class="str">"gpt-4o-mini"</span>,
+    <span class="kw">apiKey</span>    : application.openaiKey
+});
+
+rag = <span class="fn">simpleRAG</span>(
+    <span class="fn">expandPath</span>(<span class="str">"../Documents/product-docs.txt"</span>),
+    chatModel,
+    { <span class="kw">vectorStore</span>: vs, <span class="kw">chunkSize</span>: <span class="num">500</span>, <span class="kw">chunkOverlap</span>: <span class="num">100</span> }
+);
+rag.<span class="fn">ingest</span>();
+
+answer = rag.<span class="fn">ask</span>(<span class="str">"What are the pricing plans?"</span>);</code></pre>
+
+<h2>Key parameters</h2>
+<table>
+<thead><tr><th>Parameter</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td><code>source</code></td><td>File, folder or URL to ingest.</td></tr>
+<tr><td><code>chunkSize</code></td><td>Characters per chunk written to the vector store.</td></tr>
+<tr><td><code>chunkOverlap</code></td><td>Characters shared between neighbouring chunks so sentences aren&rsquo;t cut.</td></tr>
+<tr><td><code>maxResults</code></td><td>Top-k chunks fetched per question.</td></tr>
+<tr><td><code>minScore</code></td><td>Minimum similarity score a chunk must pass to be used.</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

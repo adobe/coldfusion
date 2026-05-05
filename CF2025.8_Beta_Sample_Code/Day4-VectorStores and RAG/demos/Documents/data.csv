@@ -1,0 +1,11 @@
+ticket_id,customer,subject,priority,status,category,created_date
+TK-1001,ABC Corp,Cannot login after password reset,High,Open,Authentication,2025-03-01
+TK-1002,GlobalTech,Export to PDF not working,Medium,Resolved,Export,2025-03-02
+TK-1003,Starter Inc,How to integrate with Slack,Low,Closed,Integration,2025-03-03
+TK-1004,MedHealth,SSO configuration failing,Critical,Open,Authentication,2025-03-04
+TK-1005,EduLearn,Storage limit exceeded warning,Medium,Open,Billing,2025-03-05
+TK-1006,RetailMax,Mobile app crashes on Android 13,High,In Progress,Mobile,2025-03-06
+TK-1007,FinServ Ltd,Need audit log for compliance,High,Open,Security,2025-03-07
+TK-1008,DevHouse,API rate limit too restrictive,Medium,Resolved,API,2025-03-08
+TK-1009,CloudNine,Cannot share files larger than 50MB,Low,Closed,Storage,2025-03-09
+TK-1010,ABC Corp,Two-factor authentication setup help,Medium,Open,Authentication,2025-03-10

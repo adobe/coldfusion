@@ -1,0 +1,48 @@
+ABC Inc. — Employee Handbook
+
+Section 1: Leave Policy
+
+All full-time employees are entitled to the following paid time off:
+- Annual Leave: 20 days per calendar year, accrued monthly at 1.67 days/month
+- Sick Leave: 12 days per year. A medical certificate is required for 3 or more consecutive days
+- Personal Leave: 3 days per year for personal matters
+- Parental Leave: 16 weeks paid for primary caregiver, 4 weeks for secondary caregiver
+- Bereavement Leave: 5 days for immediate family members
+
+Leave requests must be submitted through the HR portal at least 2 weeks in advance.
+Emergency leave can be requested with same-day approval from your direct manager.
+Unused annual leave can be carried forward up to a maximum of 5 days into the next calendar year.
+Any leave beyond the carry-forward limit will be forfeited on January 1st.
+
+Section 2: Remote Work Policy
+
+Employees may work remotely up to 3 days per week with manager approval.
+Fully remote arrangements require VP-level approval and an updated employment agreement.
+Core collaboration hours are 10:00 AM to 3:00 PM in the employee's local timezone.
+All employees must be available during core hours for meetings and communications.
+A stable internet connection of at least 25 Mbps download speed is required.
+Company-issued equipment must be used for all work-related activities.
+VPN connection is mandatory when accessing internal systems from outside the office.
+
+Section 3: Expense Reimbursement
+
+Employees may claim reimbursement for approved business expenses:
+- Travel: Economy class flights for domestic, business class for flights over 6 hours
+- Hotels: Standard rooms up to $200 per night ($300 in high-cost cities)
+- Meals: Up to $75 per day during business travel
+- Software & Tools: Pre-approved purchases up to $500/year without additional approval
+- Training & Development: Up to $2,500 per year for conferences, courses, and certifications
+- Home Office: One-time $1,000 setup allowance for remote employees
+
+All expense claims must include itemized receipts and be submitted within 30 days.
+Claims exceeding $500 require manager pre-approval before the expense is incurred.
+Reimbursements are processed on the 15th of each month.
+
+Section 4: Code of Conduct
+
+All employees must maintain professional and respectful behavior in all interactions.
+Harassment, discrimination, and retaliation of any kind are strictly prohibited.
+Confidential company information must not be shared externally without authorization.
+Conflicts of interest must be disclosed to your manager and the compliance team.
+Company resources should be used for business purposes only.
+Violations of this code may result in disciplinary action up to and including termination.

@@ -1,0 +1,54 @@
+ABC Platform — Product Documentation
+
+Getting Started
+
+The ABC Platform is a cloud-based project management and collaboration tool designed
+for teams of all sizes. It provides task management, team communication, file sharing,
+time tracking, and reporting in a single integrated workspace.
+
+System Requirements:
+- Modern web browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
+- Minimum screen resolution: 1280x720
+- Stable internet connection (5 Mbps recommended)
+- Mobile apps available for iOS 15+ and Android 12+
+
+Creating Your First Project:
+1. Log in to your ABC workspace at app.abc.io
+2. Click "New Project" in the left sidebar
+3. Choose a template (Kanban, Scrum, Timeline, or Blank)
+4. Name your project and invite team members
+5. Start adding tasks, setting due dates, and assigning owners
+
+Task Management:
+- Tasks can have priorities: Critical, High, Medium, Low
+- Due dates and time estimates can be set on any task
+- Tasks support subtasks, checklists, attachments, and comments
+- Custom fields allow you to track any additional data per task
+- Automations can move tasks between columns based on status changes
+
+Team Collaboration:
+- Each project has a built-in chat channel for team discussions
+- @mentions notify specific team members in comments and chat
+- File sharing supports documents up to 100MB per file
+- Real-time editing allows multiple users to update tasks simultaneously
+- Activity feeds show all changes made to a project in chronological order
+
+Integrations:
+- Slack: Receive task notifications and create tasks from Slack messages
+- GitHub: Link pull requests to tasks and auto-update status on merge
+- Google Drive: Attach files directly from your Drive
+- Jira: Two-way sync for teams migrating from Jira
+- REST API: Build custom integrations using our documented API
+
+Pricing Plans:
+- Free: Up to 5 users, 3 projects, 1GB storage
+- Team: $12/user/month, unlimited projects, 50GB storage, priority support
+- Business: $24/user/month, advanced analytics, SSO, audit logs, 500GB storage
+- Enterprise: Custom pricing, dedicated support, SLA, on-premise deployment option
+
+Support:
+- Documentation: docs.abc.io
+- Email support: support@abc.io (response within 24 hours for paid plans)
+- Live chat: Available for Team plan and above during business hours
+- Phone support: Available for Enterprise plan only
+- Community forum: community.abc.io

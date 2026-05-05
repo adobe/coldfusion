@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Transformers</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Transformers</div>
+  <h1>Document &amp; segment transformers</h1>
+  <div class="subtitle">Custom UDFs that enrich your data as it flows through ingestion.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The runner registers two CFML functions on the ingestion pipeline: a <code>documentTransformer</code> that fires once per file, and a <code>textSegmentTransformer</code> that fires once per chunk. Both can write additional metadata that later ends up in the retriever&rsquo;s results.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">ingestion</span> : {
+        <span class="kw">source</span>              : <span class="fn">expandPath</span>(<span class="str">"../Documents/product-docs.txt"</span>),
+        <span class="kw">documentSplitter</span>    : { <span class="kw">chunkSize</span>: <span class="num">400</span>, <span class="kw">chunkOverlap</span>: <span class="num">60</span> },
+        <span class="kw">vectorStoreIngestor</span> : { <span class="kw">vectorStore</span>: vs },
+
+        <span class="cmt">// Per-document enrichment</span>
+        <span class="kw">documentTransformer</span> : <span class="fn">function</span>(doc) {
+            doc.metadata.source = <span class="str">"product-docs"</span>;
+            doc.metadata.ingested = <span class="fn">now</span>();
+            <span class="kw">return</span> doc;
+        },
+
+        <span class="cmt">// Per-segment enrichment</span>
+        <span class="kw">textSegmentTransformer</span> : <span class="fn">function</span>(doc, seg) {
+            seg.metadata.length = <span class="fn">len</span>(seg.text);
+            seg.metadata.hasPrice = <span class="fn">findNoCase</span>(<span class="str">"$"</span>, seg.text) ? <span class="kw">true</span> : <span class="kw">false</span>;
+            <span class="kw">return</span> seg;
+        }
+    }
+});
+rag.<span class="fn">ingest</span>();</code></pre>
+
+<h2>Where the metadata shows up</h2>
+<ul>
+  <li>Every stored chunk carries the extra keys written by your transformers.</li>
+  <li>The content injector can expose those keys to the LLM (see the Injector panel).</li>
+  <li>Useful for source tagging, timestamps, quality flags, or routing hints.</li>
+</ul>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

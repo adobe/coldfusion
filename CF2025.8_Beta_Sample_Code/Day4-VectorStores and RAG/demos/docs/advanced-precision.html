@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Precision tuning</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Precision Tuning</div>
+  <h1>Tuning retrieval with agent()</h1>
+  <div class="subtitle">Live control over chunking and retrieval scoring.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The UI sends <code>chunkSize</code>, <code>splitterType</code>, <code>maxResults</code> and <code>minScore</code> as URL params to the init runner. The runner builds an <code>agent()</code> with those values and ingests <code>product-docs.txt</code>, so you can see how each knob changes the answer to the same question.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">ingestion</span> : {
+        <span class="kw">source</span>           : <span class="fn">expandPath</span>(<span class="str">"../Documents/product-docs.txt"</span>),
+        <span class="kw">documentSplitter</span> : {
+            <span class="kw">splitterType</span> : splitterType,   <span class="cmt">// recursive | sentence | paragraph | ...</span>
+            <span class="kw">chunkSize</span>    : chunkSize,
+            <span class="kw">chunkOverlap</span> : <span class="num">80</span>
+        },
+        <span class="kw">vectorStoreIngestor</span> : { <span class="kw">vectorStore</span>: vs }
+    },
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : {
+            <span class="kw">contentRetrievers</span> : [{
+                <span class="kw">vectorStore</span> : vs,
+                <span class="kw">maxResults</span>  : maxResults,
+                <span class="kw">minScore</span>    : minScore
+            }]
+        }
+    }
+});
+rag.<span class="fn">ingest</span>();</code></pre>
+
+<h2>Knobs exposed in the UI</h2>
+<table>
+<thead><tr><th>Knob</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td><code>splitterType</code></td><td>How the document is segmented. <code>sentence</code> is sharp for FAQs; <code>recursive</code> is a safe default for mixed prose.</td></tr>
+<tr><td><code>chunkSize</code></td><td>Characters per chunk. Smaller &rarr; tighter matches, more chunks; larger &rarr; more context per hit.</td></tr>
+<tr><td><code>maxResults</code></td><td>How many chunks the retriever returns for each question.</td></tr>
+<tr><td><code>minScore</code></td><td>Similarity threshold. Raise it to filter out marginal matches.</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

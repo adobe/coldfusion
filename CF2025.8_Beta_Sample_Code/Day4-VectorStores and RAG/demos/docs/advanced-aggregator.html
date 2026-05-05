@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Content aggregator</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Aggregator</div>
+  <h1>Content aggregator</h1>
+  <div class="subtitle">Merge result lists from multiple retrievers into one ordered context block.</div>
+</header>
+
+<h2>The problem it solves</h2>
+<p>Put every document into one store and a single retriever will return the top&#8209;K vector matches. For a question that spans several domains, the top&#8209;K chunks tend to cluster on whichever domain has the strongest embedding match &mdash; the other domains get starved out of the context.</p>
+<p>Once you split your corpus into domain&#8209;specific stores (HR, Product, FAQ, &hellip;), each store gets its own retriever. The query router sends the query to all of them (or a routing model picks a subset), and every queried retriever returns its own ranked list. The <code>contentAggregator</code> is what takes those parallel lists and collapses them into the single ordered list that ends up in the prompt.</p>
+
+<h2>What this panel does</h2>
+<ul>
+  <li><b>Left (before)</b> &mdash; one vector store for every document, one retriever, <code>topK=5</code>. No aggregator involved.</li>
+  <li><b>Right (after)</b> &mdash; two stores (HR &amp; Product/FAQ), each with its own retriever pulling <code>topK=3</code>. <code>contentAggregator</code> merges both lists with a visible source boundary between chunks and a token cap on the combined context.</li>
+</ul>
+<p>The &ldquo;Retrieved context&rdquo; panel on the right shows two labeled sections (one per store) so you can visibly see the aggregator pulling from <em>both</em> sources.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : {
+            <span class="cmt">// No routingModel =&gt; query goes to BOTH retrievers</span>
+            <span class="kw">contentRetrievers</span> : [
+                { <span class="kw">vectorStore</span>: hrStore,      <span class="kw">maxResults</span>: <span class="num">3</span>, <span class="kw">description</span>: <span class="str">"HR store"</span> },
+                { <span class="kw">vectorStore</span>: productStore, <span class="kw">maxResults</span>: <span class="num">3</span>, <span class="kw">description</span>: <span class="str">"Product + FAQ"</span> }
+            ]
+        },
+        <span class="kw">contentAggregator</span> : {
+            <span class="kw">separator</span> : <span class="str">"\n--- source boundary ---\n"</span>,
+            <span class="kw">maxTokens</span> : <span class="num">1200</span>
+        }
+    }
+});</code></pre>
+
+<h2>Aggregator fields</h2>
+<table>
+<thead><tr><th>Field</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td><code>separator</code></td><td>String inserted between chunks in the merged context &mdash; useful for visibly grouping chunks from different retrievers.</td></tr>
+<tr><td><code>maxTokens</code></td><td>Token ceiling for the combined context block handed to the injector.</td></tr>
+<tr><td><code>type</code></td><td>Selects the aggregator strategy (default / reranking / custom).</td></tr>
+<tr><td><code>implementation</code></td><td>A custom component instance if you want to bypass the built&#8209;in strategies.</td></tr>
+</tbody>
+</table>
+
+<h2>When to add one</h2>
+<ul>
+  <li>You have more than one retriever and you want the combined context capped with <code>maxTokens</code>.</li>
+  <li>You want chunks from different retrievers visibly separated so the LLM can tell sources apart.</li>
+  <li>You want to plug in a custom aggregator class via <code>implementation</code> for deterministic ordering, de&#8209;duplication, or cross&#8209;source re&#8209;ranking.</li>
+</ul>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

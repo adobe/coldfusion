@@ -1,0 +1,48 @@
+ABC Platform — Frequently Asked Questions
+
+Q: How do I reset my password?
+A: Go to the login page and click "Forgot Password." Enter your registered email address
+and you will receive a password reset link within 5 minutes. The link expires after 1 hour.
+If you don't receive the email, check your spam folder or contact support@abc.io.
+
+Q: Can I export my project data?
+A: Yes. Go to Project Settings > Export and choose your format (CSV, JSON, or PDF).
+CSV exports include all tasks with their fields. JSON exports include the full project
+structure. PDF exports generate a formatted project report. Exports are available on
+all paid plans.
+
+Q: What happens when I exceed my storage limit?
+A: You will receive a warning notification at 80% and 95% usage. Once you reach 100%,
+you can still access existing files but cannot upload new ones. You can free up space
+by deleting unused attachments or upgrade to a higher plan for more storage.
+
+Q: How does the billing work?
+A: Billing is per-user, per-month. When you add a new user mid-cycle, you are charged
+a prorated amount for the remaining days in the billing period. When you remove a user,
+the credit is applied to your next invoice. Annual billing is available at a 20% discount.
+
+Q: Is my data secure?
+A: Yes. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). We are
+SOC 2 Type II certified and GDPR compliant. Data is stored in AWS data centers with
+99.99% uptime SLA. Backups are taken every 6 hours and retained for 30 days.
+Enterprise customers can choose their data region (US, EU, or Asia-Pacific).
+
+Q: Can I use ABC offline?
+A: The mobile apps support limited offline access. You can view tasks and add comments
+while offline. Changes are synced automatically when you reconnect. The web application
+requires an internet connection at all times.
+
+Q: How do I delete my account?
+A: Go to Account Settings > Danger Zone > Delete Account. This action is irreversible.
+All your data, projects, and files will be permanently deleted after a 30-day grace period.
+During the grace period, you can contact support to cancel the deletion.
+
+Q: What integrations are available?
+A: We integrate with Slack, GitHub, Google Drive, Jira, Microsoft Teams, Zapier, and
+Salesforce. We also provide a REST API for building custom integrations. API documentation
+is available at docs.abc.io/api.
+
+Q: How do I contact support?
+A: Email support@abc.io for all plans. Live chat is available for Team plan and above
+during business hours (9 AM - 6 PM EST, Monday to Friday). Phone support is available
+for Enterprise customers only. Average response time is under 4 hours for paid plans.

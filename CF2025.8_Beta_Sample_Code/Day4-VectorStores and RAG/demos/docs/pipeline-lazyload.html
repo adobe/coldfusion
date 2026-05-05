@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lazy load</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Document Service &middot; Lazy Load</div>
+  <h1>documentService().lazyLoad()</h1>
+  <div class="subtitle">Stream documents one at a time instead of buffering them all in heap.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>Both panels read the same 50-article <code>Corpus/</code> folder. The left panel uses <code>load()</code>, which returns a full array of documents. The right panel uses <code>lazyLoad()</code>, which returns an iterator &mdash; only the current document is held in memory while you process the corpus.</p>
+
+<h2>load() &mdash; eager</h2>
+<pre><code>docs = docService.<span class="fn">load</span>({
+    <span class="kw">path</span>    : <span class="str">"./Corpus/"</span>,
+    <span class="kw">pattern</span> : <span class="str">"*.txt"</span>
+});
+
+<span class="cmt">// All 50 documents sitting in heap before the loop runs</span>
+<span class="kw">for</span> (d <span class="kw">in</span> docs) { processDocument(d); }</code></pre>
+
+<h2>lazyLoad() &mdash; streaming</h2>
+<pre><code>iterator = docService.<span class="fn">lazyLoad</span>({
+    <span class="kw">path</span>    : <span class="str">"./Corpus/"</span>,
+    <span class="kw">pattern</span> : <span class="str">"*.txt"</span>
+});
+
+<span class="cmt">// Peak memory &asymp; 1 document, regardless of corpus size</span>
+<span class="kw">while</span> (iterator.<span class="fn">hasNext</span>()) {
+    doc = iterator.<span class="fn">next</span>();
+    processDocument(doc);
+}</code></pre>
+
+<h2>When to use which</h2>
+<table>
+<thead><tr><th>Method</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td><code>load()</code></td><td>Small, bounded document sets that comfortably fit in memory.</td></tr>
+<tr><td><code>lazyLoad()</code></td><td>Large corpora or unbounded folders where memory is the constraint.</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

@@ -1,0 +1,251 @@
+AirPort Time Capsule
+Developer
+Apple Inc.
+Type
+Backup drive, AirPort Extreme
+base station
+Release date
+February 29, 2008
+Discontinued April 26, 2018
+Storage
+500 GB to 3 TB Server-grade HDD
+Website
+https://www.apple.com/timecapsule
+AirPort Time Capsule
+The AirPort Time Capsule (originally named Time
+Capsule) is a wireless router sold by Apple Inc., featuring
+network-attached storage (NAS) and a residential gateway
+router, and is one of Apple's AirPort products. They are,
+essentially, versions of the AirPort Extreme with an
+internal hard drive. Apple describes it as a "Backup
+Appliance", designed to work in tandem with the Time
+Machine 
+backup 
+software 
+utility 
+introduced 
+in
+Mac OS X 10.5.[1]
+Introduced on January 15, 2008 and released on February
+29, 2008, the device has been upgraded several times, matching upgrades in the Extreme series routers. The
+earliest versions supported 802.11n wireless and came with a 500 GB hard drive in the base model, while the
+latest model, introduced in 2013, features 802.11ac and a 3 TB hard drive.[2] All models include three Gigabit
+Ethernet ports and a single USB port. The USB port can be used for external peripheral devices to be shared
+over the network, such as external hard drives or printers. The NAS functionality utilizes a built-in "server
+grade" hard drive. On April 26, 2018, Bloomberg announced that Apple's entire AirPort line had been
+discontinued without replacement.[3]
+The AirPort Time Capsule was introduced at Macworld Conference & Expo on January 15, 2008 and released
+on February 29, 2008, with pricing announced at US$299 (£199) for the 500 GB version and US$499 (£329) for
+the 1 TB version. It was the first wireless network-attached storage device combined with a wireless gateway
+router made by Apple.
+The first generation Time Capsule included a full AirPort Extreme Base Station with 802.11n wireless, one
+Ethernet WAN port, three Ethernet LAN ports, and one USB port. The USB port could be used for an external
+hard drive or a printer to be shared over the network, or both, by using a third-party USB hub.
+In early 2009, Apple released the second generation Time Capsule. It offered simultaneous 802.11n dual-band
+operation, which allows older devices to use slower wireless speeds, without affecting the overall performance
+of devices that can use higher 802.11n speeds.[4] The second generation model also included the addition of
+This is an old revision of this page, as edited by Resplendent (talk | contribs) at 00:24, 29 April
+2018. The present address (URL) is a permanent link to this revision, which may differ
+significantly from the current revision.
+History
+Guest Networking, a feature which allows creation of a separate wireless network for guests. The guest network
+uses different authentication credentials, ensuring the security of the primary network.[4] The hard disk storage
+space of each model was doubled: capacities were 1 TB 2 TB, while the prices remained unchanged.[5]
+In October 2009, several news sites reported that many first generation Time Capsules were failing after 18
+months,[6] with some users alleging that this was due to a design failure in the power supplies.[7] Apple
+confirmed that certain Time Capsules sold between February 2008 and June 2008 do not power on, or may
+unexpectedly turn off. Apple offered free repair or replacement to affected units.[8]
+The third generation Time Capsule was released in October 2009. The only change was a reconfiguration of the
+internal wireless antenna, resulting in an Apple-reported 50% increase in wireless performance and 25%
+increase in wireless range when compared to previous models.[9]
+The fourth generation Time Capsule, released in June 2011, increased the range of WiFi signals. The internal
+Wi-Fi card was changed from a Marvell Wi-Fi chip to a better-performing Broadcom BCM4331 chip.[10] Apple
+again increased the storage space in each model as the hard drive sizes were increased to 2 and 3 TB. The 2 TB
+and 3 TB models were kept at the $299 and $499 price points.
+The fifth generation Time Capsule was released in June 2013 alongside the sixth generation AirPort Extreme.
+This generation saw the name change to AirPort Time Capsule and to a taller form factor. 802.11ac support was
+added with this generation. The 2 TB model was kept at $299, but the 3 TB model dropped to $399.
+The currently available fifth generation Time Capsule includes a fully featured, 802.11ac, Wi-Fi access point[11]
+including simultaneous dual-band operation. The Time Capsule supports the Sleep Proxy Service,[12] a
+technology that allows clients to partially shut down to conserve energy, yet still be responsive to network
+traffic.
+Hardware interfaces on the Time Capsule include four Gigabit Ethernet ports (3 LAN ports, and 1 WAN port),
+and a USB interface for external peripheral device sharing. Commonly connected peripherals include printers
+and external hard drives.[13] A built-in fileserver that supports both AFP and SMB provides network access to
+files stored on the built-in hard drive. The 7.6.1 Time Capsule firmware enables remote access of the harddisk
+with an iCloud account. In the past, users needed a MobileMe account to remotely access data. Fourth
+generation models are available with 2 TB and 3 TB of built-in storage.
+The software is specially built by Apple and is not user modifiable. While the firmware has been decrypted,[14] a
+suitable privilege escalation exploit to run custom firmware is not developed for the latest firmware. However,
+the device runs a POSIX standard platform. The Time Capsule up to the fourth generation runs on the ARM port
+of operating system NetBSD 4.0, while the fifth generation model runs NetBSD 6.[15][16] It is possible to
+securely connect to the device via SSH and run statically-linked binaries on it.
+One of the key features of Time Capsule is the ability to back up a system and files wirelessly and automatically,
+eliminating the need to attach an external backup drive. This feature requires OS X 10.5.2 Leopard or greater on
+the client computers. The backup software is Apple's Time Machine, which, by default, makes hourly images of
+the files that are being changed, and condenses backup images as they become older, to save space. Even when
+using an 802.11n wireless or Gigabit Ethernet connection, the initial backup of any Mac to the drive requires
+Features
+significant time; Apple suggests that the first backup will take "overnight or longer".[17] Subsequent backups are
+incremental, thus will typically be quicker, as they only include changed files. Clients using Mac OS X Snow
+Leopard, can perform the initial backup twice as fast as Leopard clients. The backup disk can also be used by
+Windows-based computers, and the files on it can be managed by another OS such as Windows.
+The hard drive typically found in a Time Capsule is the Hitachi Deskstar, which is sold by Hitachi as a
+consumer-grade product—the Hitachi Ultrastar is the enterprise version.[18] Apple labeled the drive as a server-
+grade drive in promotional material for Time Capsule, and also used this type of drive in its discontinued Xserve
+servers. Apple states that the Hitachi Deskstar meets or exceeds the 1 million hours mean time between failures
+(MTBF) recommendation for server-grade hard drives.[19]
+The 500 GB, first generation Time Capsule shipped with a Seagate Barracuda ES-series drive.[20] More recently,
+other hard drives such as the Western Digital Caviar Green series,[21] and the Samsung EcoGreen series have
+been reported.
+The Time Capsules up to the 4th generation measure 7.7 inches (20 cm) square, and 1.4 inches (3.6 cm) high,[11]
+slightly larger than the AirPort Extreme Base Station and close to the first generation Apple TV in volume. Its
+size is partly due to the inclusion of an internal power supply, which eliminates the requirement for a separate
+external power supply, enabling a direct connection between the household power outlet and the back of the
+Time Capsule.
+The June 2013 release of the 5th generation models features a name change to AirPort Time Capsule, and a
+redesign with measurements 3.85 inches (9.8 cm) square, and 6.6 inches (17 cm) high. The square dimensions
+echo the size of both the latest AirPort Express and Apple TVs (2nd generation onwards), just with the height
+being significantly higher. The 2013 models feature the same I/O ports on the back as previous generations, and
+come in the same capacities as the 4th generation of 2 TB & 3 TB, but have introduced the newest Wi-Fi
+standard 802.11ac. The AirPort Extreme released at the same time is exactly the same in dimensions and I/O
+ports, just without the internal harddrive of the AirPort Time Capsule. 2013 models feature faster download
+speed, beam-forming improvements and wireless or desktop network control with iCloud integration. Airport is
+compatible with devices using the 802.11a, 802.11b, 802.11g, 802.11n and 802.11ac specifications. Also
+improved, Airport Utility has added one click Time Capsule format from the utility's Airport Time Capsule, Edit,
+Disks menu, allowing easy and rapid Erase Disk and Archive Disk to start over or configure Network. Disk
+Erase includes up to 35 passes and device includes encrypted storage plus optional WAN sharing, making
+Airport extremely secure and flexible for home, class and office environments. Airport Utility is a free
+download.[22]
+Apple Time Capsule product codes are constructed with the 5 first characters identifying the "product version"
+and the remaining ones indicating the localization, such as country-specific power supply.
+As of the fourth generation, all generations have had two models; one with a smaller capacity hard drive, and
+one with a larger capacity hard drive, with those always being priced at US$299 and US$499 respectively.
+Product numbers
+Electronics portal
+As of the fifth generation, Apple has maintained the US$299 price of the smaller 2 TB version while the larger 3
+TB version has been lowered to US$399.
+Model
+1st generation
+(early 2008)
+2nd generation, part 1
+(early 2009)
+2nd generation, part 2
+(mid 2009)
+3rd gen
+(late 2
+Marketing
+name
+Time Capsule
+Release date
+February 29, 2008
+March 3, 2009
+July 30, 2009
+October 20, 2
+Marketing
+model number
+MB276LL/A
+MB277LL/A
+MB764LL/A
+MB765LL/A
+MB765LL/A
+(same as
+early 2009)
+MB996LL/A
+MC343LL/A
+Model number
+A1254
+A1302
+A1355
+Hard drive
+500 GB
+1 TB
+500 GB
+1 TB
+1 TB
+2 TB
+1 TB
+Original price
+US$299 (smaller hard drive model) / US$499 (larger hard drive model)
+Guest
+networking
+No
+Yes
+802.11a/b/g/n
+2.4 GHz / 5 GHz
+bands
+Single-band operation
+Dual-band operation
+Internal Wi-Fi
+Marvell
+Atheros AR9220/AR9223
+Marvell
+Standards
+802.11 DSSS 1 & 2 Mbit/s standard, 802.11a/b/g/n (draft)
+802.11 DSSS
+Data link
+protocol
+Gigabit Ethernet, IEEE 802.11a/b/g/n (draft)
+Gigabit Ethern
+Network /
+transport
+protocol
+Bonjour, IPsec, L2TP,
+PPTP
+Bonjour, DHCP, DNS, IPsec, L2TP, PPPoE, PPTP
+AirPlay
+1. Macworld 08: Apple launch Time Capsule wireless NAS - SlashGear (http://www.slashgear.com/m
+acworld-08-apple-launch-time-capsule-wireless-nas-159672.php)
+2. http://store.apple.com/us/product/ME177/airport-time-capsule-2tb?aid=www-k2-
+airport+time+capsule+-+index-n%40p&cp=k2-airport+time+capsule+-n%40p
+Comparison chart
+See also
+References
+3. "Apple Officially Discontinues Its AirPort Wireless Routers" (https://www.bloomberg.com/news/artic
+les/2018-04-26/apple-officially-discontinues-its-airport-wireless-routers). Retrieved April 28, 2018.
+4. Apple - Time Capsule - Wireless (https://www.apple.com/timecapsule/wireless.html)
+5. Apple Store – Time Capsule (https://www.apple.com/ca/compare-wifi-models/)
+6. Brian X. Chen (October 12, 2009). "Apple Customers Mourn Over Dearly Departed Time
+Capsules" (https://www.wired.com/gadgetlab/2009/10/time-capsule). Wired.
+7. Gregg Keizer (October 14, 2009). "Dying Apple Time Capsules spark complaints" (http://www.com
+puterworld.com/s/article/9139367/Dying_Apple_Time_Capsules_spark_complaints?taxonomyId=1
+9). Computer World.
+8. "Time Capsule: Does not power on" (https://web.archive.org/web/20100713132213/http://support.
+apple.com/kb/TS3351). Apple, Inc. July 9, 2010. Archived from the original (http://support.apple.co
+m/kb/TS3351) on July 13, 2010. Retrieved July 12, 2010. {{cite web}}: Unknown parameter
+|deadurl= ignored (|url-status= suggested) (help)
+9. Apple – Time Capsule (https://www.apple.com/timecapsule/wireless.html)
+10. Brian Klug (August 5, 2011). "Airport Extreme (5th Gen) and Time Capsule (4th Gen) Review -
+Faster WiFi" (http://www.anandtech.com/show/4577/airport-extreme-5th-gen-and-time-capsule-4th
+-gen-review-faster-wifi-/4). AnandTech. Section "Inside the Time Capsule". Retrieved August 15,
+2011.
+11. Apple. "Apple — Time Capsule" (https://www.apple.com/timecapsule). Retrieved September 21,
+2008.
+12. "Mac OS X v10.6: About Wake on Demand (Apple Article HT3774)" (http://support.apple.com/kb/H
+T3774). Apple. August 27, 2009. Retrieved September 15, 2009. "Setting up Wake on Demand",
+"Setting up a Bonjour Sleep Proxy"
+13. Uses for the USB port of Time Capsule, AirPort Extreme, AirPort Express (http://support.apple.co
+m/kb/HT2421?viewlocale=en_US)
+14. "AirPort Hacking Update · Embedded Ideation" (http://embeddedideation.com/2016/04/24/airport-h
+acking-update/). embeddedideation.com. Retrieved April 27, 2018.
+15. "Time Capsule 1G - The AirPort Wiki" (http://www.theairportwiki.com/index.php?title=Time_Capsul
+e_1G). www.theairportwiki.com. Retrieved April 27, 2018.
+16. "Time Capsule 2G - The AirPort Wiki" (http://www.theairportwiki.com/index.php?title=Time_Capsul
+e_2G). www.theairportwiki.com. Retrieved April 27, 2018.
+17. Apple (United Kingdom) - Time Capsule - Backup (https://www.apple.com/uk/timecapsule/backup.
+html)
+18. Rothman, Wilson (January 15, 2008). "Apple Time Capsule Server for Wireless Time Machine
+Backups" (https://gizmodo.com/345045/apple-announces-time-capsule-server-for-wireless-time-m
+achine-backup). Gizmodo. Gawker Media. Retrieved April 13, 2012.
+19. Time Capsule Ships with Support for USB Drive Backups (http://db.tidbits.com/article/9479)
+20. Cracking Open the Time Capsule (http://www.applefritter.com/node/23907)
+21. Time capsule 1TB uses the WD Caviar Green (http://mattgadient.com/2010/08/06/time-capsule-1t
+b-uses-the-wd-caviar-green)
+22. Apple Support Downloads for Airport (https://support.apple.com/downloads/airport) 2013 Utility
+and 2016 Firmware updates.
+23. Franklin, Eric (October 20, 2009). "Apple Time Capsule, Airport Extreme receive small (possibly
+significant) upgrades" (http://news.cnet.com/8301-17938_105-10379242-1.html). CNET News.
+Retrieved February 11, 2013.
+External links
+AirPort Time Capsule (http://www.apple.com/airport-time-capsule) – official site
+Retrieved from "https://en.wikipedia.org/w/index.php?title=AirPort_Time_Capsule&oldid=838737267"

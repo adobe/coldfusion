@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>documentService() &mdash; document toolkit for RAG</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Document Service &middot; Ingest + Query</div>
+  <h1>documentService() &mdash; the document toolkit</h1>
+  <div class="subtitle">Load, transform, split, enrich and ingest documents as standalone steps &mdash; then let any RAG service query the result.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The left panel runs an ingestion job using <code>documentService()</code>. Each stage &mdash; <code>load</code> &rarr; <code>transform</code> &rarr; <code>split</code> &rarr; <code>transformSegments</code> &rarr; <code>ingest</code> &mdash; is an explicit call that you can schedule, log and inspect. The right panel builds an <code>agent()</code> pointed at the same Milvus collection and answers questions, with no re-ingestion on the query side.</p>
+
+<h2>What documentService() can do</h2>
+<p><code>documentService()</code> is more than an ingestor. It gives you separate, composable operations over documents and segments, so you can mix and match them for loading corpora, running clean-up jobs, re-chunking an existing dataset, enriching metadata, or shipping a full end-to-end ingestion pipeline.</p>
+
+<h2>Demo code &mdash; left panel (ingest)</h2>
+<pre><code>docService = <span class="fn">documentService</span>();
+
+docs = docService.<span class="fn">load</span>({ <span class="kw">path</span>: <span class="fn">expandPath</span>(<span class="str">"../Documents/"</span>), <span class="kw">pattern</span>: <span class="str">"*.txt"</span> });
+
+docs = docService.<span class="fn">transform</span>(docs, <span class="fn">function</span>(doc) {
+    doc.metadata.pipeline = <span class="str">"nightly-ingest"</span>;
+    <span class="kw">return</span> doc;
+});
+
+segments = docService.<span class="fn">split</span>(docs, { <span class="kw">chunkSize</span>: <span class="num">400</span>, <span class="kw">chunkOverlap</span>: <span class="num">60</span> });
+
+segments = docService.<span class="fn">transformSegments</span>(segments, <span class="fn">function</span>(doc, seg) {
+    seg.metadata.quality = <span class="fn">len</span>(seg.text) &gt; <span class="num">150</span> ? <span class="str">"high"</span> : <span class="str">"low"</span>;
+    <span class="kw">return</span> seg;
+});
+
+docService.<span class="fn">ingest</span>(segments, vs, { <span class="kw">batchSize</span>: <span class="num">50</span> });
+docService.<span class="fn">close</span>();</code></pre>
+
+<h2>Demo code &mdash; right panel (query)</h2>
+<pre><code><span class="cmt">// Same vs object, no ingestion here</span>
+rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : { <span class="kw">contentRetrievers</span>: [{ <span class="kw">vectorStore</span>: vs, <span class="kw">maxResults</span>: <span class="num">4</span> }] }
+    }
+});
+
+rag.<span class="fn">chat</span>(<span class="str">"What are the pricing plans?"</span>);</code></pre>
+
+<h2>All documentService() methods</h2>
+<table>
+<thead><tr><th>Method</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td><code>load()</code></td><td>Eagerly read files or folders into <code>Document</code> objects. Good for small to medium corpora.</td></tr>
+<tr><td><code>lazyLoad()</code></td><td>Stream documents from disk so you never hold the whole corpus in memory &mdash; use this for large datasets.</td></tr>
+<tr><td><code>transform()</code></td><td>Run a CFML UDF on each <code>Document</code> to clean text, add tags, attach metadata, or drop unwanted docs.</td></tr>
+<tr><td><code>split()</code></td><td>Chunk documents using a chosen splitter (<code>recursive</code>, <code>sentence</code>, <code>paragraph</code>, &hellip;) with a configurable chunk size and overlap.</td></tr>
+<tr><td><code>transformSegments()</code></td><td>Run a UDF on each chunk after splitting &mdash; add quality scores, source labels, or filter segments before they hit the embedding model.</td></tr>
+<tr><td><code>ingest()</code></td><td>Embed the segments and write them to a vector store, in configurable batch sizes.</td></tr>
+<tr><td><code>ingestAsync()</code></td><td>Same as <code>ingest()</code> but non-blocking &mdash; returns a handle so your request thread can move on while the job runs.</td></tr>
+<tr><td><code>close()</code></td><td>Release the service and any underlying resources when the job is done.</td></tr>
+</tbody>
+</table>
+
+<h2>Mix and match</h2>
+<p>You don't have to run every stage. Each method is independent, so you can:</p>
+<ul>
+<li>Use <code>load()</code> + <code>transform()</code> only, to clean and re-save a corpus.</li>
+<li>Use <code>split()</code> + <code>ingest()</code> on documents you already have in memory.</li>
+<li>Use <code>lazyLoad()</code> + <code>ingestAsync()</code> to ingest a large corpus in the background.</li>
+<li>Re-run <code>split()</code> with a different <code>chunkSize</code> to re-chunk an existing dataset.</li>
+</ul>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

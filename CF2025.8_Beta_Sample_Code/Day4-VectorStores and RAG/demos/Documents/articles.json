@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "title": "Getting Started with the ABC API",
+      "body": "The ABC REST API allows you to programmatically manage projects, tasks, and users. Authentication is done via API keys generated in your account settings. All endpoints return JSON responses. Rate limits are 100 requests per minute for Team plans and 500 for Business plans. Full API documentation is available at docs.abc.io/api."
+    },
+    {
+      "title": "Best Practices for Project Organization",
+      "body": "Keep projects focused on a single objective or product. Use labels and custom fields to categorize tasks instead of creating separate projects. Archive completed projects to keep your workspace clean. Set up project templates for recurring workflows to save time on setup."
+    },
+    {
+      "title": "Security and Compliance Overview",
+      "body": "ABC is SOC 2 Type II certified and GDPR compliant. All data is encrypted at rest using AES-256 and in transit using TLS 1.3. Enterprise customers can enable SSO via SAML 2.0, configure IP allowlists, and access detailed audit logs. Data residency options are available for US, EU, and Asia-Pacific regions."
+    },
+    {
+      "title": "Migrating from Jira to ABC",
+      "body": "ABC provides a built-in Jira migration tool that imports projects, issues, sprints, and attachments. Go to Workspace Settings, select Import, and connect your Jira instance. The migration preserves issue history, comments, and custom fields. Most teams complete the migration in under an hour."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Input guardrails</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Guardrails</div>
+  <h1>Input guardrails</h1>
+  <div class="subtitle">Inspect every user message before it touches the retrieval and the model.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>A custom CFC &mdash; <code>guardrails/SensitiveDataGuardrail.cfc</code> &mdash; is registered on the <code>inputGuardrails</code> list. For each message it returns <code>{ isPassed, failureMessage }</code>. When a guardrail blocks the request the service returns the failure message instead of calling the LLM.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : { <span class="kw">queryRouter</span>: { <span class="kw">contentRetrievers</span>: [{ <span class="kw">vectorStore</span>: vs }] } },
+    <span class="kw">inputGuardrails</span> : [ <span class="fn">createObject</span>(<span class="str">"component"</span>, <span class="str">"guardrails.SensitiveDataGuardrail"</span>) ]
+});</code></pre>
+
+<h3>SensitiveDataGuardrail.cfc</h3>
+<pre><code><span class="kw">component</span> {
+    <span class="kw">public</span> struct <span class="kw">function</span> <span class="fn">validate</span>(required string userMessage) {
+        <span class="cmt">// Block if the message looks like an SSN or a credit card</span>
+        <span class="kw">if</span> (<span class="fn">reFind</span>(<span class="str">"\b\d{3}-\d{2}-\d{4}\b"</span>, arguments.userMessage))
+            <span class="kw">return</span> { isPassed: <span class="kw">false</span>, failureMessage: <span class="str">"Sensitive data detected: ssn"</span> };
+        <span class="kw">return</span> { isPassed: <span class="kw">true</span> };
+    }
+}</code></pre>
+
+<h2>Panel flow</h2>
+<ul>
+  <li>Safe questions (&ldquo;How do I reset my password?&rdquo;) pass the guardrail and get a normal RAG answer.</li>
+  <li>Questions containing an SSN are blocked &mdash; the UI tags them with the red <em>BLOCKED BY GUARDRAIL</em> badge.</li>
+</ul>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Content injector</title>
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<a class="nav-back" href="javascript:window.close()">&larr; Close</a>
+<header>
+  <div class="eyebrow">Advanced RAG &middot; Injector</div>
+  <h1>Content injector</h1>
+  <div class="subtitle">Decide exactly how retrieved chunks and the user&rsquo;s question are assembled into the final prompt.</div>
+</header>
+
+<h2>What this panel does</h2>
+<p>The runner wires a <code>contentInjector</code> with a strict prompt template that forces the answer into a <code>SUMMARY / DETAILS / SOURCES</code> layout, and exposes the <code>file_name</code> metadata on every chunk so the model can cite its sources.</p>
+
+<h2>The code</h2>
+<pre><code>rag = <span class="fn">agent</span>({
+    <span class="kw">chatModel</span> : chatModel,
+    <span class="kw">retrievalAugmentor</span> : {
+        <span class="kw">queryRouter</span> : { <span class="kw">contentRetrievers</span>: [{ <span class="kw">vectorStore</span>: vs, <span class="kw">maxResults</span>: <span class="num">5</span> }] },
+        <span class="kw">contentInjector</span> : {
+            <span class="kw">promptTemplate</span> :
+                <span class="str">"You are a support assistant. Format every answer exactly as:"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"SUMMARY: &lt;one line&gt;"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"DETAILS: - &lt;fact&gt; - &lt;fact&gt;"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"SOURCES: &lt;file_name values&gt;"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"Context (tagged with file_name):"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"{{contents}}"</span> &amp; <span class="fn">chr</span>(<span class="num">10</span>) &amp;
+                <span class="str">"User question: {{userMessage}}"</span>,
+            <span class="kw">metadataKeys</span> : [<span class="str">"file_name"</span>]
+        }
+    }
+});</code></pre>
+
+<h2>Injector fields</h2>
+<table>
+<thead><tr><th>Field</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td><code>promptTemplate</code></td><td>Final prompt sent to the model. Use <code>{{contents}}</code> for retrieved chunks and <code>{{userMessage}}</code> for the question.</td></tr>
+<tr><td><code>metadataKeys</code></td><td>Metadata fields to surface alongside each chunk (e.g. <code>file_name</code>, <code>source</code>).</td></tr>
+</tbody>
+</table>
+
+<footer>RAG in ColdFusion &middot; Webinar demo</footer>
+</body>
+</html>
