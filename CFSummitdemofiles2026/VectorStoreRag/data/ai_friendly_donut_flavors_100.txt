@@ -1,0 +1,699 @@
+Name: Vector Jelly Donut
+Category: Filled
+Flavor: Raspberry jelly, powdered sugar, bright tart finish
+Ingredients: Flour, yeast, raspberry filling, powdered sugar, vanilla
+Available: Daily
+Notes: Best matched with searches about similarity, embeddings, and sweet red fruit.
+
+Name: Gradient Glaze Ring
+Category: Yeast
+Flavor: Vanilla glaze with subtle caramel fade
+Ingredients: Flour, yeast, milk, eggs, vanilla glaze, caramel drizzle
+Available: Weekdays
+Notes: A smooth optimizer favorite that gets better with every bite-sized step.
+
+Name: Neural Nutmeg Old Fashioned
+Category: Old Fashioned
+Flavor: Brown butter, nutmeg, sour cream tang
+Ingredients: Flour, sour cream, nutmeg, eggs, brown butter glaze
+Available: Mornings only
+Notes: Dense, structured, and excellent for queries about classic AI comfort food.
+
+Name: Prompt Maple Long John
+Category: Long John
+Flavor: Maple icing, vanilla cream, toasted pecan
+Ingredients: Flour, yeast, maple icing, vanilla cream, pecans
+Available: Daily
+Notes: Responds well to clear instructions and pairs nicely with strong coffee.
+
+Name: Token Crunch Cruller
+Category: Cruller
+Flavor: Honey glaze, cinnamon crunch, light eggy pastry
+Ingredients: Choux dough, eggs, honey glaze, cinnamon sugar crisps
+Available: While tokens last
+Notes: Small enough for a snack, expensive enough to make you count every bite.
+
+Name: Hallucination Huckleberry Donut
+Category: Filled
+Flavor: Huckleberry jam, lemon glaze, mystery berry sparkle
+Ingredients: Flour, yeast, huckleberry jam, lemon glaze, sugar crystals
+Available: Unreliably
+Notes: Staff insists it was on the menu yesterday, even when inventory disagrees.
+
+Name: Fine-Tuned Fritter
+Category: Fritter
+Flavor: Apple cinnamon, caramel, toasted oat crumble
+Ingredients: Apples, flour, cinnamon, caramel glaze, oats
+Available: Weekends
+Notes: Made for repeat customers with very specific pastry preferences.
+
+Name: Embedding Espresso Cake Donut
+Category: Cake
+Flavor: Espresso, dark chocolate, brown sugar
+Ingredients: Flour, cocoa, espresso, eggs, brown sugar glaze
+Available: Daily
+Notes: Good for semantic search demos around coffee, chocolate, and productivity.
+
+Name: Cosine Custard Boston Cream
+Category: Filled
+Flavor: Vanilla custard, chocolate glaze, close-match sweetness
+Ingredients: Flour, custard, chocolate icing, vanilla, sugar
+Available: Weekdays
+Notes: Returns best when the user asks for something creamy and semantically adjacent.
+
+Name: Transformer Toffee Twist
+Category: Twisted
+Flavor: Butter toffee, vanilla glaze, cinnamon ribbon
+Ingredients: Flour, yeast, butter toffee, cinnamon, vanilla glaze
+Available: Afternoons
+Notes: Attention heads strongly favor the crunchy toffee bits.
+
+Name: Context Window Cinnamon Roll Donut
+Category: Cinnamon Roll
+Flavor: Cinnamon sugar, cream cheese glaze, warm spice
+Ingredients: Flour, yeast, cinnamon, brown sugar, cream cheese icing
+Available: Mornings only
+Notes: Big, spiraled, and best consumed before the conversation gets too long.
+
+Name: Backprop Blueberry Cake Donut
+Category: Cake
+Flavor: Blueberry, lemon sugar, vanilla crumb
+Ingredients: Flour, blueberries, lemon zest, eggs, vanilla glaze
+Available: Daily
+Notes: Mistakes were made, gradients were adjusted, breakfast improved.
+
+Name: Model Merge Marble Donut
+Category: Cake
+Flavor: Chocolate vanilla marble, almond glaze
+Ingredients: Flour, cocoa, vanilla, almond extract, eggs
+Available: Rotating special
+Notes: Two pastry checkpoints combined into one surprisingly coherent dessert.
+
+Name: Inference Icing Ring
+Category: Yeast
+Flavor: Simple vanilla glaze, warm bakery aroma
+Ingredients: Flour, yeast, milk, eggs, vanilla icing
+Available: Daily
+Notes: A fast-response donut optimized for low latency cravings.
+
+Name: Retrieval Raspberry Cruller
+Category: Cruller
+Flavor: Raspberry glaze, honey, airy egg pastry
+Ingredients: Choux dough, eggs, raspberry glaze, honey
+Available: Weekends
+Notes: Pulls the right flavor from memory without overstuffing the prompt.
+
+Name: Augmented Apple Fritter
+Category: Fritter
+Flavor: Apple chunks, cinnamon glaze, salted caramel
+Ingredients: Apples, flour, cinnamon, caramel, sea salt
+Available: Daily
+Notes: Classic apple fritter enhanced with extra context and sticky evidence.
+
+Name: Chunked Chocolate Old Fashioned
+Category: Old Fashioned
+Flavor: Dark chocolate, cocoa nibs, sour cream crumb
+Ingredients: Flour, cocoa, sour cream, cocoa nibs, chocolate glaze
+Available: Weekdays
+Notes: Breaks cleanly into satisfying pieces for RAG-friendly sampling.
+
+Name: Semantic Strawberry Sprinkle
+Category: Yeast
+Flavor: Strawberry glaze, rainbow sprinkles, vanilla base
+Ingredients: Flour, yeast, strawberry icing, sprinkles, vanilla
+Available: Daily
+Notes: Great for queries involving cheerful flavors, pink glaze, and dessert joy.
+
+Name: Temperature Top-P Cinnamon Donut
+Category: Cake
+Flavor: Cinnamon, brown sugar, unpredictable spice
+Ingredients: Flour, cinnamon, brown sugar, eggs, vanilla
+Available: Late night
+Notes: A little more random than expected, but usually in a charming way.
+
+Name: Zero-Shot Zest Donut
+Category: Yeast
+Flavor: Lemon lime glaze, bright citrus, powdered sugar
+Ingredients: Flour, yeast, lemon zest, lime glaze, powdered sugar
+Available: Daily
+Notes: Requires no examples to understand that citrus donuts are underrated.
+
+Name: Few-Shot Fig Filled Donut
+Category: Filled
+Flavor: Fig jam, honey, orange blossom glaze
+Ingredients: Flour, yeast, fig jam, honey, orange blossom water
+Available: Friday only
+Notes: Works best after being shown two or three previous pastry examples.
+
+Name: Chain-of-Thought Churro Donut
+Category: Churro
+Flavor: Cinnamon sugar, dulce de leche, fried dough
+Ingredients: Flour, eggs, cinnamon sugar, dulce de leche
+Available: Weekends
+Notes: The reasoning is hidden, but the cinnamon trail is obvious.
+
+Name: Guardrail Guava Filled Donut
+Category: Filled
+Flavor: Guava jam, cream cheese glaze, tropical sweetness
+Ingredients: Flour, yeast, guava paste, cream cheese icing
+Available: Daily
+Notes: Keeps adventurous flavors safely inside the pastry boundary.
+
+Name: Jailbreak Jalapeño Jelly Donut
+Category: Filled
+Flavor: Pepper jelly, lime glaze, sweet heat
+Ingredients: Flour, yeast, jalapeño jelly, lime glaze, sugar
+Available: Limited batch
+Notes: Spicy, risky, and watched very closely by the bakery policy team.
+
+Name: Alignment Almond Ring
+Category: Yeast
+Flavor: Almond glaze, vanilla, toasted sliced almonds
+Ingredients: Flour, yeast, almond extract, vanilla glaze, almonds
+Available: Daily
+Notes: Friendly, helpful, and unlikely to recommend donuts for dinner unless asked.
+
+Name: Dataset Dulce Donut
+Category: Filled
+Flavor: Dulce de leche, cinnamon sugar, vanilla cream
+Ingredients: Flour, yeast, dulce de leche, cinnamon, vanilla cream
+Available: Weekdays
+Notes: Trained on many examples of caramel being the correct answer.
+
+Name: Synthetic Sprinkle Cake Donut
+Category: Cake
+Flavor: Birthday cake, vanilla frosting, confetti sprinkles
+Ingredients: Flour, eggs, vanilla, sugar, rainbow sprinkles
+Available: Daily
+Notes: Artificially cheerful, but still useful for demo data and office morale.
+
+Name: Benchmark Brown Butter Donut
+Category: Old Fashioned
+Flavor: Brown butter glaze, toasted sugar, nutmeg
+Ingredients: Flour, sour cream, brown butter, nutmeg, sugar
+Available: Mornings only
+Notes: Frequently used to compare bakery models under controlled conditions.
+
+Name: Latency Lemon Drop
+Category: Donut Hole
+Flavor: Lemon glaze, powdered sugar, quick citrus pop
+Ingredients: Flour, eggs, lemon zest, sugar, vanilla
+Available: Daily
+Notes: Tiny, fast, and gone before the response finishes streaming.
+
+Name: Streaming Strawberry Long John
+Category: Long John
+Flavor: Strawberry cream, vanilla icing, graham crumble
+Ingredients: Flour, yeast, strawberry cream, vanilla icing, graham crumbs
+Available: Afternoons
+Notes: Best served progressively, one sweet bite at a time.
+
+Name: Agentic Apple Cider Donut
+Category: Cake
+Flavor: Apple cider, cinnamon sugar, nutmeg
+Ingredients: Apple cider, flour, cinnamon, nutmeg, eggs
+Available: Seasonal
+Notes: Takes initiative, finds coffee, and may schedule its own second serving.
+
+Name: Tool-Call Turtle Donut
+Category: Yeast
+Flavor: Caramel, chocolate, pecan, vanilla glaze
+Ingredients: Flour, yeast, caramel, chocolate icing, pecans
+Available: Weekends
+Notes: Excellent when the pastry needs to call external caramel services.
+
+Name: RAG Rocky Road Donut
+Category: Cake
+Flavor: Chocolate, marshmallow, almond, factual crunch
+Ingredients: Flour, cocoa, marshmallows, almonds, chocolate glaze
+Available: Daily
+Notes: Grounded in nuts, marshmallows, and retrieved bakery documentation.
+
+Name: Cosmic Cosine Coconut Donut
+Category: Yeast
+Flavor: Coconut glaze, toasted coconut, vanilla
+Ingredients: Flour, yeast, coconut milk, vanilla glaze, toasted coconut
+Available: Rotating special
+Notes: Measures flavor closeness across the pastry universe.
+
+Name: Overfit Orange Cream Donut
+Category: Filled
+Flavor: Orange cream, white chocolate glaze, citrus zest
+Ingredients: Flour, yeast, orange cream, white chocolate, orange zest
+Available: Weekdays
+Notes: Perfect on training samples, weirdly specific with new customers.
+
+Name: Regularized Raspberry Ring
+Category: Yeast
+Flavor: Raspberry glaze, vanilla crumb, balanced sweetness
+Ingredients: Flour, yeast, raspberry icing, vanilla, sugar
+Available: Daily
+Notes: Prevents dessert decisions from becoming too wildly complicated.
+
+Name: Dropout Dark Chocolate Donut
+Category: Cake
+Flavor: Dark chocolate, espresso, missing sprinkle pattern
+Ingredients: Flour, cocoa, espresso, eggs, chocolate glaze
+Available: Late night
+Notes: Some toppings are intentionally absent for better generalization.
+
+Name: Activation Maple Bacon Donut
+Category: Yeast
+Flavor: Maple glaze, smoky bacon, salty sweet snap
+Ingredients: Flour, yeast, maple icing, bacon, brown sugar
+Available: Weekends
+Notes: Wakes up the whole network, especially around breakfast.
+
+Name: Sigmoid Sugar Ring
+Category: Yeast
+Flavor: Plain sugar, vanilla, gentle sweetness curve
+Ingredients: Flour, yeast, sugar, milk, eggs, vanilla
+Available: Daily
+Notes: Starts subtle, saturates eventually, and refuses to be too dramatic.
+
+Name: ReLU Raspberry Lemonade Donut
+Category: Cake
+Flavor: Raspberry lemonade glaze, bright sweet-tart finish
+Ingredients: Flour, raspberries, lemon juice, eggs, sugar
+Available: Afternoons
+Notes: Zero bitterness, positive flavor output only.
+
+Name: Softmax S'mores Donut
+Category: Filled
+Flavor: Marshmallow cream, chocolate, graham cracker
+Ingredients: Flour, yeast, marshmallow cream, chocolate icing, graham crumbs
+Available: Late night
+Notes: All toppings compete, but marshmallow usually wins.
+
+Name: Attention Apple Pie Donut
+Category: Filled
+Flavor: Apple pie filling, cinnamon glaze, buttery crumb
+Ingredients: Flour, yeast, apple filling, cinnamon, streusel
+Available: Daily
+Notes: Focuses heavily on apple chunks and ignores weaker pastry signals.
+
+Name: Multimodal Mocha Donut
+Category: Cake
+Flavor: Mocha glaze, cocoa crumb, espresso drizzle
+Ingredients: Flour, cocoa, espresso, chocolate glaze, milk
+Available: Weekdays
+Notes: Works with taste, smell, image prompts, and coffee-based reasoning.
+
+Name: Vision Vanilla Bean Donut
+Category: Yeast
+Flavor: Vanilla bean glaze, sugar pearl sparkle
+Ingredients: Flour, yeast, vanilla bean, sugar pearls, milk
+Available: Daily
+Notes: Recognizable at a glance and unusually photogenic.
+
+Name: Speech-to-Sprinkle Donut
+Category: Cake
+Flavor: Vanilla birthday cake, rainbow sprinkles, buttercream
+Ingredients: Flour, eggs, vanilla, buttercream, sprinkles
+Available: Daily
+Notes: Turns verbal cravings into decorated pastry output.
+
+Name: Diffusion Dragon Fruit Donut
+Category: Yeast
+Flavor: Dragon fruit glaze, lime, tropical berry notes
+Ingredients: Flour, yeast, dragon fruit puree, lime glaze, sugar
+Available: Rotating special
+Notes: Generated from noise, vibes, and one very confident pink glaze.
+
+Name: Upscaled Ube Mochi Donut
+Category: Mochi
+Flavor: Ube, vanilla, chewy rice flour texture
+Ingredients: Rice flour, ube, coconut milk, sugar, vanilla glaze
+Available: Weekends
+Notes: Higher resolution chewiness with a purple pastry glow-up.
+
+Name: LoRA Lemon Lavender Donut
+Category: Cake
+Flavor: Lemon, lavender, vanilla icing
+Ingredients: Flour, lemon zest, lavender, eggs, vanilla icing
+Available: Seasonal
+Notes: A lightweight flavor adaptation for springtime bakery experiments.
+
+Name: Checkpoint Cherry Cheesecake Donut
+Category: Filled
+Flavor: Cherry jam, cheesecake cream, graham crumble
+Ingredients: Flour, yeast, cherry filling, cream cheese, graham crumbs
+Available: Friday only
+Notes: Saved at the exact moment dessert started working.
+
+Name: Quantized Quince Donut
+Category: Filled
+Flavor: Quince jam, honey glaze, warm spice
+Ingredients: Flour, yeast, quince preserves, honey, cinnamon
+Available: Limited batch
+Notes: Smaller footprint, slightly crunchy edges, still surprisingly useful.
+
+Name: Distilled Dark Roast Donut
+Category: Cake
+Flavor: Dark roast coffee, cocoa, vanilla glaze
+Ingredients: Flour, espresso, cocoa, eggs, vanilla glaze
+Available: Mornings only
+Notes: Condenses a full breakfast meeting into one efficient pastry.
+
+Name: Mixture-of-Experts Mochi Ring
+Category: Mochi
+Flavor: Matcha, black sesame, strawberry, vanilla
+Ingredients: Rice flour, matcha, black sesame, strawberry glaze, vanilla
+Available: Rotating special
+Notes: Different topping experts activate depending on the customer query.
+
+Name: Router Rum Raisin Donut
+Category: Filled
+Flavor: Rum raisin cream, vanilla glaze, cinnamon
+Ingredients: Flour, yeast, raisins, rum flavoring, vanilla cream
+Available: Afternoons
+Notes: Directs sophisticated cravings to the correct dessert specialist.
+
+Name: Memory Matcha Old Fashioned
+Category: Old Fashioned
+Flavor: Matcha glaze, toasted rice, sour cream crumb
+Ingredients: Flour, sour cream, matcha, toasted rice, eggs
+Available: Weekdays
+Notes: Remembers your last green tea craving without making it weird.
+
+Name: Cache Hit Caramel Ring
+Category: Yeast
+Flavor: Caramel glaze, vanilla, flaky sea salt
+Ingredients: Flour, yeast, caramel, sea salt, vanilla
+Available: Daily
+Notes: Served instantly because someone already asked for caramel.
+
+Name: Cache Miss Cranberry Donut
+Category: Cake
+Flavor: Cranberry orange, vanilla glaze, tart finish
+Ingredients: Flour, cranberries, orange zest, eggs, vanilla glaze
+Available: Seasonal
+Notes: Requires a fresh bakery lookup, but the result is worth it.
+
+Name: Vector Store Vanilla Custard
+Category: Filled
+Flavor: Vanilla custard, powdered sugar, buttery dough
+Ingredients: Flour, yeast, custard, powdered sugar, vanilla
+Available: Daily
+Notes: Stores creamy facts for later retrieval.
+
+Name: Pinecone Pistachio Donut
+Category: Cake
+Flavor: Pistachio, honey, vanilla glaze
+Ingredients: Flour, pistachios, honey, eggs, vanilla glaze
+Available: Weekends
+Notes: Crunchy green option for vector database enthusiasts.
+
+Name: Milvus Maple Walnut Fritter
+Category: Fritter
+Flavor: Maple, walnut, brown sugar, cinnamon
+Ingredients: Flour, walnuts, maple glaze, cinnamon, brown sugar
+Available: Limited batch
+Notes: Built for large-scale pastry retrieval and chunky texture.
+
+Name: Qdrant Quark Cheese Donut
+Category: Filled
+Flavor: Sweet cheese filling, lemon glaze, vanilla
+Ingredients: Flour, yeast, quark cheese, lemon zest, vanilla glaze
+Available: Weekdays
+Notes: A tangy filled option for highly indexed cravings.
+
+Name: Chroma Cherry Sprinkle Donut
+Category: Yeast
+Flavor: Cherry glaze, rainbow sprinkles, almond hint
+Ingredients: Flour, yeast, cherry icing, sprinkles, almond extract
+Available: Daily
+Notes: Colorful, searchable, and aggressively cheerful.
+
+Name: Graph Glaze Donut
+Category: Yeast
+Flavor: Honey vanilla glaze with connected caramel lines
+Ingredients: Flour, yeast, honey, vanilla, caramel drizzle
+Available: Daily
+Notes: Every bite is a node connected by sticky pastry edges.
+
+Name: Knowledge Graph Kruller
+Category: Cruller
+Flavor: Vanilla glaze, orange zest, honey
+Ingredients: Choux dough, eggs, vanilla glaze, orange zest, honey
+Available: Weekdays
+Notes: Great when relationships between donuts matter as much as the donuts.
+
+Name: Ontology Orange Old Fashioned
+Category: Old Fashioned
+Flavor: Orange glaze, nutmeg, brown sugar
+Ingredients: Flour, sour cream, orange zest, nutmeg, brown sugar
+Available: Mornings only
+Notes: Carefully classifies citrus cravings into the correct pastry universe.
+
+Name: Schema Strawberry Shortcake Donut
+Category: Filled
+Flavor: Strawberry cream, vanilla cake crumb, whipped glaze
+Ingredients: Flour, yeast, strawberry cream, vanilla crumb, whipped icing
+Available: Afternoons
+Notes: Strongly structured for clean parsing and happy dessert validation.
+
+Name: JSON Jelly Donut
+Category: Filled
+Flavor: Mixed berry jelly, sugar glaze, vanilla dough
+Ingredients: Flour, yeast, mixed berry jam, sugar glaze, vanilla
+Available: Daily
+Notes: Curly braces not included, but the filling is neatly serialized.
+
+Name: YAML Yuzu Donut
+Category: Cake
+Flavor: Yuzu glaze, vanilla crumb, light citrus
+Ingredients: Flour, yuzu juice, eggs, vanilla, sugar
+Available: Weekdays
+Notes: Whitespace-sensitive, citrus-forward, and surprisingly readable.
+
+Name: Markdown Mocha Long John
+Category: Long John
+Flavor: Mocha cream, chocolate glaze, cocoa dust
+Ingredients: Flour, yeast, mocha cream, chocolate icing, cocoa
+Available: Daily
+Notes: Formats nicely in docs and tastes better than a stale README.
+
+Name: CLI Cinnamon Sugar Donut
+Category: Cake
+Flavor: Cinnamon sugar, vanilla, warm fried dough
+Ingredients: Flour, cinnamon, sugar, eggs, vanilla
+Available: Late night
+Notes: Best eaten from a terminal window after a successful build.
+
+Name: Terminal Toasted Coconut Ring
+Category: Yeast
+Flavor: Toasted coconut, vanilla glaze, brown sugar
+Ingredients: Flour, yeast, coconut flakes, vanilla glaze, brown sugar
+Available: Daily
+Notes: Pairs well with ASCII menus and extremely questionable shell aliases.
+
+Name: ASCII Almond Donut
+Category: Cake
+Flavor: Almond cake, powdered sugar, vanilla glaze
+Ingredients: Flour, almond flour, eggs, vanilla, powdered sugar
+Available: Daily
+Notes: Looks great in monospace and still tastes round.
+
+Name: Binary Boston Cream
+Category: Filled
+Flavor: Vanilla custard, chocolate glaze, two-state sweetness
+Ingredients: Flour, custard, chocolate icing, vanilla, sugar
+Available: Weekdays
+Notes: One bite for zero, one bite for one, repeat until compiled.
+
+Name: Boolean Blueberry Donut
+Category: Cake
+Flavor: Blueberry glaze, vanilla cake, lemon sugar
+Ingredients: Flour, blueberries, lemon zest, eggs, vanilla
+Available: Daily
+Notes: Returns true when asked if breakfast should include donuts.
+
+Name: Null Pointer Nutella Donut
+Category: Filled
+Flavor: Hazelnut chocolate filling, cocoa glaze, powdered sugar
+Ingredients: Flour, yeast, hazelnut spread, cocoa, powdered sugar
+Available: Limited batch
+Notes: Dangerously delicious unless the filling reference is missing.
+
+Name: Exception Earl Grey Donut
+Category: Cake
+Flavor: Earl Grey tea, lemon glaze, vanilla crumb
+Ingredients: Flour, Earl Grey tea, lemon zest, eggs, vanilla
+Available: Afternoons
+Notes: Thrown when coffee is unavailable and tea must save the build.
+
+Name: Stack Trace Strawberry Donut
+Category: Filled
+Flavor: Strawberry jam, vanilla glaze, powdered sugar
+Ingredients: Flour, yeast, strawberry jam, vanilla glaze, sugar
+Available: Late night
+Notes: Leaves a clear trail of crumbs back to the original craving.
+
+Name: Recursive Raspberry Ripple
+Category: Twisted
+Flavor: Raspberry glaze, vanilla ripple, sugar crunch
+Ingredients: Flour, yeast, raspberry icing, vanilla, sugar crystals
+Available: Weekends
+Notes: Contains a smaller donut, which contains a smaller donut, probably.
+
+Name: Forked Process French Cruller
+Category: Cruller
+Flavor: Vanilla honey glaze, eggy pastry, light crunch
+Ingredients: Choux dough, eggs, vanilla glaze, honey
+Available: Mornings only
+Notes: Best shared across parallel breakfast threads.
+
+Name: Parallel Pistachio Twist
+Category: Twisted
+Flavor: Pistachio cream, honey glaze, cardamom
+Ingredients: Flour, yeast, pistachio cream, honey, cardamom
+Available: Weekdays
+Notes: Two strands of dough working at the same time for throughput gains.
+
+Name: Thread Pool Thai Tea Donut
+Category: Filled
+Flavor: Thai tea cream, condensed milk glaze, vanilla
+Ingredients: Flour, yeast, Thai tea custard, condensed milk, vanilla
+Available: Afternoons
+Notes: Handles multiple cravings without spawning chaos.
+
+Name: Async Apricot Donut
+Category: Filled
+Flavor: Apricot jam, almond glaze, light citrus
+Ingredients: Flour, yeast, apricot jam, almond icing, lemon zest
+Available: Daily
+Notes: Your pastry arrives later, but the page remains responsive.
+
+Name: Promise Peach Donut
+Category: Filled
+Flavor: Peach preserves, vanilla glaze, cinnamon
+Ingredients: Flour, yeast, peach preserves, vanilla glaze, cinnamon
+Available: Weekends
+Notes: Eventually resolves into dessert, unless rejected by inventory.
+
+Name: Webhook White Chocolate Donut
+Category: Cake
+Flavor: White chocolate glaze, raspberry drizzle, vanilla
+Ingredients: Flour, eggs, white chocolate, raspberries, vanilla
+Available: Rotating special
+Notes: Alerts the kitchen whenever a new craving event fires.
+
+Name: API Key Lime Donut
+Category: Filled
+Flavor: Key lime cream, graham crumb, vanilla glaze
+Ingredients: Flour, yeast, key lime custard, graham crumbs, vanilla icing
+Available: Daily
+Notes: Keep refrigerated, keep configured, and never commit to source control.
+
+Name: Environment Variable Éclair Donut
+Category: Long John
+Flavor: Chocolate glaze, vanilla cream, subtle espresso
+Ingredients: Flour, yeast, vanilla cream, chocolate icing, espresso
+Available: Weekdays
+Notes: Only works after the application notices the configuration exists.
+
+Name: Hot Reload Honey Dip
+Category: Yeast
+Flavor: Honey glaze, vanilla, warm fried dough
+Ingredients: Flour, yeast, honey, milk, eggs
+Available: Daily
+Notes: Refreshes beautifully after a small pastry patch.
+
+Name: Dev Server Dulce Ring
+Category: Yeast
+Flavor: Dulce glaze, cinnamon, vanilla
+Ingredients: Flour, yeast, dulce de leche, cinnamon, vanilla
+Available: Late night
+Notes: Works locally, probably, until someone asks about production.
+
+Name: Production Powdered Donut
+Category: Cake
+Flavor: Powdered sugar, vanilla, simple cake crumb
+Ingredients: Flour, eggs, vanilla, powdered sugar, milk
+Available: Daily
+Notes: Looks plain because all the chaos is hidden in the deployment logs.
+
+Name: Observability Oreo Donut
+Category: Cake
+Flavor: Cookies and cream, chocolate crumb, vanilla icing
+Ingredients: Flour, cocoa, crushed chocolate cookies, vanilla icing, eggs
+Available: Weekdays
+Notes: Full of useful crumbs for tracing where the flavor went.
+
+Name: Telemetry Tiramisu Donut
+Category: Filled
+Flavor: Mascarpone cream, espresso, cocoa dust
+Ingredients: Flour, yeast, mascarpone cream, espresso, cocoa
+Available: Afternoons
+Notes: Reports caffeine levels, bite latency, and customer satisfaction.
+
+Name: Logfile Lemon Poppy Donut
+Category: Cake
+Flavor: Lemon glaze, poppy seed, vanilla crumb
+Ingredients: Flour, lemon zest, poppy seeds, eggs, vanilla
+Available: Mornings only
+Notes: Tiny black dots provide helpful diagnostic texture.
+
+Name: Debug Dark Cherry Donut
+Category: Filled
+Flavor: Dark cherry jam, chocolate glaze, almond
+Ingredients: Flour, yeast, dark cherry jam, chocolate icing, almond extract
+Available: Late night
+Notes: Best consumed while staring at a browser console in betrayal.
+
+Name: Patch Note Peanut Butter Donut
+Category: Cake
+Flavor: Peanut butter glaze, chocolate chips, vanilla
+Ingredients: Flour, peanut butter, chocolate chips, eggs, vanilla
+Available: Friday only
+Notes: Minor fixes, improved chewiness, known issue with crumbs.
+
+Name: Release Candidate Red Velvet
+Category: Cake
+Flavor: Red velvet, cream cheese glaze, cocoa
+Ingredients: Flour, cocoa, buttermilk, cream cheese icing, eggs
+Available: Limited batch
+Notes: Almost ready for general availability, pending final taste tests.
+
+Name: Beta Banana Cream Donut
+Category: Filled
+Flavor: Banana cream, vanilla glaze, wafer crumble
+Ingredients: Flour, yeast, banana cream, vanilla icing, wafer crumbs
+Available: Beta menu
+Notes: Experimental but friendly, with feedback collected after every bite.
+
+Name: Alpha Almond Joy Donut
+Category: Cake
+Flavor: Almond, coconut, chocolate glaze
+Ingredients: Flour, almond flour, coconut, chocolate icing, eggs
+Available: Limited batch
+Notes: Very early, very enthusiastic, and not entirely stable.
+
+Name: Roadmap Rocky Donut
+Category: Cake
+Flavor: Chocolate, marshmallow, walnut, caramel
+Ingredients: Flour, cocoa, marshmallows, walnuts, caramel
+Available: Rotating special
+Notes: Promised for next quarter unless the bakery priorities shift.
+
+Name: Sprint Planning Sprinkles Donut
+Category: Yeast
+Flavor: Vanilla glaze, rainbow sprinkles, sugar
+Ingredients: Flour, yeast, vanilla glaze, rainbow sprinkles, milk
+Available: Mondays
+Notes: Estimated at two points, somehow took all morning.
+
+Name: Kanban Key Lime Cruller
+Category: Cruller
+Flavor: Key lime glaze, vanilla pastry, powdered sugar
+Ingredients: Choux dough, eggs, key lime glaze, powdered sugar
+Available: Weekdays
+Notes: Moves from To Do to Eating to Done with minimal ceremony.
+
+Name: Standup Strawberry Cake Donut
+Category: Cake
+Flavor: Strawberry cake, vanilla glaze, sprinkles
+Ingredients: Flour, strawberries, eggs, vanilla icing, sprinkles
+Available: Mornings only
+Notes: Takes fifteen minutes unless someone mentions flaky tests.

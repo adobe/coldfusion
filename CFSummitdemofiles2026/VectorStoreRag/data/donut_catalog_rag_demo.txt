@@ -1,0 +1,3772 @@
+Name: Maple Bar
+Category: Long John
+Flavor: maple icing on a soft rectangular donut
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple icing
+Available: First Friday menu
+Notes: Popular with first-time visitors. Works well as a breakfast treat.
+
+Name: Pumpkin Spice Cruller
+Category: Cruller
+Flavor: airy cruller with pumpkin spice glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, pumpkin spice glaze
+Available: Tuesdays and Thursdays
+Notes: Good candidate for sampler boxes. Best served warm.
+
+Name: Salted Caramel Twist
+Category: Yeast
+Flavor: caramel glaze with a light salt finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, salted caramel glaze
+Available: Limited batch
+Notes: Great with black tea.
+
+Name: Lemon Poppyseed Cake Donut
+Category: Cake
+Flavor: lemon glaze with poppyseed crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon glaze, poppyseeds
+Available: Weekdays
+Notes: Simple enough for classic donut fans.
+
+Name: Apple Pie Long John
+Category: Long John
+Flavor: apple pie filling with caramel icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple filling, caramel icing
+Available: Coffee bar menu
+Notes: Popular with first-time visitors.
+
+Name: Baked Malted Chocolate Donut
+Category: Baked
+Flavor: malted cocoa glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, malted milk powder, chocolate glaze
+Available: Seasonal winter
+Notes: Good pairing for espresso drinks.
+
+Name: Maple Iced Sugar-Raised Donut
+Category: Yeast
+Flavor: maple glaze with caramel warmth
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple glaze
+Available: Daily
+Notes: Popular with first-time visitors.
+
+Name: Carrot Cake Sugar-Raised Donut
+Category: Yeast
+Flavor: spiced carrot flavor with cream cheese glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, carrot, cinnamon, cream cheese glaze
+Available: Pop-up menu
+Notes: Good candidate for sampler boxes.
+
+Name: Vegan Agave Dip Donut
+Category: Vegan
+Flavor: agave glaze with a soft floral sweetness
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, agave glaze
+Available: Daily
+Notes: Works well as a specialty pre-order item.
+
+Name: Almond Croissant Donut Holes
+Category: Donut Hole
+Flavor: almond cream flavor with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, almond cream, powdered sugar
+Available: Rotating special
+Notes: Contains tree nuts.
+
+Name: Baked Sweet Corn Butter Donut
+Category: Baked
+Flavor: sweet corn crumb with butter glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cornmeal, butter glaze
+Available: Morning only
+Notes: Pairs well with cold brew. Kid-friendly option.
+
+Name: Chocolate Mint Mochi Donut
+Category: Mochi
+Flavor: chocolate glaze with cool mint finish
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, chocolate glaze, mint extract
+Available: Saturday mornings
+Notes: A colorful option for display cases.
+
+Name: Chocolate Frosted Ring Donut
+Category: Yeast
+Flavor: rich cocoa icing with a soft sweet finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate icing
+Available: Saturday mornings
+Notes: Soft texture with a clean finish. Good for office boxes.
+
+Name: Chocolate Sprinkle Mochi Donut
+Category: Mochi
+Flavor: chocolate icing with sprinkle crunch
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, chocolate icing, sprinkles
+Available: Holiday menu
+Notes: Light glaze, balanced sweetness.
+
+Name: Chocolate Orange Sugar-Raised Donut
+Category: Yeast
+Flavor: cocoa glaze with orange zest
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate glaze, orange zest
+Available: Weekends
+Notes: Distinct flavor profile for search filtering.
+
+Name: Almond Cream Long John
+Category: Long John
+Flavor: almond cream filling with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, almond cream, powdered sugar
+Available: Daily
+Notes: Rich filling makes it a heavier option. Contains tree nuts.
+
+Name: Maple Bacon Custard Stuffed Donut
+Category: Filled
+Flavor: maple custard with bacon crumble
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple custard, bacon crumble
+Available: Morning only
+Notes: Can be messy in the best way. Savory-sweet profile; not vegetarian.
+
+Name: Coconut Guava Fritter
+Category: Fritter
+Flavor: guava pieces with coconut glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, guava, coconut glaze
+Available: By pre-order
+Notes: Simple enough for classic donut fans.
+
+Name: Coconut Cream Mochi Donut
+Category: Mochi
+Flavor: coconut sweetness with creamy glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, coconut cream, coconut glaze
+Available: Afternoons
+Notes: Good for office boxes.
+
+Name: Passion Fruit Cake Donut
+Category: Cake
+Flavor: bright tropical passion fruit glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, passion fruit glaze
+Available: Seasonal fall
+Notes: Good for office boxes. Often sells out before noon.
+
+Name: Blueberry Lemon Mochi Donut
+Category: Mochi
+Flavor: blueberry glaze with lemon brightness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, blueberry glaze, lemon zest
+Available: Afternoons
+Notes: Often sells out before noon.
+
+Name: Raspberry Iced Old Fashioned
+Category: Old Fashioned
+Flavor: raspberry glaze with a sharp berry finish
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, raspberry glaze
+Available: Saturday mornings
+Notes: Light glaze, balanced sweetness.
+
+Name: Peach Cobbler Cloud Donut
+Category: Yeast
+Flavor: peach glaze with cinnamon crumb topping
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, peach pieces, cinnamon crumb
+Available: Catering only
+Notes: Pairs well with coffee.
+
+Name: Gluten-Free Carrot Cake Donut
+Category: Gluten-Free
+Flavor: spiced carrot flavor with cream cheese glaze
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, carrot, cinnamon, cream cheese glaze
+Available: First Friday menu
+Notes: Works well as a specialty pre-order item.
+
+Name: Gluten-Free Pistachio Rose Donut
+Category: Gluten-Free
+Flavor: pistachio glaze with a gentle rose finish
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, pistachio glaze, rose water
+Available: Tuesdays and Thursdays
+Notes: Good option for customers asking about dietary alternatives. Contains tree nuts.
+
+Name: Blueberry Basil Donut Holes
+Category: Donut Hole
+Flavor: blueberry glaze with fresh basil aroma
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blueberry glaze, basil
+Available: Weekends
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Blueberry Lemon Cake Donut
+Category: Cake
+Flavor: blueberry glaze with lemon brightness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, blueberry glaze, lemon zest
+Available: First Friday menu
+Notes: Soft texture with a clean finish.
+
+Name: Vegan Dark Chocolate Sea Salt Donut
+Category: Vegan
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, dark chocolate glaze, sea salt
+Available: Pop-up menu
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Vegan Black Sesame Donut
+Category: Vegan
+Flavor: nutty black sesame glaze
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, black sesame paste, sesame glaze
+Available: Seasonal summer
+Notes: Label clearly in mixed boxes. Customer favorite on busy mornings.
+
+Name: Dark Chocolate Sea Salt Mochi Donut
+Category: Mochi
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, dark chocolate glaze, sea salt
+Available: Holiday menu
+Notes: Light glaze, balanced sweetness.
+
+Name: Vegan Coconut Lime Donut
+Category: Vegan
+Flavor: coconut glaze with lime brightness
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, coconut glaze, lime zest
+Available: Limited batch
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Honey Chamomile Cruller
+Category: Cruller
+Flavor: airy cruller with honey chamomile glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, chamomile, honey glaze
+Available: Seasonal winter
+Notes: Best served warm.
+
+Name: Coconut Cream Pocket Donut
+Category: Filled
+Flavor: coconut custard with toasted coconut
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coconut custard, toasted coconut
+Available: Saturday mornings
+Notes: Filling is piped after cooling.
+
+Name: Maple Bacon Cake Donut
+Category: Cake
+Flavor: maple glaze with smoky bacon crumble
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, bacon crumble
+Available: Catering only
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Gluten-Free Rocky Road Donut
+Category: Gluten-Free
+Flavor: chocolate glaze with marshmallow and nut crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, chocolate glaze, marshmallow bits, almonds
+Available: Rotating special
+Notes: Works well as a specialty pre-order item. Contains tree nuts.
+
+Name: Caramel Apple Cruller
+Category: Cruller
+Flavor: airy cruller with caramel apple glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, apple glaze, caramel drizzle
+Available: Pop-up menu
+Notes: Good for office boxes.
+
+Name: Cherry Almond Old Fashioned
+Category: Old Fashioned
+Flavor: cherry glaze with almond aroma
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, cherry glaze, almond extract
+Available: Catering only
+Notes: Contains tree nuts.
+
+Name: Cinnamon Roll Cream Filled Round
+Category: Filled
+Flavor: cinnamon cream with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cinnamon cream, vanilla icing
+Available: First Friday menu
+Notes: Works well in premium assortments.
+
+Name: Cherry Chocolate Fritter
+Category: Fritter
+Flavor: cherries with chocolate chips
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, cherries, chocolate chips
+Available: Seasonal winter
+Notes: Popular for weekend boxes.
+
+Name: Cinnamon Raisin Fritter
+Category: Fritter
+Flavor: raisins with cinnamon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, raisins
+Available: Catering only
+Notes: Popular for weekend boxes. Works well as a breakfast treat.
+
+Name: Gingerbread Cake Donut
+Category: Cake
+Flavor: molasses and ginger spice
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, molasses, ginger, cinnamon
+Available: First Friday menu
+Notes: A colorful option for display cases.
+
+Name: Vegan Brown Butter Donut
+Category: Vegan
+Flavor: nutty brown butter glaze
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, brown vegan butter glaze
+Available: Catering only
+Notes: Label clearly in mixed boxes.
+
+Name: Raspberry Peach Fritter
+Category: Fritter
+Flavor: raspberries and peaches with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, raspberries, peaches, sugar glaze
+Available: Seasonal summer
+Notes: Pairs well with coffee.
+
+Name: Caramel Apple Cream Stuffed Donut
+Category: Filled
+Flavor: apple cream with caramel glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple cream, caramel glaze
+Available: Seasonal summer
+Notes: Popular dessert-style donut.
+
+Name: Caramel Cream Long John
+Category: Long John
+Flavor: caramel cream filling with caramel icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, caramel cream, caramel icing
+Available: Weekends
+Notes: Keep refrigerated. Made in small batches.
+
+Name: Marshmallow Cloud Donut Holes
+Category: Donut Hole
+Flavor: vanilla glaze with marshmallow sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, marshmallow glaze
+Available: Late-night menu
+Notes: Great with black tea. Good for office boxes.
+
+Name: Chai Spice Cloud Donut
+Category: Yeast
+Flavor: black tea spice with cinnamon and cardamom
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chai spice, vanilla glaze
+Available: First Friday menu
+Notes: A colorful option for display cases.
+
+Name: Caramel Apple Mochi Donut
+Category: Mochi
+Flavor: apple sweetness with caramel glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, apple pieces, caramel glaze
+Available: Weekdays
+Notes: Pairs well with cold brew.
+
+Name: Maple Walnut Mochi Donut
+Category: Mochi
+Flavor: maple glaze with walnut crunch
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, maple glaze, walnuts
+Available: Weekdays
+Notes: Contains tree nuts. Strong aroma when fresh from the fryer.
+
+Name: Gluten-Free Butter Pecan Donut
+Category: Gluten-Free
+Flavor: buttery glaze with toasted pecan crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, butter glaze, pecans
+Available: Fridays
+Notes: Works well as a specialty pre-order item. Contains tree nuts.
+
+Name: Gluten-Free Birthday Cake Donut
+Category: Gluten-Free
+Flavor: vanilla cake flavor with rainbow sprinkles
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, vanilla icing, sprinkles
+Available: Saturday mornings
+Notes: Texture is slightly different from standard yeast donuts. Good pairing for espresso drinks.
+
+Name: Espresso Cruller
+Category: Cruller
+Flavor: airy cruller with espresso glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, espresso glaze
+Available: Pop-up menu
+Notes: Good option for mixed dozen boxes.
+
+Name: Dark Chocolate Sea Salt Raised Donut
+Category: Yeast
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, dark chocolate glaze, sea salt
+Available: Mondays only
+Notes: Good pairing for espresso drinks.
+
+Name: Maple Espresso Donut Holes
+Category: Donut Hole
+Flavor: maple glaze with espresso depth
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple glaze, espresso
+Available: Pop-up menu
+Notes: Best served warm.
+
+Name: Mexican Hot Chocolate Old Fashioned
+Category: Old Fashioned
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, cocoa, cinnamon, chili
+Available: Seasonal summer
+Notes: Mild heat, clearly label in the case. Customer favorite on busy mornings.
+
+Name: Vegan Apple Cinnamon Donut
+Category: Vegan
+Flavor: baked apple flavor with cinnamon spice
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, apple pieces, cinnamon
+Available: Seasonal fall
+Notes: Label clearly in mixed boxes.
+
+Name: Vegan Orange Blossom Donut
+Category: Vegan
+Flavor: orange glaze with floral citrus notes
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, orange zest, orange blossom glaze
+Available: Limited batch
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Baked Fig Honey Donut
+Category: Baked
+Flavor: fig jam sweetness with honey glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, fig jam, honey glaze
+Available: Pop-up menu
+Notes: Best served warm.
+
+Name: Lavender Honey Old Fashioned
+Category: Old Fashioned
+Flavor: floral lavender with honey sweetness
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, lavender, honey glaze
+Available: First Friday menu
+Notes: Customer favorite on busy mornings.
+
+Name: Mocha Crunch Old Fashioned
+Category: Old Fashioned
+Flavor: coffee and cocoa with crisp chocolate bits
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, mocha glaze, chocolate crisps
+Available: Catering only
+Notes: Good candidate for sampler boxes.
+
+Name: Cinnamon Apple Butter Donut Holes
+Category: Donut Hole
+Flavor: apple butter and cinnamon spice
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple butter, cinnamon
+Available: Wednesdays
+Notes: Best served warm.
+
+Name: Vegan Strawberry Glaze Donut
+Category: Vegan
+Flavor: fresh strawberry glaze and berry aroma
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, strawberry glaze
+Available: Morning only
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Blueberry Cheesecake Stuffed Donut
+Category: Filled
+Flavor: blueberry cream cheese filling
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blueberry cream cheese, vanilla glaze
+Available: Late-night menu
+Notes: Best served slightly chilled.
+
+Name: Brown Sugar Cinnamon Mochi Donut
+Category: Mochi
+Flavor: brown sugar glaze with cinnamon warmth
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, brown sugar glaze, cinnamon
+Available: Late-night menu
+Notes: Made in small batches.
+
+Name: Baked Cereal Milk Donut
+Category: Baked
+Flavor: sweet cereal milk glaze with cereal crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cereal milk glaze, cereal crunch
+Available: Seasonal summer
+Notes: Distinct flavor profile for search filtering.
+
+Name: Dulce de Leche Cloud Donut
+Category: Yeast
+Flavor: milk caramel sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, dulce de leche glaze
+Available: Weekends
+Notes: Popular with first-time visitors.
+
+Name: Orange Date Fritter
+Category: Fritter
+Flavor: orange zest with chopped dates
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, orange zest, dates
+Available: Limited batch
+Notes: A colorful option for display cases.
+
+Name: Chocolate Peanut Butter Old Fashioned
+Category: Old Fashioned
+Flavor: cocoa glaze with peanut butter swirl
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, chocolate glaze, peanut butter swirl
+Available: Catering only
+Notes: Contains peanuts.
+
+Name: Cranberry Walnut Fritter
+Category: Fritter
+Flavor: cranberries with walnut crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, cranberries, walnuts
+Available: Afternoons
+Notes: Contains tree nuts. Pairs well with cold brew.
+
+Name: Espresso Glaze Cake Donut
+Category: Cake
+Flavor: coffee glaze with roasted espresso depth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, espresso glaze
+Available: Seasonal summer
+Notes: Works well as a breakfast treat.
+
+Name: Pumpkin Spice Old Fashioned
+Category: Old Fashioned
+Flavor: pumpkin and warm baking spices
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, pumpkin puree, pumpkin spice
+Available: Seasonal spring
+Notes: Kid-friendly option.
+
+Name: Hazelnut Praline Twist
+Category: Yeast
+Flavor: hazelnut glaze with praline crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, hazelnut spread, praline bits
+Available: Rotating special
+Notes: Contains tree nuts.
+
+Name: Pistachio Long John
+Category: Long John
+Flavor: pistachio icing with light nutty sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pistachio icing
+Available: Sunday brunch
+Notes: Contains tree nuts. Soft texture with a clean finish.
+
+Name: Blue Corn Honey Donut Holes
+Category: Donut Hole
+Flavor: toasty blue corn flavor with honey glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blue cornmeal, honey glaze
+Available: First Friday menu
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Fig Jam Pocket Donut
+Category: Filled
+Flavor: fig jam with honey glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, fig jam, honey glaze
+Available: By pre-order
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Baked Orange Cranberry Donut
+Category: Baked
+Flavor: orange glaze with cranberry tartness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, orange glaze, cranberry
+Available: Catering only
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Blackberry Sage Cake Donut
+Category: Cake
+Flavor: blackberry glaze with herbal sage notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, blackberry glaze, sage
+Available: Saturday mornings
+Notes: Works well as a breakfast treat.
+
+Name: Gluten-Free Red Velvet Donut
+Category: Gluten-Free
+Flavor: cocoa-vanilla crumb with cream cheese glaze
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, cocoa powder, cream cheese glaze
+Available: Seasonal spring
+Notes: Texture is slightly different from standard yeast donuts. Best eaten the same day.
+
+Name: Maple Cinnamon Mochi Donut
+Category: Mochi
+Flavor: maple glaze with cinnamon warmth
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, maple glaze, cinnamon
+Available: Afternoons
+Notes: A colorful option for display cases.
+
+Name: Pear Cardamom Mochi Donut
+Category: Mochi
+Flavor: pear sweetness with cardamom spice
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, pear, cardamom
+Available: Seasonal spring
+Notes: Good candidate for sampler boxes.
+
+Name: Baked Grapefruit Hibiscus Donut
+Category: Baked
+Flavor: grapefruit tang with hibiscus floral notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, grapefruit glaze, hibiscus
+Available: Seasonal winter
+Notes: Best served warm. Made in small batches.
+
+Name: Coconut Cream Cake Donut
+Category: Cake
+Flavor: coconut sweetness with creamy glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, coconut cream, coconut glaze
+Available: Morning only
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Cinnamon Sugar Cloud Donut
+Category: Yeast
+Flavor: cinnamon spice and crunchy sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cinnamon, sugar coating
+Available: Weekends
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Honey Dip Raised Donut
+Category: Yeast
+Flavor: honey glaze with a soft floral sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, honey glaze
+Available: Seasonal spring
+Notes: Balanced for people who do not want an overly sweet donut. Often sells out before noon.
+
+Name: Ube Coconut Cake Donut
+Category: Cake
+Flavor: purple yam sweetness with coconut finish
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, ube, coconut glaze
+Available: Sunday brunch
+Notes: Good pairing for espresso drinks.
+
+Name: Cinnamon Toast Donut Holes
+Category: Donut Hole
+Flavor: buttery cinnamon toast flavor
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon, butter glaze
+Available: Afternoons
+Notes: Good for office boxes.
+
+Name: Hazelnut Praline Cake Donut
+Category: Cake
+Flavor: hazelnut glaze with praline crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, hazelnut spread, praline bits
+Available: By pre-order
+Notes: Contains tree nuts.
+
+Name: Coffee Cream Stuffed Donut
+Category: Filled
+Flavor: espresso cream with mocha glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso cream, mocha glaze
+Available: Weekends
+Notes: Can be messy in the best way.
+
+Name: Baked Maple Cinnamon Donut
+Category: Baked
+Flavor: maple glaze with cinnamon warmth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, cinnamon
+Available: Tuesdays and Thursdays
+Notes: Works well as a breakfast treat.
+
+Name: Tiramisu Old Fashioned
+Category: Old Fashioned
+Flavor: espresso and mascarpone style sweetness
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, espresso glaze, cocoa dusting
+Available: By pre-order
+Notes: Good option for mixed dozen boxes.
+
+Name: Orange Cranberry Cake Donut
+Category: Cake
+Flavor: orange glaze with cranberry tartness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, orange glaze, cranberry
+Available: Seasonal winter
+Notes: Often sells out before noon.
+
+Name: Baked Dulce de Leche Donut
+Category: Baked
+Flavor: milk caramel sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, dulce de leche glaze
+Available: First Friday menu
+Notes: Kid-friendly option.
+
+Name: Gluten-Free Raspberry Iced Donut
+Category: Gluten-Free
+Flavor: raspberry glaze with a sharp berry finish
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, raspberry glaze
+Available: Holiday menu
+Notes: Label clearly in mixed boxes. Good candidate for sampler boxes.
+
+Name: Lemon Curd Filled Round
+Category: Filled
+Flavor: tart lemon curd with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon curd, powdered sugar
+Available: Wednesdays
+Notes: Best packed upright to protect the filling.
+
+Name: Gluten-Free Cookies and Cream Donut
+Category: Gluten-Free
+Flavor: vanilla icing with chocolate cookie crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, vanilla icing, gluten-free chocolate gluten-free cookie crumbs
+Available: Weekdays
+Notes: Label clearly in mixed boxes.
+
+Name: Gluten-Free Honey Dip Donut
+Category: Gluten-Free
+Flavor: honey glaze with a soft floral sweetness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, honey glaze
+Available: Seasonal winter
+Notes: Works well as a specialty pre-order item.
+
+Name: Apple Cinnamon Ring Donut
+Category: Yeast
+Flavor: baked apple flavor with cinnamon spice
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple pieces, cinnamon
+Available: Afternoons
+Notes: Good for office boxes.
+
+Name: Baked Lemon Meringue Donut
+Category: Baked
+Flavor: lemon glaze with toasted meringue notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon curd, meringue topping
+Available: Seasonal summer
+Notes: Good pairing for espresso drinks.
+
+Name: Baked Blue Corn Honey Donut
+Category: Baked
+Flavor: toasty blue corn flavor with honey glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, blue cornmeal, honey glaze
+Available: Fridays
+Notes: Distinct flavor profile for search filtering. Good candidate for sampler boxes.
+
+Name: Chocolate Mint Cake Donut
+Category: Cake
+Flavor: chocolate glaze with cool mint finish
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, mint extract
+Available: Pop-up menu
+Notes: Good option for mixed dozen boxes. Made in small batches.
+
+Name: Dulce de Leche Mochi Donut
+Category: Mochi
+Flavor: milk caramel sweetness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, dulce de leche glaze
+Available: Coffee bar menu
+Notes: Great with black tea.
+
+Name: Funfetti Old Fashioned
+Category: Old Fashioned
+Flavor: sweet vanilla with colorful sprinkle crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, vanilla icing, sprinkles
+Available: Rotating special
+Notes: Popular for weekend boxes. Often sells out before noon.
+
+Name: Carrot Cake Mochi Donut
+Category: Mochi
+Flavor: spiced carrot flavor with cream cheese glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, carrot, cinnamon, cream cheese glaze
+Available: Tuesdays and Thursdays
+Notes: Customer favorite on busy mornings.
+
+Name: Gluten-Free Pumpkin Spice Donut
+Category: Gluten-Free
+Flavor: pumpkin and warm baking spices
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, pumpkin puree, pumpkin spice
+Available: Seasonal spring
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Raspberry Lime Cruller
+Category: Cruller
+Flavor: airy cruller with raspberry lime glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, raspberry glaze, lime zest
+Available: Catering only
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Gingerbread Raised Donut
+Category: Yeast
+Flavor: molasses and ginger spice
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, molasses, ginger, cinnamon
+Available: Wednesdays
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Baked Passion Fruit Donut
+Category: Baked
+Flavor: bright tropical passion fruit glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, passion fruit glaze
+Available: Tuesdays and Thursdays
+Notes: Simple enough for classic donut fans.
+
+Name: Maple Pecan Fritter
+Category: Fritter
+Flavor: pecan crunch with maple glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, pecans, maple glaze
+Available: Fridays
+Notes: Contains tree nuts. Simple enough for classic donut fans.
+
+Name: Pomegranate Cake Donut
+Category: Cake
+Flavor: tart pomegranate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pomegranate glaze
+Available: Weekends
+Notes: Pairs well with coffee.
+
+Name: Gluten-Free Lemon Zest Donut
+Category: Gluten-Free
+Flavor: bright lemon glaze with a tart finish
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, lemon zest, lemon glaze
+Available: Sunday brunch
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Gluten-Free Lavender Honey Donut
+Category: Gluten-Free
+Flavor: floral lavender with honey sweetness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, lavender, honey glaze
+Available: Catering only
+Notes: Works well as a specialty pre-order item.
+
+Name: Maple Bacon Long John
+Category: Long John
+Flavor: maple icing with bacon crumble
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple icing, bacon crumble
+Available: Seasonal summer
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Funfetti Cloud Donut
+Category: Yeast
+Flavor: sweet vanilla with colorful sprinkle crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing, sprinkles
+Available: Weekdays
+Notes: Soft texture with a clean finish.
+
+Name: Tropical Fruit Fritter
+Category: Fritter
+Flavor: mango, pineapple, and coconut
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, mango, pineapple, coconut
+Available: Wednesdays
+Notes: Kid-friendly option.
+
+Name: Vegan Almond Joy Donut
+Category: Vegan
+Flavor: coconut and almond with chocolate glaze
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, coconut, almonds, chocolate glaze
+Available: Seasonal summer
+Notes: Label clearly in mixed boxes. Contains tree nuts.
+
+Name: Matcha White Chocolate Raised Donut
+Category: Yeast
+Flavor: earthy matcha with sweet white chocolate
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, matcha powder, white chocolate glaze
+Available: Rotating special
+Notes: Good candidate for sampler boxes.
+
+Name: Mocha Long John
+Category: Long John
+Flavor: mocha icing over a soft raised bar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mocha icing
+Available: Tuesdays and Thursdays
+Notes: Good candidate for sampler boxes.
+
+Name: Almond Joy Cloud Donut
+Category: Yeast
+Flavor: coconut and almond with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coconut, almonds, chocolate glaze
+Available: Tuesdays and Thursdays
+Notes: Contains tree nuts.
+
+Name: Raspberry Lime Fritter
+Category: Fritter
+Flavor: raspberry fruit with lime glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, raspberries, lime glaze
+Available: Limited batch
+Notes: Popular with first-time visitors.
+
+Name: Matcha White Chocolate Old Fashioned
+Category: Old Fashioned
+Flavor: earthy matcha with sweet white chocolate
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, matcha powder, white chocolate glaze
+Available: By pre-order
+Notes: Good option for mixed dozen boxes.
+
+Name: Peanut Butter Cup Raised Donut
+Category: Yeast
+Flavor: peanut butter icing with chocolate drizzle
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, peanut butter icing, chocolate drizzle
+Available: Holiday menu
+Notes: Contains peanuts.
+
+Name: Maple Walnut Cake Donut
+Category: Cake
+Flavor: maple glaze with walnut crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, walnuts
+Available: Tuesdays and Thursdays
+Notes: Contains tree nuts.
+
+Name: Grapefruit Hibiscus Donut Holes
+Category: Donut Hole
+Flavor: grapefruit tang with hibiscus floral notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, grapefruit glaze, hibiscus
+Available: Seasonal fall
+Notes: Distinct flavor profile for search filtering.
+
+Name: Honey Pear Fritter
+Category: Fritter
+Flavor: pear pieces with honey glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, pear, honey glaze
+Available: Seasonal fall
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Spiced Vanilla Cake Donut
+Category: Cake
+Flavor: vanilla glaze with gentle baking spice
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla glaze, baking spices
+Available: Sunday brunch
+Notes: Good for office boxes.
+
+Name: Pumpkin Spice Cake Donut
+Category: Cake
+Flavor: pumpkin and warm baking spices
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pumpkin puree, pumpkin spice
+Available: Fridays
+Notes: Popular for weekend boxes.
+
+Name: Fig Honey Raised Donut
+Category: Yeast
+Flavor: fig jam sweetness with honey glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, fig jam, honey glaze
+Available: Seasonal spring
+Notes: Pairs well with coffee.
+
+Name: Oatmeal Cookie Old Fashioned
+Category: Old Fashioned
+Flavor: oat and brown sugar cookie flavor
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, rolled oats, brown sugar glaze
+Available: By pre-order
+Notes: Good candidate for sampler boxes.
+
+Name: Gluten-Free Ube Coconut Donut
+Category: Gluten-Free
+Flavor: purple yam sweetness with coconut finish
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, ube, coconut glaze
+Available: Afternoons
+Notes: Texture is slightly different from standard yeast donuts. Light glaze, balanced sweetness.
+
+Name: Apple Cheddar Fritter
+Category: Fritter
+Flavor: apple chunks with cheddar and honey
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple chunks, cheddar, honey glaze
+Available: Afternoons
+Notes: Soft texture with a clean finish.
+
+Name: Almond Cream Pocket Donut
+Category: Filled
+Flavor: almond cream with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, almond cream, powdered sugar
+Available: Seasonal winter
+Notes: Good choice for custard lovers. Contains tree nuts. Distinct flavor profile for search filtering.
+
+Name: Vegan Cinnamon Sugar Donut
+Category: Vegan
+Flavor: cinnamon spice and crunchy sugar
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, cinnamon, sugar coating
+Available: Tuesdays and Thursdays
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: White Chocolate Raspberry Old Fashioned
+Category: Old Fashioned
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, white chocolate glaze, raspberry drizzle
+Available: Catering only
+Notes: Works well as a breakfast treat. Customer favorite on busy mornings.
+
+Name: Gingerbread Cruller
+Category: Cruller
+Flavor: airy cruller with gingerbread spice
+Ingredients: Flour, eggs, butter, sugar, vanilla, ginger, molasses glaze
+Available: Seasonal summer
+Notes: Made in small batches.
+
+Name: Chocolate Orange Cruller
+Category: Cruller
+Flavor: airy cruller with chocolate orange glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, chocolate glaze, orange zest
+Available: Seasonal fall
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Brown Butter Cruller
+Category: Cruller
+Flavor: airy cruller with brown butter glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, brown butter glaze
+Available: Mondays only
+Notes: Good option for mixed dozen boxes.
+
+Name: Lemon Blueberry Curd Filled Round
+Category: Filled
+Flavor: lemon blueberry filling with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon blueberry curd, powdered sugar
+Available: Late-night menu
+Notes: Works well in premium assortments.
+
+Name: Vanilla Sprinkle Cake Donut
+Category: Cake
+Flavor: vanilla icing with sprinkle crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla icing, sprinkles
+Available: Sunday brunch
+Notes: Often sells out before noon.
+
+Name: Chocolate Sprinkle Cake Donut
+Category: Cake
+Flavor: chocolate icing with sprinkle crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate icing, sprinkles
+Available: Afternoons
+Notes: Soft texture with a clean finish.
+
+Name: Banana Pudding Filled Round
+Category: Filled
+Flavor: banana custard with vanilla wafer crumbs
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, banana custard, vanilla wafer crumbs
+Available: Wednesdays
+Notes: Works well in premium assortments. Simple enough for classic donut fans.
+
+Name: Baked Pomegranate Donut
+Category: Baked
+Flavor: tart pomegranate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pomegranate glaze
+Available: Seasonal fall
+Notes: Good pairing for espresso drinks.
+
+Name: Cranberry Orange Fritter
+Category: Fritter
+Flavor: cranberry and orange zest
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, cranberry, orange zest
+Available: Morning only
+Notes: Good for office boxes.
+
+Name: Butter Pecan Cake Donut
+Category: Cake
+Flavor: buttery glaze with toasted pecan crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, butter glaze, pecans
+Available: Holiday menu
+Notes: Contains tree nuts. Customer favorite on busy mornings.
+
+Name: Gluten-Free Apple Cinnamon Donut
+Category: Gluten-Free
+Flavor: baked apple flavor with cinnamon spice
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, apple pieces, cinnamon
+Available: Fridays
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Chocolate Almond Donut Holes
+Category: Donut Hole
+Flavor: chocolate glaze with almond crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, almonds
+Available: Weekends
+Notes: Contains tree nuts.
+
+Name: Mango Chili Cloud Donut
+Category: Yeast
+Flavor: mango glaze with mild chili heat
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mango glaze, chili flakes
+Available: Holiday menu
+Notes: Mild heat, clearly label in the case.
+
+Name: Coconut Lime Cruller
+Category: Cruller
+Flavor: airy cruller with coconut lime glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, coconut, lime glaze
+Available: Pop-up menu
+Notes: Kid-friendly option.
+
+Name: Baked Chocolate Orange Donut
+Category: Baked
+Flavor: cocoa glaze with orange zest
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, orange zest
+Available: Mondays only
+Notes: Great with black tea.
+
+Name: Coconut Lime Old Fashioned
+Category: Old Fashioned
+Flavor: coconut glaze with lime brightness
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, coconut glaze, lime zest
+Available: Seasonal fall
+Notes: Strong aroma when fresh from the fryer.
+
+Name: White Chocolate Cruller
+Category: Cruller
+Flavor: airy cruller with white chocolate glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, white chocolate glaze
+Available: Morning only
+Notes: Popular with first-time visitors.
+
+Name: Maple Custard Bismark
+Category: Filled
+Flavor: maple custard with maple icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple custard, maple icing
+Available: Rotating special
+Notes: Good choice for custard lovers.
+
+Name: Malted Chocolate Cream Filled Donut
+Category: Filled
+Flavor: malted chocolate cream with cocoa glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, malted chocolate cream, chocolate glaze
+Available: Wednesdays
+Notes: Pairs well with unsweetened coffee.
+
+Name: S'mores Old Fashioned
+Category: Old Fashioned
+Flavor: graham, chocolate, and marshmallow sweetness
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, graham crumbs, chocolate glaze, marshmallow drizzle
+Available: Weekends
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Apple Pie Bismark
+Category: Filled
+Flavor: cinnamon apple filling with crumb topping
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple filling, cinnamon crumb
+Available: Late-night menu
+Notes: Light glaze, balanced sweetness.
+
+Name: Blueberry Lemon Fritter
+Category: Fritter
+Flavor: blueberries with lemon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, blueberries, lemon glaze
+Available: Seasonal winter
+Notes: Light glaze, balanced sweetness.
+
+Name: Raspberry Filled Long John
+Category: Long John
+Flavor: raspberry jam filling with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry jam, sugar glaze
+Available: Catering only
+Notes: Popular with first-time visitors.
+
+Name: Vegan Pistachio Rose Donut
+Category: Vegan
+Flavor: pistachio glaze with a gentle rose finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, pistachio glaze, rose water
+Available: Pop-up menu
+Notes: Good option for customers asking about dietary alternatives. Contains tree nuts.
+
+Name: Cinnamon Roll Long John
+Category: Long John
+Flavor: cinnamon swirl with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cinnamon swirl, vanilla icing
+Available: Weekdays
+Notes: Often sells out before noon.
+
+Name: Cinnamon Roll Twist
+Category: Yeast
+Flavor: cinnamon swirl with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cinnamon swirl, vanilla icing
+Available: Morning only
+Notes: Soft texture with a clean finish. Strong aroma when fresh from the fryer.
+
+Name: Peanut Butter Banana Donut Holes
+Category: Donut Hole
+Flavor: banana sweetness with peanut butter icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, banana puree, peanut butter icing
+Available: Seasonal winter
+Notes: Contains peanuts.
+
+Name: Vegan Banana Cream Donut
+Category: Vegan
+Flavor: banana sweetness with creamy vanilla notes
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, banana puree, vanilla glaze
+Available: Limited batch
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Baked Strawberry Basil Donut
+Category: Baked
+Flavor: strawberry glaze with fresh basil aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, strawberry glaze, basil
+Available: Catering only
+Notes: Popular with first-time visitors.
+
+Name: Fig Walnut Fritter
+Category: Fritter
+Flavor: fig pieces with walnut crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, figs, walnuts
+Available: Seasonal winter
+Notes: Contains tree nuts.
+
+Name: Vegan Raspberry Iced Donut
+Category: Vegan
+Flavor: raspberry glaze with a sharp berry finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, raspberry glaze
+Available: Coffee bar menu
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Vegan Funfetti Donut
+Category: Vegan
+Flavor: sweet vanilla with colorful sprinkle crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vanilla icing, sprinkles
+Available: Afternoons
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Tiramisu Cream Pocket Donut
+Category: Filled
+Flavor: espresso mascarpone filling with cocoa dusting
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso mascarpone cream, cocoa dusting
+Available: Weekdays
+Notes: Best packed upright to protect the filling.
+
+Name: Caramel Apple Donut Holes
+Category: Donut Hole
+Flavor: apple sweetness with caramel glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apple pieces, caramel glaze
+Available: Holiday menu
+Notes: Kid-friendly option.
+
+Name: Chocolate Peanut Butter Ring Donut
+Category: Yeast
+Flavor: cocoa glaze with peanut butter swirl
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate glaze, peanut butter swirl
+Available: Limited batch
+Notes: Contains peanuts.
+
+Name: Peach Cobbler Cake Donut
+Category: Cake
+Flavor: peach glaze with cinnamon crumb topping
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, peach pieces, cinnamon crumb
+Available: Coffee bar menu
+Notes: Often sells out before noon.
+
+Name: Lavender Honey Cake Donut
+Category: Cake
+Flavor: floral lavender with honey sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lavender, honey glaze
+Available: Mondays only
+Notes: Soft texture with a clean finish.
+
+Name: Strawberry Cream Long John
+Category: Long John
+Flavor: strawberry cream filling with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, strawberry cream, vanilla icing
+Available: Seasonal winter
+Notes: Pairs well with unsweetened coffee.
+
+Name: Earl Grey Old Fashioned
+Category: Old Fashioned
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, earl grey tea, vanilla glaze
+Available: Catering only
+Notes: Light glaze, balanced sweetness.
+
+Name: Coconut Lime Sugar-Raised Donut
+Category: Yeast
+Flavor: coconut glaze with lime brightness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coconut glaze, lime zest
+Available: Seasonal summer
+Notes: Pairs well with coffee.
+
+Name: Baked Marshmallow Cloud Donut
+Category: Baked
+Flavor: vanilla glaze with marshmallow sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, marshmallow glaze
+Available: Fridays
+Notes: Customer favorite on busy mornings.
+
+Name: Chocolate Long John
+Category: Long John
+Flavor: chocolate icing over a soft raised bar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate icing
+Available: Seasonal summer
+Notes: Popular with first-time visitors. Nice contrast of soft dough and crisp topping.
+
+Name: White Chocolate Raspberry Long John
+Category: Long John
+Flavor: raspberry cream with white chocolate icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry cream, white chocolate icing
+Available: Seasonal winter
+Notes: Best packed upright to protect the filling.
+
+Name: Black Sesame Ring Donut
+Category: Yeast
+Flavor: nutty black sesame glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, black sesame paste, sesame glaze
+Available: Seasonal fall
+Notes: Popular for weekend boxes.
+
+Name: Spiced Vanilla Donut Holes
+Category: Donut Hole
+Flavor: vanilla glaze with gentle baking spice
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla glaze, baking spices
+Available: Holiday menu
+Notes: Good for office boxes.
+
+Name: Blueberry Jam Filled Donut
+Category: Filled
+Flavor: blueberry jam with lemon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blueberry jam, lemon glaze
+Available: By pre-order
+Notes: Good option for mixed dozen boxes. Popular with first-time visitors.
+
+Name: Salted Caramel Old Fashioned
+Category: Old Fashioned
+Flavor: caramel glaze with a light salt finish
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, salted caramel glaze
+Available: Mondays only
+Notes: Distinct flavor profile for search filtering.
+
+Name: Pomegranate Mochi Donut
+Category: Mochi
+Flavor: tart pomegranate glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, pomegranate glaze
+Available: Catering only
+Notes: Good for office boxes.
+
+Name: Honey Vanilla Cruller
+Category: Cruller
+Flavor: airy cruller with honey vanilla glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, honey, vanilla glaze
+Available: Seasonal summer
+Notes: Best eaten the same day.
+
+Name: Pear Cardamom Sugar-Raised Donut
+Category: Yeast
+Flavor: pear sweetness with cardamom spice
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pear, cardamom
+Available: Wednesdays
+Notes: Good option for mixed dozen boxes.
+
+Name: Vanilla Bean Cruller
+Category: Cruller
+Flavor: airy cruller with vanilla bean glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, vanilla bean glaze
+Available: Seasonal fall
+Notes: Made in small batches.
+
+Name: Miso Caramel Donut Holes
+Category: Donut Hole
+Flavor: savory-sweet miso with caramel glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, miso caramel glaze
+Available: Holiday menu
+Notes: Pairs well with cold brew. Popular with first-time visitors.
+
+Name: Red Velvet Cake Donut
+Category: Cake
+Flavor: cocoa-vanilla crumb with cream cheese glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cocoa powder, cream cheese glaze
+Available: Seasonal spring
+Notes: Useful search demo entry with clear flavor cues. Soft texture with a clean finish.
+
+Name: Baked Tahini Chocolate Donut
+Category: Baked
+Flavor: sesame tahini with chocolate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, tahini, chocolate glaze
+Available: Seasonal summer
+Notes: Popular for weekend boxes.
+
+Name: Rocky Road Raised Donut
+Category: Yeast
+Flavor: chocolate glaze with marshmallow and nut crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate glaze, marshmallow bits, almonds
+Available: Fridays
+Notes: Contains tree nuts.
+
+Name: Pistachio Cream Pocket Donut
+Category: Filled
+Flavor: pistachio custard with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pistachio custard, vanilla glaze
+Available: Seasonal spring
+Notes: Works well in premium assortments. Contains tree nuts.
+
+Name: Gluten-Free White Chocolate Raspberry Donut
+Category: Gluten-Free
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, white chocolate glaze, raspberry drizzle
+Available: Limited batch
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Raspberry Almond Donut Holes
+Category: Donut Hole
+Flavor: raspberry glaze with almond finish
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, raspberry glaze, almond extract
+Available: Catering only
+Notes: Contains tree nuts.
+
+Name: Cherry Pie Stuffed Donut
+Category: Filled
+Flavor: cherry filling with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cherry filling, vanilla glaze
+Available: Limited batch
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Blackberry Sage Twist
+Category: Yeast
+Flavor: blackberry glaze with herbal sage notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blackberry glaze, sage
+Available: Mondays only
+Notes: Made in small batches.
+
+Name: Salted Honey Butter Mochi Donut
+Category: Mochi
+Flavor: honey butter glaze with flaky salt
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, honey butter glaze, sea salt
+Available: First Friday menu
+Notes: Good option for mixed dozen boxes.
+
+Name: Lemon Zest Ring Donut
+Category: Yeast
+Flavor: bright lemon glaze with a tart finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon zest, lemon glaze
+Available: Late-night menu
+Notes: A colorful option for display cases.
+
+Name: S'mores Sugar-Raised Donut
+Category: Yeast
+Flavor: graham, chocolate, and marshmallow sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, graham crumbs, chocolate glaze, marshmallow drizzle
+Available: Afternoons
+Notes: Customer favorite on busy mornings.
+
+Name: Cocoa Nib Cruller
+Category: Cruller
+Flavor: airy cruller with cocoa nib crunch
+Ingredients: Flour, eggs, butter, sugar, vanilla, chocolate glaze, cocoa nibs
+Available: Saturday mornings
+Notes: Distinct flavor profile for search filtering.
+
+Name: Vegan Espresso Glaze Donut
+Category: Vegan
+Flavor: coffee glaze with roasted espresso depth
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, espresso glaze
+Available: Catering only
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Brown Butter Custard Bismark
+Category: Filled
+Flavor: brown butter custard with caramel glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, brown butter custard, caramel glaze
+Available: Pop-up menu
+Notes: Filling is piped after cooling.
+
+Name: Brown Butter Cake Donut
+Category: Cake
+Flavor: nutty brown butter glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, brown butter glaze
+Available: Pop-up menu
+Notes: Pairs well with cold brew.
+
+Name: Strawberry Shortcake Cake Donut
+Category: Cake
+Flavor: strawberry glaze with vanilla crumb
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, strawberry glaze, vanilla crumbs
+Available: Seasonal fall
+Notes: Soft texture with a clean finish.
+
+Name: Lemon Glazed Cruller
+Category: Cruller
+Flavor: airy cruller with lemon glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, lemon glaze
+Available: Rotating special
+Notes: Popular for weekend boxes.
+
+Name: Key Lime Curd Filled Donut
+Category: Filled
+Flavor: key lime curd with graham crumble
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, key lime curd, graham crumbs
+Available: Afternoons
+Notes: Works well in premium assortments.
+
+Name: Key Lime Raised Donut
+Category: Yeast
+Flavor: tart key lime glaze with sweet cream notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, key lime juice, lime zest
+Available: Seasonal summer
+Notes: Good option for mixed dozen boxes.
+
+Name: Toasted Coconut Cruller
+Category: Cruller
+Flavor: airy cruller with toasted coconut glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, coconut glaze, toasted coconut
+Available: Fridays
+Notes: A colorful option for display cases.
+
+Name: Gluten-Free Brown Butter Donut
+Category: Gluten-Free
+Flavor: nutty brown butter glaze
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, brown butter glaze
+Available: Saturday mornings
+Notes: Works well as a specialty pre-order item.
+
+Name: Gluten-Free Hazelnut Praline Donut
+Category: Gluten-Free
+Flavor: hazelnut glaze with praline crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, hazelnut spread, praline bits
+Available: Late-night menu
+Notes: Prepared for the dietary menu; check cross-contact policy. Contains tree nuts.
+
+Name: Gluten-Free Orange Blossom Donut
+Category: Gluten-Free
+Flavor: orange glaze with floral citrus notes
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, orange zest, orange blossom glaze
+Available: Fridays
+Notes: Works well as a specialty pre-order item.
+
+Name: Mocha Cruller
+Category: Cruller
+Flavor: airy cruller with mocha glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, mocha glaze
+Available: Weekdays
+Notes: Good candidate for sampler boxes.
+
+Name: Pear Cardamom Cake Donut
+Category: Cake
+Flavor: pear sweetness with cardamom spice
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pear, cardamom
+Available: Tuesdays and Thursdays
+Notes: Often sells out before noon.
+
+Name: Maple Cinnamon Cake Donut
+Category: Cake
+Flavor: maple glaze with cinnamon warmth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, cinnamon
+Available: Morning only
+Notes: Good pairing for espresso drinks. Light glaze, balanced sweetness.
+
+Name: Chocolate Glazed Cruller
+Category: Cruller
+Flavor: airy cruller with chocolate glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, chocolate glaze
+Available: Late-night menu
+Notes: Kid-friendly option.
+
+Name: Cardamom Sugar Donut Holes
+Category: Donut Hole
+Flavor: cardamom spice with crunchy sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cardamom, sugar coating
+Available: Wednesdays
+Notes: Balanced for people who do not want an overly sweet donut. Distinct flavor profile for search filtering.
+
+Name: Raspberry Lime Donut Holes
+Category: Donut Hole
+Flavor: raspberry glaze with lime zest
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, raspberry glaze, lime zest
+Available: Rotating special
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Baked Snickerdoodle Donut
+Category: Baked
+Flavor: cinnamon sugar cookie flavor
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon, vanilla glaze
+Available: Pop-up menu
+Notes: Pairs well with cold brew.
+
+Name: Gluten-Free Blackberry Sage Donut
+Category: Gluten-Free
+Flavor: blackberry glaze with herbal sage notes
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, blackberry glaze, sage
+Available: Seasonal fall
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Dulce de Leche Cake Donut
+Category: Cake
+Flavor: milk caramel sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, dulce de leche glaze
+Available: Seasonal spring
+Notes: Works well as a breakfast treat. Best eaten the same day.
+
+Name: Matcha Cruller
+Category: Cruller
+Flavor: airy cruller with matcha glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, matcha glaze
+Available: Seasonal fall
+Notes: Distinct flavor profile for search filtering.
+
+Name: Tiramisu Long John
+Category: Long John
+Flavor: espresso cream filling with cocoa dusting
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso cream, cocoa dusting
+Available: Wednesdays
+Notes: Best packed upright to protect the filling.
+
+Name: Cranberry Orange Jam Filled Donut
+Category: Filled
+Flavor: cranberry orange jam with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cranberry orange jam, sugar glaze
+Available: Fridays
+Notes: Best eaten the same day.
+
+Name: White Chocolate Raspberry Mochi Donut
+Category: Mochi
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, white chocolate glaze, raspberry drizzle
+Available: Late-night menu
+Notes: Made in small batches.
+
+Name: Matcha White Chocolate Cake Donut
+Category: Cake
+Flavor: earthy matcha with sweet white chocolate
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, matcha powder, white chocolate glaze
+Available: Tuesdays and Thursdays
+Notes: Light glaze, balanced sweetness.
+
+Name: Banana Cream Twist
+Category: Yeast
+Flavor: banana sweetness with creamy vanilla notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, banana puree, vanilla glaze
+Available: Late-night menu
+Notes: Popular with first-time visitors. Soft texture with a clean finish.
+
+Name: Birthday Long John
+Category: Long John
+Flavor: vanilla icing with rainbow sprinkles
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing, sprinkles
+Available: By pre-order
+Notes: Simple enough for classic donut fans.
+
+Name: Brown Butter Long John
+Category: Long John
+Flavor: brown butter icing over soft raised dough
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, brown butter icing
+Available: Tuesdays and Thursdays
+Notes: Made in small batches.
+
+Name: Brownie Batter Cake Donut
+Category: Cake
+Flavor: fudgy brownie flavor with chocolate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, brownie batter, chocolate glaze
+Available: Wednesdays
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Key Lime Old Fashioned
+Category: Old Fashioned
+Flavor: tart key lime glaze with sweet cream notes
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, key lime juice, lime zest
+Available: Limited batch
+Notes: Made in small batches.
+
+Name: Spiced Apple Butter Fritter
+Category: Fritter
+Flavor: apple butter with cinnamon spice
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple butter
+Available: Sunday brunch
+Notes: Pairs well with cold brew.
+
+Name: Pomegranate Jelly Filled Donut
+Category: Filled
+Flavor: pomegranate jelly with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pomegranate jelly, sugar glaze
+Available: Mondays only
+Notes: Simple enough for classic donut fans.
+
+Name: Vegan Lemon Zest Donut
+Category: Vegan
+Flavor: bright lemon glaze with a tart finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, lemon zest, lemon glaze
+Available: First Friday menu
+Notes: Texture is slightly different from standard yeast donuts. Useful search demo entry with clear flavor cues.
+
+Name: Tiramisu Ring Donut
+Category: Yeast
+Flavor: espresso and mascarpone style sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso glaze, cocoa dusting
+Available: Seasonal fall
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Orange Blossom Twist
+Category: Yeast
+Flavor: orange glaze with floral citrus notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, orange zest, orange blossom glaze
+Available: By pre-order
+Notes: Soft texture with a clean finish.
+
+Name: Lemon Filled Long John
+Category: Long John
+Flavor: lemon curd filling with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon curd, vanilla icing
+Available: Sunday brunch
+Notes: Pairs well with unsweetened coffee.
+
+Name: Guava Cheese Mochi Donut
+Category: Mochi
+Flavor: guava sweetness with cream cheese notes
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, guava paste, cream cheese glaze
+Available: By pre-order
+Notes: A colorful option for display cases.
+
+Name: Lavender Honey Mochi Donut
+Category: Mochi
+Flavor: floral lavender with honey sweetness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, lavender, honey glaze
+Available: Seasonal winter
+Notes: Soft texture with a clean finish.
+
+Name: Brown Butter Old Fashioned
+Category: Old Fashioned
+Flavor: nutty brown butter glaze
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, brown butter glaze
+Available: Daily
+Notes: Customer favorite on busy mornings.
+
+Name: Vegan Salted Caramel Donut
+Category: Vegan
+Flavor: caramel glaze with a light salt finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, salted caramel glaze
+Available: Late-night menu
+Notes: Label clearly in mixed boxes. Good pairing for espresso drinks.
+
+Name: Banana Cream Long John
+Category: Long John
+Flavor: banana cream filling with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, banana cream, vanilla icing
+Available: First Friday menu
+Notes: Pairs well with unsweetened coffee.
+
+Name: Blueberry Cream Long John
+Category: Long John
+Flavor: blueberry cream filling with lemon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blueberry cream, lemon glaze
+Available: Catering only
+Notes: Best served slightly chilled.
+
+Name: Gluten-Free S'mores Donut
+Category: Gluten-Free
+Flavor: graham, chocolate, and marshmallow sweetness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, gluten-free graham crumbs, chocolate glaze, marshmallow drizzle
+Available: Daily
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Baked Chocolate Hazelnut Donut
+Category: Baked
+Flavor: chocolate glaze with hazelnut spread
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate hazelnut spread
+Available: Weekdays
+Notes: Contains tree nuts.
+
+Name: Vegan Gingerbread Donut
+Category: Vegan
+Flavor: molasses and ginger spice
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, molasses, ginger, cinnamon
+Available: Sunday brunch
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Chocolate Mint Donut Holes
+Category: Donut Hole
+Flavor: chocolate glaze with cool mint finish
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, mint extract
+Available: Fridays
+Notes: Distinct flavor profile for search filtering.
+
+Name: Custard Filled Long John
+Category: Long John
+Flavor: vanilla custard with chocolate icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla custard, chocolate icing
+Available: Morning only
+Notes: Keep refrigerated.
+
+Name: Vegan Mexican Hot Chocolate Donut
+Category: Vegan
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, cocoa, cinnamon, chili
+Available: Seasonal summer
+Notes: Good option for customers asking about dietary alternatives. Mild heat, clearly label in the case.
+
+Name: Vegan Mango Chili Donut
+Category: Vegan
+Flavor: mango glaze with mild chili heat
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, mango glaze, chili flakes
+Available: Catering only
+Notes: Label clearly in mixed boxes. Mild heat, clearly label in the case.
+
+Name: Vegan Birthday Cake Donut
+Category: Vegan
+Flavor: vanilla cake flavor with rainbow sprinkles
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vanilla icing, sprinkles
+Available: Coffee bar menu
+Notes: Label clearly in mixed boxes.
+
+Name: Marshmallow Cloud Cake Donut
+Category: Cake
+Flavor: vanilla glaze with marshmallow sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, marshmallow glaze
+Available: Weekends
+Notes: Soft texture with a clean finish.
+
+Name: Chocolate Orange Cream Stuffed Donut
+Category: Filled
+Flavor: orange cream with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, orange cream, chocolate glaze
+Available: Afternoons
+Notes: Works well in premium assortments.
+
+Name: Oatmeal Cookie Cake Donut
+Category: Cake
+Flavor: oat and brown sugar cookie flavor
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, rolled oats, brown sugar glaze
+Available: Rotating special
+Notes: Good candidate for sampler boxes.
+
+Name: Maple Bacon Apple Fritter
+Category: Fritter
+Flavor: apple chunks with maple and bacon
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple chunks, maple glaze, bacon
+Available: Seasonal fall
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Peach Cobbler Fritter
+Category: Fritter
+Flavor: peach pieces with brown sugar crumb
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, peaches, brown sugar crumb
+Available: Coffee bar menu
+Notes: Good pairing for espresso drinks. Often sells out before noon.
+
+Name: Baked Guava Cheese Donut
+Category: Baked
+Flavor: guava sweetness with cream cheese notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, guava paste, cream cheese glaze
+Available: Daily
+Notes: Popular with first-time visitors.
+
+Name: Vegan Rocky Road Donut
+Category: Vegan
+Flavor: chocolate glaze with marshmallow and nut crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, chocolate glaze, vegan marshmallow bits, almonds
+Available: Saturday mornings
+Notes: Works well as a specialty pre-order item. Contains tree nuts.
+
+Name: Vegan Key Lime Donut
+Category: Vegan
+Flavor: tart key lime glaze with sweet cream notes
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, key lime juice, lime zest
+Available: Holiday menu
+Notes: Label clearly in mixed boxes. Soft texture with a clean finish.
+
+Name: Cookies and Cream Old Fashioned
+Category: Old Fashioned
+Flavor: vanilla icing with chocolate cookie crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, vanilla icing, chocolate cookie crumbs
+Available: Weekdays
+Notes: Good option for mixed dozen boxes.
+
+Name: Baked Maple Walnut Donut
+Category: Baked
+Flavor: maple glaze with walnut crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, walnuts
+Available: Late-night menu
+Notes: Contains tree nuts.
+
+Name: Dark Chocolate Sea Salt Cake Donut
+Category: Cake
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, dark chocolate glaze, sea salt
+Available: Seasonal summer
+Notes: Good for office boxes. Good option for mixed dozen boxes.
+
+Name: Cranberry Orange Old Fashioned
+Category: Old Fashioned
+Flavor: cranberry tartness with orange zest
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, cranberry, orange zest
+Available: Limited batch
+Notes: Soft texture with a clean finish.
+
+Name: Pumpkin Apple Fritter
+Category: Fritter
+Flavor: pumpkin spice and apple chunks
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, pumpkin, apple chunks, pumpkin spice
+Available: Rotating special
+Notes: Customer favorite on busy mornings.
+
+Name: Raspberry Lemon Cream Bismark
+Category: Filled
+Flavor: raspberry lemon cream with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry lemon cream, sugar glaze
+Available: Seasonal spring
+Notes: Can be messy in the best way.
+
+Name: Lemon Lavender Donut Holes
+Category: Donut Hole
+Flavor: lemon glaze with lavender aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon glaze, lavender
+Available: Saturday mornings
+Notes: Good for office boxes. Often sells out before noon.
+
+Name: S'mores Cream Stuffed Donut
+Category: Filled
+Flavor: marshmallow cream with chocolate and graham
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, marshmallow cream, chocolate glaze, graham crumbs
+Available: Morning only
+Notes: Rich filling makes it a heavier option.
+
+Name: Candied Bacon Mochi Donut
+Category: Mochi
+Flavor: sweet glaze with smoky candied bacon
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, vanilla glaze, candied bacon
+Available: Sunday brunch
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Gluten-Free Espresso Glaze Donut
+Category: Gluten-Free
+Flavor: coffee glaze with roasted espresso depth
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, espresso glaze
+Available: Daily
+Notes: Good option for customers asking about dietary alternatives. Soft texture with a clean finish.
+
+Name: Passion Fruit Curd Filled Round
+Category: Filled
+Flavor: passion fruit curd with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, passion fruit curd, vanilla glaze
+Available: Catering only
+Notes: Best packed upright to protect the filling.
+
+Name: Coconut Cream Long John
+Category: Long John
+Flavor: coconut cream filling with toasted coconut
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coconut cream, toasted coconut
+Available: Morning only
+Notes: Works well in premium assortments.
+
+Name: Baked Caramel Apple Donut
+Category: Baked
+Flavor: apple sweetness with caramel glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, apple pieces, caramel glaze
+Available: Morning only
+Notes: Best served warm.
+
+Name: Apple Cinnamon Fritter
+Category: Fritter
+Flavor: apple chunks with cinnamon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple chunks, vanilla glaze
+Available: Saturday mornings
+Notes: Often sells out before noon.
+
+Name: Vegan Cookies and Cream Donut
+Category: Vegan
+Flavor: vanilla icing with chocolate cookie crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vanilla icing, vegan chocolate vegan cookie crumbs
+Available: Pop-up menu
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Candied Bacon Old Fashioned
+Category: Old Fashioned
+Flavor: sweet glaze with smoky candied bacon
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, vanilla glaze, candied bacon
+Available: Weekdays
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Gluten-Free Chocolate Peanut Butter Donut
+Category: Gluten-Free
+Flavor: cocoa glaze with peanut butter swirl
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, chocolate glaze, peanut butter swirl
+Available: Seasonal summer
+Notes: Good option for customers asking about dietary alternatives. Contains peanuts.
+
+Name: Strawberry Cheesecake Bismark
+Category: Filled
+Flavor: strawberry cream cheese filling
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, strawberry cream cheese, vanilla glaze
+Available: Pop-up menu
+Notes: Popular dessert-style donut.
+
+Name: Raspberry Cruller
+Category: Cruller
+Flavor: airy cruller with raspberry glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, raspberry glaze
+Available: Late-night menu
+Notes: Works well as a breakfast treat.
+
+Name: Peach Cobbler Mochi Donut
+Category: Mochi
+Flavor: peach glaze with cinnamon crumb topping
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, peach pieces, cinnamon crumb
+Available: Coffee bar menu
+Notes: Soft texture with a clean finish.
+
+Name: Snickerdoodle Donut Holes
+Category: Donut Hole
+Flavor: cinnamon sugar cookie flavor
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon, vanilla glaze
+Available: Seasonal spring
+Notes: Popular with first-time visitors.
+
+Name: Banana Coconut Fritter
+Category: Fritter
+Flavor: banana and coconut with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, banana, coconut, vanilla glaze
+Available: By pre-order
+Notes: Kid-friendly option.
+
+Name: Chocolate Orange Mochi Donut
+Category: Mochi
+Flavor: cocoa glaze with orange zest
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, chocolate glaze, orange zest
+Available: Seasonal summer
+Notes: Customer favorite on busy mornings.
+
+Name: Baked Chocolate Sprinkle Donut
+Category: Baked
+Flavor: chocolate icing with sprinkle crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate icing, sprinkles
+Available: Late-night menu
+Notes: Good candidate for sampler boxes.
+
+Name: Vegan Butter Pecan Donut
+Category: Vegan
+Flavor: buttery glaze with toasted pecan crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vegan butter glaze, pecans
+Available: Saturday mornings
+Notes: Prepared for the dietary menu; check cross-contact policy. Contains tree nuts.
+
+Name: Guava Cheese Donut Holes
+Category: Donut Hole
+Flavor: guava sweetness with cream cheese notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, guava paste, cream cheese glaze
+Available: Wednesdays
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Butter Pecan Old Fashioned
+Category: Old Fashioned
+Flavor: buttery glaze with toasted pecan crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, butter glaze, pecans
+Available: Sunday brunch
+Notes: Contains tree nuts.
+
+Name: Gluten-Free Strawberry Glaze Donut
+Category: Gluten-Free
+Flavor: fresh strawberry glaze and berry aroma
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, strawberry glaze
+Available: Limited batch
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Gluten-Free Dark Chocolate Sea Salt Donut
+Category: Gluten-Free
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, dark chocolate glaze, sea salt
+Available: Weekends
+Notes: Works well as a specialty pre-order item. Simple enough for classic donut fans.
+
+Name: Gluten-Free Cherry Almond Donut
+Category: Gluten-Free
+Flavor: cherry glaze with almond aroma
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, cherry glaze, almond extract
+Available: Seasonal winter
+Notes: Prepared for the dietary menu; check cross-contact policy. Contains tree nuts.
+
+Name: Gluten-Free Toasted Coconut Donut
+Category: Gluten-Free
+Flavor: coconut glaze with toasted coconut crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, coconut glaze, toasted coconut
+Available: Holiday menu
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Mocha Custard Filled Round
+Category: Filled
+Flavor: espresso custard with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso custard, chocolate glaze
+Available: Saturday mornings
+Notes: Can be messy in the best way.
+
+Name: Baked Salted Honey Butter Donut
+Category: Baked
+Flavor: honey butter glaze with flaky salt
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, honey butter glaze, sea salt
+Available: Seasonal fall
+Notes: Balanced for people who do not want an overly sweet donut. Best served warm.
+
+Name: Brownie Batter Mochi Donut
+Category: Mochi
+Flavor: fudgy brownie flavor with chocolate glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, brownie batter, chocolate glaze
+Available: Sunday brunch
+Notes: Pairs well with cold brew.
+
+Name: Baked Lemon Lavender Donut
+Category: Baked
+Flavor: lemon glaze with lavender aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon glaze, lavender
+Available: Seasonal spring
+Notes: Good for office boxes.
+
+Name: Cinnamon Roll Cake Donut
+Category: Cake
+Flavor: cinnamon swirl with vanilla icing
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon swirl, vanilla icing
+Available: Weekdays
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Hazelnut Chocolate Long John
+Category: Long John
+Flavor: hazelnut cocoa icing with soft raised crumb
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, hazelnut cocoa icing
+Available: Seasonal spring
+Notes: Contains tree nuts.
+
+Name: Gluten-Free Gingerbread Donut
+Category: Gluten-Free
+Flavor: molasses and ginger spice
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, molasses, ginger, cinnamon
+Available: Coffee bar menu
+Notes: Works well as a specialty pre-order item.
+
+Name: Sweet Corn Blueberry Fritter
+Category: Fritter
+Flavor: sweet corn and blueberries
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, sweet corn, blueberries
+Available: Seasonal summer
+Notes: Distinct flavor profile for search filtering.
+
+Name: Toffee Crunch Donut Holes
+Category: Donut Hole
+Flavor: caramelized toffee glaze with crisp bits
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, toffee glaze, toffee bits
+Available: Tuesdays and Thursdays
+Notes: Best served warm.
+
+Name: Almond Joy Old Fashioned
+Category: Old Fashioned
+Flavor: coconut and almond with chocolate glaze
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, coconut, almonds, chocolate glaze
+Available: Saturday mornings
+Notes: Contains tree nuts.
+
+Name: Baked Vanilla Churro Donut
+Category: Baked
+Flavor: vanilla glaze with cinnamon sugar crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla glaze, cinnamon sugar
+Available: Weekends
+Notes: Customer favorite on busy mornings.
+
+Name: Baked Lemon Poppyseed Donut
+Category: Baked
+Flavor: lemon glaze with poppyseed crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon glaze, poppyseeds
+Available: Seasonal winter
+Notes: Made in small batches.
+
+Name: Cookie Butter Cream Bismark
+Category: Filled
+Flavor: spiced cookie butter filling
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cookie butter cream, vanilla glaze
+Available: Rotating special
+Notes: Rich filling makes it a heavier option.
+
+Name: Espresso Glaze Ring Donut
+Category: Yeast
+Flavor: coffee glaze with roasted espresso depth
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, espresso glaze
+Available: Limited batch
+Notes: Works well as a breakfast treat.
+
+Name: Gluten-Free Black Sesame Donut
+Category: Gluten-Free
+Flavor: nutty black sesame glaze
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, black sesame paste, sesame glaze
+Available: Coffee bar menu
+Notes: Works well as a specialty pre-order item. Popular with first-time visitors.
+
+Name: Vegan Chocolate Peanut Butter Donut
+Category: Vegan
+Flavor: cocoa glaze with peanut butter swirl
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, chocolate glaze, peanut butter swirl
+Available: Morning only
+Notes: Good option for customers asking about dietary alternatives. Contains peanuts.
+
+Name: Malted Chocolate Cake Donut
+Category: Cake
+Flavor: malted cocoa glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, malted milk powder, chocolate glaze
+Available: Seasonal fall
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Chocolate Mint Cream Filled Donut
+Category: Filled
+Flavor: mint cream with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mint cream, chocolate glaze
+Available: Fridays
+Notes: Can be messy in the best way. Nice contrast of soft dough and crisp topping.
+
+Name: Strawberry Basil Donut Holes
+Category: Donut Hole
+Flavor: strawberry glaze with fresh basil aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, strawberry glaze, basil
+Available: Weekends
+Notes: A colorful option for display cases.
+
+Name: Gluten-Free Matcha White Chocolate Donut
+Category: Gluten-Free
+Flavor: earthy matcha with sweet white chocolate
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, matcha powder, white chocolate glaze
+Available: Wednesdays
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Orange Cranberry Mochi Donut
+Category: Mochi
+Flavor: orange glaze with cranberry tartness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, orange glaze, cranberry
+Available: Morning only
+Notes: Soft texture with a clean finish.
+
+Name: S'mores Cake Donut
+Category: Cake
+Flavor: graham, chocolate, and marshmallow sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, graham crumbs, chocolate glaze, marshmallow drizzle
+Available: Weekends
+Notes: Popular for weekend boxes.
+
+Name: Cranberry Orange Cake Donut
+Category: Cake
+Flavor: cranberry tartness with orange zest
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cranberry, orange zest
+Available: Seasonal summer
+Notes: Good pairing for espresso drinks.
+
+Name: Chocolate Banana Fritter
+Category: Fritter
+Flavor: banana with chocolate chips
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, banana, chocolate chips
+Available: Weekends
+Notes: Good candidate for sampler boxes.
+
+Name: Blueberry Basil Fritter
+Category: Fritter
+Flavor: blueberries with basil glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, blueberries, basil glaze
+Available: Coffee bar menu
+Notes: Good for office boxes.
+
+Name: Carrot Cake Cake Donut
+Category: Cake
+Flavor: spiced carrot flavor with cream cheese glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, carrot, cinnamon, cream cheese glaze
+Available: Weekdays
+Notes: Works well as a breakfast treat.
+
+Name: Vanilla Espresso Cream Pocket Donut
+Category: Filled
+Flavor: vanilla espresso cream with mocha drizzle
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla espresso cream, mocha drizzle
+Available: Holiday menu
+Notes: Pairs well with unsweetened coffee.
+
+Name: Passion Fruit Cruller
+Category: Cruller
+Flavor: airy cruller with passion fruit glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, passion fruit glaze
+Available: Rotating special
+Notes: Kid-friendly option. A colorful option for display cases.
+
+Name: Malted Chocolate Mochi Donut
+Category: Mochi
+Flavor: malted cocoa glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, malted milk powder, chocolate glaze
+Available: Coffee bar menu
+Notes: Popular for weekend boxes.
+
+Name: Coconut Lime Mochi Donut
+Category: Mochi
+Flavor: coconut glaze with lime brightness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, coconut glaze, lime zest
+Available: Mondays only
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Funfetti Cake Donut
+Category: Cake
+Flavor: sweet vanilla with colorful sprinkle crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla icing, sprinkles
+Available: Saturday mornings
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Ube Cream Filled Donut
+Category: Filled
+Flavor: ube cream with coconut glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, ube cream, coconut glaze
+Available: Fridays
+Notes: Filling is piped after cooling. Soft texture with a clean finish.
+
+Name: Peanut Butter Long John
+Category: Long John
+Flavor: peanut butter icing with chocolate drizzle
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, peanut butter icing, chocolate drizzle
+Available: Fridays
+Notes: Contains peanuts.
+
+Name: Cranberry Orange Cloud Donut
+Category: Yeast
+Flavor: cranberry tartness with orange zest
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cranberry, orange zest
+Available: Fridays
+Notes: Light glaze, balanced sweetness.
+
+Name: Gluten-Free Coconut Lime Donut
+Category: Gluten-Free
+Flavor: coconut glaze with lime brightness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, coconut glaze, lime zest
+Available: Tuesdays and Thursdays
+Notes: Works well as a specialty pre-order item. Popular with first-time visitors.
+
+Name: Apple Cinnamon Old Fashioned
+Category: Old Fashioned
+Flavor: baked apple flavor with cinnamon spice
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, apple pieces, cinnamon
+Available: Daily
+Notes: Distinct flavor profile for search filtering.
+
+Name: Sweet Corn Butter Donut Holes
+Category: Donut Hole
+Flavor: sweet corn crumb with butter glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cornmeal, butter glaze
+Available: Seasonal winter
+Notes: Pairs well with cold brew.
+
+Name: Banana Cream Old Fashioned
+Category: Old Fashioned
+Flavor: banana sweetness with creamy vanilla notes
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, banana puree, vanilla glaze
+Available: Seasonal summer
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Maple Oat Donut Holes
+Category: Donut Hole
+Flavor: maple glaze with oat crumble
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple glaze, oat crumble
+Available: Morning only
+Notes: Customer favorite on busy mornings.
+
+Name: Vanilla Custard Filled Round
+Category: Filled
+Flavor: vanilla custard with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla custard, sugar glaze
+Available: Weekdays
+Notes: Good choice for custard lovers.
+
+Name: Vegan Hazelnut Praline Donut
+Category: Vegan
+Flavor: hazelnut glaze with praline crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, hazelnut spread, praline bits
+Available: Coffee bar menu
+Notes: Prepared for the dietary menu; check cross-contact policy. Contains tree nuts.
+
+Name: Mango Chili Old Fashioned
+Category: Old Fashioned
+Flavor: mango glaze with mild chili heat
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, mango glaze, chili flakes
+Available: Late-night menu
+Notes: Mild heat, clearly label in the case. Distinct flavor profile for search filtering.
+
+Name: Brown Butter Mochi Donut
+Category: Mochi
+Flavor: nutty brown butter glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, brown butter glaze
+Available: Late-night menu
+Notes: Kid-friendly option. A colorful option for display cases.
+
+Name: Baked Brownie Batter Donut
+Category: Baked
+Flavor: fudgy brownie flavor with chocolate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, brownie batter, chocolate glaze
+Available: Afternoons
+Notes: Works well as a breakfast treat.
+
+Name: Baked Brown Sugar Cinnamon Donut
+Category: Baked
+Flavor: brown sugar glaze with cinnamon warmth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, brown sugar glaze, cinnamon
+Available: Seasonal fall
+Notes: Kid-friendly option.
+
+Name: Pineapple Upside Down Old Fashioned
+Category: Old Fashioned
+Flavor: pineapple and brown sugar caramel
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, pineapple, brown sugar glaze
+Available: Seasonal fall
+Notes: Customer favorite on busy mornings.
+
+Name: Raspberry Iced Raised Donut
+Category: Yeast
+Flavor: raspberry glaze with a sharp berry finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry glaze
+Available: Sunday brunch
+Notes: Light glaze, balanced sweetness.
+
+Name: Orange Cranberry Donut Holes
+Category: Donut Hole
+Flavor: orange glaze with cranberry tartness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, orange glaze, cranberry
+Available: Pop-up menu
+Notes: A colorful option for display cases.
+
+Name: Oatmeal Cookie Mochi Donut
+Category: Mochi
+Flavor: oat and brown sugar cookie flavor
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, rolled oats, brown sugar glaze
+Available: Seasonal winter
+Notes: Best eaten the same day.
+
+Name: Maple Cinnamon Donut Holes
+Category: Donut Hole
+Flavor: maple glaze with cinnamon warmth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, cinnamon
+Available: Afternoons
+Notes: Distinct flavor profile for search filtering. Best eaten the same day.
+
+Name: Key Lime Cruller
+Category: Cruller
+Flavor: airy cruller with key lime glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, key lime glaze
+Available: Coffee bar menu
+Notes: Good for office boxes.
+
+Name: Baked Maple Espresso Donut
+Category: Baked
+Flavor: maple glaze with espresso depth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, maple glaze, espresso
+Available: Mondays only
+Notes: Customer favorite on busy mornings. Pairs well with cold brew.
+
+Name: Pineapple Upside Down Sugar-Raised Donut
+Category: Yeast
+Flavor: pineapple and brown sugar caramel
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pineapple, brown sugar glaze
+Available: Sunday brunch
+Notes: Light glaze, balanced sweetness.
+
+Name: Lemon Meringue Donut Holes
+Category: Donut Hole
+Flavor: lemon glaze with toasted meringue notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon curd, meringue topping
+Available: Sunday brunch
+Notes: Strong aroma when fresh from the fryer. Best eaten the same day.
+
+Name: Dark Chocolate Sea Salt Cruller
+Category: Cruller
+Flavor: airy cruller with dark chocolate and sea salt
+Ingredients: Flour, eggs, butter, sugar, vanilla, dark chocolate glaze, sea salt
+Available: Morning only
+Notes: Good for office boxes.
+
+Name: Mexican Hot Chocolate Cloud Donut
+Category: Yeast
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cocoa, cinnamon, chili
+Available: Catering only
+Notes: Mild heat, clearly label in the case.
+
+Name: Cinnamon Roll Mochi Donut
+Category: Mochi
+Flavor: cinnamon swirl with vanilla icing
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cinnamon swirl, vanilla icing
+Available: Coffee bar menu
+Notes: Light glaze, balanced sweetness.
+
+Name: Fig Honey Mochi Donut
+Category: Mochi
+Flavor: fig jam sweetness with honey glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, fig jam, honey glaze
+Available: Morning only
+Notes: Simple enough for classic donut fans.
+
+Name: Cocoa Nib Donut Holes
+Category: Donut Hole
+Flavor: dark chocolate glaze with cocoa nib crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, cocoa nibs
+Available: Seasonal fall
+Notes: A colorful option for display cases.
+
+Name: Peach Cobbler Old Fashioned
+Category: Old Fashioned
+Flavor: peach glaze with cinnamon crumb topping
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, peach pieces, cinnamon crumb
+Available: Afternoons
+Notes: Distinct flavor profile for search filtering.
+
+Name: Gluten-Free Mexican Hot Chocolate Donut
+Category: Gluten-Free
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, cocoa, cinnamon, chili
+Available: First Friday menu
+Notes: Label clearly in mixed boxes. Mild heat, clearly label in the case.
+
+Name: Baked Cardamom Sugar Donut
+Category: Baked
+Flavor: cardamom spice with crunchy sugar
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cardamom, sugar coating
+Available: Mondays only
+Notes: Made in small batches.
+
+Name: Peanut Butter Cup Old Fashioned
+Category: Old Fashioned
+Flavor: peanut butter icing with chocolate drizzle
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, peanut butter icing, chocolate drizzle
+Available: Mondays only
+Notes: Contains peanuts.
+
+Name: Salted Caramel Long John
+Category: Long John
+Flavor: salted caramel icing over raised dough
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, salted caramel icing
+Available: By pre-order
+Notes: Pairs well with cold brew.
+
+Name: Classic Glazed Raised Donut
+Category: Yeast
+Flavor: sweet vanilla glaze with buttery notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla glaze
+Available: Holiday menu
+Notes: Good for office boxes. Good candidate for sampler boxes.
+
+Name: Tahini Chocolate Donut Holes
+Category: Donut Hole
+Flavor: sesame tahini with chocolate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, tahini, chocolate glaze
+Available: Coffee bar menu
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Pumpkin Cream Filled Round
+Category: Filled
+Flavor: pumpkin cream with cinnamon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pumpkin cream, cinnamon glaze
+Available: Mondays only
+Notes: Works well in premium assortments.
+
+Name: Mango Chili Cake Donut
+Category: Cake
+Flavor: mango glaze with mild chili heat
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, mango glaze, chili flakes
+Available: Seasonal summer
+Notes: Mild heat, clearly label in the case. Strong aroma when fresh from the fryer.
+
+Name: Strawberry Jelly Pocket Donut
+Category: Filled
+Flavor: sweet strawberry jam with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, strawberry jam, vanilla glaze
+Available: Tuesdays and Thursdays
+Notes: A colorful option for display cases.
+
+Name: Cream Filled Long John
+Category: Long John
+Flavor: sweet cream filling with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, sweet cream filling, vanilla icing
+Available: Late-night menu
+Notes: Can be messy in the best way.
+
+Name: Strawberry Cruller
+Category: Cruller
+Flavor: airy cruller with strawberry glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, strawberry glaze
+Available: Sunday brunch
+Notes: Soft texture with a clean finish. Often sells out before noon.
+
+Name: Guava Cheese Long John
+Category: Long John
+Flavor: guava cream cheese filling with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, guava cream cheese, sugar glaze
+Available: Weekdays
+Notes: Popular dessert-style donut.
+
+Name: Blueberry Glaze Cloud Donut
+Category: Yeast
+Flavor: blueberry sweetness with a gentle tang
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blueberry glaze
+Available: Sunday brunch
+Notes: Pairs well with coffee.
+
+Name: Black Sesame Cruller
+Category: Cruller
+Flavor: airy cruller with black sesame glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, black sesame glaze
+Available: Coffee bar menu
+Notes: Good for office boxes.
+
+Name: Baked Miso Caramel Donut
+Category: Baked
+Flavor: savory-sweet miso with caramel glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, miso caramel glaze
+Available: Pop-up menu
+Notes: Nice contrast of soft dough and crisp topping. Customer favorite on busy mornings.
+
+Name: Classic French Cruller
+Category: Cruller
+Flavor: light eggy pastry with vanilla glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, vanilla glaze
+Available: Saturday mornings
+Notes: Popular for weekend boxes.
+
+Name: Vegan Maple Iced Donut
+Category: Vegan
+Flavor: maple glaze with caramel warmth
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, maple glaze
+Available: Sunday brunch
+Notes: Works well as a specialty pre-order item.
+
+Name: Ube Coconut Twist
+Category: Yeast
+Flavor: purple yam sweetness with coconut finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, ube, coconut glaze
+Available: Holiday menu
+Notes: Kid-friendly option.
+
+Name: Caramel Apple Fritter
+Category: Fritter
+Flavor: apple chunks with caramel glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple chunks, caramel glaze
+Available: Limited batch
+Notes: Good option for mixed dozen boxes.
+
+Name: Dulce Long John
+Category: Long John
+Flavor: dulce de leche cream with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, dulce de leche cream, sugar glaze
+Available: Afternoons
+Notes: Can be messy in the best way.
+
+Name: Earl Grey Mochi Donut
+Category: Mochi
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, earl grey tea, vanilla glaze
+Available: Morning only
+Notes: Good option for mixed dozen boxes. Nice contrast of soft dough and crisp topping.
+
+Name: Gluten-Free Pineapple Upside Down Donut
+Category: Gluten-Free
+Flavor: pineapple and brown sugar caramel
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, pineapple, brown sugar glaze
+Available: Seasonal summer
+Notes: Label clearly in mixed boxes.
+
+Name: Baked Spiced Vanilla Donut
+Category: Baked
+Flavor: vanilla glaze with gentle baking spice
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla glaze, baking spices
+Available: Weekdays
+Notes: Good pairing for espresso drinks. Useful search demo entry with clear flavor cues.
+
+Name: Pumpkin Spice Sugar-Raised Donut
+Category: Yeast
+Flavor: pumpkin and warm baking spices
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pumpkin puree, pumpkin spice
+Available: Wednesdays
+Notes: Good option for mixed dozen boxes.
+
+Name: Mocha Crunch Cake Donut
+Category: Cake
+Flavor: coffee and cocoa with crisp chocolate bits
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, mocha glaze, chocolate crisps
+Available: Seasonal winter
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Apricot Jam Filled Round
+Category: Filled
+Flavor: apricot jam with almond glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, apricot jam, almond glaze
+Available: Seasonal winter
+Notes: Contains tree nuts.
+
+Name: Baked Coconut Cream Donut
+Category: Baked
+Flavor: coconut sweetness with creamy glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, coconut cream, coconut glaze
+Available: Afternoons
+Notes: Great with black tea. Light glaze, balanced sweetness.
+
+Name: Orange Marmalade Stuffed Donut
+Category: Filled
+Flavor: orange marmalade with dark chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, orange marmalade, dark chocolate glaze
+Available: Limited batch
+Notes: Simple enough for classic donut fans.
+
+Name: Lemon Poppyseed Ring Donut
+Category: Yeast
+Flavor: lemon glaze with poppyseed crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lemon glaze, poppyseeds
+Available: Coffee bar menu
+Notes: Pairs well with coffee. Great with black tea.
+
+Name: Maple Bacon Old Fashioned
+Category: Old Fashioned
+Flavor: maple glaze with smoky bacon crumble
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, maple glaze, bacon crumble
+Available: Coffee bar menu
+Notes: Savory-sweet profile; not vegetarian. Good option for mixed dozen boxes.
+
+Name: Gluten-Free Key Lime Donut
+Category: Gluten-Free
+Flavor: tart key lime glaze with sweet cream notes
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, key lime juice, lime zest
+Available: Seasonal winter
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Cherry Cream Long John
+Category: Long John
+Flavor: cherry cream filling with chocolate icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cherry cream, chocolate icing
+Available: Catering only
+Notes: Can be messy in the best way.
+
+Name: Vegan Vanilla Bean Donut
+Category: Vegan
+Flavor: warm vanilla bean and light sugar glaze
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vanilla bean glaze
+Available: Saturday mornings
+Notes: Works well as a specialty pre-order item.
+
+Name: Pomegranate Cruller
+Category: Cruller
+Flavor: airy cruller with pomegranate glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, pomegranate glaze
+Available: First Friday menu
+Notes: Best served warm. Strong aroma when fresh from the fryer.
+
+Name: Tiramisu Cake Donut
+Category: Cake
+Flavor: espresso and mascarpone style sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, espresso glaze, cocoa dusting
+Available: Mondays only
+Notes: Good pairing for espresso drinks.
+
+Name: Guava Cheese Cake Donut
+Category: Cake
+Flavor: guava sweetness with cream cheese notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, guava paste, cream cheese glaze
+Available: Seasonal spring
+Notes: Good candidate for sampler boxes. Great with black tea.
+
+Name: Peanut Butter Cream Bismark
+Category: Filled
+Flavor: peanut butter filling with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, peanut butter cream, chocolate glaze
+Available: Seasonal summer
+Notes: Works well in premium assortments. Contains peanuts.
+
+Name: Strawberry Glaze Sugar-Raised Donut
+Category: Yeast
+Flavor: fresh strawberry glaze and berry aroma
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, strawberry glaze
+Available: Wednesdays
+Notes: Popular for weekend boxes.
+
+Name: Brown Butter Raised Donut
+Category: Yeast
+Flavor: nutty brown butter glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, brown butter glaze
+Available: Mondays only
+Notes: Light glaze, balanced sweetness.
+
+Name: Vanilla Bean Twist
+Category: Yeast
+Flavor: warm vanilla bean and light sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla bean glaze
+Available: First Friday menu
+Notes: Simple enough for classic donut fans.
+
+Name: Orange Cream Long John
+Category: Long John
+Flavor: orange cream filling with vanilla icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, orange cream, vanilla icing
+Available: Mondays only
+Notes: Filling is piped after cooling.
+
+Name: Baked Blueberry Lemon Donut
+Category: Baked
+Flavor: blueberry glaze with lemon brightness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, blueberry glaze, lemon zest
+Available: Limited batch
+Notes: Good for office boxes.
+
+Name: Gluten-Free Peach Cobbler Donut
+Category: Gluten-Free
+Flavor: peach glaze with cinnamon crumb topping
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, peach pieces, cinnamon crumb
+Available: First Friday menu
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Spiced Vanilla Mochi Donut
+Category: Mochi
+Flavor: vanilla glaze with gentle baking spice
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, vanilla glaze, baking spices
+Available: Coffee bar menu
+Notes: Good option for mixed dozen boxes. Popular with first-time visitors.
+
+Name: Vegan Cherry Almond Donut
+Category: Vegan
+Flavor: cherry glaze with almond aroma
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, cherry glaze, almond extract
+Available: Seasonal winter
+Notes: Label clearly in mixed boxes. Contains tree nuts.
+
+Name: Black Sesame Cake Donut
+Category: Cake
+Flavor: nutty black sesame glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, black sesame paste, sesame glaze
+Available: Afternoons
+Notes: Popular with first-time visitors.
+
+Name: Marshmallow Cloud Mochi Donut
+Category: Mochi
+Flavor: vanilla glaze with marshmallow sweetness
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, marshmallow glaze
+Available: Weekends
+Notes: Kid-friendly option.
+
+Name: Plum Ginger Fritter
+Category: Fritter
+Flavor: plum pieces with ginger glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, plums, ginger
+Available: Holiday menu
+Notes: Good candidate for sampler boxes.
+
+Name: Blackberry Jam Bismark
+Category: Filled
+Flavor: blackberry jam with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, blackberry jam, vanilla glaze
+Available: Weekdays
+Notes: Good for office boxes.
+
+Name: Baked Raspberry Lime Donut
+Category: Baked
+Flavor: raspberry glaze with lime zest
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, raspberry glaze, lime zest
+Available: Late-night menu
+Notes: A colorful option for display cases.
+
+Name: Gluten-Free Funfetti Donut
+Category: Gluten-Free
+Flavor: sweet vanilla with colorful sprinkle crunch
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, vanilla icing, sprinkles
+Available: Seasonal spring
+Notes: Label clearly in mixed boxes.
+
+Name: Pineapple Upside Down Cake Donut
+Category: Cake
+Flavor: pineapple and brown sugar caramel
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pineapple, brown sugar glaze
+Available: Seasonal fall
+Notes: Kid-friendly option.
+
+Name: Cereal Milk Cream Bismark
+Category: Filled
+Flavor: cereal milk custard with cereal crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cereal milk custard, cereal crunch
+Available: Coffee bar menu
+Notes: Pairs well with unsweetened coffee.
+
+Name: Blackberry Sage Mochi Donut
+Category: Mochi
+Flavor: blackberry glaze with herbal sage notes
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, blackberry glaze, sage
+Available: Sunday brunch
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Cardamom Sugar Mochi Donut
+Category: Mochi
+Flavor: cardamom spice with crunchy sugar
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cardamom, sugar coating
+Available: Late-night menu
+Notes: Good for office boxes.
+
+Name: Oatmeal Cookie Raised Donut
+Category: Yeast
+Flavor: oat and brown sugar cookie flavor
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, rolled oats, brown sugar glaze
+Available: Wednesdays
+Notes: Best eaten the same day.
+
+Name: Lavender Honey Cream Pocket Donut
+Category: Filled
+Flavor: honey cream with lavender glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, honey cream, lavender glaze
+Available: Seasonal fall
+Notes: Pairs well with unsweetened coffee.
+
+Name: Cookies and Cream Sugar-Raised Donut
+Category: Yeast
+Flavor: vanilla icing with chocolate cookie crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing, chocolate cookie crumbs
+Available: Mondays only
+Notes: Customer favorite on busy mornings. Made in small batches.
+
+Name: Salted Honey Butter Cake Donut
+Category: Cake
+Flavor: honey butter glaze with flaky salt
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, honey butter glaze, sea salt
+Available: Holiday menu
+Notes: Best eaten the same day. Good option for mixed dozen boxes.
+
+Name: Vegan Lavender Agave Donut
+Category: Vegan
+Flavor: floral lavender with agave sweetness
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, lavender, agave glaze
+Available: Mondays only
+Notes: Good option for customers asking about dietary alternatives. Best served warm.
+
+Name: Lavender Honey Ring Donut
+Category: Yeast
+Flavor: floral lavender with honey sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lavender, honey glaze
+Available: First Friday menu
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Ube Coconut Old Fashioned
+Category: Old Fashioned
+Flavor: purple yam sweetness with coconut finish
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, ube, coconut glaze
+Available: Rotating special
+Notes: Distinct flavor profile for search filtering.
+
+Name: Boston Cream Filled Donut
+Category: Filled
+Flavor: vanilla custard with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla custard, chocolate glaze
+Available: Sunday brunch
+Notes: Rich filling makes it a heavier option.
+
+Name: Red Velvet Old Fashioned
+Category: Old Fashioned
+Flavor: cocoa-vanilla crumb with cream cheese glaze
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, cocoa powder, cream cheese glaze
+Available: Saturday mornings
+Notes: Good candidate for sampler boxes.
+
+Name: Gluten-Free Tiramisu Donut
+Category: Gluten-Free
+Flavor: espresso and mascarpone style sweetness
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, espresso glaze, cocoa dusting
+Available: Seasonal spring
+Notes: Texture is slightly different from standard yeast donuts.
+
+Name: Hazelnut Praline Old Fashioned
+Category: Old Fashioned
+Flavor: hazelnut glaze with praline crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, hazelnut spread, praline bits
+Available: Seasonal summer
+Notes: Contains tree nuts.
+
+Name: Birthday Cake Twist
+Category: Yeast
+Flavor: vanilla cake flavor with rainbow sprinkles
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing, sprinkles
+Available: First Friday menu
+Notes: Pairs well with cold brew.
+
+Name: Blackberry Sage Old Fashioned
+Category: Old Fashioned
+Flavor: blackberry glaze with herbal sage notes
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, blackberry glaze, sage
+Available: Afternoons
+Notes: Often sells out before noon.
+
+Name: Toasted Coconut Cloud Donut
+Category: Yeast
+Flavor: coconut glaze with toasted coconut crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coconut glaze, toasted coconut
+Available: Weekdays
+Notes: Simple enough for classic donut fans.
+
+Name: Toasted Coconut Old Fashioned
+Category: Old Fashioned
+Flavor: coconut glaze with toasted coconut crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, coconut glaze, toasted coconut
+Available: Wednesdays
+Notes: Popular for weekend boxes.
+
+Name: Gluten-Free Salted Caramel Donut
+Category: Gluten-Free
+Flavor: caramel glaze with a light salt finish
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, salted caramel glaze
+Available: Catering only
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Snickerdoodle Cake Donut
+Category: Cake
+Flavor: cinnamon sugar cookie flavor
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon, vanilla glaze
+Available: Late-night menu
+Notes: Made in small batches.
+
+Name: White Chocolate Raspberry Ring Donut
+Category: Yeast
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, white chocolate glaze, raspberry drizzle
+Available: Sunday brunch
+Notes: Distinct flavor profile for search filtering.
+
+Name: Cherry Almond Fritter
+Category: Fritter
+Flavor: cherries with almond glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, cherries, almond glaze
+Available: Catering only
+Notes: Contains tree nuts.
+
+Name: Key Lime Cake Donut
+Category: Cake
+Flavor: tart key lime glaze with sweet cream notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, key lime juice, lime zest
+Available: Coffee bar menu
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Cinnamon Sugar Cruller
+Category: Cruller
+Flavor: airy cruller with cinnamon sugar coating
+Ingredients: Flour, eggs, butter, sugar, vanilla, cinnamon, sugar coating
+Available: Late-night menu
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Strawberry Rhubarb Fritter
+Category: Fritter
+Flavor: strawberry and rhubarb filling
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, strawberries, rhubarb
+Available: Holiday menu
+Notes: Soft texture with a clean finish. Distinct flavor profile for search filtering.
+
+Name: Dulce de Leche Cream Filled Round
+Category: Filled
+Flavor: milk caramel cream with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, dulce de leche cream, sugar glaze
+Available: Catering only
+Notes: Good choice for custard lovers.
+
+Name: Gluten-Free Mango Chili Donut
+Category: Gluten-Free
+Flavor: mango glaze with mild chili heat
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, mango glaze, chili flakes
+Available: Sunday brunch
+Notes: Texture is slightly different from standard yeast donuts. Mild heat, clearly label in the case.
+
+Name: Vegan Matcha White Chocolate Donut
+Category: Vegan
+Flavor: earthy matcha with sweet white chocolate
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, matcha powder, vegan white chocolate glaze
+Available: Holiday menu
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: Earl Grey Twist
+Category: Yeast
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, earl grey tea, vanilla glaze
+Available: Rotating special
+Notes: Customer favorite on busy mornings.
+
+Name: Baked Vanilla Sprinkle Donut
+Category: Baked
+Flavor: vanilla icing with sprinkle crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla icing, sprinkles
+Available: Daily
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Chai Spice Cake Donut
+Category: Cake
+Flavor: black tea spice with cinnamon and cardamom
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chai spice, vanilla glaze
+Available: Seasonal summer
+Notes: Distinct flavor profile for search filtering.
+
+Name: Blueberry Cruller
+Category: Cruller
+Flavor: airy cruller with blueberry glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, blueberry glaze
+Available: Afternoons
+Notes: Good for office boxes.
+
+Name: Lemon Lavender Mochi Donut
+Category: Mochi
+Flavor: lemon glaze with lavender aroma
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, lemon glaze, lavender
+Available: By pre-order
+Notes: Good for office boxes.
+
+Name: Candied Bacon Twist
+Category: Yeast
+Flavor: sweet glaze with smoky candied bacon
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla glaze, candied bacon
+Available: Holiday menu
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Cardamom Sugar Cruller
+Category: Cruller
+Flavor: airy cruller with cardamom sugar
+Ingredients: Flour, eggs, butter, sugar, vanilla, cardamom, sugar coating
+Available: Seasonal winter
+Notes: Balanced for people who do not want an overly sweet donut.
+
+Name: Gingerbread Old Fashioned
+Category: Old Fashioned
+Flavor: molasses and ginger spice
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, molasses, ginger, cinnamon
+Available: Sunday brunch
+Notes: Useful search demo entry with clear flavor cues. Made in small batches.
+
+Name: Pecan Praline Apple Fritter
+Category: Fritter
+Flavor: apple chunks with praline pecans
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apple chunks, pecan praline
+Available: Saturday mornings
+Notes: Contains tree nuts.
+
+Name: Mexican Hot Chocolate Mochi Donut
+Category: Mochi
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cocoa, cinnamon, chili
+Available: Weekends
+Notes: Mild heat, clearly label in the case.
+
+Name: Red Velvet Ring Donut
+Category: Yeast
+Flavor: cocoa-vanilla crumb with cream cheese glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cocoa powder, cream cheese glaze
+Available: Holiday menu
+Notes: Popular for weekend boxes.
+
+Name: Chocolate Cream Pocket Donut
+Category: Filled
+Flavor: chocolate pastry cream with cocoa glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate pastry cream, chocolate glaze
+Available: By pre-order
+Notes: Filling is piped after cooling. Great with black tea.
+
+Name: Rocky Road Cake Donut
+Category: Cake
+Flavor: chocolate glaze with marshmallow and nut crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, marshmallow bits, almonds
+Available: Saturday mornings
+Notes: Contains tree nuts. Best served warm.
+
+Name: Key Lime Long John
+Category: Long John
+Flavor: key lime cream filling with graham crumb
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, key lime cream, graham crumbs
+Available: Daily
+Notes: Can be messy in the best way.
+
+Name: Vegan Earl Grey Donut
+Category: Vegan
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, earl grey tea, vanilla glaze
+Available: Morning only
+Notes: Works well as a specialty pre-order item. Soft texture with a clean finish.
+
+Name: Cereal Milk Cake Donut
+Category: Cake
+Flavor: sweet cereal milk glaze with cereal crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cereal milk glaze, cereal crunch
+Available: Weekdays
+Notes: Balanced for people who do not want an overly sweet donut. Good pairing for espresso drinks.
+
+Name: Gluten-Free Blueberry Glaze Donut
+Category: Gluten-Free
+Flavor: blueberry sweetness with a gentle tang
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, blueberry glaze
+Available: Saturday mornings
+Notes: Label clearly in mixed boxes. Good pairing for espresso drinks.
+
+Name: Earl Grey Cake Donut
+Category: Cake
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, earl grey tea, vanilla glaze
+Available: Seasonal summer
+Notes: Useful search demo entry with clear flavor cues. Works well as a breakfast treat.
+
+Name: Carrot Cake Old Fashioned
+Category: Old Fashioned
+Flavor: spiced carrot flavor with cream cheese glaze
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, carrot, cinnamon, cream cheese glaze
+Available: Sunday brunch
+Notes: Distinct flavor profile for search filtering.
+
+Name: Earl Grey Cruller
+Category: Cruller
+Flavor: airy cruller with earl grey glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, earl grey tea, vanilla glaze
+Available: Morning only
+Notes: Pairs well with coffee.
+
+Name: Maple Glazed Cruller
+Category: Cruller
+Flavor: airy cruller with maple glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, maple glaze
+Available: Daily
+Notes: Popular with first-time visitors.
+
+Name: Rocky Road Old Fashioned
+Category: Old Fashioned
+Flavor: chocolate glaze with marshmallow and nut crunch
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, chocolate glaze, marshmallow bits, almonds
+Available: Seasonal summer
+Notes: Contains tree nuts.
+
+Name: Vegan S'mores Donut
+Category: Vegan
+Flavor: graham, chocolate, and marshmallow sweetness
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, graham crumbs, chocolate glaze, vegan marshmallow drizzle
+Available: Weekends
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Chocolate Cherry Donut Holes
+Category: Donut Hole
+Flavor: chocolate glaze with cherry sweetness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cherry glaze, chocolate glaze
+Available: Afternoons
+Notes: Good pairing for espresso drinks.
+
+Name: Vegan Chai Spice Donut
+Category: Vegan
+Flavor: black tea spice with cinnamon and cardamom
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, chai spice, vanilla glaze
+Available: Afternoons
+Notes: Works well as a specialty pre-order item. Light glaze, balanced sweetness.
+
+Name: Lemon Poppyseed Fritter
+Category: Fritter
+Flavor: lemon glaze with poppyseeds
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, lemon glaze, poppyseeds
+Available: Afternoons
+Notes: Pairs well with coffee.
+
+Name: Pineapple Coconut Fritter
+Category: Fritter
+Flavor: pineapple chunks with coconut glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, pineapple, coconut glaze
+Available: Pop-up menu
+Notes: Popular for weekend boxes. Works well as a breakfast treat.
+
+Name: Vanilla Iced Long John
+Category: Long John
+Flavor: vanilla icing on a soft raised bar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing
+Available: Catering only
+Notes: Popular for weekend boxes.
+
+Name: Cereal Milk Mochi Donut
+Category: Mochi
+Flavor: sweet cereal milk glaze with cereal crunch
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cereal milk glaze, cereal crunch
+Available: By pre-order
+Notes: Best served warm.
+
+Name: Chai Spice Old Fashioned
+Category: Old Fashioned
+Flavor: black tea spice with cinnamon and cardamom
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, chai spice, vanilla glaze
+Available: Holiday menu
+Notes: Good candidate for sampler boxes.
+
+Name: Chocolate Orange Cake Donut
+Category: Cake
+Flavor: cocoa glaze with orange zest
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, orange zest
+Available: Weekends
+Notes: Works well as a breakfast treat. Popular with first-time visitors.
+
+Name: Brownie Batter Donut Holes
+Category: Donut Hole
+Flavor: fudgy brownie flavor with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, brownie batter, chocolate glaze
+Available: Saturday mornings
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Apricot Almond Fritter
+Category: Fritter
+Flavor: apricot pieces with almond glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, apricots, almond glaze
+Available: Pop-up menu
+Notes: Contains tree nuts.
+
+Name: Baked Strawberry Shortcake Donut
+Category: Baked
+Flavor: strawberry glaze with vanilla crumb
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, strawberry glaze, vanilla crumbs
+Available: Seasonal fall
+Notes: Soft texture with a clean finish.
+
+Name: Baked Chocolate Mint Donut
+Category: Baked
+Flavor: chocolate glaze with cool mint finish
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, chocolate glaze, mint extract
+Available: First Friday menu
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Brown Sugar Cinnamon Donut Holes
+Category: Donut Hole
+Flavor: brown sugar glaze with cinnamon warmth
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, brown sugar glaze, cinnamon
+Available: Holiday menu
+Notes: Popular with first-time visitors. Distinct flavor profile for search filtering.
+
+Name: Raspberry Jelly Stuffed Donut
+Category: Filled
+Flavor: bright raspberry jam with sugar dusting
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry jam, sugar dusting
+Available: Sunday brunch
+Notes: Best served warm. Distinct flavor profile for search filtering.
+
+Name: Pistachio Cruller
+Category: Cruller
+Flavor: airy cruller with pistachio glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, pistachio glaze
+Available: Tuesdays and Thursdays
+Notes: Contains tree nuts.
+
+Name: Lemon Lavender Cake Donut
+Category: Cake
+Flavor: lemon glaze with lavender aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, lemon glaze, lavender
+Available: Fridays
+Notes: Good pairing for espresso drinks.
+
+Name: Blackberry Sage Fritter
+Category: Fritter
+Flavor: blackberry fruit with sage glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, blackberries, sage glaze
+Available: Fridays
+Notes: Popular with first-time visitors.
+
+Name: Lime Coconut Donut Holes
+Category: Donut Hole
+Flavor: lime glaze with coconut sweetness
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, lime glaze, coconut
+Available: Seasonal spring
+Notes: Best eaten the same day.
+
+Name: Vegan Toasted Coconut Donut
+Category: Vegan
+Flavor: coconut glaze with toasted coconut crunch
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, coconut glaze, toasted coconut
+Available: Rotating special
+Notes: Label clearly in mixed boxes. Good pairing for espresso drinks.
+
+Name: Vanilla Almond Donut Holes
+Category: Donut Hole
+Flavor: vanilla glaze with almond aroma
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla glaze, almond extract
+Available: Afternoons
+Notes: Contains tree nuts.
+
+Name: Guava Cream Cheese Filled Donut
+Category: Filled
+Flavor: guava and cream cheese filling
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, guava paste, cream cheese filling
+Available: Mondays only
+Notes: Can be messy in the best way. Good candidate for sampler boxes.
+
+Name: Pumpkin Cream Long John
+Category: Long John
+Flavor: pumpkin cream filling with cinnamon glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pumpkin cream, cinnamon glaze
+Available: Seasonal fall
+Notes: Works well in premium assortments.
+
+Name: Pear Cardamom Fritter
+Category: Fritter
+Flavor: pear pieces with cardamom glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, pear, cardamom
+Available: Morning only
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Bavarian Cream Bismark
+Category: Filled
+Flavor: rich vanilla cream with powdered sugar
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, bavarian cream, powdered sugar
+Available: Weekdays
+Notes: Best served slightly chilled.
+
+Name: Grapefruit Hibiscus Mochi Donut
+Category: Mochi
+Flavor: grapefruit tang with hibiscus floral notes
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, grapefruit glaze, hibiscus
+Available: Morning only
+Notes: Great with black tea.
+
+Name: Strawberry Shortcake Mochi Donut
+Category: Mochi
+Flavor: strawberry glaze with vanilla crumb
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, strawberry glaze, vanilla crumbs
+Available: Saturday mornings
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Espresso Glaze Old Fashioned
+Category: Old Fashioned
+Flavor: coffee glaze with roasted espresso depth
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, espresso glaze
+Available: Wednesdays
+Notes: Simple enough for classic donut fans.
+
+Name: Dark Chocolate Sea Salt Old Fashioned
+Category: Old Fashioned
+Flavor: deep chocolate glaze with sea salt
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, dark chocolate glaze, sea salt
+Available: Weekends
+Notes: A colorful option for display cases.
+
+Name: Mocha Crunch Twist
+Category: Yeast
+Flavor: coffee and cocoa with crisp chocolate bits
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mocha glaze, chocolate crisps
+Available: Fridays
+Notes: Good pairing for espresso drinks.
+
+Name: Banana Pecan Fritter
+Category: Fritter
+Flavor: banana pieces with pecan crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, banana, pecans
+Available: Limited batch
+Notes: Contains tree nuts. Balanced for people who do not want an overly sweet donut.
+
+Name: Blue Corn Honey Mochi Donut
+Category: Mochi
+Flavor: toasty blue corn flavor with honey glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, blue cornmeal, honey glaze
+Available: Tuesdays and Thursdays
+Notes: Soft texture with a clean finish.
+
+Name: Coconut Lime Cake Donut
+Category: Cake
+Flavor: coconut glaze with lime brightness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, coconut glaze, lime zest
+Available: Weekends
+Notes: Useful search demo entry with clear flavor cues.
+
+Name: Baked Cinnamon Roll Donut
+Category: Baked
+Flavor: cinnamon swirl with vanilla icing
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cinnamon swirl, vanilla icing
+Available: Seasonal fall
+Notes: Best eaten the same day.
+
+Name: Vegan White Chocolate Raspberry Donut
+Category: Vegan
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vegan white chocolate glaze, raspberry drizzle
+Available: Holiday menu
+Notes: Prepared for the dietary menu; check cross-contact policy.
+
+Name: S'mores Long John
+Category: Long John
+Flavor: marshmallow cream with chocolate and graham
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, marshmallow cream, chocolate icing, graham crumbs
+Available: Rotating special
+Notes: Rich filling makes it a heavier option.
+
+Name: Salted Honey Butter Donut Holes
+Category: Donut Hole
+Flavor: honey butter glaze with flaky salt
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, honey butter glaze, sea salt
+Available: Morning only
+Notes: Simple enough for classic donut fans.
+
+Name: Passion Fruit Mochi Donut
+Category: Mochi
+Flavor: bright tropical passion fruit glaze
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, passion fruit glaze
+Available: Catering only
+Notes: Pairs well with coffee.
+
+Name: Gluten-Free Peanut Butter Cup Donut
+Category: Gluten-Free
+Flavor: peanut butter icing with chocolate drizzle
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, peanut butter icing, chocolate drizzle
+Available: Tuesdays and Thursdays
+Notes: Texture is slightly different from standard yeast donuts. Contains peanuts.
+
+Name: Candied Bacon Cake Donut
+Category: Cake
+Flavor: sweet glaze with smoky candied bacon
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla glaze, candied bacon
+Available: Late-night menu
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Vanilla Latte Donut Holes
+Category: Donut Hole
+Flavor: vanilla and espresso glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla glaze, espresso
+Available: Holiday menu
+Notes: A colorful option for display cases.
+
+Name: Almond Joy Cake Donut
+Category: Cake
+Flavor: coconut and almond with chocolate glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, coconut, almonds, chocolate glaze
+Available: Pop-up menu
+Notes: Contains tree nuts. A colorful option for display cases.
+
+Name: Birthday Cake Old Fashioned
+Category: Old Fashioned
+Flavor: vanilla cake flavor with rainbow sprinkles
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, vanilla icing, sprinkles
+Available: Seasonal summer
+Notes: Popular with first-time visitors. Soft texture with a clean finish.
+
+Name: Cookies and Cream Long John
+Category: Long John
+Flavor: vanilla icing with chocolate cookie crumbs
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla icing, cookie crumbs
+Available: Catering only
+Notes: Popular with first-time visitors.
+
+Name: Birthday Cake Cake Donut
+Category: Cake
+Flavor: vanilla cake flavor with rainbow sprinkles
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla icing, sprinkles
+Available: Weekends
+Notes: Pairs well with cold brew. Good option for mixed dozen boxes.
+
+Name: Vanilla Churro Donut Holes
+Category: Donut Hole
+Flavor: vanilla glaze with cinnamon sugar crunch
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, vanilla glaze, cinnamon sugar
+Available: Weekends
+Notes: Made in small batches.
+
+Name: Vegan Mocha Crunch Donut
+Category: Vegan
+Flavor: coffee and cocoa with crisp chocolate bits
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, mocha glaze, chocolate crisps
+Available: Pop-up menu
+Notes: Good option for customers asking about dietary alternatives. Made in small batches.
+
+Name: Gluten-Free Almond Joy Donut
+Category: Gluten-Free
+Flavor: coconut and almond with chocolate glaze
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, coconut, almonds, chocolate glaze
+Available: Holiday menu
+Notes: Texture is slightly different from standard yeast donuts. Contains tree nuts.
+
+Name: Chocolate Cherry Cream Stuffed Donut
+Category: Filled
+Flavor: cherry cream with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cherry cream, chocolate glaze
+Available: Weekends
+Notes: Best packed upright to protect the filling.
+
+Name: Cranberry Orange Mochi Donut
+Category: Mochi
+Flavor: cranberry tartness with orange zest
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cranberry, orange zest
+Available: By pre-order
+Notes: Pairs well with cold brew.
+
+Name: Pistachio Rose Sugar-Raised Donut
+Category: Yeast
+Flavor: pistachio glaze with a gentle rose finish
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, pistachio glaze, rose water
+Available: Saturday mornings
+Notes: Contains tree nuts.
+
+Name: Lavender Honey Cruller
+Category: Cruller
+Flavor: airy cruller with lavender honey glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, lavender, honey glaze
+Available: Morning only
+Notes: Soft texture with a clean finish.
+
+Name: Gluten-Free Earl Grey Donut
+Category: Gluten-Free
+Flavor: bergamot tea glaze with vanilla notes
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, earl grey tea, vanilla glaze
+Available: Mondays only
+Notes: Label clearly in mixed boxes.
+
+Name: Vegan Blueberry Glaze Donut
+Category: Vegan
+Flavor: blueberry sweetness with a gentle tang
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, blueberry glaze
+Available: By pre-order
+Notes: Label clearly in mixed boxes.
+
+Name: Gluten-Free Banana Cream Donut
+Category: Gluten-Free
+Flavor: banana sweetness with creamy vanilla notes
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, banana puree, vanilla glaze
+Available: Saturday mornings
+Notes: Label clearly in mixed boxes.
+
+Name: Salted Caramel Cruller
+Category: Cruller
+Flavor: airy cruller with salted caramel glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, salted caramel glaze
+Available: Catering only
+Notes: Pairs well with cold brew.
+
+Name: Vegan Pumpkin Spice Donut
+Category: Vegan
+Flavor: pumpkin and warm baking spices
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, pumpkin puree, pumpkin spice
+Available: Seasonal summer
+Notes: Label clearly in mixed boxes.
+
+Name: Orange Blossom Cruller
+Category: Cruller
+Flavor: airy cruller with orange blossom glaze
+Ingredients: Flour, eggs, butter, sugar, vanilla, orange blossom glaze
+Available: First Friday menu
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Maple Bacon Ring Donut
+Category: Yeast
+Flavor: maple glaze with smoky bacon crumble
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, maple glaze, bacon crumble
+Available: Holiday menu
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Vegan Pineapple Upside Down Donut
+Category: Vegan
+Flavor: pineapple and brown sugar caramel
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, pineapple, brown sugar glaze
+Available: First Friday menu
+Notes: Label clearly in mixed boxes.
+
+Name: Gluten-Free Mocha Crunch Donut
+Category: Gluten-Free
+Flavor: coffee and cocoa with crisp chocolate bits
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, mocha glaze, chocolate crisps
+Available: Seasonal fall
+Notes: Label clearly in mixed boxes. Good candidate for sampler boxes.
+
+Name: White Chocolate Raspberry Cream Bismark
+Category: Filled
+Flavor: raspberry cream with white chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, raspberry cream, white chocolate glaze
+Available: Daily
+Notes: Rich filling makes it a heavier option.
+
+Name: Butter Pecan Sugar-Raised Donut
+Category: Yeast
+Flavor: buttery glaze with toasted pecan crunch
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, butter glaze, pecans
+Available: Weekends
+Notes: Contains tree nuts.
+
+Name: Vanilla Bean Custard Pocket Donut
+Category: Filled
+Flavor: vanilla bean custard with sugar glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, vanilla bean custard, sugar glaze
+Available: Seasonal summer
+Notes: Filling is piped after cooling.
+
+Name: Chocolate Marshmallow Filled Donut
+Category: Filled
+Flavor: marshmallow cream with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, marshmallow cream, chocolate glaze
+Available: Saturday mornings
+Notes: Popular dessert-style donut. Often sells out before noon.
+
+Name: Mango Chili Fritter
+Category: Fritter
+Flavor: mango pieces with mild chili glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, cinnamon, mango, chili glaze
+Available: Morning only
+Notes: Mild heat, clearly label in the case.
+
+Name: Black Sesame Old Fashioned
+Category: Old Fashioned
+Flavor: nutty black sesame glaze
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, black sesame paste, sesame glaze
+Available: Weekdays
+Notes: Often sells out before noon.
+
+Name: Baked Blueberry Basil Donut
+Category: Baked
+Flavor: blueberry glaze with fresh basil aroma
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, blueberry glaze, basil
+Available: Seasonal fall
+Notes: Nice contrast of soft dough and crisp topping.
+
+Name: Vanilla Sprinkle Mochi Donut
+Category: Mochi
+Flavor: vanilla icing with sprinkle crunch
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, vanilla icing, sprinkles
+Available: Rotating special
+Notes: Customer favorite on busy mornings.
+
+Name: Pear Cardamom Old Fashioned
+Category: Old Fashioned
+Flavor: pear sweetness with cardamom spice
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, pear, cardamom
+Available: Holiday menu
+Notes: Best served warm.
+
+Name: Pistachio Rose Old Fashioned
+Category: Old Fashioned
+Flavor: pistachio glaze with a gentle rose finish
+Ingredients: Flour, sour cream, sugar, eggs, baking powder, vanilla, pistachio glaze, rose water
+Available: Pop-up menu
+Notes: Contains tree nuts.
+
+Name: Chocolate Mint Long John
+Category: Long John
+Flavor: mint cream filling with chocolate icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mint cream, chocolate icing
+Available: Late-night menu
+Notes: Best packed upright to protect the filling.
+
+Name: Vegan Chocolate Frosted Donut
+Category: Vegan
+Flavor: rich cocoa icing with a soft sweet finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, chocolate icing
+Available: Seasonal winter
+Notes: Works well as a specialty pre-order item.
+
+Name: Cherry Almond Cloud Donut
+Category: Yeast
+Flavor: cherry glaze with almond aroma
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, cherry glaze, almond extract
+Available: Morning only
+Notes: Contains tree nuts.
+
+Name: Vegan Classic Glazed Donut
+Category: Vegan
+Flavor: sweet vanilla glaze with buttery notes
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, vanilla glaze
+Available: Seasonal fall
+Notes: Good option for customers asking about dietary alternatives. Popular with first-time visitors.
+
+Name: Chocolate Hazelnut Donut Holes
+Category: Donut Hole
+Flavor: chocolate glaze with hazelnut spread
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, chocolate hazelnut spread
+Available: Weekdays
+Notes: Contains tree nuts. Made in small batches.
+
+Name: Gluten-Free Chai Spice Donut
+Category: Gluten-Free
+Flavor: black tea spice with cinnamon and cardamom
+Ingredients: Gluten-free flour blend, sugar, eggs, milk, baking powder, xanthan gum, chai spice, vanilla glaze
+Available: Weekdays
+Notes: Good option for customers asking about dietary alternatives.
+
+Name: Fig Honey Cake Donut
+Category: Cake
+Flavor: fig jam sweetness with honey glaze
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, fig jam, honey glaze
+Available: Weekdays
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Salted Caramel Cream Filled Donut
+Category: Filled
+Flavor: caramel cream with sea salt glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, salted caramel cream, caramel glaze
+Available: Saturday mornings
+Notes: Best served slightly chilled.
+
+Name: Maple Bacon Mochi Donut
+Category: Mochi
+Flavor: maple glaze with smoky bacon crumble
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, maple glaze, bacon crumble
+Available: Tuesdays and Thursdays
+Notes: Savory-sweet profile; not vegetarian.
+
+Name: Vegan Peanut Butter Cup Donut
+Category: Vegan
+Flavor: peanut butter icing with chocolate drizzle
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, peanut butter icing, chocolate drizzle
+Available: Pop-up menu
+Notes: Works well as a specialty pre-order item. Contains peanuts.
+
+Name: Pecan Pie Donut Holes
+Category: Donut Hole
+Flavor: brown sugar glaze with pecan filling notes
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, pecans, brown sugar glaze
+Available: Limited batch
+Notes: Contains tree nuts.
+
+Name: White Chocolate Raspberry Cake Donut
+Category: Cake
+Flavor: white chocolate glaze with raspberry tartness
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, white chocolate glaze, raspberry drizzle
+Available: Daily
+Notes: Popular with first-time visitors.
+
+Name: Hazelnut Cream Stuffed Donut
+Category: Filled
+Flavor: hazelnut cocoa filling with chocolate glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, hazelnut cream, chocolate glaze
+Available: Pop-up menu
+Notes: Filling is piped after cooling. Contains tree nuts.
+
+Name: Vegan Ube Coconut Donut
+Category: Vegan
+Flavor: purple yam sweetness with coconut finish
+Ingredients: Flour, yeast, sugar, oat milk, coconut oil, flaxseed, ube, coconut glaze
+Available: Daily
+Notes: Label clearly in mixed boxes.
+
+Name: Coffee Cream Long John
+Category: Long John
+Flavor: coffee cream filling with mocha icing
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, coffee cream, mocha icing
+Available: Rotating special
+Notes: Rich filling makes it a heavier option. Popular with first-time visitors.
+
+Name: Snickerdoodle Mochi Donut
+Category: Mochi
+Flavor: cinnamon sugar cookie flavor
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, cinnamon, vanilla glaze
+Available: Rotating special
+Notes: A colorful option for display cases. Pairs well with cold brew.
+
+Name: Mango Cream Filled Round
+Category: Filled
+Flavor: mango cream with passion fruit glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, mango cream, passion fruit glaze
+Available: Seasonal summer
+Notes: Good choice for custard lovers.
+
+Name: Mexican Hot Chocolate Cake Donut
+Category: Cake
+Flavor: cocoa glaze with cinnamon and mild chili
+Ingredients: Flour, sugar, eggs, milk, butter, baking powder, cocoa, cinnamon, chili
+Available: Sunday brunch
+Notes: Mild heat, clearly label in the case.
+
+Name: Lemon Poppyseed Mochi Donut
+Category: Mochi
+Flavor: lemon glaze with poppyseed crunch
+Ingredients: Sweet rice flour, tapioca starch, sugar, milk, butter, lemon glaze, poppyseeds
+Available: Seasonal fall
+Notes: Strong aroma when fresh from the fryer.
+
+Name: Peach Jam Pocket Donut
+Category: Filled
+Flavor: peach jam with vanilla glaze
+Ingredients: Flour, yeast, sugar, milk, eggs, butter, peach jam, vanilla glaze
+Available: Weekends
+Notes: Good pairing for espresso drinks.
