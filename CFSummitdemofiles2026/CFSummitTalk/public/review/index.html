@@ -1,0 +1,954 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokenomics: ROI and Metrics for Your AI Workflows - Review Export</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #10141b;
+        --panel: #171d27;
+        --panel-strong: #202839;
+        --ink: #f3f5f7;
+        --muted: #aeb8c7;
+        --line: #394255;
+        --cyan: #6ed6e8;
+        --amber: #f1c96b;
+        --soft: #d8dee8;
+        --warn: #f7b267;
+        --ok: #8bd6a5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 48px));
+        margin: 0 auto;
+        padding: 44px 0 64px;
+      }
+
+      .review-header {
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 28px;
+        padding-bottom: 24px;
+      }
+
+      .review-header p,
+      .meta,
+      .notes,
+      .visual,
+      .citation-note,
+      .audit-ok {
+        color: var(--muted);
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.12;
+        margin: 0;
+      }
+
+      .review-header h1 {
+        font-size: clamp(2.2rem, 4vw, 4.25rem);
+        letter-spacing: 0;
+        margin-bottom: 10px;
+      }
+
+      .review-header p {
+        max-width: 780px;
+        font-size: 1.05rem;
+        margin: 0;
+      }
+
+      .slide-review {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        margin: 24px 0;
+        overflow: hidden;
+      }
+
+      .slide-heading {
+        background: linear-gradient(180deg, rgba(110, 214, 232, 0.09), rgba(110, 214, 232, 0));
+        border-bottom: 1px solid var(--line);
+        padding: 22px 24px;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        font-size: 0.88rem;
+        letter-spacing: 0.04em;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      .slide-heading h2 {
+        color: var(--ink);
+        font-size: clamp(1.7rem, 3vw, 2.6rem);
+      }
+
+      .slide-body {
+        display: grid;
+        gap: 18px;
+        padding: 24px;
+      }
+
+      section.content-block {
+        background: rgba(255, 255, 255, 0.025);
+        border: 1px solid rgba(216, 222, 232, 0.12);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      section.content-block h3 {
+        color: var(--amber);
+        font-size: 0.9rem;
+        letter-spacing: 0.08em;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0 0 10px;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      .primary {
+        color: var(--soft);
+        font-size: 1.12rem;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding-left: 1.35rem;
+      }
+
+      li + li {
+        margin-top: 6px;
+      }
+
+      .cards,
+      .columns {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+
+      .card,
+      .column {
+        background: var(--panel-strong);
+        border: 1px solid rgba(216, 222, 232, 0.14);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .card strong,
+      .column strong {
+        color: var(--cyan);
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid rgba(216, 222, 232, 0.16);
+        padding: 10px 12px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: rgba(110, 214, 232, 0.1);
+        color: var(--cyan);
+      }
+
+      code {
+        background: rgba(216, 222, 232, 0.09);
+        border: 1px solid rgba(216, 222, 232, 0.16);
+        border-radius: 4px;
+        color: var(--ink);
+        padding: 0.1rem 0.35rem;
+      }
+
+      .visual {
+        border-left: 3px solid var(--cyan);
+        padding-left: 14px;
+      }
+
+      .notes {
+        border-left: 3px solid var(--amber);
+        padding-left: 14px;
+      }
+
+      .audit-ok {
+        border-left: 3px solid var(--ok);
+        padding-left: 14px;
+      }
+
+      .audit-warning {
+        border-left: 3px solid var(--warn);
+        color: var(--warn);
+        padding-left: 14px;
+      }
+
+      .citations a {
+        color: var(--cyan);
+        overflow-wrap: anywhere;
+      }
+
+      @media print {
+        :root {
+          color-scheme: light;
+        }
+
+        html {
+          background: #ffffff;
+          color: #111827;
+        }
+
+        main {
+          width: 100%;
+          padding: 0;
+        }
+
+        .slide-review {
+          background: #ffffff;
+          border-color: #c6ccd6;
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+
+        .slide-heading,
+        section.content-block,
+        .card,
+        .column {
+          background: #ffffff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="review-header">
+        <h1>Tokenomics: ROI and Metrics for Your AI Workflows</h1>
+        <p>Static review export. This page contains all 21 slides, visible slide content, speaker notes, citations, text descriptions of visual elements, and a manifest audit warning when rendered text is not listed in visible fields.</p>
+      </header>
+      <article class="slide-review" id="title">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 01 / 21</span>
+            <span>ID: <code>title</code></span>
+            <span>Layout: title</span>
+          </div>
+          <h2>Tokenomics</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Tokenomics</p>
+            <p><strong>Eyebrow:</strong> ColdFusion Summit 2026</p>
+            <p><strong>Body:</strong></p><ul><li>ROI and Metrics for Your AI Workflows</li><li>Measuring what AI workflows cost and what they return.</li></ul>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Clean title slide with subtle ledger-row texture and a thin abstract cost trace. No diagram labels or extra visible words.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Set the expectation that this is about moving from impressive AI features to measurable AI operations. The point is practical operating discipline for ColdFusion teams building real applications.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="prototype-was-cheap">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 02 / 21</span>
+            <span>ID: <code>prototype-was-cheap</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>The prototype was cheap</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> The prototype was cheap</p>
+            <p><strong>Body:</strong></p><ul><li>The demo worked.</li><li>The bill looked harmless.</li><li>That was not the whole story.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Prototype</strong><p>one prompt, one answer, one happy path</p></div><div class="card"><strong>Production</strong><p>context, tools, retries, review, logging</p></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Simple two-card contrast between prototype and production, with no dashboard chrome or extra planning labels.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Explain that the prototype proves possibility, not economics. A cheap prototype can be useful and still hide production costs that only appear when the workflow becomes real.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="production-changed-the-math">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 03 / 21</span>
+            <span>ID: <code>production-changed-the-math</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>Production changed the math</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Production changed the math</p>
+            <p><strong>Body:</strong></p><ul><li>Production adds the parts the demo skipped.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>Longer prompts</li><li>More context</li><li>RAG</li><li>Tool calls</li><li>Retries</li><li>Human review</li><li>Audit logging</li><li>Support burden</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Clean vertical build-up of production cost layers, revealed as restrained stacked bands.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This is where workflow cost starts to separate from the API-call mental model. Production adds reliability, context, routing, auditability, support, and review.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="why-this-matters-now">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 04 / 21</span>
+            <span>ID: <code>why-this-matters-now</code></span>
+            <span>Layout: metric-cards</span>
+          </div>
+          <h2>Why this matters now</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Why this matters now</p>
+            <p><strong>Body:</strong></p><ul><li>AI adoption is moving faster than AI measurement.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>worker access growth</strong><p>50%</p></div><div class="card"><strong>expected ROI delivery</strong><p>25%</p></div><div class="card"><strong>enterprise-level EBIT impact</strong><p>39%</p></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Three clean metric cards with small source tags; no dashboard frame or extra controls.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Ground the talk in current enterprise reality. Adoption is real. Measurement is lagging. Deloitte supports the worker access and adoption momentum point. IBM supports the expected ROI point. McKinsey supports the enterprise-level EBIT impact point.</p>
+          </section>
+          <section class="content-block citations">
+            <h3>Citations</h3>
+            <ul>
+              <li>
+                <strong>Deloitte:</strong>
+                <a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html">2026 State of AI in the Enterprise</a>
+                <p class="citation-note">Supports adoption momentum, including worker access growth and movement from pilot to production.</p>
+              </li>
+              <li>
+                <strong>IBM:</strong>
+                <a href="https://www.ibm.com/think/insights/ai-roi">AI ROI</a>
+                <p class="citation-note">Supports ROI maturity concerns and the cited gap between investment and expected ROI.</p>
+              </li>
+              <li>
+                <strong>McKinsey:</strong>
+                <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai">The State of AI</a>
+                <p class="citation-note">Supports the distinction between use-case gains and enterprise-level EBIT impact.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <article class="slide-review" id="what-tokenomics-means">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 05 / 21</span>
+            <span>ID: <code>what-tokenomics-means</code></span>
+            <span>Layout: two-column</span>
+          </div>
+          <h2>What tokenomics means</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> What tokenomics means</p>
+            <p><strong>Body:</strong></p><ul><li>Tokenomics is the discipline of measuring what AI workflows consume, what they change, and whether the result is worth scaling.</li><li>Tokens are the billing unit. Workflows are the business unit.</li></ul>
+            <p><strong>Columns:</strong></p><div class="columns"><div class="column"><strong>Token view</strong><ul><li>input</li><li>output</li><li>model</li><li>requests</li></ul></div><div class="column"><strong>Workflow view</strong><ul><li>context</li><li>tools</li><li>retries</li><li>review</li><li>outcomes</li></ul></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Restrained two-column comparison between token accounting and workflow economics.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Keep this as the core definition. Do not make it sound academic. The useful shift is from provider billing units to the actual business workflow.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="token-price-is-not-workflow-cost">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 06 / 21</span>
+            <span>ID: <code>token-price-is-not-workflow-cost</code></span>
+            <span>Layout: two-column</span>
+          </div>
+          <h2>Token price is not workflow cost</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Token price is not workflow cost</p>
+            <p><strong>Body:</strong></p><ul><li>The invoice tells you what the provider charged. It does not tell you whether the workflow was worth running.</li></ul>
+            <p><strong>Columns:</strong></p><div class="columns"><div class="column"><strong>Provider invoice</strong><ul><li>model usage</li><li>token usage</li><li>tool charges, if applicable</li></ul></div><div class="column"><strong>Workflow cost</strong><ul><li>retrieval</li><li>validation</li><li>review</li><li>rework</li><li>outcome</li></ul></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Simple side-by-side comparison between provider invoice surfaces and broader workflow cost surfaces.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Provider cost is real, but incomplete. A production workflow can include retrieval, tool calls, validation, review, rework, and business outcomes that never appear on the provider invoice.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="real-cost-stack">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 07 / 21</span>
+            <span>ID: <code>real-cost-stack</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>The real cost stack</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> The real cost stack</p>
+            <p><strong>Body:</strong></p><ul><li>Cost hides in layers.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Provider</strong><ul><li>model tokens</li><li>cached tokens</li><li>tool charges</li></ul></div><div class="card"><strong>Application</strong><ul><li>retrieval</li><li>storage</li><li>orchestration</li><li>infrastructure</li></ul></div><div class="card"><strong>Business</strong><ul><li>review</li><li>rework</li><li>latency</li><li>compliance</li></ul></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Three-zone cost grouping instead of another dense stack: provider, application, and business.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Use this slide to challenge simplistic per-prompt math. The visible model call is often just the most obvious line item. The durable habit is grouping costs by where they are created and who can influence them.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="model-sizing-is-architecture">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 08 / 21</span>
+            <span>ID: <code>model-sizing-is-architecture</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>Model sizing is architecture</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Model sizing is architecture</p>
+            <p><strong>Body:</strong></p><ul><li>The strongest model is sometimes right. It should not be the unmanaged default.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>Can normal code solve it?</li><li>Can code handle most of it?</li><li>Can a smaller model handle the language portion?</li><li>Can a mid-tier model handle it with validation?</li><li>Does it need a frontier model?</li><li>Does the value justify that choice?</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Clean decision path for model sizing, shown as a serious operating sequence rather than a toy ladder.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This is not a cheapness argument. It is an architectural control argument. The model is part of the design, not just a setting.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="model-strategy-examples">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 09 / 21</span>
+            <span>ID: <code>model-strategy-examples</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>Model strategy examples</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Model strategy examples</p>
+            <p><strong>Body:</strong></p><ul><li>Match model capability to workflow risk.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Routine language work</strong><p>categorization, summarization</p></div><div class="card"><strong>Structured business work</strong><p>extraction, validation, workflow assistance</p></div><div class="card"><strong>High-risk work</strong><p>code review, policy/compliance, customer-facing recommendations</p></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Three grouped example cards organized by workflow risk instead of a six-row table.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Detailed examples: categorize support tickets with a smaller model plus validation and escalation; summarize internal notes with a small or mid-tier model; extract document fields with schema validation; use mid-tier or stronger models with guardrails for customer-facing recommendations; use stronger models with retrieval for complex code review; pair policy or compliance analysis with human review. Tie this to ColdFusion apps: forms, reports, support tools, admin workflows, dashboards, intranet systems, and integration-heavy business apps.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="context-cost-grows">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 10 / 21</span>
+            <span>ID: <code>context-cost-grows</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>Context is where cost quietly grows</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Context is where cost quietly grows</p>
+            <p><strong>Body:</strong></p><ul><li>&quot;Just send everything&quot; is not an architecture.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>system instructions</li><li>user prompt</li><li>chat history</li><li>retrieved documents</li><li>examples</li><li>tool outputs</li><li>formatting rules</li><li>policy instructions</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Context shown as an input budget with restrained stacked token bands, not a marketing funnel.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Long context is useful, but it is a cost surface. It can also introduce noise. The goal is selected context, not maximum context.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="context-discipline">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 11 / 21</span>
+            <span>ID: <code>context-discipline</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>Context discipline</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Context discipline</p>
+            <p><strong>Body:</strong></p><ul><li>Send the smallest sufficient context for the task.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>Keep stable instructions stable.</li><li>Retrieve fewer, better documents.</li><li>Summarize long history.</li><li>Trim tool output before sending it back.</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Four principle rows with quiet emphasis; no dense seven-item checklist.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Also version prompts, track retrieved token count separately, and measure context size by workflow. Mention that OpenAI, Anthropic, and Google expose different pricing and caching surfaces. The vendor details differ. The architecture lesson is consistent.</p>
+          </section>
+          <section class="content-block citations">
+            <h3>Citations</h3>
+            <ul>
+              <li>
+                <strong>OpenAI:</strong>
+                <a href="https://developers.openai.com/api/docs/pricing">API Pricing</a>
+                <p class="citation-note">Supports pricing surfaces such as input, cached input, output, model tier, processing mode, and tool costs.</p>
+              </li>
+              <li>
+                <strong>Anthropic:</strong>
+                <a href="https://docs.anthropic.com/en/docs/about-claude/pricing">Claude Pricing</a>
+                <p class="citation-note">Supports input, output, cache write, cache read, and tool-related pricing surfaces.</p>
+              </li>
+              <li>
+                <strong>Gemini:</strong>
+                <a href="https://ai.google.dev/gemini-api/docs/pricing">Gemini API Pricing</a>
+                <p class="citation-note">Supports context caching, cache storage, and grounding charge surfaces.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <article class="slide-review" id="tool-calls-are-transactions">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 12 / 21</span>
+            <span>ID: <code>tool-calls-are-transactions</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>Tool calls turn prompts into transactions</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Tool calls turn prompts into transactions</p>
+            <p><strong>Body:</strong></p><ul><li>The user made one request.</li><li>The application executed a transaction.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>classify</li><li>retrieve</li><li>query database</li><li>call API</li><li>validate</li><li>retry</li><li>answer</li><li>review</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">A single clean transaction trace showing how one request expands into operational steps.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This is where agentic workflows, MCP, database calls, and external APIs change the cost model. One user request can become a transaction across several systems.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="coldfusion-implementation-pattern">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 13 / 21</span>
+            <span>ID: <code>coldfusion-implementation-pattern</code></span>
+            <span>Layout: architecture</span>
+          </div>
+          <h2>ColdFusion implementation pattern</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> ColdFusion implementation pattern</p>
+            <p><strong>Body:</strong></p><ul><li>Put a measurable layer around AI usage.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>ColdFusion Application</strong></div><div class="card"><strong>AI Service Wrapper / CFC</strong><ul><li>Provider Call</li><li>Token Tracking</li><li>Tool Tracking</li><li>Retry Tracking</li><li>Cost Estimate</li><li>Outcome Logging</li></ul></div><div class="card"><strong>Metrics Store</strong></div><div class="card"><strong>Dashboard / Reports</strong></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">One clean architecture diagram with the AI Service Wrapper / CFC emphasized as the central measurable layer.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">The point is not to scatter AI calls across controllers, CFCs, scheduled tasks, and UI handlers. Centralize the measurable behavior in a wrapper or service layer. The wrapper should capture provider, model, prompt version, token counts, tool calls, retries, cost estimates, status, review, and outcome hooks.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="ai-usage-ledger">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 14 / 21</span>
+            <span>ID: <code>ai-usage-ledger</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>Build an AI Usage Ledger</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Build an AI Usage Ledger</p>
+            <p><strong>Body:</strong></p><ul><li>Every production AI workflow should create a structured usage record.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Identity</strong><ul><li>application</li><li>workflow</li><li>provider</li><li>model</li><li>prompt version</li></ul></div><div class="card"><strong>Usage</strong><ul><li>input tokens</li><li>output tokens</li><li>cached tokens</li><li>retrieved tokens</li></ul></div><div class="card"><strong>Transaction</strong><ul><li>tool calls</li><li>retries</li><li>validation failures</li><li>latency</li></ul></div><div class="card"><strong>Outcome</strong><ul><li>status</li><li>review required</li><li>estimated cost</li></ul></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Four grouped ledger field cards instead of a dense table.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This is the practical center of the talk. Make it feel buildable. The first ledger does not have to be perfect, but every workflow needs a structured record. Additional useful fields include retrieved document IDs, response status, error category, user or team, environment, and release version.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="usage-ledger-answers">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 15 / 21</span>
+            <span>ID: <code>usage-ledger-answers</code></span>
+            <span>Layout: statement</span>
+          </div>
+          <h2>What the usage ledger answers</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> What the usage ledger answers</p>
+            <p><strong>Body:</strong></p><ul><li>Cost visibility becomes workflow visibility.</li></ul>
+            <p><strong>Bullets:</strong></p><ol><li>Which workflows spend the most?</li><li>Where is context growing?</li><li>Which tools multiply cost?</li><li>What does a successful outcome cost?</li></ol>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Four large question rows with generous spacing, emphasizing operational visibility.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">The goal is not a perfect finance system on day one. The goal is to stop flying blind and make workflow questions answerable. Additional questions include which models are overused, where retries are hiding, and which workflows require review.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="usage-is-not-roi">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 16 / 21</span>
+            <span>ID: <code>usage-is-not-roi</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>Usage is not ROI</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Usage is not ROI</p>
+            <p><strong>Body:</strong></p><ul><li>80,000 AI calls is activity. It is not value.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Activity metric</strong><p>80,000 AI calls</p></div><div class="card"><strong>Operating metric</strong><p>Example data: review time fell from 18 minutes to 7 minutes, with a 4% escalation rate, at $0.14 per completed review.</p></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Clean contrast between an activity metric and an operating metric, with the operating metric marked as example data.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This is the second major turn. Consumption metrics matter, but they are only half of the story. Usage needs to connect to a measurable operational result. The numbers shown here are illustrative until replaced with real measured data.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="outcome-ledger">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 17 / 21</span>
+            <span>ID: <code>outcome-ledger</code></span>
+            <span>Layout: grouped-cards</span>
+          </div>
+          <h2>Build an Outcome Ledger</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Build an Outcome Ledger</p>
+            <p><strong>Body:</strong></p><ul><li>Pair usage metrics with business outcomes.</li></ul>
+            <p><strong>Cards:</strong></p><div class="cards"><div class="card"><strong>Time</strong><p>minutes avoided per task</p></div><div class="card"><strong>Throughput</strong><p>more tickets, cases, documents, reviews</p></div><div class="card"><strong>Quality</strong><p>fewer errors, escalations, rework</p></div><div class="card"><strong>Business</strong><p>revenue impact, risk reduction, customer experience</p></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Four outcome groups instead of a seven-row table.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">People liking a tool is feedback. A measured improvement at an acceptable quality threshold is an operating metric. Additional outcome categories include productivity, audit coverage, faster response, better conversion, renewal support, and fewer missed issues.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="useful-roi-formula">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 18 / 21</span>
+            <span>ID: <code>useful-roi-formula</code></span>
+            <span>Layout: formula</span>
+          </div>
+          <h2>A useful ROI formula</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> A useful ROI formula</p>
+            <p><strong>Body:</strong></p><ul><li>Use simple math before complex dashboards.</li></ul>
+            <p><strong>Formula:</strong> AI Workflow ROI = (Value Created - Total Workflow Cost) / Total Workflow Cost</p>
+            <p><strong>Total workflow cost:</strong></p><ul><li>model</li><li>tools</li><li>retrieval</li><li>infrastructure</li><li>review</li><li>rework</li></ul>
+            <p><strong>Value created:</strong></p><ul><li>time</li><li>throughput</li><li>quality</li><li>revenue</li><li>risk reduction</li></ul>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Dominant formula block with two small supporting panels for cost and value lines.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">The first version will be imperfect. That is acceptable. The goal is disciplined visibility, not theatrical precision.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="failure-modes">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 19 / 21</span>
+            <span>ID: <code>failure-modes</code></span>
+            <span>Layout: two-column</span>
+          </div>
+          <h2>Enterprise and SMB failure modes</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Enterprise and SMB failure modes</p>
+            <p><strong>Body:</strong></p><ul><li>Same discipline. Different ways to get hurt.</li></ul>
+            <p><strong>Columns:</strong></p><div class="columns"><div class="column"><strong>Enterprise</strong><ul><li>invisible spend at scale</li><li>disconnected tools</li><li>pilots that never scale</li></ul></div><div class="column"><strong>SMB</strong><ul><li>spend with no margin benefit</li><li>overbuying sophistication</li><li>useful tools that are never evaluated</li></ul></div></div>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Two-column contrast with three visible failure modes per column.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Do not make this a long enterprise-versus-SMB lecture. Use it to show that tokenomics matters at both scales. Additional failure modes include governance after adoption, unclear ownership, owner intuition replacing measurement, and no measurement at all.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="scale-optimize-stop">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 20 / 21</span>
+            <span>ID: <code>scale-optimize-stop</code></span>
+            <span>Layout: matrix</span>
+          </div>
+          <h2>Scale, optimize, or stop</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> Scale, optimize, or stop</p>
+            <p><strong>Body:</strong></p><ul><li>Every AI workflow needs an operating decision.</li></ul>
+            <p><strong>Table:</strong></p><table><thead><tr><th>Cost</th><th>Value</th><th>Decision</th></tr></thead><tbody><tr><td>low</td><td>high</td><td>scale</td></tr><tr><td>high</td><td>high</td><td>optimize</td></tr><tr><td>low</td><td>low</td><td>tolerate, redesign, or defer</td></tr><tr><td>high</td><td>low</td><td>stop</td></tr><tr><td>unclear</td><td>unclear</td><td>instrument before expanding</td></tr></tbody></table>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Clean decision matrix connecting cost, value, and operating decision.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">This gives business and technical teams a shared decision model. The unknown state is not a reason to expand. It is a reason to instrument.</p>
+          </section>
+
+        </div>
+      </article>
+      <article class="slide-review" id="closing">
+        <header class="slide-heading">
+          <div class="meta">
+            <span>Slide 21 / 21</span>
+            <span>ID: <code>closing</code></span>
+            <span>Layout: closing</span>
+          </div>
+          <h2>Closing</h2>
+        </header>
+        <div class="slide-body">
+          <section class="content-block">
+            <h3>Visible Slide Content</h3>
+            <p class="primary"><strong>Visible title:</strong> The question is not just whether the AI worked.</p>
+            <p><strong>Body:</strong></p><ul><li>The question is whether the workflow was worth running.</li><li>That is tokenomics.</li></ul>
+          </section>
+          <section class="content-block">
+            <h3>Manifest Audit</h3>
+            <p class="audit-ok">No visible text outside manifest visible fields was detected by the static render contract.</p>
+          </section>
+          <section class="content-block">
+            <h3>Visual Description</h3>
+            <p class="visual">Minimal final slide with the same subtle ledger-row texture and cost trace as the title slide.</p>
+          </section>
+          <section class="content-block">
+            <h3>Speaker Notes</h3>
+            <p class="notes">Close soberly. AI is becoming normal application architecture. It needs observability, accountability, cost controls, and measurable outcomes.</p>
+          </section>
+
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

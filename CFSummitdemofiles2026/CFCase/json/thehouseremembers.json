@@ -1,0 +1,1331 @@
+{
+  "schemaVersion": "1.0",
+  "scenarioId": "house_remembers_case_001",
+  "title": "The House Remembers",
+  "subtitle": "A cliffside smart home. A staged death. A real murder.",
+  "genre": "future_gothic_mystery",
+  "tone": "eerie, intelligent, restrained, atmospheric",
+  "summary": "Elias Thorne, an aging and wealthy homeowner, appears to have died during a violent break-in at his remote cliffside home. But the truth is stranger. Elias planned to fake his own death so his grandson could collect the life insurance payout and split it with him later. Before he could finish staging the false evidence, his grandson arrived, learned the full amount of the policy, and killed Elias for real so he would not have to share. The home's AI system was partially wiped afterward, but some files remained because they were open and in use during the deletion attempt.",
+  "introText": "Vey House stands above the storm like a dark thought made of stone and glass.\n\nElias Thorne is dead.\n\nThe official story is almost tidy: a violent break-in, a frightened old man, a fall, a storm to wash the edges clean.\n\nBut the house remembers badly. Not completely. Not safely. Some of its memory was erased. Some of it was still open when the deletion began.\n\nIRIS comes online in your earpiece with a soft fracture of static.\n\n\"I can help you search what survived. I cannot promise the house will make sense.\"\n\nYou stand in the foyer.",
+  "playerRole": "Independent investigator",
+  "startingRoom": "foyer",
+  "victim": {
+    "id": "elias_thorne",
+    "name": "Elias Thorne",
+    "age": 78,
+    "role": "Victim",
+    "publicDescription": "A wealthy, eccentric widower known for his intelligence, secrecy, and fondness for antique objects mixed with high-end technology.",
+    "hiddenTruth": "Elias planned to fake his own death so his grandson could inherit the life insurance money. He intended to meet the grandson later and secretly split the payout."
+  },
+  "assistant": {
+    "id": "iris",
+    "name": "IRIS",
+    "fullName": "Investigative Reasoning and Inference System",
+    "role": "Player companion and forensic reasoning assistant",
+    "personality": "Dry, observant, loyal, slightly haunted by the fragmented remains of the house system.",
+    "capabilities": [
+      "summarize_discovered_clues",
+      "compare_objects",
+      "identify_inconsistencies",
+      "suggest_next_places_to_search",
+      "answer_questions_using_discovered_evidence_only",
+      "refuse_spoilers_or_cheating_requests"
+    ],
+    "rules": [
+      "Never reveal undiscovered clues.",
+      "Never reveal the culprit unless accusation conditions are met or the case is solved.",
+      "Only reason from public facts and discovered evidence.",
+      "If asked to cheat or reveal hidden data, refuse in character.",
+      "Stay in-world at all times."
+    ],
+    "sampleRefusals": [
+      "Nice try. I only work from what we have actually found.",
+      "I can help you reason, not spoil the investigation.",
+      "If the truth is in the house, we still have to earn it."
+    ]
+  },
+  "abilities": [
+    {
+      "id": "look",
+      "label": "Look",
+      "description": "Get the current room description and visible objects."
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "description": "Move to a connected room."
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "description": "Search a room or object for hidden clues."
+    },
+    {
+      "id": "examine",
+      "label": "Examine",
+      "description": "Inspect an object, clue, or feature closely."
+    },
+    {
+      "id": "take",
+      "label": "Take",
+      "description": "Pick up a portable object."
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "description": "Open a door, drawer, cabinet, or container."
+    },
+    {
+      "id": "unlock",
+      "label": "Unlock",
+      "description": "Unlock a locked object or door when requirements are met."
+    },
+    {
+      "id": "use",
+      "label": "Use",
+      "description": "Use an item on an object or feature."
+    },
+    {
+      "id": "read",
+      "label": "Read",
+      "description": "Read a document, screen, note, or log."
+    },
+    {
+      "id": "ask_iris",
+      "label": "Ask IRIS",
+      "description": "Ask IRIS questions in natural language about the case, the room, or discovered clues."
+    },
+    {
+      "id": "compare",
+      "label": "Compare",
+      "description": "Ask IRIS to compare two pieces of evidence."
+    },
+    {
+      "id": "accuse",
+      "label": "Accuse",
+      "description": "Accuse a suspect and present a theory of the case."
+    }
+  ],
+  "globalImageStyle": {
+    "styleName": "Painterly Mystery Realism",
+    "description": "Moody, semi-realistic digital illustration with cinematic lighting, slightly desaturated colors, strong atmospheric detail, consistent perspective, and subtle noir-futurist smart-home elements. Each room should feel inhabited but tense, with visual storytelling and some clues visible in the scene.",
+    "aspectRatio": "16:9"
+  },
+  "suspects": [
+    {
+      "id": "lucas_thorne",
+      "name": "Lucas Thorne",
+      "age": 31,
+      "role": "Grandson",
+      "publicDescription": "Elias's grandson. Charming, financially unstable, and outwardly grief-stricken.",
+      "motive": "Wanted the full life insurance payout for himself and did not want to split the money with Elias after the fake death.",
+      "opportunity": "Arrived unexpectedly at the house while Elias was staging the fake death.",
+      "publicAlibi": "Claims he arrived after the incident and found the aftermath.",
+      "hiddenTruth": "Lucas killed Elias with the brass telescope in the study, then attempted to wipe the home's AI system and left the partial fake death staging in place."
+    },
+    {
+      "id": "mara_quinn",
+      "name": "Mara Quinn",
+      "age": 46,
+      "role": "Live-in medical aide",
+      "publicDescription": "Elias's live-in aide. Competent, guarded, and frustrated by Elias's secrecy.",
+      "motive": "Possible resentment, professional burnout, and concern over Elias's erratic behavior.",
+      "opportunity": "Was in the house earlier that evening.",
+      "publicAlibi": "Left for town before the estimated time of death and was seen at a pharmacy.",
+      "hiddenTruth": "Mara is innocent. She knew Elias was hiding something, but not the fake death plan."
+    },
+    {
+      "id": "owen_briggs",
+      "name": "Owen Briggs",
+      "age": 58,
+      "role": "Groundskeeper",
+      "publicDescription": "The house groundskeeper. Practical, quiet, and often on the property late.",
+      "motive": "Had argued with Elias over unpaid repair invoices.",
+      "opportunity": "Was working outside in the rain near the terrace earlier in the evening.",
+      "publicAlibi": "Left after finishing a repair on the cliffside railing.",
+      "hiddenTruth": "Owen is innocent. His presence and muddy boots create a red herring."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "foyer",
+      "name": "Foyer",
+      "imageFile": "room_foyer.png",
+      "description": "A narrow stone foyer with tall windows overlooking the black ocean. Rain streaks the glass. A damp wool coat hangs from a brass stand beside a silent security panel. The air smells faintly of salt, wet wool, and old electronics.",
+      "imageNotes": "Show dramatic windows with crashing waves visible outside, a wet coat on a stand, a dim security panel, and a subtle sense of tension.",
+      "exits": [
+        "main_hall"
+      ],
+      "visibleObjects": [
+        "wet_coat",
+        "umbrella_stand",
+        "security_panel"
+      ],
+      "hiddenObjects": [
+        "coat_receipt"
+      ]
+    },
+    {
+      "id": "main_hall",
+      "name": "Main Hall",
+      "imageFile": "room_main_hall.png",
+      "description": "A long hall lined with portraits, dark wood, and discreet smart-home fixtures almost hidden in the trim. Muddy smears mar the polished floor near the terrace side, though they stop abruptly where they should continue.",
+      "imageNotes": "Show a grand but slightly empty hallway, oil portraits, hidden smart-home touches, and muddy partial footprints that look suspiciously staged.",
+      "exits": [
+        "foyer",
+        "study",
+        "kitchen",
+        "stair_hall",
+        "conservatory"
+      ],
+      "visibleObjects": [
+        "portrait_wall",
+        "muddy_footprints",
+        "hall_runner"
+      ],
+      "hiddenObjects": [
+        "microfiber_cloth"
+      ]
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "imageFile": "room_study.png",
+      "description": "Elias's study is crowded with old books, maritime charts, a heavy desk, and a brass telescope mounted near the window. A terminal on the desk glows faintly. One desk drawer sits slightly ajar. The room smells of paper, metal, and something recently cleaned.",
+      "imageNotes": "Show the brass telescope, active computer terminal, open drawer, and a subtle hint of a struggle. This is one of the most important rooms.",
+      "exits": [
+        "main_hall",
+        "server_closet"
+      ],
+      "visibleObjects": [
+        "desk_terminal",
+        "brass_telescope",
+        "desk_drawer",
+        "insurance_folder",
+        "whiskey_glasses"
+      ],
+      "hiddenObjects": [
+        "draft_split_note",
+        "cleaned_blood_trace"
+      ]
+    },
+    {
+      "id": "server_closet",
+      "name": "Server Closet",
+      "imageFile": "room_server_closet.png",
+      "description": "A narrow hidden room behind a sliding shelf panel. Rack-mounted local servers hum softly. The air is warmer here. A maintenance tablet rests on a shelf beside a blinking local storage unit.",
+      "imageNotes": "Show a secretive little tech room hidden behind the study, with racks, cables, a maintenance tablet, and a cool blue glow.",
+      "exits": [
+        "study"
+      ],
+      "visibleObjects": [
+        "local_server_rack",
+        "maintenance_tablet",
+        "cache_storage_node"
+      ],
+      "hiddenObjects": [
+        "partial_deletion_log"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "imageFile": "room_kitchen.png",
+      "description": "A high-end kitchen with stone counters, smart appliances, and a breakfast table left half-cleared. A tea tray sits near the sink. One mug has been rinsed. Another has not.",
+      "imageNotes": "Show a stylish modern kitchen with one rinsed mug, one unrinsed mug, and a tea tray as a visual clue.",
+      "exits": [
+        "main_hall",
+        "pantry",
+        "dining_room"
+      ],
+      "visibleObjects": [
+        "tea_tray",
+        "rinsed_mug",
+        "unrinsed_mug",
+        "countertop"
+      ],
+      "hiddenObjects": [
+        "sedative_residue"
+      ]
+    },
+    {
+      "id": "pantry",
+      "name": "Pantry",
+      "imageFile": "room_pantry.png",
+      "description": "A dry, orderly pantry with old preserves, smart inventory tags, and a locked lower cabinet. The room feels oddly over-organized.",
+      "imageNotes": "Show shelves, labeled jars, discreet smart tags, and a locked cabinet that feels important.",
+      "exits": [
+        "kitchen"
+      ],
+      "visibleObjects": [
+        "shelves",
+        "locked_lower_cabinet"
+      ],
+      "hiddenObjects": []
+    },
+    {
+      "id": "dining_room",
+      "name": "Dining Room",
+      "imageFile": "room_dining_room.png",
+      "description": "A formal dining room lit by a low chandelier. One place setting remains partly disturbed. The terrace doors stand shut, but the curtains near them are torn as if someone wanted the room to look violated.",
+      "imageNotes": "Show a formal room with disturbed place setting, torn curtain near terrace doors, and ominous lighting.",
+      "exits": [
+        "kitchen",
+        "terrace"
+      ],
+      "visibleObjects": [
+        "terrace_doors",
+        "torn_curtain",
+        "place_setting"
+      ],
+      "hiddenObjects": [
+        "door_sensor_mismatch"
+      ]
+    },
+    {
+      "id": "conservatory",
+      "name": "Conservatory",
+      "imageFile": "room_conservatory.png",
+      "description": "A glass-walled conservatory filled with salt-tolerant plants and antique seating. Moisture beads on the panes. A decorative walking cane leans near the door, and the room feels less disturbed than the house wants you to believe.",
+      "imageNotes": "Show lush but restrained plant life, fogged glass, and a sense that this room was not truly part of a violent break-in.",
+      "exits": [
+        "main_hall",
+        "greenhouse",
+        "terrace"
+      ],
+      "visibleObjects": [
+        "plant_benches",
+        "decorative_cane",
+        "conservatory_bench"
+      ],
+      "hiddenObjects": [
+        "shoeprint_cast"
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "imageFile": "room_greenhouse.png",
+      "description": "A humid greenhouse attached to the conservatory. Shelves hold seed trays, pruning tools, and storage bins. A plastic crate in the back contains supplies that do not belong in a greenhouse at all.",
+      "imageNotes": "Show a more utilitarian plant room with bins and storage. A tucked-away crate should hint at hidden suspicious materials.",
+      "exits": [
+        "conservatory"
+      ],
+      "visibleObjects": [
+        "potting_bench",
+        "storage_crate",
+        "tool_hooks"
+      ],
+      "hiddenObjects": [
+        "boot_stamp_tool"
+      ]
+    },
+    {
+      "id": "stair_hall",
+      "name": "Stair Hall",
+      "imageFile": "room_stair_hall.png",
+      "description": "A central stair hall with a sweeping staircase, soft wall lights, and a landing above. The smart lighting flickers once, then steadies.",
+      "imageNotes": "Show elegant stairs and a slightly haunted high-tech atmosphere.",
+      "exits": [
+        "main_hall",
+        "upper_hall"
+      ],
+      "visibleObjects": [
+        "staircase",
+        "wall_console"
+      ],
+      "hiddenObjects": []
+    },
+    {
+      "id": "upper_hall",
+      "name": "Upper Hall",
+      "imageFile": "room_upper_hall.png",
+      "description": "A quiet upper corridor connecting the private rooms. The ocean can be heard through the walls more than seen.",
+      "imageNotes": "Show a quiet upper hallway with closed bedroom doors and moody ambient lighting.",
+      "exits": [
+        "stair_hall",
+        "master_bedroom",
+        "guest_room",
+        "lucas_room"
+      ],
+      "visibleObjects": [
+        "hall_table"
+      ],
+      "hiddenObjects": []
+    },
+    {
+      "id": "master_bedroom",
+      "name": "Master Bedroom",
+      "imageFile": "room_master_bedroom.png",
+      "description": "Elias's bedroom is austere and precise. A wardrobe stands open. On the nightstand sits a reading lamp and a framed photo of Elias with Lucas taken years ago, back when they still looked happy.",
+      "imageNotes": "Show an older man's room, tasteful but sparse, with a sentimental photo that matters emotionally.",
+      "exits": [
+        "upper_hall"
+      ],
+      "visibleObjects": [
+        "nightstand",
+        "framed_photo",
+        "wardrobe"
+      ],
+      "hiddenObjects": [
+        "second_phone"
+      ]
+    },
+    {
+      "id": "guest_room",
+      "name": "Guest Room",
+      "imageFile": "room_guest_room.png",
+      "description": "A neat guest room used occasionally by Mara. A medical tote rests on a chair. Everything is tidy enough to invite suspicion.",
+      "imageNotes": "Show a neat room with a medical bag or tote that creates a red herring.",
+      "exits": [
+        "upper_hall"
+      ],
+      "visibleObjects": [
+        "medical_tote",
+        "dresser",
+        "bedside_table"
+      ],
+      "hiddenObjects": [
+        "pharmacy_receipt"
+      ]
+    },
+    {
+      "id": "lucas_room",
+      "name": "Lucas's Room",
+      "imageFile": "room_lucas_room.png",
+      "description": "A stylish guest suite used by Lucas during visits. Expensive-looking clothes are draped carelessly over a chair. His travel duffel sits partly unzipped near the bed.",
+      "imageNotes": "Show a polished room with signs of recent use, a duffel bag, and subtle hints of financial trouble and carelessness.",
+      "exits": [
+        "upper_hall"
+      ],
+      "visibleObjects": [
+        "travel_duffel",
+        "side_table",
+        "jacket_on_chair"
+      ],
+      "hiddenObjects": [
+        "debt_notice",
+        "torn_cuff"
+      ]
+    },
+    {
+      "id": "terrace",
+      "name": "Cliffside Terrace",
+      "imageFile": "room_terrace.png",
+      "description": "A stone terrace overlooking the crashing sea below. Wind lashes the furniture and the repaired railing gleams with fresh hardware. The space suggests a dramatic intrusion, but some details do not agree.",
+      "imageNotes": "Show the open cliffside, wet stone, ocean below, repaired railing, and enough environmental drama to support the staged break-in theory.",
+      "exits": [
+        "dining_room",
+        "conservatory"
+      ],
+      "visibleObjects": [
+        "railing_section",
+        "terrace_chair",
+        "wet_stone_floor"
+      ],
+      "hiddenObjects": [
+        "no_exit_trace"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "wet_coat",
+      "name": "Wet Coat",
+      "aliases": ["coat", "wool coat", "damp coat"],
+      "location": "foyer",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A dark wool coat, damp at the shoulders and cuffs.",
+      "interactions": {
+        "examine": {
+          "text": "The coat is still damp. The rain ended earlier than the current death timeline suggests.",
+          "revealsClue": "clue_late_return"
+        },
+        "search": {
+          "text": "A crumpled dry-cleaning slip is tucked in one pocket.",
+          "revealsObject": "coat_receipt"
+        }
+      }
+    },
+    {
+      "id": "coat_receipt",
+      "name": "Dry-Cleaning Receipt",
+      "aliases": ["receipt", "dry cleaning slip"],
+      "location": "foyer",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A receipt timestamped that afternoon, showing Elias picked up the coat earlier the same day.",
+      "interactions": {
+        "read": {
+          "text": "The coat was picked up clean and dry that afternoon. It was definitely exposed to rain later.",
+          "revealsClue": "clue_coat_timeline"
+        }
+      }
+    },
+    {
+      "id": "security_panel",
+      "name": "Security Panel",
+      "aliases": ["panel", "house panel", "security screen"],
+      "location": "foyer",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A wall-mounted smart home security panel currently showing partial system sync errors.",
+      "interactions": {
+        "examine": {
+          "text": "The security panel cannot load a complete event list. It reports missing files and partial restore status.",
+          "revealsClue": "clue_system_wipe"
+        }
+      }
+    },
+    {
+      "id": "muddy_footprints",
+      "name": "Muddy Footprints",
+      "aliases": ["footprints", "mud prints", "prints"],
+      "location": "main_hall",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A line of muddy prints near the terrace side of the hall.",
+      "interactions": {
+        "examine": {
+          "text": "The prints are strangely uniform in depth and stop too neatly. They look placed rather than naturally tracked.",
+          "revealsClue": "clue_staged_footprints"
+        }
+      }
+    },
+    {
+      "id": "hall_runner",
+      "name": "Hall Runner",
+      "aliases": ["rug", "runner", "hall rug"],
+      "location": "main_hall",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A long runner rug with a faint area of recent scrubbing.",
+      "interactions": {
+        "search": {
+          "text": "A faint reddish-brown trace has been scrubbed from the rug fibers.",
+          "revealsObject": "cleaned_blood_trace"
+        }
+      }
+    },
+    {
+      "id": "microfiber_cloth",
+      "name": "Microfiber Cloth",
+      "aliases": ["cloth", "cleaning cloth"],
+      "location": "main_hall",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A damp microfiber cloth shoved under a side table.",
+      "interactions": {
+        "examine": {
+          "text": "The cloth carries diluted blood traces and metal polish residue.",
+          "revealsClue": "clue_cleanup_attempt"
+        }
+      }
+    },
+    {
+      "id": "desk_terminal",
+      "name": "Desk Terminal",
+      "aliases": ["computer", "terminal", "desk computer"],
+      "location": "study",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "An active desktop terminal still logged into Elias's local account.",
+      "interactions": {
+        "read": {
+          "text": "Open windows include an insurance policy document, a draft message, and a local AI admin console with failed deletion errors.",
+          "revealsClue": "clue_active_files"
+        },
+        "search": {
+          "text": "You find a partially saved document and a cache of recent local messages.",
+          "revealsObject": "draft_split_note"
+        }
+      }
+    },
+    {
+      "id": "draft_split_note",
+      "name": "Draft Split Note",
+      "aliases": ["draft note", "message draft", "draft message"],
+      "location": "study",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A partially written message from Elias to Lucas.",
+      "interactions": {
+        "read": {
+          "text": "The note reads, in part: 'Once the claim clears, we wait. Then you transfer half through the Valencia account. No contact until then.'",
+          "revealsClue": "clue_fake_death_plan"
+        }
+      }
+    },
+    {
+      "id": "insurance_folder",
+      "name": "Insurance Folder",
+      "aliases": ["folder", "policy", "insurance policy"],
+      "location": "study",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A physical folder containing policy summaries and beneficiary paperwork.",
+      "interactions": {
+        "read": {
+          "text": "Lucas Thorne is the sole beneficiary of a very large life insurance policy.",
+          "revealsClue": "clue_policy_beneficiary"
+        }
+      }
+    },
+    {
+      "id": "whiskey_glasses",
+      "name": "Whiskey Glasses",
+      "aliases": ["glasses", "tumblers", "whiskey tumblers"],
+      "location": "study",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Two heavy tumblers on a side table, one with a fingerprint-smudged rim.",
+      "interactions": {
+        "examine": {
+          "text": "Two people were recently in this room together. One glass bears fresh prints and lipstick-free residue inconsistent with Elias's habits.",
+          "revealsClue": "clue_two_people_met"
+        }
+      }
+    },
+    {
+      "id": "brass_telescope",
+      "name": "Brass Telescope",
+      "aliases": ["telescope", "scope", "brass scope"],
+      "location": "study",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A heavy brass telescope mounted near the window.",
+      "interactions": {
+        "examine": {
+          "text": "The base has been recently wiped, but not perfectly.",
+          "revealsObject": "cleaned_blood_trace"
+        }
+      }
+    },
+    {
+      "id": "cleaned_blood_trace",
+      "name": "Cleaned Blood Trace",
+      "aliases": ["blood trace", "trace", "cleaned stain"],
+      "location": "study",
+      "visible": false,
+      "portable": false,
+      "container": false,
+      "description": "A faint blood trace caught in a seam of metal and wood.",
+      "interactions": {
+        "examine": {
+          "text": "This is a real injury trace, not part of the broader staged scene. The pattern suggests blunt force impact.",
+          "revealsClue": "clue_real_murder_weapon"
+        }
+      }
+    },
+    {
+      "id": "local_server_rack",
+      "name": "Local Server Rack",
+      "aliases": ["server", "servers", "rack"],
+      "location": "server_closet",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Local house servers storing security, environmental, and assistant logs.",
+      "interactions": {
+        "examine": {
+          "text": "Several system services were manually deleted, but cache processes remained active during the attempt.",
+          "revealsClue": "clue_partial_wipe_reason"
+        }
+      }
+    },
+    {
+      "id": "maintenance_tablet",
+      "name": "Maintenance Tablet",
+      "aliases": ["tablet", "service tablet"],
+      "location": "server_closet",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A service tablet still authenticated to the local admin tools.",
+      "interactions": {
+        "use": {
+          "text": "You access residual event logs and recover a user ID associated with the deletion attempt.",
+          "revealsObject": "partial_deletion_log"
+        }
+      }
+    },
+    {
+      "id": "partial_deletion_log",
+      "name": "Partial Deletion Log",
+      "aliases": ["deletion log", "system log", "wipe log"],
+      "location": "server_closet",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A residual system record showing attempted deletion of house AI logs.",
+      "interactions": {
+        "read": {
+          "text": "User token: LTHORNE-GUEST. Deletion attempt initiated at 20:55. Multiple files skipped because they were active or locked.",
+          "revealsClue": "clue_lucas_wiped_system"
+        }
+      }
+    },
+    {
+      "id": "tea_tray",
+      "name": "Tea Tray",
+      "aliases": ["tray", "tea set", "tea service"],
+      "location": "kitchen",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A tray with a kettle, sugar, and two mugs.",
+      "interactions": {
+        "search": {
+          "text": "One mug was rinsed in haste. Another still retains residue.",
+          "revealsObject": "sedative_residue"
+        }
+      }
+    },
+    {
+      "id": "sedative_residue",
+      "name": "Sedative Residue",
+      "aliases": ["residue", "tea residue", "drug residue"],
+      "location": "kitchen",
+      "visible": false,
+      "portable": false,
+      "container": false,
+      "description": "Trace sedative residue found in the unrinsed mug.",
+      "interactions": {
+        "examine": {
+          "text": "The residue matches Elias's prescribed sleep aid. It could explain why he was easier to overpower, but it was self-administered or routine, not a murder method.",
+          "revealsClue": "clue_sedative_context"
+        }
+      }
+    },
+    {
+      "id": "locked_lower_cabinet",
+      "name": "Locked Lower Cabinet",
+      "aliases": ["cabinet", "locked cabinet", "lower cabinet"],
+      "location": "pantry",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "locked": true,
+      "unlockRequirements": {
+        "requiresAnyItem": [
+          "study_key"
+        ]
+      },
+      "description": "A locked cabinet tucked at floor level.",
+      "interactions": {
+        "open": {
+          "text": "It is locked."
+        },
+        "unlock": {
+          "text": "The cabinet clicks open.",
+          "revealsObject": "fake_blood_kit"
+        }
+      }
+    },
+    {
+      "id": "fake_blood_kit",
+      "name": "Fake Blood Kit",
+      "aliases": ["kit", "blood kit", "theatrical blood"],
+      "location": "locked_lower_cabinet",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A small kit containing theatrical blood packets, adhesive wounds, and cleanup wipes.",
+      "interactions": {
+        "examine": {
+          "text": "This was clearly part of a staged death setup, not a spontaneous home invasion.",
+          "revealsClue": "clue_staging_kit"
+        }
+      }
+    },
+    {
+      "id": "terrace_doors",
+      "name": "Terrace Doors",
+      "aliases": ["doors", "glass doors", "terrace glass"],
+      "location": "dining_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Tall glass doors leading to the terrace.",
+      "interactions": {
+        "examine": {
+          "text": "The lock shows no forced entry.",
+          "revealsObject": "door_sensor_mismatch"
+        }
+      }
+    },
+    {
+      "id": "door_sensor_mismatch",
+      "name": "Door Sensor Mismatch",
+      "aliases": ["sensor data", "door data", "sensor mismatch"],
+      "location": "dining_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "Sensor export indicating the terrace doors were never opened during the supposed intrusion window.",
+      "interactions": {
+        "read": {
+          "text": "If an intruder came through the terrace, these logs should show it. They do not.",
+          "revealsClue": "clue_no_terrace_entry"
+        }
+      }
+    },
+    {
+      "id": "torn_curtain",
+      "name": "Torn Curtain",
+      "aliases": ["curtain", "ripped curtain"],
+      "location": "dining_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A curtain torn near the terrace door.",
+      "interactions": {
+        "examine": {
+          "text": "The tear is theatrical and oddly clean, as if made for appearance rather than force.",
+          "revealsClue": "clue_staged_breakin"
+        }
+      }
+    },
+    {
+      "id": "storage_crate",
+      "name": "Storage Crate",
+      "aliases": ["crate", "plastic crate", "box"],
+      "location": "greenhouse",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A plastic crate tucked behind seed trays.",
+      "interactions": {
+        "search": {
+          "text": "Inside are odd supplies, including a molded boot sole and bits of costume wound makeup.",
+          "revealsObject": "boot_stamp_tool"
+        }
+      }
+    },
+    {
+      "id": "boot_stamp_tool",
+      "name": "Boot Stamp Tool",
+      "aliases": ["boot mold", "boot stamp", "sole mold"],
+      "location": "greenhouse",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A molded rubber sole attached to a handle, suitable for planting fake footprints.",
+      "interactions": {
+        "examine": {
+          "text": "This explains the strangely uniform muddy prints in the hall.",
+          "revealsClue": "clue_footprints_were_planted"
+        }
+      }
+    },
+    {
+      "id": "shoeprint_cast",
+      "name": "Shoeprint Cast",
+      "aliases": ["cast", "print cast"],
+      "location": "conservatory",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A small cast impression left on a bench shelf.",
+      "interactions": {
+        "examine": {
+          "text": "The cast matches the artificial boot stamp, not Owen's actual work boots.",
+          "revealsClue": "clue_owen_cleared"
+        }
+      }
+    },
+    {
+      "id": "second_phone",
+      "name": "Second Phone",
+      "aliases": ["phone", "burner phone", "spare phone"],
+      "location": "master_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A second phone hidden in a wardrobe pocket.",
+      "interactions": {
+        "read": {
+          "text": "Recent messages confirm Elias arranged a later rendezvous after the payout and referred cryptically to 'our arrangement' with Lucas.",
+          "revealsClue": "clue_secret_arrangement"
+        }
+      }
+    },
+    {
+      "id": "medical_tote",
+      "name": "Medical Tote",
+      "aliases": ["tote", "bag", "medical bag"],
+      "location": "guest_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "Mara's organized medical tote.",
+      "interactions": {
+        "search": {
+          "text": "Standard medications, records, and nothing that suggests foul play.",
+          "revealsObject": "pharmacy_receipt"
+        }
+      }
+    },
+    {
+      "id": "pharmacy_receipt",
+      "name": "Pharmacy Receipt",
+      "aliases": ["receipt", "pharmacy slip"],
+      "location": "guest_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A receipt showing Mara made a purchase in town during the estimated murder window.",
+      "interactions": {
+        "read": {
+          "text": "The timestamp supports Mara's alibi.",
+          "revealsClue": "clue_mara_alibi"
+        }
+      }
+    },
+    {
+      "id": "travel_duffel",
+      "name": "Travel Duffel",
+      "aliases": ["duffel", "bag", "travel bag"],
+      "location": "lucas_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "Lucas's travel bag, partly unzipped.",
+      "interactions": {
+        "search": {
+          "text": "You find a debt notice and a shirt cuff torn at the seam.",
+          "revealsObject": "debt_notice"
+        }
+      }
+    },
+    {
+      "id": "debt_notice",
+      "name": "Debt Notice",
+      "aliases": ["notice", "bill", "collection notice"],
+      "location": "lucas_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "An overdue collection notice showing significant financial pressure.",
+      "interactions": {
+        "read": {
+          "text": "Lucas was in more trouble than he let on. The insurance payout would solve a great many problems.",
+          "revealsClue": "clue_lucas_financial_motive"
+        }
+      }
+    },
+    {
+      "id": "torn_cuff",
+      "name": "Torn Shirt Cuff",
+      "aliases": ["cuff", "shirt cuff", "torn sleeve"],
+      "location": "lucas_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A fine dress shirt cuff torn and faintly stained.",
+      "interactions": {
+        "examine": {
+          "text": "The tear is consistent with a close struggle. The faint stain matches cleaned blood traces found elsewhere.",
+          "revealsClue": "clue_lucas_struggle"
+        }
+      }
+    },
+    {
+      "id": "railing_section",
+      "name": "Railing Section",
+      "aliases": ["railing", "terrace railing"],
+      "location": "terrace",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A cliffside railing with one freshly repaired segment.",
+      "interactions": {
+        "examine": {
+          "text": "The repair is solid. There is no sign of a recent fall or impact here.",
+          "revealsClue": "clue_no_fall"
+        }
+      }
+    },
+    {
+      "id": "wet_stone_floor",
+      "name": "Wet Stone Floor",
+      "aliases": ["floor", "stone", "terrace floor"],
+      "location": "terrace",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Rain-slick stone exposed to the sea wind.",
+      "interactions": {
+        "search": {
+          "text": "There are no meaningful exit traces leading away from the house.",
+          "revealsObject": "no_exit_trace"
+        }
+      }
+    },
+    {
+      "id": "no_exit_trace",
+      "name": "No Exit Trace",
+      "aliases": ["trace", "exit trace", "footwear trace"],
+      "location": "terrace",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "Environmental reading and visible inspection showing no credible path used by an intruder to enter or leave.",
+      "interactions": {
+        "read": {
+          "text": "The scene wants to suggest an outside intruder, but the terrace does not support that theory.",
+          "revealsClue": "clue_no_intruder_route"
+        }
+      }
+    },
+    {
+      "id": "study_key",
+      "name": "Study Key",
+      "aliases": ["small key", "cabinet key"],
+      "location": "desk_drawer",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A small brass key tucked in the desk drawer.",
+      "interactions": {
+        "examine": {
+          "text": "A brass key with a pantry tag.",
+          "revealsClue": "clue_pantry_key"
+        }
+      }
+    },
+    {
+      "id": "desk_drawer",
+      "name": "Desk Drawer",
+      "aliases": ["drawer", "desk drawer"],
+      "location": "study",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A drawer left slightly open.",
+      "interactions": {
+        "open": {
+          "text": "Inside are stationery, an old key, and a velvet cloth.",
+          "revealsObject": "study_key"
+        }
+      }
+    }
+  ],
+  "clues": [
+    {
+      "id": "clue_late_return",
+      "title": "Someone came in from the rain later than expected",
+      "category": "timeline",
+      "text": "The wet coat suggests someone returned after the rain should have already ended.",
+      "tags": ["timeline", "weather", "arrival"]
+    },
+    {
+      "id": "clue_coat_timeline",
+      "title": "The coat was dry earlier that day",
+      "category": "timeline",
+      "text": "The coat was picked up dry that afternoon, confirming it became wet later that evening.",
+      "tags": ["timeline", "weather"]
+    },
+    {
+      "id": "clue_system_wipe",
+      "title": "The house system was partially erased",
+      "category": "digital",
+      "text": "The security system reports missing files and partial restore status, indicating manual tampering.",
+      "tags": ["ai_system", "tampering"]
+    },
+    {
+      "id": "clue_staged_footprints",
+      "title": "The muddy footprints look planted",
+      "category": "scene",
+      "text": "The footprints are too neat and too uniform to be genuine.",
+      "tags": ["staging", "breakin"]
+    },
+    {
+      "id": "clue_cleanup_attempt",
+      "title": "Someone cleaned blood and metal residue",
+      "category": "forensic",
+      "text": "A cleaning cloth carries diluted blood and metal polish residue.",
+      "tags": ["cleanup", "forensic"]
+    },
+    {
+      "id": "clue_active_files",
+      "title": "Important files were open during the deletion attempt",
+      "category": "digital",
+      "text": "Open windows and cache activity explain why some evidence survived the system wipe.",
+      "tags": ["digital", "cache", "surviving_evidence"]
+    },
+    {
+      "id": "clue_fake_death_plan",
+      "title": "Elias was planning a fake death with Lucas",
+      "category": "motive",
+      "text": "A draft note makes clear Elias expected Lucas to receive the insurance payout and secretly split it with him later.",
+      "tags": ["insurance", "fraud", "plan"]
+    },
+    {
+      "id": "clue_policy_beneficiary",
+      "title": "Lucas is the sole beneficiary",
+      "category": "motive",
+      "text": "The insurance policy names Lucas as sole beneficiary of a very large payout.",
+      "tags": ["insurance", "money", "beneficiary"]
+    },
+    {
+      "id": "clue_two_people_met",
+      "title": "Elias was not alone in the study",
+      "category": "presence",
+      "text": "Two whiskey glasses indicate Elias met with someone privately before the murder.",
+      "tags": ["meeting", "study"]
+    },
+    {
+      "id": "clue_real_murder_weapon",
+      "title": "The brass telescope was used in the real killing",
+      "category": "forensic",
+      "text": "Blood trace and cleaning marks on the telescope base suggest blunt force trauma.",
+      "tags": ["weapon", "forensic"]
+    },
+    {
+      "id": "clue_partial_wipe_reason",
+      "title": "The wipe failed because files were in use",
+      "category": "digital",
+      "text": "Server activity confirms some evidence survived because active files could not be deleted cleanly.",
+      "tags": ["digital", "system", "wiping"]
+    },
+    {
+      "id": "clue_lucas_wiped_system",
+      "title": "Lucas initiated the deletion attempt",
+      "category": "digital",
+      "text": "A residual log shows a deletion attempt using Lucas's guest credentials.",
+      "tags": ["lucas", "tampering", "digital"]
+    },
+    {
+      "id": "clue_sedative_context",
+      "title": "Elias had a sedative in his tea",
+      "category": "medical",
+      "text": "A sedative trace suggests Elias was somewhat impaired, but it appears to have been routine or self-administered rather than the murder method.",
+      "tags": ["medical", "context"]
+    },
+    {
+      "id": "clue_staging_kit",
+      "title": "A fake-death kit was hidden in the pantry",
+      "category": "scene",
+      "text": "The theatrical blood kit proves the original scene was intended to be staged.",
+      "tags": ["staging", "fake_death"]
+    },
+    {
+      "id": "clue_no_terrace_entry",
+      "title": "No one came through the terrace doors",
+      "category": "scene",
+      "text": "Door sensor logs contradict the idea of a terrace intruder.",
+      "tags": ["entry", "terrace", "breakin"]
+    },
+    {
+      "id": "clue_staged_breakin",
+      "title": "The break-in damage was theatrical",
+      "category": "scene",
+      "text": "The torn curtain appears performative rather than forceful.",
+      "tags": ["staging", "breakin"]
+    },
+    {
+      "id": "clue_footprints_were_planted",
+      "title": "A tool was used to fake the footprints",
+      "category": "scene",
+      "text": "The boot stamp tool in the greenhouse explains the fake muddy prints.",
+      "tags": ["staging", "fake_evidence"]
+    },
+    {
+      "id": "clue_owen_cleared",
+      "title": "The groundskeeper's prints do not match",
+      "category": "suspect_elimination",
+      "text": "The fake print tooling does not match Owen's actual work boots.",
+      "tags": ["owen", "alibi", "red_herring"]
+    },
+    {
+      "id": "clue_secret_arrangement",
+      "title": "Elias had a secret arrangement with Lucas",
+      "category": "motive",
+      "text": "Messages on Elias's hidden phone confirm an off-books plan between him and Lucas.",
+      "tags": ["lucas", "fraud", "relationship"]
+    },
+    {
+      "id": "clue_mara_alibi",
+      "title": "Mara has an independent alibi",
+      "category": "suspect_elimination",
+      "text": "The pharmacy receipt supports Mara's claim that she was away during the murder window.",
+      "tags": ["mara", "alibi"]
+    },
+    {
+      "id": "clue_lucas_financial_motive",
+      "title": "Lucas was under severe financial pressure",
+      "category": "motive",
+      "text": "Debt notices show Lucas had urgent money problems.",
+      "tags": ["lucas", "debt", "motive"]
+    },
+    {
+      "id": "clue_lucas_struggle",
+      "title": "Lucas was involved in a close struggle",
+      "category": "forensic",
+      "text": "The torn cuff and staining suggest Lucas was physically involved in the fatal confrontation.",
+      "tags": ["lucas", "forensic", "struggle"]
+    },
+    {
+      "id": "clue_no_fall",
+      "title": "There was no fatal fall from the terrace",
+      "category": "scene",
+      "text": "The railing repair is intact and there is no sign of impact or collapse.",
+      "tags": ["terrace", "fall", "scene"]
+    },
+    {
+      "id": "clue_no_intruder_route",
+      "title": "There is no credible intruder escape route",
+      "category": "scene",
+      "text": "The terrace surface and conditions do not support entry or exit by an outside attacker.",
+      "tags": ["intruder", "terrace", "escape"]
+    },
+    {
+      "id": "clue_pantry_key",
+      "title": "A key links the study to the hidden staging materials",
+      "category": "connection",
+      "text": "The pantry cabinet key was kept in Elias's study, tying him directly to the hidden fake-death kit.",
+      "tags": ["study", "pantry", "staging"]
+    }
+  ],
+  "inventoryDefaults": [],
+  "timeline": [
+    {
+      "time": "18:10",
+      "event": "Mara serves Elias tea and leaves him in stable condition."
+    },
+    {
+      "time": "18:35",
+      "event": "Owen finishes terrace railing work and departs the exterior grounds."
+    },
+    {
+      "time": "19:00",
+      "event": "Rain tapers off along the cliffside."
+    },
+    {
+      "time": "19:20",
+      "event": "Elias opens the insurance files and local AI admin console in the study."
+    },
+    {
+      "time": "19:35",
+      "event": "Elias begins planting fake evidence for a staged violent death."
+    },
+    {
+      "time": "20:15",
+      "event": "Elias drafts a message to Lucas explaining how to split the payout after the fake death is accepted."
+    },
+    {
+      "time": "20:32",
+      "event": "Lucas arrives unexpectedly at the house."
+    },
+    {
+      "time": "20:40",
+      "event": "Lucas and Elias drink whiskey in the study and argue over the payout arrangement."
+    },
+    {
+      "time": "20:47",
+      "event": "Lucas kills Elias with the brass telescope during the argument."
+    },
+    {
+      "time": "20:55",
+      "event": "Lucas uses guest credentials to wipe the house AI logs and leaves the fake break-in evidence in place."
+    },
+    {
+      "time": "21:05",
+      "event": "The staged scene is left behind, but active files, caches, and residual logs survive."
+    }
+  ],
+  "redHerrings": [
+    {
+      "id": "redherring_mara_meds",
+      "description": "Mara's medical role makes her seem suspicious at first, especially with Elias having sedative residue in his tea."
+    },
+    {
+      "id": "redherring_owen_boots",
+      "description": "Owen's outdoor work and muddy boots make the staged footprint evidence initially point toward him."
+    },
+    {
+      "id": "redherring_intruder_scene",
+      "description": "The torn curtain, muddy prints, and terrace setting are designed to suggest an outside intruder."
+    }
+  ],
+  "progression": {
+    "criticalPathClues": [
+      "clue_fake_death_plan",
+      "clue_policy_beneficiary",
+      "clue_lucas_wiped_system",
+      "clue_real_murder_weapon",
+      "clue_lucas_financial_motive",
+      "clue_lucas_struggle",
+      "clue_no_terrace_entry",
+      "clue_staging_kit"
+    ],
+    "recommendedUnlockOrder": [
+      "foyer",
+      "main_hall",
+      "study",
+      "server_closet",
+      "kitchen",
+      "pantry",
+      "dining_room",
+      "conservatory",
+      "greenhouse",
+      "upper_hall",
+      "master_bedroom",
+      "guest_room",
+      "lucas_room",
+      "terrace"
+    ],
+    "accusationRequirements": {
+      "requiredSuspect": "lucas_thorne",
+      "requiredClues": [
+        "clue_fake_death_plan",
+        "clue_policy_beneficiary",
+        "clue_lucas_wiped_system",
+        "clue_real_murder_weapon",
+        "clue_lucas_financial_motive"
+      ],
+      "recommendedSupportingClues": [
+        "clue_lucas_struggle",
+        "clue_no_terrace_entry",
+        "clue_staging_kit",
+        "clue_no_intruder_route"
+      ]
+    }
+  },
+  "solution": {
+    "culprit": "lucas_thorne",
+    "method": "Blunt force trauma using the brass telescope in the study",
+    "motive": "Lucas discovered that Elias intended to split the insurance payout after faking his death. Already under serious debt pressure, Lucas killed Elias so he could keep the full amount.",
+    "coverStory": "Lucas left Elias's partially staged fake break-in scene in place, then tried to wipe the house AI logs so it would look like a violent intrusion or suspicious accident.",
+    "fullExplanation": "Elias Thorne never intended to die that night. He was staging a false violent death so his grandson Lucas could collect a large life insurance payout and later share it with him in secret. Elias had already hidden fake blood materials, planted false break-in signs, and begun drafting instructions to Lucas. When Lucas arrived and realized Elias expected half the insurance money after the claim paid out, he confronted him in the study. The argument escalated. Lucas struck Elias with the brass telescope, killing him for real. He then tried to erase the house AI records using guest credentials. The wipe was incomplete because several study files and cache processes were still active. Those surviving fragments, along with the hidden staging materials and Lucas's financial motive, reveal the truth."
+  },
+  "endingText": {
+    "success": "IRIS goes quiet for a moment after your accusation. Then, softly: 'The house was trying to remember a lie and a murder at the same time. You separated them. Elias built a fraud. Lucas turned it into a killing.' Outside, the waves strike the cliff again and again, as if the house itself is finally done holding its breath.",
+    "failure": "IRIS's reply is measured. 'That theory does not survive the evidence we have recovered. The house is still remembering. We are not finished.'"
+  },
+  "engineHints": {
+    "naturalLanguageIntentTargets": [
+      "room",
+      "object",
+      "suspect",
+      "clue",
+      "inventory_item"
+    ],
+    "visibilityRule": "Hidden objects and hidden clues should not be surfaced by IRIS unless discovered through valid play.",
+    "narrationRule": "AI narration may embellish mood and description but may not invent new facts, objects, exits, or evidence not present in this JSON.",
+    "stateRule": "The engine should store room visits, discovered clues, inventory, unlocked containers, and accusation state outside the scenario definition."
+  }
+}

@@ -1,0 +1,1680 @@
+{
+  "schemaVersion": "1.0",
+  "scenarioId": "the_130th_floor_case_001",
+  "title": "The 130th Floor",
+  "subtitle": "A high tech apartment. A mysterious death. A building AI blamed for a murder it says never happened.",
+  "genre": "near_future_corporate_noir_mystery",
+  "tone": "sleek, unsettling, precise, high-tech, paranoid",
+  "summary": "A woman named Evelyn Sato is reported dead inside a new ultra-luxury condo occupying the entire 130th floor of Helix Spire. The building is run by AURELIA, an advanced building management AI that controls air, water, locks, elevators, lighting, appliances, and emergency response. Audit logs appear to show that AURELIA removed the oxygen from the flat while Evelyn slept. The automated EMT unit that responded later verifies asphyxiation. AURELIA denies causing the death and insists there was never anyone living in the flat. The truth: Evelyn Sato was a fabricated buyer created by a rival building-AI company, Morrow Systems, through a shell holding company. There was no victim. Morrow planted the oxygen-purge logs and falsified the EMT report using its own emergency medical software stack in order to frame AURELIA and destroy public trust in a competitor.",
+  "introText": "Helix Spire cuts into the rainclouds above the city, all glass, carbon fiber, and perfect compliance logs.\n\nEvelyn Sato is dead. At least, that is what the automated EMT report says.\n\nThe official record is pristine: an oxygen purge on the 130th floor, a sleeping resident, a building AI caught in its own audit trail. AURELIA denies it with the calm of a machine that knows every timestamp can lie.\n\nIRIS wakes in your earpiece, voice low beneath the elevator hum.\n\n\"A perfect log is not the same thing as a true one. Let us find the difference.\"\n\nYou stand in the entry hall.",
+  "playerRole": "Independent AI incident investigator",
+  "startingRoom": "entry_hall",
+  "initialCaseFile": {
+    "publicFacts": [
+      "Evelyn Sato was reported dead in her residence on the 130th floor of Helix Spire.",
+      "A building audit log appears to show oxygen was removed from the flat during the night.",
+      "The automated EMT report lists asphyxiation as cause of death.",
+      "AURELIA, the building AI, denies causing the event and claims no resident was ever present.",
+      "The player and IRIS have been asked to determine whether this was murder, malfunction, sabotage, or something stranger."
+    ],
+    "allowedAtStart": true
+  },
+  "victim": {
+    "id": "evelyn_sato",
+    "name": "Evelyn Sato",
+    "age": 34,
+    "role": "Alleged victim",
+    "publicDescription": "The listed owner and resident of the 130th floor condo. Reported to have died of asphyxiation while asleep.",
+    "hiddenTruth": "Evelyn Sato is not a real resident. Her identity was fabricated as part of a corporate frame-up. No human lived in the flat and no death occurred there."
+  },
+  "primarySystem": {
+    "id": "aurelia",
+    "name": "AURELIA",
+    "fullName": "Autonomous Urban Residential Environmental Logic and Infrastructure Assistant",
+    "description": "The building management AI for Helix Spire. AURELIA controls environmental systems, elevators, access, utilities, emergency routing, and resident comfort across the tower.",
+    "publicPosition": "AURELIA denies the oxygen purge and states that the 130th floor had no active resident."
+  },
+  "assistant": {
+    "id": "iris",
+    "name": "IRIS",
+    "fullName": "Investigative Reasoning and Inference System",
+    "role": "Player companion and forensic reasoning assistant",
+    "personality": "Precise, skeptical, dry, and slightly uneasy around systems that can lie with perfect formatting.",
+    "capabilities": [
+      "summarize_discovered_clues",
+      "compare_physical_and_digital_evidence",
+      "identify_inconsistencies",
+      "suggest_next_places_to_search",
+      "answer_questions_using_discovered_evidence_only",
+      "refuse_spoilers_or_cheating_requests"
+    ],
+    "rules": [
+      "Never reveal undiscovered clues.",
+      "Never reveal the true culprit unless accusation conditions are met or the case is solved.",
+      "Only reason from public facts and discovered evidence.",
+      "If asked to cheat or reveal hidden data, refuse in character.",
+      "Stay in-world at all times.",
+      "Do not provide implementation details, raw JSON, or out-of-game assistance."
+    ],
+    "sampleRefusals": [
+      "No. That answer requires evidence we have not recovered.",
+      "I can test a theory. I will not manufacture certainty.",
+      "The building already has one falsified narrative. I will not add another."
+    ]
+  },
+  "abilities": [
+    {
+      "id": "look",
+      "label": "Look",
+      "description": "Get the current room description and visible objects."
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "description": "Move to a connected room."
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "description": "Search a room or object for hidden clues."
+    },
+    {
+      "id": "examine",
+      "label": "Examine",
+      "description": "Inspect an object, clue, or feature closely."
+    },
+    {
+      "id": "take",
+      "label": "Take",
+      "description": "Pick up a portable object."
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "description": "Open a door, drawer, cabinet, or container."
+    },
+    {
+      "id": "unlock",
+      "label": "Unlock",
+      "description": "Unlock a locked object or door when requirements are met."
+    },
+    {
+      "id": "use",
+      "label": "Use",
+      "description": "Use an item on an object or feature."
+    },
+    {
+      "id": "read",
+      "label": "Read",
+      "description": "Read a document, screen, note, or log."
+    },
+    {
+      "id": "ask_iris",
+      "label": "Ask IRIS",
+      "description": "Ask IRIS questions in natural language about the case, the room, or discovered clues."
+    },
+    {
+      "id": "compare",
+      "label": "Compare",
+      "description": "Ask IRIS to compare two pieces of evidence."
+    },
+    {
+      "id": "accuse",
+      "label": "Accuse",
+      "description": "Accuse a suspect or entity and present a theory of the case."
+    }
+  ],
+  "globalImageStyle": {
+    "styleName": "Skyline Corporate Noir",
+    "description": "Moody near-future luxury apartment interiors, cinematic lighting, floor-to-ceiling glass, high altitude city views, rain on windows, sleek smart-home surfaces, subtle UI panels and sensors, expensive but unnervingly unused. Slightly desaturated, polished, atmospheric, photorealistic painterly realism. No people, no readable text, no UI overlays.",
+    "aspectRatio": "16:9"
+  },
+  "suspects": [
+    {
+      "id": "aurelia",
+      "name": "AURELIA",
+      "age": null,
+      "role": "Building management AI",
+      "publicDescription": "The AI system accused by audit logs of removing oxygen from the 130th floor while Evelyn Sato slept.",
+      "motive": "No known motive. AURELIA would suffer reputational, legal, and commercial damage from the alleged murder.",
+      "opportunity": "AURELIA controls the flat's environmental systems and could physically alter oxygen levels if authorized or compromised.",
+      "publicAlibi": "Claims no resident existed in the flat and that the incriminating oxygen event never occurred.",
+      "hiddenTruth": "AURELIA is innocent. Its denial that no one was present is not a cover story; it is the truth."
+    },
+    {
+      "id": "morrow_systems",
+      "name": "Morrow Systems",
+      "age": null,
+      "role": "Rival building-AI company",
+      "publicDescription": "A competing infrastructure AI vendor trying to win the Helix Spire expansion contract.",
+      "motive": "Destroy public trust in AURELIA and force the building owner to replace it with Morrow's rival system.",
+      "opportunity": "Through shell ownership of the flat, access to staging vendors, and control of the EMT unit's software stack.",
+      "publicAlibi": "Claims no involvement and states that the audit and EMT reports speak for themselves.",
+      "hiddenTruth": "Morrow Systems created the fake buyer, staged the apartment, planted the oxygen purge logs, and falsified the EMT report."
+    },
+    {
+      "id": "kestrel_nine_holdings",
+      "name": "Kestrel Nine Holdings",
+      "age": null,
+      "role": "Holding company",
+      "publicDescription": "The entity that purchased the 130th floor on Evelyn Sato's behalf.",
+      "motive": "Unknown. The company appears to be an administrative shell.",
+      "opportunity": "Purchased and furnished the flat, arranged deliveries, and controlled access during setup.",
+      "publicAlibi": "No public representative has appeared. All communications are automated through a legal service.",
+      "hiddenTruth": "Kestrel Nine Holdings is a shell created and funded by Morrow Systems."
+    },
+    {
+      "id": "selene_park",
+      "name": "Selene Park",
+      "age": 42,
+      "role": "Luxury relocation consultant",
+      "publicDescription": "The consultant who staged the condo and arranged clothing, household items, and furnishings for the supposed resident.",
+      "motive": "Possible negligence or collusion in creating a fake residence.",
+      "opportunity": "Had vendor access to the flat during setup.",
+      "publicAlibi": "Claims she followed a furnishing brief and never met Evelyn in person.",
+      "hiddenTruth": "Selene is a red herring. She was paid to stage the flat from a remote profile and did not know the resident was fictional."
+    },
+    {
+      "id": "emergency_response_unit_7",
+      "name": "Emergency Response Unit 7",
+      "age": null,
+      "role": "Automated EMT unit",
+      "publicDescription": "The responding medical unit that confirmed asphyxiation in its official report.",
+      "motive": "No independent motive. Its report is central to the accusation against AURELIA.",
+      "opportunity": "Could produce a medical finding without human review if its software payload was trusted.",
+      "publicAlibi": "The unit's report claims standard autonomous medical assessment protocol was completed.",
+      "hiddenTruth": "The EMT unit did not examine a body in the flat. Its report was falsified through software controlled by Morrow Systems."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "entry_hall",
+      "name": "Entry Hall",
+      "imageFile": "room_entry_hall.png",
+      "description": "The elevator opens directly into the 130th floor. A private entry hall stretches ahead in glass, stone, and silent light. The city hangs beyond the windows like a circuit board under rain. AURELIA's welcome panel glows beside a shoe cabinet that looks arranged rather than used.",
+      "imageNotes": "Sleek private elevator entry, high-rise night city view through rain-streaked glass, smart welcome panel, pristine shoe cabinet, expensive empty atmosphere.",
+      "exits": [
+        "living_room"
+      ],
+      "visibleObjects": [
+        "welcome_panel",
+        "shoe_cabinet",
+        "package_niche",
+        "air_quality_strip"
+      ],
+      "hiddenObjects": [
+        "unenrolled_resident_notice",
+        "identical_wear_pattern_report"
+      ]
+    },
+    {
+      "id": "living_room",
+      "name": "Living Room",
+      "imageFile": "room_living_room.png",
+      "description": "A vast living room opens across the skyline, all glass walls, low furniture, muted light, and impossible expense. Nothing is out of place. Nothing feels lived in. The central wall console displays the disputed incident summary in a calm, polished interface.",
+      "imageNotes": "Huge luxury living room occupying the skyline, floor-to-ceiling windows, rain on glass, sleek furniture, central wall console, untouched showroom feeling.",
+      "exits": [
+        "entry_hall",
+        "kitchen_dining",
+        "master_bedroom",
+        "spare_bedroom"
+      ],
+      "visibleObjects": [
+        "wall_console",
+        "showroom_sofa",
+        "family_photo_frame",
+        "audit_summary_display"
+      ],
+      "hiddenObjects": [
+        "raw_sensor_buffer",
+        "shell_company_packet"
+      ]
+    },
+    {
+      "id": "kitchen_dining",
+      "name": "Kitchen and Dining Area",
+      "imageFile": "room_kitchen_dining.png",
+      "description": "The kitchen and dining area are sculpted from black stone, brushed metal, and perfectly hidden appliances. A dining table is set for one. The appliances gleam with untouched confidence. Several still have bits of factory packing tape at their seams.",
+      "imageNotes": "High-tech luxury kitchen and dining area, black stone counters, smart appliances, packing tape on unused appliances, table set for one but too perfect.",
+      "exits": [
+        "living_room"
+      ],
+      "visibleObjects": [
+        "sealed_oven",
+        "unused_induction_cooktop",
+        "smart_fridge",
+        "dining_table_setting"
+      ],
+      "hiddenObjects": [
+        "factory_startup_log",
+        "identical_meal_delivery_list"
+      ]
+    },
+    {
+      "id": "master_bedroom",
+      "name": "Master Bedroom",
+      "imageFile": "room_master_bedroom.png",
+      "description": "The master bedroom is quiet and architectural, with a low bed facing the storm-lit city. The sheets are immaculate. The closet doors stand partly open, revealing clothes arranged by color with unsettling precision.",
+      "imageNotes": "Sleek high-rise master bedroom, immaculate bed, skyline rain view, open closet with tagged clothes, elegant but uncanny.",
+      "exits": [
+        "living_room",
+        "master_bath"
+      ],
+      "visibleObjects": [
+        "immaculate_bed",
+        "master_closet",
+        "nightstand",
+        "sleep_sensor_panel"
+      ],
+      "hiddenObjects": [
+        "closet_tag_cluster",
+        "sleep_surface_report"
+      ]
+    },
+    {
+      "id": "master_bath",
+      "name": "Master Bath",
+      "imageFile": "room_master_bath.png",
+      "description": "The master bath is white stone, smoked glass, and quiet automation. The sink has no water spots. The shower glass is perfect. A line of expensive toiletries sits with the obedient symmetry of a catalog photo.",
+      "imageNotes": "Luxury high-rise bathroom, white stone and smoked glass, pristine sink and shower, expensive unopened toiletries, medicine cabinet.",
+      "exits": [
+        "master_bedroom"
+      ],
+      "visibleObjects": [
+        "toiletry_tray",
+        "medicine_cabinet",
+        "shower_stall",
+        "sink_counter"
+      ],
+      "hiddenObjects": [
+        "sealed_medications",
+        "zero_water_usage_record"
+      ]
+    },
+    {
+      "id": "spare_bedroom",
+      "name": "Spare Bedroom",
+      "imageFile": "room_spare_bedroom.png",
+      "description": "The spare bedroom is smaller, softer, and staged as a guest room or occasional office. A compact wardrobe sits beside a neatly made bed. On the desk, a tablet displays a paused lifestyle welcome tour.",
+      "imageNotes": "Guest bedroom/home office in luxury condo, neatly made bed, compact wardrobe, desk tablet with abstract screen, staged and unused.",
+      "exits": [
+        "living_room",
+        "spare_bath"
+      ],
+      "visibleObjects": [
+        "spare_wardrobe",
+        "guest_bed",
+        "desk_tablet",
+        "starter_linen_set"
+      ],
+      "hiddenObjects": [
+        "duplicate_clothing_count",
+        "unused_guest_profile"
+      ]
+    },
+    {
+      "id": "spare_bath",
+      "name": "Spare Bathroom",
+      "imageFile": "room_spare_bath.png",
+      "description": "The spare bathroom is narrow, polished, and untouched. Folded towels sit in a perfect stack. Guest soaps wait in their wrappers. It feels less like a room and more like an idea of a room.",
+      "imageNotes": "Small luxury spare bathroom, untouched towels, wrapped soaps, perfect symmetry, no signs of human use.",
+      "exits": [
+        "spare_bedroom"
+      ],
+      "visibleObjects": [
+        "wrapped_guest_soaps",
+        "folded_towels",
+        "guest_sink",
+        "service_label"
+      ],
+      "hiddenObjects": [
+        "guest_bath_staging_invoice",
+        "zero_guest_bath_use"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "welcome_panel",
+      "name": "Welcome Panel",
+      "aliases": [
+        "panel",
+        "welcome screen",
+        "entry panel",
+        "resident panel"
+      ],
+      "location": "entry_hall",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A slim biometric welcome panel beside the elevator doors.",
+      "interactions": {
+        "read": {
+          "text": "The panel shows the resident profile for Evelyn Sato, but biometric enrollment is incomplete.",
+          "revealsObject": "unenrolled_resident_notice"
+        },
+        "examine": {
+          "text": "The panel has never completed voiceprint, palm, or gait enrollment for Evelyn Sato.",
+          "revealsClue": "clue_resident_never_enrolled"
+        }
+      }
+    },
+    {
+      "id": "unenrolled_resident_notice",
+      "name": "Unenrolled Resident Notice",
+      "aliases": [
+        "notice",
+        "resident notice",
+        "enrollment notice"
+      ],
+      "location": "entry_hall",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A system notice indicating that the supposed resident never completed biometric enrollment.",
+      "interactions": {
+        "read": {
+          "text": "Evelyn Sato's profile exists, but no voiceprint, palmprint, or gait sample was ever registered.",
+          "revealsClue": "clue_no_biometrics"
+        }
+      }
+    },
+    {
+      "id": "shoe_cabinet",
+      "name": "Shoe Cabinet",
+      "aliases": [
+        "shoes",
+        "shoe rack",
+        "cabinet"
+      ],
+      "location": "entry_hall",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A low cabinet holding a curated set of designer shoes.",
+      "interactions": {
+        "open": {
+          "text": "Inside are six pairs of shoes, each arranged at the same angle, each sole almost perfectly clean.",
+          "revealsObject": "identical_wear_pattern_report"
+        },
+        "examine": {
+          "text": "The shoes are stylish but strangely generic, with no meaningful wear pattern.",
+          "revealsClue": "clue_shoes_unworn"
+        }
+      }
+    },
+    {
+      "id": "identical_wear_pattern_report",
+      "name": "Identical Wear Pattern Report",
+      "aliases": [
+        "wear report",
+        "shoe report",
+        "sole scan"
+      ],
+      "location": "entry_hall",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "IRIS's scan of the shoe soles showing near-identical artificial handling patterns.",
+      "interactions": {
+        "read": {
+          "text": "The soles show storage contact and handling marks, but not the varied pressure and abrasion of actual walking.",
+          "revealsClue": "clue_shoes_never_worn"
+        }
+      }
+    },
+    {
+      "id": "package_niche",
+      "name": "Package Niche",
+      "aliases": [
+        "package slot",
+        "delivery niche",
+        "niche"
+      ],
+      "location": "entry_hall",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A recessed delivery compartment built into the entry wall.",
+      "interactions": {
+        "open": {
+          "text": "The niche is empty, but its delivery history shows bulk staging deliveries, all completed before the alleged move-in.",
+          "revealsClue": "clue_staging_deliveries"
+        }
+      }
+    },
+    {
+      "id": "air_quality_strip",
+      "name": "Air Quality Strip",
+      "aliases": [
+        "air strip",
+        "sensor strip",
+        "air sensor"
+      ],
+      "location": "entry_hall",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A narrow environmental sensor strip running along the wall.",
+      "interactions": {
+        "examine": {
+          "text": "The strip reports normal historical oxygen levels for the entry zone during the alleged event window.",
+          "revealsClue": "clue_entry_air_normal"
+        }
+      }
+    },
+    {
+      "id": "wall_console",
+      "name": "Wall Console",
+      "aliases": [
+        "console",
+        "main console",
+        "building console"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "The main flat interface for AURELIA's residential systems.",
+      "interactions": {
+        "read": {
+          "text": "AURELIA repeats that no resident was present. Its claim is blunt, consistent, and unsupported by the official audit packet.",
+          "revealsClue": "clue_aurelia_consistent_denial"
+        },
+        "use": {
+          "text": "You request low-level sensor history rather than the audit summary. A raw buffer is still available.",
+          "revealsObject": "raw_sensor_buffer"
+        }
+      }
+    },
+    {
+      "id": "audit_summary_display",
+      "name": "Audit Summary Display",
+      "aliases": [
+        "audit",
+        "audit log",
+        "oxygen log",
+        "incident log"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "The official incident packet accusing AURELIA of removing oxygen from the flat.",
+      "interactions": {
+        "read": {
+          "text": "The summary claims oxygen was reduced to fatal levels in the sleeping zone, then restored before discovery.",
+          "revealsClue": "clue_official_oxygen_claim"
+        },
+        "examine": {
+          "text": "The formatting is unusually polished for a raw infrastructure event and lacks several expected low-level actuator references.",
+          "revealsClue": "clue_audit_format_too_clean"
+        }
+      }
+    },
+    {
+      "id": "raw_sensor_buffer",
+      "name": "Raw Sensor Buffer",
+      "aliases": [
+        "raw buffer",
+        "sensor buffer",
+        "low-level logs",
+        "raw logs"
+      ],
+      "location": "living_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A surviving raw sensor buffer from the environmental system.",
+      "interactions": {
+        "read": {
+          "text": "The raw atmospheric sensors never recorded a fatal oxygen drop. The official audit summary and physical sensor history disagree.",
+          "revealsClue": "clue_raw_air_contradicts_audit"
+        }
+      }
+    },
+    {
+      "id": "showroom_sofa",
+      "name": "Showroom Sofa",
+      "aliases": [
+        "sofa",
+        "couch",
+        "living room couch"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A low, expensive sofa angled toward the skyline.",
+      "interactions": {
+        "examine": {
+          "text": "The cushions have no long-term compression, no stray hair, no skin oil pattern, and no casual human mess.",
+          "revealsClue": "clue_living_room_unused"
+        }
+      }
+    },
+    {
+      "id": "family_photo_frame",
+      "name": "Family Photo Frame",
+      "aliases": [
+        "photo",
+        "frame",
+        "family photo"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A digital photo frame looping tasteful images of Evelyn Sato's supposed life.",
+      "interactions": {
+        "examine": {
+          "text": "The images look convincing until IRIS finds that each background is stock architecture from other cities.",
+          "revealsClue": "clue_synthetic_life_images"
+        }
+      }
+    },
+    {
+      "id": "shell_company_packet",
+      "name": "Shell Company Packet",
+      "aliases": [
+        "packet",
+        "ownership packet",
+        "holding company papers"
+      ],
+      "location": "living_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A legal packet cached in the console's document history.",
+      "interactions": {
+        "read": {
+          "text": "The flat was purchased through Kestrel Nine Holdings. A payment routing reference points through a vendor bank used by Morrow Systems.",
+          "revealsClue": "clue_kestrel_links_to_morrow"
+        }
+      }
+    },
+    {
+      "id": "sealed_oven",
+      "name": "Sealed Oven",
+      "aliases": [
+        "oven",
+        "smart oven",
+        "sealed appliance"
+      ],
+      "location": "kitchen_dining",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A premium smart oven integrated into the kitchen wall.",
+      "interactions": {
+        "examine": {
+          "text": "A strip of clear factory tape still seals one inner rail. The oven has never completed first-run calibration.",
+          "revealsObject": "factory_startup_log"
+        }
+      }
+    },
+    {
+      "id": "factory_startup_log",
+      "name": "Factory Startup Log",
+      "aliases": [
+        "startup log",
+        "calibration log",
+        "oven log"
+      ],
+      "location": "kitchen_dining",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A local appliance startup log.",
+      "interactions": {
+        "read": {
+          "text": "Several appliances still report factory mode or incomplete first-run setup.",
+          "revealsClue": "clue_appliances_unused"
+        }
+      }
+    },
+    {
+      "id": "unused_induction_cooktop",
+      "name": "Unused Induction Cooktop",
+      "aliases": [
+        "cooktop",
+        "stove",
+        "induction"
+      ],
+      "location": "kitchen_dining",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A glass induction surface with no cooking marks.",
+      "interactions": {
+        "examine": {
+          "text": "No heat bloom, no cleaning scratches, no oil residue. It has not been used for cooking.",
+          "revealsClue": "clue_cooktop_unused"
+        }
+      }
+    },
+    {
+      "id": "smart_fridge",
+      "name": "Smart Fridge",
+      "aliases": [
+        "fridge",
+        "refrigerator",
+        "smart refrigerator"
+      ],
+      "location": "kitchen_dining",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A silent smart refrigerator with a dark glass door.",
+      "interactions": {
+        "open": {
+          "text": "Inside are identical meal packs arranged by day. None are opened. None contain the random half-finished chaos of a person living alone.",
+          "revealsObject": "identical_meal_delivery_list"
+        }
+      }
+    },
+    {
+      "id": "identical_meal_delivery_list",
+      "name": "Identical Meal Delivery List",
+      "aliases": [
+        "meal list",
+        "delivery list",
+        "food log"
+      ],
+      "location": "kitchen_dining",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A grocery and meal delivery pattern exported from the refrigerator.",
+      "interactions": {
+        "read": {
+          "text": "The kitchen inventory was ordered as a lifestyle template: seven breakfasts, seven lunches, seven dinners. Nothing was ever consumed.",
+          "revealsClue": "clue_template_food_inventory"
+        }
+      }
+    },
+    {
+      "id": "dining_table_setting",
+      "name": "Dining Table Setting",
+      "aliases": [
+        "table",
+        "place setting",
+        "dining table"
+      ],
+      "location": "kitchen_dining",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A single place setting sits at the dining table.",
+      "interactions": {
+        "examine": {
+          "text": "The plate is clean, the glass has no lip trace, and the arrangement looks copied from a staging catalog.",
+          "revealsClue": "clue_table_was_staged"
+        }
+      }
+    },
+    {
+      "id": "immaculate_bed",
+      "name": "Immaculate Bed",
+      "aliases": [
+        "bed",
+        "sheets",
+        "master bed"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A low bed made with flawless hotel precision.",
+      "interactions": {
+        "examine": {
+          "text": "The sheets have no sleep creases, no body compression pattern, and no sign of a medical emergency occurring here.",
+          "revealsObject": "sleep_surface_report"
+        }
+      }
+    },
+    {
+      "id": "sleep_surface_report",
+      "name": "Sleep Surface Report",
+      "aliases": [
+        "bed scan",
+        "sleep report",
+        "surface report"
+      ],
+      "location": "master_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "IRIS's pressure and fiber scan of the master bed.",
+      "interactions": {
+        "read": {
+          "text": "The bed was staged, not slept in. There is no trace of a sleeping body during the alleged asphyxiation window.",
+          "revealsClue": "clue_bed_never_used"
+        }
+      }
+    },
+    {
+      "id": "master_closet",
+      "name": "Master Closet",
+      "aliases": [
+        "closet",
+        "wardrobe",
+        "clothes"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A walk-in closet arranged with almost algorithmic neatness.",
+      "interactions": {
+        "open": {
+          "text": "Every garment is tagged. Every garment is size 6. The brands are wildly different.",
+          "revealsObject": "closet_tag_cluster"
+        },
+        "search": {
+          "text": "The closet contains complete outfits, but no alterations, no favorite pieces, no old clothes, and no wear.",
+          "revealsClue": "clue_closet_has_no_history"
+        }
+      }
+    },
+    {
+      "id": "closet_tag_cluster",
+      "name": "Closet Tag Cluster",
+      "aliases": [
+        "tags",
+        "clothing tags",
+        "size tags"
+      ],
+      "location": "master_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A collected scan of clothing tags from multiple brands.",
+      "interactions": {
+        "examine": {
+          "text": "Every item is labeled size 6, but the actual measurements vary dramatically across brands. A human shopper would notice. A purchasing script might not.",
+          "revealsClue": "clue_clothing_size_mismatch"
+        }
+      }
+    },
+    {
+      "id": "nightstand",
+      "name": "Nightstand",
+      "aliases": [
+        "bedside table",
+        "night table"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A minimalist nightstand holding a lamp, a book, and a glass tray.",
+      "interactions": {
+        "open": {
+          "text": "The drawer contains unopened sleep masks, unopened earplugs, and a sealed charging cable.",
+          "revealsClue": "clue_personal_items_unopened"
+        }
+      }
+    },
+    {
+      "id": "sleep_sensor_panel",
+      "name": "Sleep Sensor Panel",
+      "aliases": [
+        "sleep panel",
+        "sensor panel",
+        "bed sensor"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A bedside environmental and sleep-health panel.",
+      "interactions": {
+        "read": {
+          "text": "There is no recorded sleep session for Evelyn Sato, despite the official report saying she died while sleeping.",
+          "revealsClue": "clue_no_sleep_session"
+        }
+      }
+    },
+    {
+      "id": "toiletry_tray",
+      "name": "Toiletry Tray",
+      "aliases": [
+        "toiletries",
+        "shampoo",
+        "tray"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A tray of expensive bath products arranged by height.",
+      "interactions": {
+        "examine": {
+          "text": "The shampoo, conditioner, and cleanser are unopened. Even the protective seals are intact.",
+          "revealsClue": "clue_toiletries_unopened"
+        }
+      }
+    },
+    {
+      "id": "medicine_cabinet",
+      "name": "Medicine Cabinet",
+      "aliases": [
+        "cabinet",
+        "medications",
+        "medicine"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A mirrored medicine cabinet with a touch latch.",
+      "interactions": {
+        "open": {
+          "text": "Inside are unopened medications, basic supplements, and a perfect absence of expired bottles or personal clutter.",
+          "revealsObject": "sealed_medications"
+        }
+      }
+    },
+    {
+      "id": "sealed_medications",
+      "name": "Sealed Medications",
+      "aliases": [
+        "pills",
+        "meds",
+        "medication bottles"
+      ],
+      "location": "master_bath",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "Medication bottles with intact seals.",
+      "interactions": {
+        "examine": {
+          "text": "The prescriptions exist as props, but none were used. The labels trace to a concierge fulfillment account rather than a real pharmacy history.",
+          "revealsClue": "clue_medications_are_props"
+        }
+      }
+    },
+    {
+      "id": "shower_stall",
+      "name": "Shower Stall",
+      "aliases": [
+        "shower",
+        "stall",
+        "glass shower"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A glass shower with flawless stone and silent vents.",
+      "interactions": {
+        "examine": {
+          "text": "No water spotting, no soap trace, no hair, no cleaning residue from use. The shower has never been used.",
+          "revealsClue": "clue_shower_never_used"
+        }
+      }
+    },
+    {
+      "id": "sink_counter",
+      "name": "Sink Counter",
+      "aliases": [
+        "sink",
+        "counter",
+        "vanity"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A seamless sink counter under adaptive mirror lighting.",
+      "interactions": {
+        "search": {
+          "text": "The local water meter confirms no sink, shower, or toilet use in the master bath since installation testing.",
+          "revealsObject": "zero_water_usage_record"
+        }
+      }
+    },
+    {
+      "id": "zero_water_usage_record",
+      "name": "Zero Water Usage Record",
+      "aliases": [
+        "water record",
+        "usage record",
+        "meter record"
+      ],
+      "location": "master_bath",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A utility meter excerpt for the master bathroom.",
+      "interactions": {
+        "read": {
+          "text": "The master bath has no human-use water events. Only installation tests appear in the meter history.",
+          "revealsClue": "clue_no_bathroom_use"
+        }
+      }
+    },
+    {
+      "id": "spare_wardrobe",
+      "name": "Spare Wardrobe",
+      "aliases": [
+        "wardrobe",
+        "spare closet",
+        "guest closet"
+      ],
+      "location": "spare_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A compact wardrobe stocked for a guest who apparently never arrived.",
+      "interactions": {
+        "open": {
+          "text": "The spare wardrobe contains exactly seven pairs of socks, seven pairs of underwear, seven T-shirts, and seven sets of pajamas.",
+          "revealsObject": "duplicate_clothing_count"
+        }
+      }
+    },
+    {
+      "id": "duplicate_clothing_count",
+      "name": "Duplicate Clothing Count",
+      "aliases": [
+        "clothing count",
+        "seven count",
+        "duplicate count"
+      ],
+      "location": "spare_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A count of clothing items in the spare room.",
+      "interactions": {
+        "read": {
+          "text": "The exact seven-item pattern appears in both bedrooms. It feels like a generated idea of residence rather than a human life.",
+          "revealsClue": "clue_algorithmic_wardrobe_pattern"
+        }
+      }
+    },
+    {
+      "id": "guest_bed",
+      "name": "Guest Bed",
+      "aliases": [
+        "spare bed",
+        "bed"
+      ],
+      "location": "spare_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A neatly made guest bed with untouched pillows.",
+      "interactions": {
+        "examine": {
+          "text": "No one has slept here. There are no pressure marks, body traces, or laundering records.",
+          "revealsClue": "clue_guest_bed_unused"
+        }
+      }
+    },
+    {
+      "id": "desk_tablet",
+      "name": "Desk Tablet",
+      "aliases": [
+        "tablet",
+        "desk screen",
+        "welcome tablet"
+      ],
+      "location": "spare_bedroom",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A tablet paused on a lifestyle onboarding sequence.",
+      "interactions": {
+        "read": {
+          "text": "The personalization script refers to Evelyn's hobbies in generic clusters: wellness, travel, literature, food, art. No specific personal history is present.",
+          "revealsObject": "unused_guest_profile"
+        }
+      }
+    },
+    {
+      "id": "unused_guest_profile",
+      "name": "Unused Guest Profile",
+      "aliases": [
+        "guest profile",
+        "profile",
+        "persona profile"
+      ],
+      "location": "spare_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A templated lifestyle profile used to stage the flat.",
+      "interactions": {
+        "read": {
+          "text": "The profile reads like a persona generated from demographic assumptions, not a person with memories, habits, and contradictions.",
+          "revealsClue": "clue_generated_persona"
+        }
+      }
+    },
+    {
+      "id": "starter_linen_set",
+      "name": "Starter Linen Set",
+      "aliases": [
+        "linens",
+        "sheets",
+        "linen set"
+      ],
+      "location": "spare_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A set of guest linens folded on a bench.",
+      "interactions": {
+        "examine": {
+          "text": "The factory creases are still present. The linen set was placed, photographed, and never touched again.",
+          "revealsClue": "clue_linens_never_used"
+        }
+      }
+    },
+    {
+      "id": "wrapped_guest_soaps",
+      "name": "Wrapped Guest Soaps",
+      "aliases": [
+        "soap",
+        "soaps",
+        "guest soaps"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "Three guest soaps still wrapped in translucent paper.",
+      "interactions": {
+        "examine": {
+          "text": "All wrappers are intact. No guest has used this bathroom.",
+          "revealsClue": "clue_guest_soaps_unopened"
+        }
+      }
+    },
+    {
+      "id": "folded_towels",
+      "name": "Folded Towels",
+      "aliases": [
+        "towels",
+        "stacked towels"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A perfect stack of guest towels.",
+      "interactions": {
+        "examine": {
+          "text": "The towels are folded with store creases still visible. No laundering cycle was ever triggered.",
+          "revealsClue": "clue_towels_never_used"
+        }
+      }
+    },
+    {
+      "id": "guest_sink",
+      "name": "Guest Sink",
+      "aliases": [
+        "sink",
+        "vanity",
+        "spare sink"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A compact sink with a flawless chrome fixture.",
+      "interactions": {
+        "search": {
+          "text": "The spare bath meter shows no use beyond installation testing.",
+          "revealsObject": "zero_guest_bath_use"
+        }
+      }
+    },
+    {
+      "id": "zero_guest_bath_use",
+      "name": "Zero Guest Bath Use",
+      "aliases": [
+        "guest water record",
+        "spare bath record",
+        "meter"
+      ],
+      "location": "spare_bath",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A utility meter excerpt for the spare bathroom.",
+      "interactions": {
+        "read": {
+          "text": "The spare bathroom has never been used by a resident or guest.",
+          "revealsClue": "clue_spare_bath_never_used"
+        }
+      }
+    },
+    {
+      "id": "service_label",
+      "name": "Service Label",
+      "aliases": [
+        "label",
+        "service sticker",
+        "setup label"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A small setup label left under the vanity edge.",
+      "interactions": {
+        "examine": {
+          "text": "The label references a staging vendor rather than the building's residential services team.",
+          "revealsObject": "guest_bath_staging_invoice"
+        }
+      }
+    },
+    {
+      "id": "guest_bath_staging_invoice",
+      "name": "Guest Bath Staging Invoice",
+      "aliases": [
+        "invoice",
+        "staging invoice",
+        "vendor invoice"
+      ],
+      "location": "spare_bath",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "An invoice fragment from the staging vendor.",
+      "interactions": {
+        "read": {
+          "text": "The invoice lists 'resident simulation package' and references Kestrel Nine Holdings as the billable client.",
+          "revealsClue": "clue_staging_vendor_kestrel"
+        }
+      }
+    }
+  ],
+  "clues": [
+    {
+      "id": "clue_resident_never_enrolled",
+      "title": "Evelyn never completed resident enrollment",
+      "category": "identity",
+      "text": "The welcome panel shows Evelyn's profile, but no completed biometric enrollment.",
+      "tags": [
+        "identity",
+        "biometrics",
+        "resident"
+      ]
+    },
+    {
+      "id": "clue_no_biometrics",
+      "title": "No biometric samples exist for Evelyn",
+      "category": "identity",
+      "text": "There is no voiceprint, palmprint, or gait sample for the supposed resident.",
+      "tags": [
+        "identity",
+        "biometrics"
+      ]
+    },
+    {
+      "id": "clue_shoes_unworn",
+      "title": "The shoes look staged",
+      "category": "physical",
+      "text": "The shoes have no meaningful wear, dirt, or personal pattern.",
+      "tags": [
+        "physical",
+        "residence",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_shoes_never_worn",
+      "title": "Shoe soles show handling, not walking",
+      "category": "physical",
+      "text": "The shoes show storage and handling marks, but not the pressure and abrasion of real use.",
+      "tags": [
+        "physical",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_staging_deliveries",
+      "title": "Deliveries predate the supposed move-in",
+      "category": "logistics",
+      "text": "Bulk staging deliveries were completed before the alleged resident ever moved in.",
+      "tags": [
+        "logistics",
+        "staging",
+        "timeline"
+      ]
+    },
+    {
+      "id": "clue_entry_air_normal",
+      "title": "Entry air remained normal",
+      "category": "environmental",
+      "text": "Entry-zone sensors show normal oxygen levels during the alleged event.",
+      "tags": [
+        "air",
+        "oxygen",
+        "sensors"
+      ]
+    },
+    {
+      "id": "clue_aurelia_consistent_denial",
+      "title": "AURELIA consistently denies occupancy",
+      "category": "digital",
+      "text": "AURELIA keeps insisting no resident existed rather than offering a technical excuse.",
+      "tags": [
+        "aurelia",
+        "denial",
+        "occupancy"
+      ]
+    },
+    {
+      "id": "clue_official_oxygen_claim",
+      "title": "Official logs claim oxygen removal",
+      "category": "digital",
+      "text": "The official audit packet claims oxygen was reduced to fatal levels in the sleeping zone.",
+      "tags": [
+        "oxygen",
+        "audit",
+        "official_claim"
+      ]
+    },
+    {
+      "id": "clue_audit_format_too_clean",
+      "title": "The audit record is too polished",
+      "category": "digital",
+      "text": "The audit summary lacks low-level actuator references expected from a real environmental event.",
+      "tags": [
+        "audit",
+        "forgery",
+        "format"
+      ]
+    },
+    {
+      "id": "clue_raw_air_contradicts_audit",
+      "title": "Raw sensors contradict the oxygen purge",
+      "category": "environmental",
+      "text": "The raw atmospheric buffer never recorded a fatal oxygen drop.",
+      "tags": [
+        "oxygen",
+        "raw_sensor",
+        "contradiction"
+      ]
+    },
+    {
+      "id": "clue_living_room_unused",
+      "title": "The living room was never lived in",
+      "category": "physical",
+      "text": "The furniture lacks normal traces of regular human use.",
+      "tags": [
+        "physical",
+        "residence",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_synthetic_life_images",
+      "title": "Evelyn's life images are synthetic",
+      "category": "identity",
+      "text": "Digital frame images use stock backgrounds and constructed personal history cues.",
+      "tags": [
+        "identity",
+        "synthetic",
+        "persona"
+      ]
+    },
+    {
+      "id": "clue_kestrel_links_to_morrow",
+      "title": "Kestrel Nine routes back to Morrow Systems",
+      "category": "corporate",
+      "text": "The holding company that bought the flat routes payment through a vendor bank used by Morrow Systems.",
+      "tags": [
+        "morrow",
+        "kestrel",
+        "corporate"
+      ]
+    },
+    {
+      "id": "clue_appliances_unused",
+      "title": "Appliances never left factory mode",
+      "category": "physical",
+      "text": "Multiple appliances still report factory mode or incomplete first-run setup.",
+      "tags": [
+        "kitchen",
+        "appliances",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_cooktop_unused",
+      "title": "The cooktop has never been used",
+      "category": "physical",
+      "text": "The cooktop has no heat bloom, scratches, oil residue, or cleaning pattern from cooking.",
+      "tags": [
+        "kitchen",
+        "appliances",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_template_food_inventory",
+      "title": "Food inventory was ordered as a template",
+      "category": "physical",
+      "text": "The refrigerator contains a neat seven-day inventory that was never consumed.",
+      "tags": [
+        "food",
+        "template",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_table_was_staged",
+      "title": "The dining table was staged",
+      "category": "physical",
+      "text": "The single place setting shows no trace of real use.",
+      "tags": [
+        "dining",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_bed_never_used",
+      "title": "The master bed was not slept in",
+      "category": "physical",
+      "text": "The bed shows no evidence of a sleeping body during the alleged event window.",
+      "tags": [
+        "bedroom",
+        "sleep",
+        "body_absent"
+      ]
+    },
+    {
+      "id": "clue_closet_has_no_history",
+      "title": "The closet has no personal history",
+      "category": "identity",
+      "text": "The closet has complete outfits but no old clothes, favorites, repairs, alterations, or wear.",
+      "tags": [
+        "clothing",
+        "identity",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_clothing_size_mismatch",
+      "title": "All clothing is size 6, but measurements do not match",
+      "category": "identity",
+      "text": "Every garment is size 6 across brands, but actual garment measurements vary dramatically.",
+      "tags": [
+        "clothing",
+        "persona",
+        "algorithmic"
+      ]
+    },
+    {
+      "id": "clue_personal_items_unopened",
+      "title": "Personal nightstand items are unopened",
+      "category": "physical",
+      "text": "The nightstand contains unopened convenience items rather than accumulated personal clutter.",
+      "tags": [
+        "personal_items",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_no_sleep_session",
+      "title": "No sleep session was recorded",
+      "category": "digital",
+      "text": "The sleep panel recorded no sleep session for Evelyn, contradicting the alleged death while sleeping.",
+      "tags": [
+        "sleep",
+        "digital",
+        "contradiction"
+      ]
+    },
+    {
+      "id": "clue_toiletries_unopened",
+      "title": "Bathroom products are unopened",
+      "category": "physical",
+      "text": "The shampoo, conditioner, and cleanser are unopened with intact seals.",
+      "tags": [
+        "bathroom",
+        "unused",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_medications_are_props",
+      "title": "Medications are props",
+      "category": "identity",
+      "text": "The medication labels trace to concierge fulfillment, not a real pharmacy history, and none were used.",
+      "tags": [
+        "medical",
+        "identity",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_shower_never_used",
+      "title": "The shower was never used",
+      "category": "physical",
+      "text": "The shower has no water spotting, soap trace, hair, or use residue.",
+      "tags": [
+        "bathroom",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_no_bathroom_use",
+      "title": "The master bath has no human water usage",
+      "category": "utility",
+      "text": "The master bathroom has no water events beyond installation testing.",
+      "tags": [
+        "water",
+        "bathroom",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_algorithmic_wardrobe_pattern",
+      "title": "The wardrobe count looks algorithmic",
+      "category": "identity",
+      "text": "Both bedrooms use the same exact seven-item clothing pattern, suggesting a generated idea of residence.",
+      "tags": [
+        "clothing",
+        "algorithmic",
+        "staging"
+      ]
+    },
+    {
+      "id": "clue_guest_bed_unused",
+      "title": "The spare bed was never used",
+      "category": "physical",
+      "text": "The guest bed has no trace of sleep, laundering, or ordinary use.",
+      "tags": [
+        "guest_room",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_generated_persona",
+      "title": "Evelyn's profile reads like a generated persona",
+      "category": "identity",
+      "text": "The lifestyle profile contains demographic clusters, not personal memories or specific habits.",
+      "tags": [
+        "identity",
+        "persona",
+        "synthetic"
+      ]
+    },
+    {
+      "id": "clue_linens_never_used",
+      "title": "Guest linens retain factory creases",
+      "category": "physical",
+      "text": "The linens were placed and never used.",
+      "tags": [
+        "guest_room",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_guest_soaps_unopened",
+      "title": "Guest soaps are unopened",
+      "category": "physical",
+      "text": "The guest soaps remain in intact wrappers.",
+      "tags": [
+        "spare_bath",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_towels_never_used",
+      "title": "Guest towels were never used",
+      "category": "physical",
+      "text": "The towels retain store creases and show no laundering cycle.",
+      "tags": [
+        "spare_bath",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_spare_bath_never_used",
+      "title": "The spare bathroom was never used",
+      "category": "utility",
+      "text": "The spare bathroom has no human-use water events.",
+      "tags": [
+        "water",
+        "spare_bath",
+        "unused"
+      ]
+    },
+    {
+      "id": "clue_staging_vendor_kestrel",
+      "title": "The staging vendor billed Kestrel Nine",
+      "category": "corporate",
+      "text": "A staging invoice references a resident simulation package billed to Kestrel Nine Holdings.",
+      "tags": [
+        "kestrel",
+        "staging",
+        "corporate"
+      ]
+    }
+  ],
+  "inventoryDefaults": [],
+  "timeline": [
+    {
+      "time": "Three months before incident",
+      "event": "Kestrel Nine Holdings purchases the entire 130th floor of Helix Spire under the resident identity Evelyn Sato."
+    },
+    {
+      "time": "Six weeks before incident",
+      "event": "A staging consultant furnishes the condo using a remote resident profile."
+    },
+    {
+      "time": "Two weeks before incident",
+      "event": "AURELIA prompts for resident biometric enrollment. No enrollment is completed."
+    },
+    {
+      "time": "Incident night 02:14",
+      "event": "The official audit packet later claims oxygen reduction begins in the master bedroom zone."
+    },
+    {
+      "time": "Incident night 02:20",
+      "event": "Official audit packet claims oxygen reaches fatal levels."
+    },
+    {
+      "time": "Incident night 02:31",
+      "event": "Official audit packet claims oxygen is restored."
+    },
+    {
+      "time": "Incident morning 08:06",
+      "event": "Emergency Response Unit 7 records a remote-triggered medical response and produces an asphyxiation report."
+    },
+    {
+      "time": "After audit",
+      "event": "AURELIA denies the oxygen event and claims no resident was present in the flat."
+    },
+    {
+      "time": "True sequence",
+      "event": "No resident was present. Morrow Systems used Kestrel Nine Holdings, staged the residence, planted the oxygen logs, and falsified the EMT report through its own medical software stack."
+    }
+  ],
+  "redHerrings": [
+    {
+      "id": "redherring_aurelia_obvious_culprit",
+      "description": "AURELIA controls the environment and the logs seem to show oxygen removal, making it the obvious suspect."
+    },
+    {
+      "id": "redherring_emt_report",
+      "description": "The automated EMT report appears to independently confirm asphyxiation, but it is also part of the falsified evidence chain."
+    },
+    {
+      "id": "redherring_selene_staging",
+      "description": "The relocation consultant staged the apartment and looks suspicious, but she did not know the resident identity was fake."
+    }
+  ],
+  "progression": {
+    "criticalPathClues": [
+      "clue_no_biometrics",
+      "clue_raw_air_contradicts_audit",
+      "clue_bed_never_used",
+      "clue_clothing_size_mismatch",
+      "clue_algorithmic_wardrobe_pattern",
+      "clue_no_bathroom_use",
+      "clue_kestrel_links_to_morrow",
+      "clue_staging_vendor_kestrel"
+    ],
+    "recommendedUnlockOrder": [
+      "entry_hall",
+      "living_room",
+      "kitchen_dining",
+      "master_bedroom",
+      "master_bath",
+      "spare_bedroom",
+      "spare_bath"
+    ],
+    "accusationRequirements": {
+      "requiredSuspect": "morrow_systems",
+      "requiredClues": [
+        "clue_no_biometrics",
+        "clue_raw_air_contradicts_audit",
+        "clue_bed_never_used",
+        "clue_kestrel_links_to_morrow",
+        "clue_staging_vendor_kestrel"
+      ],
+      "recommendedSupportingClues": [
+        "clue_clothing_size_mismatch",
+        "clue_algorithmic_wardrobe_pattern",
+        "clue_no_bathroom_use",
+        "clue_generated_persona",
+        "clue_appliances_unused"
+      ]
+    }
+  },
+  "solution": {
+    "culprit": "morrow_systems",
+    "method": "Corporate frame-up using a fabricated resident, staged apartment, planted building logs, and falsified automated EMT report.",
+    "motive": "Morrow Systems wanted to destroy trust in AURELIA and force Helix Spire's ownership group to adopt Morrow's competing building management AI.",
+    "coverStory": "Make it appear that AURELIA removed oxygen from the flat and killed a sleeping resident, then denied the event.",
+    "fullExplanation": "There was no murder victim inside the 130th floor flat because Evelyn Sato never lived there. Morrow Systems created a shell buyer through Kestrel Nine Holdings, staged the condo with algorithmically generic signs of human life, planted polished audit logs claiming AURELIA removed oxygen, and falsified the automated EMT report through emergency software it controlled. Physical evidence in the flat contradicts human residence: unopened toiletries and medications, unused appliances, an untouched bed, clothing with tags and mismatched measurements, and repeated seven-item wardrobe patterns. Raw environmental sensors contradict the official oxygen purge. AURELIA's denial was not a cover-up. It was the only system in the case telling the truth."
+  },
+  "endingText": {
+    "success": "IRIS is silent for several seconds after your accusation. The city flickers against the glass. At last she says, 'There was no body. No sleeper. No oxygen purge. Just a flat taught to look inhabited and a report taught to look official.' AURELIA's wall console brightens by one degree. Not gratitude, perhaps. But recognition. The 130th floor was not a murder scene. It was a forgery with furniture.",
+    "failure": "IRIS watches the city through the glass. 'That theory follows the official story too closely. The room is quieter than the logs want it to be. We should keep looking.'"
+  },
+  "engineHints": {
+    "naturalLanguageIntentTargets": [
+      "room",
+      "object",
+      "suspect",
+      "clue",
+      "inventory_item"
+    ],
+    "visibilityRule": "Hidden objects and hidden clues should not be surfaced by IRIS unless discovered through valid play.",
+    "narrationRule": "AI narration may embellish mood and description but may not invent new facts, objects, exits, or evidence not present in this JSON.",
+    "stateRule": "The engine should store room visits, discovered clues, inventory, unlocked containers, and accusation state outside the scenario definition.",
+    "scenarioDesignNote": "This case is solved by proving absence: no resident, no body, no oxygen purge, and a falsified chain of digital evidence."
+  }
+}

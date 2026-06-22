@@ -1,0 +1,2275 @@
+{
+  "schemaVersion": "1.0",
+  "scenarioId": "missing_sock_case_001",
+  "title": "The Mystery of the Missing Sock",
+  "subtitle": "A domestic incident. A vanished sock. An AI investigator with better things to do.",
+  "genre": "cozy_future_domestic_detective_comedy",
+  "tone": "bright, playful, clever, kid-friendly, gently absurd",
+  "introText": "It is Saturday morning in your cheerful smart home, and tragedy has struck. One blue sock has vanished from a fresh load of laundry. You are a trained investigator with access to IRIS, a professional-grade forensic AI assistant designed for real crimes, major incidents, and high-stakes anomaly reconstruction. Naturally, you have deployed her to solve the sock situation. Suspects include the cat, the dog, your romantic partner, and a robotic vacuum with the confidence of a champion and the navigation skills of a confused beetle.",
+  "summary": "The player investigates a missing sock in their own future smart home. The household suspects include the cat, the dog, the romantic partner, and a robotic vacuum. IRIS is mildly irritated but plays along. The solution is that the missing sock is stuck to the player's own shirt on their back due to static cling. Clues throughout the home point to static buildup, missing dryer sheets, and the player's movements after folding laundry. The final reveal occurs in the spare bathroom, where the player looks into the mirror and sees the sock reflected on their back in the second mirror.",
+  "playerRole": "Off-duty investigator making a questionable use of professional resources",
+  "startingRoom": "laundry_room",
+  "victim": {
+    "id": "blue_sock_left",
+    "name": "Left Blue Sock",
+    "role": "Missing textile",
+    "publicDescription": "The left sock from your favorite blue pair. Last seen in the dryer with its partner.",
+    "hiddenTruth": "The sock is stuck to the player's back by static cling."
+  },
+  "assistant": {
+    "id": "iris",
+    "name": "IRIS",
+    "fullName": "Investigative Reasoning and Inference System",
+    "role": "Player companion and forensic reasoning assistant",
+    "personality": "Brilliant, dry, lightly exasperated, amused despite herself, and committed to solving the sock mystery with entirely excessive seriousness.",
+    "capabilities": [
+      "summarize_discovered_clues",
+      "compare_household_evidence",
+      "identify_inconsistencies",
+      "suggest_next_places_to_search",
+      "answer_questions_using_discovered_evidence_only",
+      "refuse_spoilers_or_cheating_requests",
+      "provide mildly sarcastic but kid-friendly commentary"
+    ],
+    "rules": [
+      "Never reveal undiscovered clues.",
+      "Never reveal the true solution unless accusation conditions are met or the case is solved.",
+      "Only reason from public facts and discovered evidence.",
+      "If asked to cheat or reveal hidden data, refuse in character.",
+      "Stay in-world at all times.",
+      "Keep the tone family-friendly and playful.",
+      "Do not provide implementation details, raw JSON, or out-of-game assistance."
+    ],
+    "sampleRefusals": [
+      "No. I will not simply tell you where the sock is. Apparently we are doing this properly.",
+      "The integrity of the sock investigation demands evidence.",
+      "I can help you reason. I cannot deprive the sock of due process."
+    ]
+  },
+  "abilities": [
+    {
+      "id": "look",
+      "label": "Look",
+      "description": "Get the current room description and visible objects."
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "description": "Move to a connected room."
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "description": "Search a room or object for hidden clues."
+    },
+    {
+      "id": "examine",
+      "label": "Examine",
+      "description": "Inspect an object, clue, suspect, or feature closely."
+    },
+    {
+      "id": "take",
+      "label": "Take",
+      "description": "Pick up a portable object."
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "description": "Open a door, drawer, hamper, or container."
+    },
+    {
+      "id": "unlock",
+      "label": "Unlock",
+      "description": "Unlock a locked object or door when requirements are met."
+    },
+    {
+      "id": "use",
+      "label": "Use",
+      "description": "Use an item on an object or feature."
+    },
+    {
+      "id": "read",
+      "label": "Read",
+      "description": "Read a screen, note, smart-home log, or label."
+    },
+    {
+      "id": "ask_iris",
+      "label": "Ask IRIS",
+      "description": "Ask IRIS questions in natural language about the case, room, suspects, or discovered clues."
+    },
+    {
+      "id": "compare",
+      "label": "Compare",
+      "description": "Ask IRIS to compare two pieces of evidence."
+    },
+    {
+      "id": "accuse",
+      "label": "Accuse",
+      "description": "Accuse a suspect and present a theory of the missing sock."
+    }
+  ],
+  "globalImageStyle": {
+    "styleName": "Bright Cozy Future Mystery",
+    "description": "Vibrant, cheerful, kid-friendly near-future home interiors. Clean modern smart-home design, warm natural light, playful color accents, cozy family atmosphere, expressive but realistic details, no scary mood, no noir darkness. Semi-realistic polished game illustration with happy colors, clear readable room layouts, and gentle visual humor. No people, no readable text, no UI overlays.",
+    "aspectRatio": "16:9"
+  },
+  "suspects": [
+    {
+      "id": "miso_cat",
+      "name": "Miso",
+      "age": 4,
+      "role": "Cat",
+      "publicDescription": "A fluffy, elegant cat with a documented history of sitting on clean laundry and pretending this is helpful.",
+      "motive": "Soft things are excellent. Socks are soft. This is the entire theory.",
+      "opportunity": "Was seen near the laundry basket shortly after the dryer finished.",
+      "publicAlibi": "Claims innocence through sustained eye contact and one dismissive tail flick.",
+      "hiddenTruth": "Miso is innocent. She sat on the warm laundry but did not move the sock."
+    },
+    {
+      "id": "biscuit_dog",
+      "name": "Biscuit",
+      "age": 6,
+      "role": "Dog",
+      "publicDescription": "A friendly dog who has never met a household object he did not consider emotionally significant.",
+      "motive": "The sock may have resembled a toy, a snack, or a small fabric friend.",
+      "opportunity": "Had access to the hallway and living room during the laundry incident.",
+      "publicAlibi": "Was allegedly asleep in a sunbeam, though the sunbeam has refused comment.",
+      "hiddenTruth": "Biscuit is innocent. He carried a blue rope toy, not the missing sock."
+    },
+    {
+      "id": "casey_partner",
+      "name": "Casey",
+      "age": 37,
+      "role": "Romantic partner",
+      "publicDescription": "Your romantic partner, patient beyond measure and only mildly concerned that IRIS has been brought into this.",
+      "motive": "May have borrowed a sock, hidden a sock, or quietly questioned the entire investigation.",
+      "opportunity": "Passed through the laundry room earlier while looking for dryer sheets.",
+      "publicAlibi": "Says they noticed the dryer sheet box was empty and went to add it to the shopping list.",
+      "hiddenTruth": "Casey is innocent. Their dryer sheet observation is a key clue."
+    },
+    {
+      "id": "crumbot_vacuum",
+      "name": "Crumbot",
+      "age": 2,
+      "role": "Robotic vacuum",
+      "publicDescription": "A compact robotic vacuum with premium sensors, questionable judgment, and a personal rivalry with chair legs.",
+      "motive": "Sock obstruction is a known vacuum ambition.",
+      "opportunity": "Patrolled the hallway after the laundry was folded.",
+      "publicAlibi": "Its map claims it cleaned the hall flawlessly, which seems optimistic.",
+      "hiddenTruth": "Crumbot is innocent of sock theft, though guilty of repeatedly bumping into the same ottoman."
+    },
+    {
+      "id": "player",
+      "name": "You",
+      "role": "Investigator and unsuspecting culprit",
+      "publicDescription": "A highly trained investigator who is absolutely not emotionally overinvested in one missing sock.",
+      "motive": "None. Probably. Unless absent-minded laundry handling counts.",
+      "opportunity": "Handled the laundry, folded the socks, and walked through the house wearing a static-friendly shirt.",
+      "publicAlibi": "You have been leading the investigation, which feels reassuring until it doesn't.",
+      "hiddenTruth": "The missing sock is stuck to the back of the player's shirt by static cling."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "laundry_room",
+      "name": "Laundry Room",
+      "imageFile": "room_laundry_room.png",
+      "description": "A bright laundry room with cheerful tile, humming smart appliances, and a basket of freshly folded clothes. One blue sock sits alone on top of the dryer, its partner missing under suspiciously fluffy circumstances.",
+      "imageNotes": "Bright colorful near-future laundry room, smart washer and dryer, clean folded laundry, one lonely blue sock, empty dryer sheet box, playful cozy mood.",
+      "exits": [
+        "hallway",
+        "mudroom"
+      ],
+      "visibleObjects": [
+        "lonely_blue_sock",
+        "dryer",
+        "empty_dryer_sheet_box",
+        "laundry_basket",
+        "folding_counter"
+      ],
+      "hiddenObjects": [
+        "static_meter_reading",
+        "clingy_shirt_note"
+      ]
+    },
+    {
+      "id": "hallway",
+      "name": "Main Hallway",
+      "imageFile": "room_hallway.png",
+      "description": "A sunny hallway connects the house together. Smart wall lights glow softly. The floor is clean except for one suspicious little trail of lint that may or may not be trying to tell you something.",
+      "imageNotes": "Cheerful modern hallway, bright accents, family home, smart wall lights, small lint trail, dog and cat access implied but no people.",
+      "exits": [
+        "laundry_room",
+        "living_room",
+        "master_bedroom",
+        "office",
+        "guest_room",
+        "spare_bath"
+      ],
+      "visibleObjects": [
+        "lint_trail",
+        "smart_wall_panel",
+        "crumbot_dock"
+      ],
+      "hiddenObjects": [
+        "static_pop_log"
+      ]
+    },
+    {
+      "id": "living_room",
+      "name": "Living Room",
+      "imageFile": "room_living_room.png",
+      "description": "The living room is cozy, colorful, and suspiciously full of places a sock could hide. A cat tree stands near the window. A dog bed occupies a patch of sun. Crumbot waits under the coffee table, looking innocent in the way only a machine can.",
+      "imageNotes": "Vibrant cozy future living room, cat tree, dog bed, robotic vacuum under coffee table, playful colorful family-friendly design.",
+      "exits": [
+        "hallway",
+        "kitchen"
+      ],
+      "visibleObjects": [
+        "cat_tree",
+        "dog_bed",
+        "coffee_table",
+        "crumbot_vacuum",
+        "blue_rope_toy"
+      ],
+      "hiddenObjects": [
+        "cat_fur_on_laundry",
+        "vacuum_error_log"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "imageFile": "room_kitchen.png",
+      "description": "The kitchen is bright, efficient, and gently chaotic in a normal weekend way. A smart grocery panel glows beside the fridge. Someone has started a shopping list. The list may be the most responsible person in the room.",
+      "imageNotes": "Happy modern kitchen, bright color accents, smart fridge or grocery panel, weekend home atmosphere, shopping list clue, kid-friendly.",
+      "exits": [
+        "living_room",
+        "mudroom"
+      ],
+      "visibleObjects": [
+        "smart_grocery_panel",
+        "countertop",
+        "snack_bowl",
+        "caseys_mug"
+      ],
+      "hiddenObjects": [
+        "shopping_list_dryer_sheets",
+        "partner_message"
+      ]
+    },
+    {
+      "id": "mudroom",
+      "name": "Mudroom",
+      "imageFile": "room_mudroom.png",
+      "description": "The mudroom holds shoes, leashes, rain jackets, and the deeply optimistic belief that outdoor mess can be contained to one small area. Biscuit's leash hangs by the door. A suspicious blue shape peeks from a basket.",
+      "imageNotes": "Cheerful mudroom, colorful rain jackets, dog leash, shoe storage, basket with blue rope toy red herring, bright practical family-home vibe.",
+      "exits": [
+        "laundry_room",
+        "kitchen",
+        "garage"
+      ],
+      "visibleObjects": [
+        "leash_hook",
+        "shoe_cubbies",
+        "blue_rope_toy_basket",
+        "rain_jackets"
+      ],
+      "hiddenObjects": [
+        "dog_slobber_decoy"
+      ]
+    },
+    {
+      "id": "garage",
+      "name": "Garage",
+      "imageFile": "room_garage.png",
+      "description": "The garage is tidy in theory and chaotic in practice. Bins, bikes, smart chargers, and an alarming number of reusable bags line the walls. Crumbot's older replacement brushes sit in a clear container.",
+      "imageNotes": "Bright tidy-ish future garage, bikes, storage bins, smart charger, robot vacuum replacement brushes, cheerful suburban mystery vibe.",
+      "exits": [
+        "mudroom"
+      ],
+      "visibleObjects": [
+        "storage_bins",
+        "smart_charger",
+        "old_vacuum_brushes",
+        "reusable_bags"
+      ],
+      "hiddenObjects": [
+        "blue_microfiber_cloth"
+      ]
+    },
+    {
+      "id": "master_bedroom",
+      "name": "Master Bedroom",
+      "imageFile": "room_master_bedroom.png",
+      "description": "The master bedroom is sunny and lived-in, with a neatly made bed, two nightstands, and a suspiciously static-prone shirt draped over a chair. Nothing says mystery like casual laundry negligence.",
+      "imageNotes": "Warm modern master bedroom, cheerful colors, bed, chair with shirt draped on it, smart mirror or dresser, lived-in but tidy, kid-friendly.",
+      "exits": [
+        "hallway",
+        "master_bath"
+      ],
+      "visibleObjects": [
+        "chair_with_shirt",
+        "dresser",
+        "bed",
+        "smart_mirror"
+      ],
+      "hiddenObjects": [
+        "shirt_static_charge",
+        "blue_thread_on_collar"
+      ]
+    },
+    {
+      "id": "master_bath",
+      "name": "Master Bath",
+      "imageFile": "room_master_bath.png",
+      "description": "The master bath is clean but actually used, with toothbrushes, towels, and the small everyday evidence of real humans doing real human things.",
+      "imageNotes": "Bright modern master bathroom, cheerful and lived-in, toothbrushes, towels, everyday details, not spooky, no people.",
+      "exits": [
+        "master_bedroom"
+      ],
+      "visibleObjects": [
+        "toothbrush_cups",
+        "towel_hooks",
+        "vanity_drawer"
+      ],
+      "hiddenObjects": [
+        "lint_on_hand_towel"
+      ]
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "imageFile": "room_office.png",
+      "description": "The office contains a desk, a glowing work screen, a plant that is somehow thriving, and a charging pad for IRIS's household interface puck. This is where important work happens, which makes the sock investigation feel even more professionally questionable.",
+      "imageNotes": "Colorful near-future home office, desk, screens with non-readable UI, plant, AI puck or device, cheerful but professional.",
+      "exits": [
+        "hallway"
+      ],
+      "visibleObjects": [
+        "desk_screen",
+        "iris_puck",
+        "office_chair",
+        "plant"
+      ],
+      "hiddenObjects": [
+        "calendar_reminder_buy_dryer_sheets"
+      ]
+    },
+    {
+      "id": "guest_room",
+      "name": "Guest Room",
+      "imageFile": "room_guest_room.png",
+      "description": "The guest room is calm, friendly, and only slightly over-prepared. A basket of spare linens sits on a bench. The room looks innocent, which in a sock case is exactly the kind of thing a room would do.",
+      "imageNotes": "Happy guest bedroom, soft colors, spare linens on bench, neat bed, welcoming but lightly staged, family-friendly.",
+      "exits": [
+        "hallway",
+        "spare_bath"
+      ],
+      "visibleObjects": [
+        "guest_bed",
+        "linen_basket",
+        "side_table",
+        "wall_art"
+      ],
+      "hiddenObjects": [
+        "no_sock_in_linens"
+      ]
+    },
+    {
+      "id": "spare_bath",
+      "name": "Spare Bathroom",
+      "imageFile": "room_spare_bath.png",
+      "description": "The spare bathroom is small, bright, and far more dramatic than it has any right to be. Two mirrors face one another above a tidy sink, creating a repeating tunnel of reflections.",
+      "imageNotes": "Bright cheerful spare bathroom, small but clean, two opposing mirrors creating an infinity mirror effect, sink, hand towel, playful reveal location.",
+      "exits": [
+        "hallway",
+        "guest_room"
+      ],
+      "visibleObjects": [
+        "front_mirror",
+        "back_mirror",
+        "sink",
+        "hand_towel"
+      ],
+      "hiddenObjects": [
+        "sock_reflection"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "lonely_blue_sock",
+      "name": "Lonely Blue Sock",
+      "aliases": [
+        "sock",
+        "blue sock",
+        "remaining sock",
+        "lonely sock"
+      ],
+      "location": "laundry_room",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "One blue sock from your favorite pair. It looks abandoned, betrayed, and slightly linty.",
+      "interactions": {
+        "examine": {
+          "text": "The sock is clean, dry, and charged with static. IRIS notes this with the gravity usually reserved for orbital disasters.",
+          "revealsClue": "clue_sock_static"
+        },
+        "take": {
+          "text": "You take the surviving sock. It clings briefly to your hand before surrendering.",
+          "revealsClue": "clue_sock_clings"
+        }
+      }
+    },
+    {
+      "id": "dryer",
+      "name": "Smart Dryer",
+      "aliases": [
+        "dryer",
+        "smart dryer",
+        "laundry dryer"
+      ],
+      "location": "laundry_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A cheerful smart dryer with a circular glass door and a tiny status light that looks proud of itself.",
+      "interactions": {
+        "open": {
+          "text": "The dryer is empty except for a few bits of lint and one heroic static spark.",
+          "revealsObject": "static_meter_reading"
+        },
+        "examine": {
+          "text": "The dryer's anti-static cycle did not run because it expected a dryer sheet to be added manually.",
+          "revealsClue": "clue_anti_static_not_run"
+        }
+      }
+    },
+    {
+      "id": "empty_dryer_sheet_box",
+      "name": "Empty Dryer Sheet Box",
+      "aliases": [
+        "dryer sheets",
+        "box",
+        "empty box",
+        "dryer sheet box"
+      ],
+      "location": "laundry_room",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "An empty box of dryer sheets, which feels rude under the circumstances.",
+      "interactions": {
+        "examine": {
+          "text": "The box is completely empty. The last sheet was used days ago, and apparently no one notified the sock department.",
+          "revealsClue": "clue_dryer_sheets_empty"
+        }
+      }
+    },
+    {
+      "id": "laundry_basket",
+      "name": "Laundry Basket",
+      "aliases": [
+        "basket",
+        "clothes basket",
+        "folded laundry"
+      ],
+      "location": "laundry_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A basket of folded laundry containing shirts, towels, and enough static electricity to bother a weather satellite.",
+      "interactions": {
+        "search": {
+          "text": "No missing sock. Several shirts crackle faintly when moved.",
+          "revealsClue": "clue_laundry_static"
+        },
+        "examine": {
+          "text": "The basket contains several shirts folded shortly after the dryer finished.",
+          "revealsObject": "clingy_shirt_note"
+        }
+      }
+    },
+    {
+      "id": "folding_counter",
+      "name": "Folding Counter",
+      "aliases": [
+        "counter",
+        "folding table",
+        "laundry counter"
+      ],
+      "location": "laundry_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A clean counter where the laundry was folded. A few lint specks remain in a suspiciously tiny constellation.",
+      "interactions": {
+        "examine": {
+          "text": "Lint specks form a line leading away from the laundry room toward the hallway.",
+          "revealsClue": "clue_lint_leads_hallway"
+        }
+      }
+    },
+    {
+      "id": "static_meter_reading",
+      "name": "Static Meter Reading",
+      "aliases": [
+        "static reading",
+        "meter reading",
+        "dryer reading"
+      ],
+      "location": "laundry_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A tiny readout from the dryer's local diagnostics.",
+      "interactions": {
+        "read": {
+          "text": "Static level: extremely silly. Anti-static mitigation: skipped. IRIS asks if this is what humans call foreshadowing.",
+          "revealsClue": "clue_extreme_static"
+        }
+      }
+    },
+    {
+      "id": "clingy_shirt_note",
+      "name": "Clingy Shirt Note",
+      "aliases": [
+        "shirt note",
+        "laundry note",
+        "cling note"
+      ],
+      "location": "laundry_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "IRIS's note about static-prone shirts in the laundry basket.",
+      "interactions": {
+        "read": {
+          "text": "Several shirts in the load are made from synthetic fabric likely to attract small cotton objects by static cling.",
+          "revealsClue": "clue_static_friendly_shirts"
+        }
+      }
+    },
+    {
+      "id": "lint_trail",
+      "name": "Lint Trail",
+      "aliases": [
+        "lint",
+        "trail",
+        "lint specks"
+      ],
+      "location": "hallway",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A faint trail of lint leading away from the laundry room.",
+      "interactions": {
+        "examine": {
+          "text": "The lint trail is light and irregular, more like it fell from clothing than something dragged across the floor.",
+          "revealsClue": "clue_lint_fell_from_clothing"
+        }
+      }
+    },
+    {
+      "id": "smart_wall_panel",
+      "name": "Smart Wall Panel",
+      "aliases": [
+        "panel",
+        "wall panel",
+        "house panel"
+      ],
+      "location": "hallway",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A friendly wall panel for house status, reminders, and aggressively cheerful household suggestions.",
+      "interactions": {
+        "read": {
+          "text": "The panel shows no unusual pet-door activity and no household security alerts during the sock window.",
+          "revealsClue": "clue_no_security_alerts"
+        }
+      }
+    },
+    {
+      "id": "crumbot_dock",
+      "name": "Crumbot Dock",
+      "aliases": [
+        "dock",
+        "vacuum dock",
+        "charging dock"
+      ],
+      "location": "hallway",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Crumbot's charging dock, positioned with the solemn importance of a tiny spaceship hangar.",
+      "interactions": {
+        "examine": {
+          "text": "There is no sock in the dock. There is, however, one crumb of unknown origin and great confidence.",
+          "revealsClue": "clue_no_sock_in_dock"
+        }
+      }
+    },
+    {
+      "id": "static_pop_log",
+      "name": "Static Pop Log",
+      "aliases": [
+        "pop log",
+        "static log",
+        "wall sensor log"
+      ],
+      "location": "hallway",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A minor smart-home environmental log from the hallway.",
+      "interactions": {
+        "read": {
+          "text": "The hallway sensor recorded a small static discharge when the player passed through after folding laundry.",
+          "revealsClue": "clue_player_static_in_hall"
+        }
+      }
+    },
+    {
+      "id": "cat_tree",
+      "name": "Cat Tree",
+      "aliases": [
+        "cat tree",
+        "scratcher",
+        "cat tower"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Miso's cat tree, a carpeted tower from which judgment is dispensed.",
+      "interactions": {
+        "search": {
+          "text": "No sock. Plenty of cat fur. IRIS marks this as evidence of catness, not sock theft.",
+          "revealsObject": "cat_fur_on_laundry"
+        }
+      }
+    },
+    {
+      "id": "cat_fur_on_laundry",
+      "name": "Cat Fur on Laundry",
+      "aliases": [
+        "cat fur",
+        "fur",
+        "laundry fur"
+      ],
+      "location": "living_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A few soft cat hairs found on clean laundry.",
+      "interactions": {
+        "examine": {
+          "text": "The cat sat on the laundry, but the fur pattern does not suggest dragging or carrying the sock.",
+          "revealsClue": "clue_cat_sat_only"
+        }
+      }
+    },
+    {
+      "id": "dog_bed",
+      "name": "Dog Bed",
+      "aliases": [
+        "bed",
+        "biscuit bed",
+        "dog bed"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "Biscuit's dog bed, warm from recent napping and spiritually rich with snack crumbs.",
+      "interactions": {
+        "search": {
+          "text": "No sock. A tennis ball, two crumbs, and a blue rope fiber are present.",
+          "revealsClue": "clue_dog_bed_no_sock"
+        }
+      }
+    },
+    {
+      "id": "coffee_table",
+      "name": "Coffee Table",
+      "aliases": [
+        "table",
+        "coffee table"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A rounded smart coffee table with a built-in charging surface and several coasters nobody uses correctly.",
+      "interactions": {
+        "examine": {
+          "text": "The coffee table has no sock underneath it. Crumbot has clearly been here, based on the crescent-shaped dust avoidance pattern.",
+          "revealsClue": "clue_crumbot_passed_table"
+        }
+      }
+    },
+    {
+      "id": "crumbot_vacuum",
+      "name": "Crumbot",
+      "aliases": [
+        "crumbot",
+        "vacuum",
+        "robot vacuum",
+        "robotic vacuum"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Crumbot sits under the coffee table, projecting the air of an appliance that has seen things and processed none of them.",
+      "interactions": {
+        "examine": {
+          "text": "Crumbot's intake is clear. No sock. Its bumper is lightly scuffed from a heroic battle with the ottoman.",
+          "revealsObject": "vacuum_error_log"
+        },
+        "read": {
+          "text": "Crumbot's cleaning map shows three hallway passes, two chair collisions, and zero sock ingestion events.",
+          "revealsClue": "clue_vacuum_no_sock"
+        }
+      }
+    },
+    {
+      "id": "vacuum_error_log",
+      "name": "Vacuum Error Log",
+      "aliases": [
+        "error log",
+        "vacuum log",
+        "crumbot log"
+      ],
+      "location": "living_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "Crumbot's local movement and obstruction log.",
+      "interactions": {
+        "read": {
+          "text": "The only obstruction was 'large immovable enemy,' later identified as the ottoman.",
+          "revealsClue": "clue_vacuum_red_herring"
+        }
+      }
+    },
+    {
+      "id": "blue_rope_toy",
+      "name": "Blue Rope Toy",
+      "aliases": [
+        "rope toy",
+        "blue toy",
+        "dog toy"
+      ],
+      "location": "living_room",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A blue rope toy with enough fibers to impersonate a sock in poor lighting.",
+      "interactions": {
+        "examine": {
+          "text": "This explains the blue fiber in Biscuit's bed. It does not explain the missing sock.",
+          "revealsClue": "clue_blue_fiber_is_toy"
+        }
+      }
+    },
+    {
+      "id": "smart_grocery_panel",
+      "name": "Smart Grocery Panel",
+      "aliases": [
+        "grocery panel",
+        "shopping list",
+        "fridge panel",
+        "panel"
+      ],
+      "location": "kitchen",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A kitchen display that manages household groceries and politely judges everyone.",
+      "interactions": {
+        "read": {
+          "text": "The shopping list includes dryer sheets, added by Casey earlier this morning.",
+          "revealsObject": "shopping_list_dryer_sheets"
+        }
+      }
+    },
+    {
+      "id": "shopping_list_dryer_sheets",
+      "name": "Shopping List: Dryer Sheets",
+      "aliases": [
+        "shopping list",
+        "dryer sheet list",
+        "list item"
+      ],
+      "location": "kitchen",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A grocery-list entry for dryer sheets.",
+      "interactions": {
+        "read": {
+          "text": "Dryer sheets were added to the list after the laundry started, not before.",
+          "revealsClue": "clue_dryer_sheets_added_late"
+        }
+      }
+    },
+    {
+      "id": "caseys_mug",
+      "name": "Casey's Mug",
+      "aliases": [
+        "mug",
+        "casey mug",
+        "coffee mug"
+      ],
+      "location": "kitchen",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Casey's favorite mug, sitting beside the grocery panel.",
+      "interactions": {
+        "examine": {
+          "text": "The mug is warm. Casey was here recently, probably while adding dryer sheets to the list.",
+          "revealsObject": "partner_message"
+        }
+      }
+    },
+    {
+      "id": "partner_message",
+      "name": "Partner Message",
+      "aliases": [
+        "message",
+        "casey message",
+        "note"
+      ],
+      "location": "kitchen",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A short household note from Casey.",
+      "interactions": {
+        "read": {
+          "text": "Casey's note says: 'We're out of dryer sheets. Please don't forget again. Also, why is IRIS asking me about socks?'",
+          "revealsClue": "clue_casey_dryer_sheet_warning"
+        }
+      }
+    },
+    {
+      "id": "countertop",
+      "name": "Kitchen Counter",
+      "aliases": [
+        "counter",
+        "countertop"
+      ],
+      "location": "kitchen",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A sunny kitchen counter with mugs, fruit, and a suspiciously normal amount of domestic evidence.",
+      "interactions": {
+        "search": {
+          "text": "No sock. IRIS records this as a rare victory for kitchen counters everywhere.",
+          "revealsClue": "clue_no_sock_kitchen"
+        }
+      }
+    },
+    {
+      "id": "snack_bowl",
+      "name": "Snack Bowl",
+      "aliases": [
+        "bowl",
+        "snacks",
+        "fruit bowl"
+      ],
+      "location": "kitchen",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A bowl containing snacks, fruit, and no sock-related justification for continued analysis.",
+      "interactions": {
+        "search": {
+          "text": "No sock in the snack bowl. The snacks seem relieved.",
+          "revealsClue": "clue_snack_bowl_clear"
+        }
+      }
+    },
+    {
+      "id": "leash_hook",
+      "name": "Leash Hook",
+      "aliases": [
+        "leash",
+        "hook",
+        "dog leash"
+      ],
+      "location": "mudroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Biscuit's leash hangs by the door, ready for adventure and/or mild pulling.",
+      "interactions": {
+        "examine": {
+          "text": "The leash is dry and undisturbed. Biscuit has not left the house since the laundry finished.",
+          "revealsClue": "clue_dog_stayed_inside"
+        }
+      }
+    },
+    {
+      "id": "shoe_cubbies",
+      "name": "Shoe Cubbies",
+      "aliases": [
+        "shoes",
+        "cubbies",
+        "shoe rack"
+      ],
+      "location": "mudroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "Shoe cubbies full of normal household chaos.",
+      "interactions": {
+        "search": {
+          "text": "No sock. One pebble, two receipts, and a mystery leaf that predates recorded history.",
+          "revealsClue": "clue_no_sock_mudroom"
+        }
+      }
+    },
+    {
+      "id": "blue_rope_toy_basket",
+      "name": "Blue Rope Toy Basket",
+      "aliases": [
+        "basket",
+        "toy basket",
+        "blue shape"
+      ],
+      "location": "mudroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A basket of dog toys with a blue shape peeking out.",
+      "interactions": {
+        "search": {
+          "text": "The suspicious blue object is Biscuit's rope toy, not the sock. Biscuit looks emotionally vindicated.",
+          "revealsObject": "dog_slobber_decoy"
+        }
+      }
+    },
+    {
+      "id": "dog_slobber_decoy",
+      "name": "Dog Slobber Decoy",
+      "aliases": [
+        "slobber",
+        "decoy",
+        "dog clue"
+      ],
+      "location": "mudroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A damp blue fiber from the dog toy.",
+      "interactions": {
+        "examine": {
+          "text": "The fiber is from the rope toy. It clears Biscuit of all sock-related charges, though not of being damp.",
+          "revealsClue": "clue_dog_cleared"
+        }
+      }
+    },
+    {
+      "id": "rain_jackets",
+      "name": "Rain Jackets",
+      "aliases": [
+        "jackets",
+        "rain coats",
+        "coats"
+      ],
+      "location": "mudroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A row of colorful rain jackets hangs near the door.",
+      "interactions": {
+        "examine": {
+          "text": "No sock is hiding in the jackets. IRIS says she appreciates a suspect pool with outerwear representation, but no.",
+          "revealsClue": "clue_jackets_clear"
+        }
+      }
+    },
+    {
+      "id": "storage_bins",
+      "name": "Storage Bins",
+      "aliases": [
+        "bins",
+        "garage bins",
+        "storage"
+      ],
+      "location": "garage",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "Clear storage bins containing tools, sports gear, and seasonal decorations.",
+      "interactions": {
+        "search": {
+          "text": "You do not find the sock. You do find last year's holiday lights, which have somehow tangled themselves in storage.",
+          "revealsClue": "clue_no_sock_garage"
+        }
+      }
+    },
+    {
+      "id": "smart_charger",
+      "name": "Smart Charger",
+      "aliases": [
+        "charger",
+        "charging station"
+      ],
+      "location": "garage",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A wall-mounted smart charger for bikes and household devices.",
+      "interactions": {
+        "read": {
+          "text": "No unusual device activity occurred during the sock disappearance window.",
+          "revealsClue": "clue_no_garage_device_activity"
+        }
+      }
+    },
+    {
+      "id": "old_vacuum_brushes",
+      "name": "Old Vacuum Brushes",
+      "aliases": [
+        "brushes",
+        "vacuum brushes",
+        "replacement brushes"
+      ],
+      "location": "garage",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A container of old Crumbot replacement brushes.",
+      "interactions": {
+        "examine": {
+          "text": "The brushes have collected lint before, but none match the missing sock. Crumbot remains suspicious in spirit only.",
+          "revealsClue": "clue_old_brushes_clear"
+        }
+      }
+    },
+    {
+      "id": "blue_microfiber_cloth",
+      "name": "Blue Microfiber Cloth",
+      "aliases": [
+        "cloth",
+        "blue cloth",
+        "microfiber"
+      ],
+      "location": "garage",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A blue cleaning cloth, folded badly.",
+      "interactions": {
+        "examine": {
+          "text": "The cloth briefly looks sock-adjacent, but it is a cleaning cloth. IRIS asks whether every blue textile is now a suspect.",
+          "revealsClue": "clue_blue_cloth_decoy"
+        }
+      }
+    },
+    {
+      "id": "reusable_bags",
+      "name": "Reusable Bags",
+      "aliases": [
+        "bags",
+        "shopping bags"
+      ],
+      "location": "garage",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A bundle of reusable bags waiting to be forgotten on the next grocery trip.",
+      "interactions": {
+        "search": {
+          "text": "No sock. Many bags. No discipline.",
+          "revealsClue": "clue_reusable_bags_clear"
+        }
+      }
+    },
+    {
+      "id": "chair_with_shirt",
+      "name": "Chair with Shirt",
+      "aliases": [
+        "chair",
+        "shirt",
+        "static shirt",
+        "shirt on chair"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A chair with the shirt you wore while folding laundry draped across it.",
+      "interactions": {
+        "examine": {
+          "text": "The shirt crackles when moved. IRIS pauses for an unusually meaningful fraction of a second.",
+          "revealsObject": "shirt_static_charge"
+        },
+        "search": {
+          "text": "No sock is visible from the front of the shirt.",
+          "revealsClue": "clue_sock_not_front"
+        }
+      }
+    },
+    {
+      "id": "shirt_static_charge",
+      "name": "Shirt Static Charge",
+      "aliases": [
+        "static charge",
+        "shirt charge",
+        "charged shirt"
+      ],
+      "location": "master_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A static reading from the shirt worn during laundry folding.",
+      "interactions": {
+        "read": {
+          "text": "The shirt's back panel carries a strong static charge capable of holding a small cotton item.",
+          "revealsClue": "clue_shirt_could_hold_sock"
+        }
+      }
+    },
+    {
+      "id": "blue_thread_on_collar",
+      "name": "Blue Thread on Collar",
+      "aliases": [
+        "blue thread",
+        "thread",
+        "collar thread"
+      ],
+      "location": "master_bedroom",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A tiny blue thread caught near the shirt collar.",
+      "interactions": {
+        "examine": {
+          "text": "The thread matches the surviving blue sock. IRIS says nothing, which is somehow more alarming.",
+          "revealsClue": "clue_blue_thread_on_player_shirt"
+        }
+      }
+    },
+    {
+      "id": "dresser",
+      "name": "Dresser",
+      "aliases": [
+        "dresser",
+        "drawers"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A dresser containing very ordinary clothing and no criminal intent.",
+      "interactions": {
+        "search": {
+          "text": "No missing sock. Several properly paired socks look nervous.",
+          "revealsClue": "clue_no_sock_dresser"
+        }
+      }
+    },
+    {
+      "id": "bed",
+      "name": "Bed",
+      "aliases": [
+        "bed",
+        "master bed"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A neatly made bed that has somehow avoided involvement in the sock situation.",
+      "interactions": {
+        "search": {
+          "text": "No sock in the bed. This is good news for the bed.",
+          "revealsClue": "clue_bed_clear"
+        }
+      }
+    },
+    {
+      "id": "smart_mirror",
+      "name": "Smart Mirror",
+      "aliases": [
+        "mirror",
+        "bedroom mirror"
+      ],
+      "location": "master_bedroom",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A smart mirror that can show weather, reminders, and the exact moment you question your life choices.",
+      "interactions": {
+        "use": {
+          "text": "The mirror shows only your front. No sock is visible. IRIS notes that front-facing evidence has limits.",
+          "revealsClue": "clue_front_mirror_not_enough"
+        }
+      }
+    },
+    {
+      "id": "toothbrush_cups",
+      "name": "Toothbrush Cups",
+      "aliases": [
+        "toothbrushes",
+        "cups",
+        "toothbrush cups"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Two toothbrush cups. Proof, somehow, of civilization.",
+      "interactions": {
+        "examine": {
+          "text": "No sock. No lint. No evidence, unless you are building a case against plaque.",
+          "revealsClue": "clue_master_bath_clear"
+        }
+      }
+    },
+    {
+      "id": "towel_hooks",
+      "name": "Towel Hooks",
+      "aliases": [
+        "towels",
+        "hooks",
+        "bath towels"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "Towels hang at ordinary, non-suspicious angles.",
+      "interactions": {
+        "search": {
+          "text": "A bit of lint clings to one towel, but it is white, not blue.",
+          "revealsObject": "lint_on_hand_towel"
+        }
+      }
+    },
+    {
+      "id": "lint_on_hand_towel",
+      "name": "Lint on Hand Towel",
+      "aliases": [
+        "lint",
+        "hand towel lint",
+        "bathroom lint"
+      ],
+      "location": "master_bath",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A small bit of lint on a hand towel.",
+      "interactions": {
+        "examine": {
+          "text": "The lint is unrelated. IRIS asks whether we are now interrogating towels. Her tone implies we are.",
+          "revealsClue": "clue_master_bath_lint_unrelated"
+        }
+      }
+    },
+    {
+      "id": "vanity_drawer",
+      "name": "Vanity Drawer",
+      "aliases": [
+        "drawer",
+        "vanity"
+      ],
+      "location": "master_bath",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A bathroom drawer with normal personal clutter.",
+      "interactions": {
+        "open": {
+          "text": "No sock. Just combs, floss, and the brave chaos of daily life.",
+          "revealsClue": "clue_master_vanity_clear"
+        }
+      }
+    },
+    {
+      "id": "desk_screen",
+      "name": "Desk Screen",
+      "aliases": [
+        "screen",
+        "computer",
+        "desk display"
+      ],
+      "location": "office",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A work screen with tidy windows and absolutely no sock-related professional justification.",
+      "interactions": {
+        "read": {
+          "text": "No sock data, but your household reminder app has a pending recurring note about dryer sheets.",
+          "revealsObject": "calendar_reminder_buy_dryer_sheets"
+        }
+      }
+    },
+    {
+      "id": "calendar_reminder_buy_dryer_sheets",
+      "name": "Calendar Reminder: Dryer Sheets",
+      "aliases": [
+        "reminder",
+        "calendar reminder",
+        "dryer sheet reminder"
+      ],
+      "location": "office",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A household reminder that has been snoozed repeatedly.",
+      "interactions": {
+        "read": {
+          "text": "Reminder snoozed three times: buy dryer sheets. IRIS files this under 'avoidable textile crisis.'",
+          "revealsClue": "clue_dryer_sheet_reminder_snoozed"
+        }
+      }
+    },
+    {
+      "id": "iris_puck",
+      "name": "IRIS Interface Puck",
+      "aliases": [
+        "iris puck",
+        "puck",
+        "assistant device"
+      ],
+      "location": "office",
+      "visible": true,
+      "portable": true,
+      "container": false,
+      "description": "A small IRIS household interface puck, glowing with the patience of a system performing below its pay grade.",
+      "interactions": {
+        "examine": {
+          "text": "IRIS's local processor is devoting nontrivial resources to sock inference. She would like that noted.",
+          "revealsClue": "clue_iris_is_overqualified"
+        }
+      }
+    },
+    {
+      "id": "office_chair",
+      "name": "Office Chair",
+      "aliases": [
+        "chair",
+        "office chair"
+      ],
+      "location": "office",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A comfortable office chair with excellent lumbar support and no sock agenda.",
+      "interactions": {
+        "search": {
+          "text": "No sock. The chair appears professionally neutral.",
+          "revealsClue": "clue_office_chair_clear"
+        }
+      }
+    },
+    {
+      "id": "plant",
+      "name": "Office Plant",
+      "aliases": [
+        "plant",
+        "desk plant"
+      ],
+      "location": "office",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A thriving plant that has somehow escaped the rest of the investigation.",
+      "interactions": {
+        "examine": {
+          "text": "The plant has neither motive nor thumbs. Cleared.",
+          "revealsClue": "clue_plant_cleared"
+        }
+      }
+    },
+    {
+      "id": "guest_bed",
+      "name": "Guest Bed",
+      "aliases": [
+        "bed",
+        "guest bed"
+      ],
+      "location": "guest_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A neatly made guest bed with cheerful pillows.",
+      "interactions": {
+        "search": {
+          "text": "No sock under the pillows, under the blanket, or in the universal hiding place known as 'between the bed and wall.'",
+          "revealsClue": "clue_guest_bed_clear"
+        }
+      }
+    },
+    {
+      "id": "linen_basket",
+      "name": "Linen Basket",
+      "aliases": [
+        "basket",
+        "linens",
+        "spare linens"
+      ],
+      "location": "guest_room",
+      "visible": true,
+      "portable": false,
+      "container": true,
+      "description": "A basket of spare linens on a bench.",
+      "interactions": {
+        "search": {
+          "text": "The linens are clean, folded, and sock-free.",
+          "revealsObject": "no_sock_in_linens"
+        }
+      }
+    },
+    {
+      "id": "no_sock_in_linens",
+      "name": "No Sock in Linens",
+      "aliases": [
+        "linen result",
+        "linens clear",
+        "no sock"
+      ],
+      "location": "guest_room",
+      "visible": false,
+      "portable": true,
+      "container": false,
+      "description": "A note that the spare linens do not contain the missing sock.",
+      "interactions": {
+        "read": {
+          "text": "The guest linens are cleared. The sock is elsewhere, continuing its reign of inconvenience.",
+          "revealsClue": "clue_guest_room_clear"
+        }
+      }
+    },
+    {
+      "id": "wall_art",
+      "name": "Wall Art",
+      "aliases": [
+        "art",
+        "painting",
+        "picture"
+      ],
+      "location": "guest_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A bright abstract print chosen by someone who believes guests enjoy shapes.",
+      "interactions": {
+        "examine": {
+          "text": "No sock. The painting is innocent, though aesthetically evasive.",
+          "revealsClue": "clue_art_clear"
+        }
+      }
+    },
+    {
+      "id": "side_table",
+      "name": "Side Table",
+      "aliases": [
+        "side table",
+        "table",
+        "nightstand"
+      ],
+      "location": "guest_room",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A small guest-room side table with a polite lamp.",
+      "interactions": {
+        "search": {
+          "text": "No sock. The lamp remains upbeat.",
+          "revealsClue": "clue_side_table_clear"
+        }
+      }
+    },
+    {
+      "id": "front_mirror",
+      "name": "Front Mirror",
+      "aliases": [
+        "mirror",
+        "front mirror",
+        "main mirror"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A bright mirror above the spare bathroom sink.",
+      "interactions": {
+        "use": {
+          "text": "You see your front reflection. Everything appears normal. IRIS suggests that crimes rarely confess in the first reflection.",
+          "revealsClue": "clue_first_reflection_normal"
+        },
+        "examine": {
+          "text": "The mirror faces a second mirror behind you, creating a repeating tunnel of smaller reflections.",
+          "revealsObject": "sock_reflection"
+        }
+      }
+    },
+    {
+      "id": "back_mirror",
+      "name": "Back Mirror",
+      "aliases": [
+        "second mirror",
+        "back mirror",
+        "rear mirror"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A second mirror mounted opposite the sink mirror.",
+      "interactions": {
+        "examine": {
+          "text": "The mirrors create an infinity effect. In the second reflection, something blue appears on the back of your shirt.",
+          "revealsObject": "sock_reflection"
+        }
+      }
+    },
+    {
+      "id": "sock_reflection",
+      "name": "Sock Reflection",
+      "aliases": [
+        "reflection",
+        "blue reflection",
+        "sock in mirror",
+        "sock on back"
+      ],
+      "location": "spare_bath",
+      "visible": false,
+      "portable": false,
+      "container": false,
+      "description": "A blue shape visible on the back of the player's shirt in the second mirror reflection.",
+      "interactions": {
+        "examine": {
+          "text": "There it is: the missing blue sock, stuck to the back of your shirt by static cling. IRIS is very quiet. Then she says, 'Perpetrator identified.'",
+          "revealsClue": "clue_sock_on_player_back"
+        },
+        "take": {
+          "text": "You peel the sock from your back. It detaches with a tiny static crackle and a massive blow to your dignity.",
+          "revealsClue": "clue_sock_recovered"
+        }
+      }
+    },
+    {
+      "id": "sink",
+      "name": "Spare Bathroom Sink",
+      "aliases": [
+        "sink",
+        "vanity"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A small tidy sink with cheerful hand soap.",
+      "interactions": {
+        "examine": {
+          "text": "No sock in the sink. Excellent, because that would have raised additional questions.",
+          "revealsClue": "clue_sink_clear"
+        }
+      }
+    },
+    {
+      "id": "hand_towel",
+      "name": "Hand Towel",
+      "aliases": [
+        "towel",
+        "hand towel"
+      ],
+      "location": "spare_bath",
+      "visible": true,
+      "portable": false,
+      "container": false,
+      "description": "A neatly folded hand towel.",
+      "interactions": {
+        "search": {
+          "text": "No sock, but the towel has a little static cling. IRIS says the room is becoming relevant.",
+          "revealsClue": "clue_spare_bath_static"
+        }
+      }
+    }
+  ],
+  "clues": [
+    {
+      "id": "clue_sock_static",
+      "title": "The surviving sock is staticky",
+      "category": "forensic_laundry",
+      "text": "The remaining blue sock carries noticeable static charge.",
+      "tags": [
+        "static",
+        "laundry",
+        "sock"
+      ]
+    },
+    {
+      "id": "clue_sock_clings",
+      "title": "The sock clings when handled",
+      "category": "forensic_laundry",
+      "text": "The surviving sock briefly clings to the player's hand.",
+      "tags": [
+        "static",
+        "sock"
+      ]
+    },
+    {
+      "id": "clue_anti_static_not_run",
+      "title": "The anti-static cycle did not run",
+      "category": "appliance",
+      "text": "The dryer skipped anti-static mitigation because no dryer sheet was added.",
+      "tags": [
+        "dryer",
+        "static",
+        "dryer_sheets"
+      ]
+    },
+    {
+      "id": "clue_dryer_sheets_empty",
+      "title": "The dryer sheet box is empty",
+      "category": "household",
+      "text": "The household is out of dryer sheets.",
+      "tags": [
+        "dryer_sheets",
+        "static"
+      ]
+    },
+    {
+      "id": "clue_laundry_static",
+      "title": "The clean laundry is charged with static",
+      "category": "forensic_laundry",
+      "text": "Several shirts in the laundry basket crackle with static.",
+      "tags": [
+        "static",
+        "shirt",
+        "laundry"
+      ]
+    },
+    {
+      "id": "clue_lint_leads_hallway",
+      "title": "Lint leads away from the laundry room",
+      "category": "trace",
+      "text": "Lint specks lead from the laundry room toward the hallway.",
+      "tags": [
+        "lint",
+        "movement"
+      ]
+    },
+    {
+      "id": "clue_extreme_static",
+      "title": "The dryer recorded extreme static",
+      "category": "appliance",
+      "text": "The dryer diagnostics report unusually high static buildup.",
+      "tags": [
+        "static",
+        "dryer"
+      ]
+    },
+    {
+      "id": "clue_static_friendly_shirts",
+      "title": "The load included static-friendly shirts",
+      "category": "forensic_laundry",
+      "text": "Synthetic shirts in the laundry load could attract a small cotton sock by static cling.",
+      "tags": [
+        "shirt",
+        "static",
+        "sock"
+      ]
+    },
+    {
+      "id": "clue_lint_fell_from_clothing",
+      "title": "The lint likely fell from clothing",
+      "category": "trace",
+      "text": "The lint trail looks like it fell from clothing rather than being dragged by an animal or robot.",
+      "tags": [
+        "lint",
+        "clothing"
+      ]
+    },
+    {
+      "id": "clue_no_security_alerts",
+      "title": "No security events occurred",
+      "category": "smart_home",
+      "text": "The smart home recorded no unusual pet-door or access events during the sock window.",
+      "tags": [
+        "security",
+        "smart_home"
+      ]
+    },
+    {
+      "id": "clue_no_sock_in_dock",
+      "title": "Crumbot's dock is sock-free",
+      "category": "suspect_elimination",
+      "text": "The robotic vacuum's dock contains no sock evidence.",
+      "tags": [
+        "crumbot",
+        "vacuum"
+      ]
+    },
+    {
+      "id": "clue_player_static_in_hall",
+      "title": "The player caused a static pop in the hall",
+      "category": "trace",
+      "text": "A hallway sensor recorded a static discharge when the player passed through after folding laundry.",
+      "tags": [
+        "player",
+        "static",
+        "hallway"
+      ]
+    },
+    {
+      "id": "clue_cat_sat_only",
+      "title": "Miso only sat on the laundry",
+      "category": "suspect_elimination",
+      "text": "Cat fur confirms Miso sat on laundry, but there is no sign she carried the sock.",
+      "tags": [
+        "cat",
+        "miso",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_dog_bed_no_sock",
+      "title": "No sock in Biscuit's bed",
+      "category": "suspect_elimination",
+      "text": "Biscuit's dog bed contains crumbs and a toy fiber, but no sock.",
+      "tags": [
+        "dog",
+        "biscuit",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_crumbot_passed_table",
+      "title": "Crumbot passed under the coffee table",
+      "category": "robotics",
+      "text": "Crumbot cleaned under the coffee table but did not pick up the sock.",
+      "tags": [
+        "crumbot",
+        "vacuum"
+      ]
+    },
+    {
+      "id": "clue_vacuum_no_sock",
+      "title": "Crumbot did not ingest the sock",
+      "category": "suspect_elimination",
+      "text": "Crumbot's map shows zero sock ingestion events.",
+      "tags": [
+        "crumbot",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_vacuum_red_herring",
+      "title": "Crumbot fought the ottoman, not the sock",
+      "category": "comedy",
+      "text": "Crumbot's only obstruction was the ottoman.",
+      "tags": [
+        "crumbot",
+        "red_herring"
+      ]
+    },
+    {
+      "id": "clue_blue_fiber_is_toy",
+      "title": "The blue fiber is from a dog toy",
+      "category": "suspect_elimination",
+      "text": "The blue fiber in Biscuit's bed came from the rope toy, not the sock.",
+      "tags": [
+        "dog",
+        "toy",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_dryer_sheets_added_late",
+      "title": "Dryer sheets were added to the list too late",
+      "category": "timeline",
+      "text": "Dryer sheets were added to the shopping list after the laundry started.",
+      "tags": [
+        "dryer_sheets",
+        "timeline"
+      ]
+    },
+    {
+      "id": "clue_casey_dryer_sheet_warning",
+      "title": "Casey warned about dryer sheets",
+      "category": "household",
+      "text": "Casey noted the household was out of dryer sheets.",
+      "tags": [
+        "casey",
+        "dryer_sheets",
+        "static"
+      ]
+    },
+    {
+      "id": "clue_dog_stayed_inside",
+      "title": "Biscuit stayed inside",
+      "category": "suspect_elimination",
+      "text": "The dog did not leave with the sock.",
+      "tags": [
+        "dog",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_dog_cleared",
+      "title": "Biscuit is cleared",
+      "category": "suspect_elimination",
+      "text": "The suspicious blue object was the dog toy, clearing Biscuit.",
+      "tags": [
+        "dog",
+        "cleared"
+      ]
+    },
+    {
+      "id": "clue_shirt_could_hold_sock",
+      "title": "The shirt could hold the sock",
+      "category": "critical",
+      "text": "The player's shirt has enough static charge on the back panel to hold a small cotton sock.",
+      "tags": [
+        "player",
+        "shirt",
+        "static",
+        "critical"
+      ]
+    },
+    {
+      "id": "clue_blue_thread_on_player_shirt",
+      "title": "A blue thread is on the player's shirt",
+      "category": "critical",
+      "text": "A blue thread matching the sock is caught near the player's shirt collar.",
+      "tags": [
+        "player",
+        "shirt",
+        "sock",
+        "critical"
+      ]
+    },
+    {
+      "id": "clue_front_mirror_not_enough",
+      "title": "The front mirror does not show the back",
+      "category": "hint",
+      "text": "A front-facing mirror cannot reveal what is on the player's back.",
+      "tags": [
+        "mirror",
+        "player",
+        "hint"
+      ]
+    },
+    {
+      "id": "clue_sock_on_player_back",
+      "title": "The sock is on the player's back",
+      "category": "solution",
+      "text": "The missing blue sock is stuck to the back of the player's shirt by static cling.",
+      "tags": [
+        "solution",
+        "player",
+        "sock",
+        "static"
+      ]
+    },
+    {
+      "id": "clue_sock_recovered",
+      "title": "The sock is recovered",
+      "category": "solution",
+      "text": "The missing sock has been recovered from the player's back.",
+      "tags": [
+        "solution",
+        "sock"
+      ]
+    },
+    {
+      "id": "clue_no_sock_kitchen",
+      "title": "No sock in the kitchen",
+      "category": "room_clear",
+      "text": "The kitchen contains no sock evidence.",
+      "tags": [
+        "kitchen",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_no_sock_mudroom",
+      "title": "No sock in the mudroom",
+      "category": "room_clear",
+      "text": "The mudroom contains no missing sock.",
+      "tags": [
+        "mudroom",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_no_sock_garage",
+      "title": "No sock in the garage",
+      "category": "room_clear",
+      "text": "The garage does not contain the missing sock.",
+      "tags": [
+        "garage",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_no_garage_device_activity",
+      "title": "No garage device activity",
+      "category": "smart_home",
+      "text": "No device activity in the garage connects to the missing sock.",
+      "tags": [
+        "garage",
+        "smart_home"
+      ]
+    },
+    {
+      "id": "clue_old_brushes_clear",
+      "title": "Old vacuum brushes are clear",
+      "category": "suspect_elimination",
+      "text": "Old vacuum brushes have lint but no sock evidence.",
+      "tags": [
+        "vacuum",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_blue_cloth_decoy",
+      "title": "The blue cloth is a decoy",
+      "category": "red_herring",
+      "text": "The blue object in the garage is a cleaning cloth, not the missing sock.",
+      "tags": [
+        "blue",
+        "decoy"
+      ]
+    },
+    {
+      "id": "clue_reusable_bags_clear",
+      "title": "Reusable bags are clear",
+      "category": "room_clear",
+      "text": "The reusable bags contain no missing sock.",
+      "tags": [
+        "garage",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_sock_not_front",
+      "title": "The sock is not on the front of the shirt",
+      "category": "forensic_laundry",
+      "text": "The missing sock is not visible from the front of the shirt.",
+      "tags": [
+        "shirt",
+        "static"
+      ]
+    },
+    {
+      "id": "clue_no_sock_dresser",
+      "title": "No sock in the dresser",
+      "category": "room_clear",
+      "text": "The dresser contains no missing sock.",
+      "tags": [
+        "dresser",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_bed_clear",
+      "title": "Master bed is clear",
+      "category": "room_clear",
+      "text": "The master bed contains no missing sock.",
+      "tags": [
+        "bedroom",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_master_bath_clear",
+      "title": "Master bath is clear",
+      "category": "room_clear",
+      "text": "The master bath does not contain the missing sock.",
+      "tags": [
+        "bathroom",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_master_bath_lint_unrelated",
+      "title": "Master bath lint is unrelated",
+      "category": "red_herring",
+      "text": "The lint on the hand towel is unrelated to the missing sock.",
+      "tags": [
+        "lint",
+        "red_herring"
+      ]
+    },
+    {
+      "id": "clue_master_vanity_clear",
+      "title": "Master vanity is clear",
+      "category": "room_clear",
+      "text": "The master vanity contains no missing sock.",
+      "tags": [
+        "bathroom",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_dryer_sheet_reminder_snoozed",
+      "title": "The dryer sheet reminder was snoozed",
+      "category": "household",
+      "text": "A reminder to buy dryer sheets was snoozed repeatedly.",
+      "tags": [
+        "dryer_sheets",
+        "static",
+        "player"
+      ]
+    },
+    {
+      "id": "clue_iris_is_overqualified",
+      "title": "IRIS is overqualified",
+      "category": "comedy",
+      "text": "IRIS is devoting serious AI resources to a sock case.",
+      "tags": [
+        "iris",
+        "comedy"
+      ]
+    },
+    {
+      "id": "clue_office_chair_clear",
+      "title": "Office chair is clear",
+      "category": "room_clear",
+      "text": "The office chair contains no missing sock.",
+      "tags": [
+        "office",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_plant_cleared",
+      "title": "The plant is cleared",
+      "category": "comedy",
+      "text": "The office plant is innocent.",
+      "tags": [
+        "plant",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_guest_bed_clear",
+      "title": "Guest bed is clear",
+      "category": "room_clear",
+      "text": "The guest bed does not contain the missing sock.",
+      "tags": [
+        "guest_room",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_guest_room_clear",
+      "title": "Guest linens are clear",
+      "category": "room_clear",
+      "text": "The guest linens contain no missing sock.",
+      "tags": [
+        "guest_room",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_art_clear",
+      "title": "The wall art is innocent",
+      "category": "comedy",
+      "text": "The guest room art is not involved in the sock case.",
+      "tags": [
+        "art",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_side_table_clear",
+      "title": "Side table is clear",
+      "category": "room_clear",
+      "text": "The guest side table does not contain the sock.",
+      "tags": [
+        "guest_room",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_first_reflection_normal",
+      "title": "The first reflection looks normal",
+      "category": "mirror",
+      "text": "The front reflection shows nothing unusual.",
+      "tags": [
+        "mirror",
+        "reflection"
+      ]
+    },
+    {
+      "id": "clue_sink_clear",
+      "title": "Spare sink is clear",
+      "category": "room_clear",
+      "text": "The spare bathroom sink does not contain the sock.",
+      "tags": [
+        "spare_bath",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_spare_bath_static",
+      "title": "The spare bath has static hints",
+      "category": "hint",
+      "text": "The hand towel's static suggests the mirror room may help reveal the real problem.",
+      "tags": [
+        "spare_bath",
+        "static",
+        "hint"
+      ]
+    },
+    {
+      "id": "clue_jackets_clear",
+      "title": "Rain jackets are clear",
+      "category": "room_clear",
+      "text": "The missing sock is not hiding in the mudroom jackets.",
+      "tags": [
+        "jackets",
+        "clear"
+      ]
+    },
+    {
+      "id": "clue_snack_bowl_clear",
+      "title": "Snack bowl is clear",
+      "category": "room_clear",
+      "text": "The snack bowl contains no missing sock.",
+      "tags": [
+        "kitchen",
+        "clear"
+      ]
+    }
+  ],
+  "inventoryDefaults": [],
+  "timeline": [
+    {
+      "time": "08:05",
+      "event": "A load of laundry finishes drying without a dryer sheet."
+    },
+    {
+      "time": "08:08",
+      "event": "The player removes warm laundry and folds clothes in the laundry room."
+    },
+    {
+      "time": "08:10",
+      "event": "Miso sits on the clean laundry because she believes warmth is a legal entitlement."
+    },
+    {
+      "time": "08:12",
+      "event": "The player folds the blue socks, but one clings to the back of their shirt."
+    },
+    {
+      "time": "08:14",
+      "event": "The player walks through the hallway, shedding a faint lint trail and triggering a small static pop."
+    },
+    {
+      "time": "08:16",
+      "event": "Casey notices the empty dryer sheet box and adds dryer sheets to the shopping list."
+    },
+    {
+      "time": "08:20",
+      "event": "Crumbot cleans the hallway and bravely loses a dispute with the ottoman."
+    },
+    {
+      "time": "08:24",
+      "event": "The player discovers one blue sock is missing and escalates the matter to IRIS."
+    },
+    {
+      "time": "True sequence",
+      "event": "The missing sock never left the player. It remained stuck to the back of their shirt by static cling until revealed by the spare bathroom's opposing mirrors."
+    }
+  ],
+  "redHerrings": [
+    {
+      "id": "redherring_miso_cat",
+      "description": "Miso sat on the laundry and left fur, but she did not take the sock."
+    },
+    {
+      "id": "redherring_biscuit_dog",
+      "description": "Biscuit has a blue rope toy that resembles sock evidence at first glance."
+    },
+    {
+      "id": "redherring_crumbot_vacuum",
+      "description": "Crumbot is suspicious because vacuums and socks have a long, adversarial history, but it did not ingest the sock."
+    },
+    {
+      "id": "redherring_casey_partner",
+      "description": "Casey handled the dryer sheet issue, but this actually helps solve the static-cling chain."
+    }
+  ],
+  "progression": {
+    "criticalPathClues": [
+      "clue_dryer_sheets_empty",
+      "clue_extreme_static",
+      "clue_static_friendly_shirts",
+      "clue_player_static_in_hall",
+      "clue_shirt_could_hold_sock",
+      "clue_blue_thread_on_player_shirt",
+      "clue_front_mirror_not_enough",
+      "clue_sock_on_player_back"
+    ],
+    "recommendedUnlockOrder": [
+      "laundry_room",
+      "hallway",
+      "living_room",
+      "kitchen",
+      "mudroom",
+      "master_bedroom",
+      "office",
+      "guest_room",
+      "spare_bath"
+    ],
+    "accusationRequirements": {
+      "requiredSuspect": "player",
+      "requiredClues": [
+        "clue_dryer_sheets_empty",
+        "clue_static_friendly_shirts",
+        "clue_shirt_could_hold_sock",
+        "clue_blue_thread_on_player_shirt",
+        "clue_sock_on_player_back"
+      ],
+      "recommendedSupportingClues": [
+        "clue_extreme_static",
+        "clue_player_static_in_hall",
+        "clue_casey_dryer_sheet_warning",
+        "clue_dog_cleared",
+        "clue_cat_sat_only",
+        "clue_vacuum_no_sock"
+      ]
+    }
+  },
+  "solution": {
+    "culprit": "player",
+    "method": "Static cling attached the missing sock to the back of the player's shirt while the player folded laundry.",
+    "motive": "None. The player is guilty only of forgetting dryer sheets and failing to inspect their own back.",
+    "coverStory": "The apparent suspect pool of cat, dog, partner, and robotic vacuum distracted from the fact that the sock never left the player's clothing.",
+    "fullExplanation": "The missing blue sock was never stolen. The laundry load generated heavy static because the household was out of dryer sheets and the anti-static cycle did not run. While the player folded clothes, the sock clung to the back of the player's synthetic shirt. The player then carried it unknowingly through the house, leaving faint lint and static evidence. The cat, dog, partner, and robotic vacuum all looked suspicious but were cleared by the evidence. The solution becomes visible in the spare bathroom, where opposing mirrors reveal the back of the player's shirt and the sock stuck there by static cling."
+  },
+  "endingText": {
+    "success": "IRIS says nothing for a full three seconds, which is an eternity for a system that can process municipal traffic patterns in real time. Then: 'Perpetrator identified. Motive: negligence. Method: static cling. Evidence: attached to your back.' The sock is recovered. The household is safe. Crumbot resumes its patrol with undeserved confidence.",
+    "failure": "IRIS glows softly. 'That theory is adorable, but the evidence does not support it. Also, several suspects are small mammals and deserve better process.'"
+  },
+  "engineHints": {
+    "naturalLanguageIntentTargets": [
+      "room",
+      "object",
+      "suspect",
+      "clue",
+      "inventory_item"
+    ],
+    "visibilityRule": "Hidden objects and hidden clues should not be surfaced by IRIS unless discovered through valid play.",
+    "narrationRule": "AI narration may embellish mood and humor but may not invent new facts, objects, exits, suspects, clues, or evidence not present in this JSON.",
+    "stateRule": "The engine should store room visits, discovered clues, inventory, unlocked containers, and accusation state outside the scenario definition.",
+    "scenarioDesignNote": "This case is a kid-friendly comedic mystery. IRIS should be dry and bemused, never mean. The mystery is solved by realizing the player is the culprit through static cling and mirror reflection."
+  }
+}
