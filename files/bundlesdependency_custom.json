@@ -1,0 +1,14 @@
+[
+    {
+        "bundle" : "derby",
+        "version" : "2023.0.08.330668",
+        "description" : "The derby package helps you create an Apache Derby datasource",
+        "category" : "datasources",
+        "dependencies" : [
+                        { "name" : "derby-combined" , "version" : "10.11", "embedded" : false}
+        ],
+        "extrastoinstall" : [
+                        { "name" : "derby-examples" , "version" : "1.0", "extension" : ".zip", "targetdir" : "db"}
+        ]
+    }
+]
