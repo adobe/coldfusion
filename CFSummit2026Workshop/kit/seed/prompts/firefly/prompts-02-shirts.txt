@@ -1,0 +1,221 @@
+StyleMart Firefly Prompts — Button-Down Shirts (`shirts`)
+18 products × 2 images = 36 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 36 ---
+SAVE AS: shirt_white_regular_cotton-poplin_01.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+White regular-fit spread-collar cotton poplin button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 36 ---
+SAVE AS: shirt_white_regular_cotton-poplin_01_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of White regular-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 36 ---
+SAVE AS: shirt_sky-blue_slim_oxford-cotton_02.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Sky Blue slim-fit button-down-collar oxford cotton button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 36 ---
+SAVE AS: shirt_sky-blue_slim_oxford-cotton_02_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Sky Blue slim-fit oxford cotton button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 36 ---
+SAVE AS: shirt_light-gray_regular_cotton-poplin_03.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Light Gray regular-fit spread-collar cotton poplin button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 36 ---
+SAVE AS: shirt_light-gray_regular_cotton-poplin_03_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Light Gray regular-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 36 ---
+SAVE AS: shirt_navy_slim_oxford-cotton_04.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Navy slim-fit button-down-collar oxford cotton button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 36 ---
+SAVE AS: shirt_navy_slim_oxford-cotton_04_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Navy slim-fit oxford cotton button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 36 ---
+SAVE AS: shirt_sage_relaxed_linen-cotton-blend_05.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Sage relaxed-fit mandarin-collar linen-cotton blend button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 36 ---
+SAVE AS: shirt_sage_relaxed_linen-cotton-blend_05_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Sage relaxed-fit linen cotton blend button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 36 ---
+SAVE AS: shirt_ecru_regular_washed-linen_06.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Ecru regular-fit spread-collar washed linen button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 36 ---
+SAVE AS: shirt_ecru_regular_washed-linen_06_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Ecru regular-fit washed linen button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 36 ---
+SAVE AS: shirt_oxford-blue_slim_oxford-cotton_07.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Oxford Blue slim-fit button-down-collar oxford cotton button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 36 ---
+SAVE AS: shirt_oxford-blue_slim_oxford-cotton_07_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Oxford Blue slim-fit oxford cotton button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 36 ---
+SAVE AS: shirt_charcoal_tailored_cotton-poplin_08.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Charcoal tailored-fit spread-collar cotton poplin button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 36 ---
+SAVE AS: shirt_charcoal_tailored_cotton-poplin_08_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Charcoal tailored-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 36 ---
+SAVE AS: shirt_dusty-blue_regular_chambray_09.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Dusty Blue regular-fit button-down-collar chambray button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 36 ---
+SAVE AS: shirt_dusty-blue_regular_chambray_09_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Dusty Blue regular-fit chambray button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 36 ---
+SAVE AS: shirt_ivory_relaxed_washed-linen_10.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Ivory relaxed-fit mandarin-collar washed linen button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 36 ---
+SAVE AS: shirt_ivory_relaxed_washed-linen_10_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Ivory relaxed-fit washed linen button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 36 ---
+SAVE AS: shirt_black_slim_cotton-poplin_11.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Black slim-fit spread-collar cotton poplin button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 36 ---
+SAVE AS: shirt_black_slim_cotton-poplin_11_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Black slim-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 36 ---
+SAVE AS: shirt_pale-pink_regular_oxford-cotton_12.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Pale Pink regular-fit button-down-collar oxford cotton button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 36 ---
+SAVE AS: shirt_pale-pink_regular_oxford-cotton_12_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Pale Pink regular-fit oxford cotton button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 36 ---
+SAVE AS: shirt_olive_relaxed_linen-cotton-blend_13.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Olive relaxed-fit spread-collar linen-cotton blend button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 36 ---
+SAVE AS: shirt_olive_relaxed_linen-cotton-blend_13_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Olive relaxed-fit linen cotton blend button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 36 ---
+SAVE AS: shirt_midnight-blue_slim_cotton-poplin_14.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Midnight Blue slim-fit button-down-collar cotton poplin button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 36 ---
+SAVE AS: shirt_midnight-blue_slim_cotton-poplin_14_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Midnight Blue slim-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 36 ---
+SAVE AS: shirt_beige_regular_washed-linen_15.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Beige regular-fit spread-collar washed linen button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 36 ---
+SAVE AS: shirt_beige_regular_washed-linen_15_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Beige regular-fit washed linen button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 36 ---
+SAVE AS: shirt_burgundy_slim_oxford-cotton_16.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Burgundy slim-fit button-down-collar oxford cotton button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 36 ---
+SAVE AS: shirt_burgundy_slim_oxford-cotton_16_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Burgundy slim-fit oxford cotton button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 033 of 36 ---
+SAVE AS: shirt_teal_regular_cotton-poplin_17.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Teal regular-fit spread-collar cotton poplin button-down shirt with long sleeves and straight hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 034 of 36 ---
+SAVE AS: shirt_teal_regular_cotton-poplin_17_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Teal regular-fit cotton poplin button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 035 of 36 ---
+SAVE AS: shirt_sand_relaxed_linen-cotton-blend_18.png
+CATEGORY: shirts  (subcategory: button-down)  [primary]
+PROMPT:
+Sand relaxed-fit mandarin-collar linen-cotton blend button-down shirt with long sleeves and curved hem, displayed flat-lay on the backdrop, collar slightly open, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 036 of 36 ---
+SAVE AS: shirt_sand_relaxed_linen-cotton-blend_18_back.png
+CATEGORY: shirts  (subcategory: button-down)  [secondary back]
+PROMPT:
+Back view of Sand relaxed-fit linen cotton blend button-down shirt, displayed flat-lay top-down with back side facing up, yoke and shoulder seams visible across the upper back, sleeves neatly aligned. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

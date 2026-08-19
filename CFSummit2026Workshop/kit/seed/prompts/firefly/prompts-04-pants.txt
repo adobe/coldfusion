@@ -1,0 +1,125 @@
+StyleMart Firefly Prompts — Pants & Trousers (`pants`)
+10 products × 2 images = 20 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 20 ---
+SAVE AS: jeans_khaki_straight-fit_chino-cotton_06.png
+CATEGORY: pants  (subcategory: chinos)  [primary]
+PROMPT:
+Khaki straight-fit chino cotton chinos, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 20 ---
+SAVE AS: jeans_khaki_straight-fit_chino-cotton_06_back.png
+CATEGORY: pants  (subcategory: chinos)  [secondary back]
+PROMPT:
+Back view of Khaki straight-fit chino cotton chinos, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 20 ---
+SAVE AS: jeans_olive_slim-fit_twill-cotton_07.png
+CATEGORY: pants  (subcategory: trousers)  [primary]
+PROMPT:
+Olive slim-fit twill cotton trousers, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 20 ---
+SAVE AS: jeans_olive_slim-fit_twill-cotton_07_back.png
+CATEGORY: pants  (subcategory: trousers)  [secondary back]
+PROMPT:
+Back view of Olive slim-fit twill cotton trousers, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 20 ---
+SAVE AS: jeans_navy_straight-fit_chino-cotton_08.png
+CATEGORY: pants  (subcategory: chinos)  [primary]
+PROMPT:
+Navy straight-fit chino cotton chinos, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 20 ---
+SAVE AS: jeans_navy_straight-fit_chino-cotton_08_back.png
+CATEGORY: pants  (subcategory: chinos)  [secondary back]
+PROMPT:
+Back view of Navy straight-fit chino cotton chinos, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 20 ---
+SAVE AS: jeans_stone_relaxed-fit_twill-cotton_09.png
+CATEGORY: pants  (subcategory: trousers)  [primary]
+PROMPT:
+Stone relaxed-fit twill cotton trousers, light wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 20 ---
+SAVE AS: jeans_stone_relaxed-fit_twill-cotton_09_back.png
+CATEGORY: pants  (subcategory: trousers)  [secondary back]
+PROMPT:
+Back view of Stone relaxed-fit twill cotton trousers, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 20 ---
+SAVE AS: jeans_sand_relaxed-fit_chino-cotton_13.png
+CATEGORY: pants  (subcategory: chinos)  [primary]
+PROMPT:
+Sand relaxed-fit chino cotton chinos, light wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 20 ---
+SAVE AS: jeans_sand_relaxed-fit_chino-cotton_13_back.png
+CATEGORY: pants  (subcategory: chinos)  [secondary back]
+PROMPT:
+Back view of Sand relaxed-fit chino cotton chinos, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 20 ---
+SAVE AS: jeans_camel_straight-fit_twill-cotton_16.png
+CATEGORY: pants  (subcategory: trousers)  [primary]
+PROMPT:
+Camel straight-fit twill cotton trousers, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 20 ---
+SAVE AS: jeans_camel_straight-fit_twill-cotton_16_back.png
+CATEGORY: pants  (subcategory: trousers)  [secondary back]
+PROMPT:
+Back view of Camel straight-fit twill cotton trousers, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 20 ---
+SAVE AS: jeans_forest-green_slim-fit_chino-cotton_17.png
+CATEGORY: pants  (subcategory: chinos)  [primary]
+PROMPT:
+Forest Green slim-fit chino cotton chinos, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 20 ---
+SAVE AS: jeans_forest-green_slim-fit_chino-cotton_17_back.png
+CATEGORY: pants  (subcategory: chinos)  [secondary back]
+PROMPT:
+Back view of Forest Green slim-fit chino cotton chinos, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 20 ---
+SAVE AS: jeans_burgundy_straight-fit_twill-cotton_20.png
+CATEGORY: pants  (subcategory: trousers)  [primary]
+PROMPT:
+Burgundy straight-fit twill cotton trousers, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 20 ---
+SAVE AS: jeans_burgundy_straight-fit_twill-cotton_20_back.png
+CATEGORY: pants  (subcategory: trousers)  [secondary back]
+PROMPT:
+Back view of Burgundy straight-fit twill cotton trousers, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 20 ---
+SAVE AS: jeans_white_slim-fit_chino-cotton_21.png
+CATEGORY: pants  (subcategory: chinos)  [primary]
+PROMPT:
+White slim-fit chino cotton chinos, light wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 20 ---
+SAVE AS: jeans_white_slim-fit_chino-cotton_21_back.png
+CATEGORY: pants  (subcategory: chinos)  [secondary back]
+PROMPT:
+Back view of White slim-fit chino cotton chinos, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 20 ---
+SAVE AS: jeans_tan_slim-fit_twill-cotton_24.png
+CATEGORY: pants  (subcategory: trousers)  [primary]
+PROMPT:
+Tan slim-fit twill cotton trousers, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 20 ---
+SAVE AS: jeans_tan_slim-fit_twill-cotton_24_back.png
+CATEGORY: pants  (subcategory: trousers)  [secondary back]
+PROMPT:
+Back view of Tan slim-fit twill cotton trousers, displayed flat-lay top-down with back side facing up, back yoke and welt pockets visible, legs straightened. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

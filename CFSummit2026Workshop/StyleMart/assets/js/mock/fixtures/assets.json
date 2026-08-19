@@ -1,0 +1,76 @@
+{
+  "gen_email_jordan_london": {
+    "assetId": "gen_email_jordan_london",
+    "type": "recovery-email",
+    "capsuleSlug": "jordan-london",
+    "subject": "Your London capsule is waiting",
+    "previewText": "Your smart-casual London capsule is ready — resume any time before Friday.",
+    "fromName": "StyleMart",
+    "fromEmail": "hello@stylemart.demo",
+    "toName": "Jordan",
+    "toEmail": "jordan@example.com",
+    "date": "2026-11-04T09:14:00Z",
+    "bodyHtml": "<p>Hi Jordan,</p><p>Your smart-casual London capsule is ready: a charcoal blazer, white oxford, slim dark jeans, and waterproof walking shoes. All four pieces match your saved preferences (Size M tops, Size 32 jeans, neutral palette, easy-care fabrics).</p><p>Reviewers wore the waterproof walking shoes 8+ hours comfortably in similar weather, and the blazer runs true to size. Your Gold loyalty pricing plus the LONDON10 coupon brings the total to $351.</p><p>Resume your cart any time before Friday.</p>",
+    "citations": ["reviews/WPS-237", "guides/footwear-sizing-v3", "returns-2025-11"],
+    "sourceInputs": {
+      "memory": ["London tech conf", "size M", "neutrals", "$500 budget"],
+      "mcp":    ["pricing", "loyalty", "coupon", "weather"],
+      "rag":    ["reviews", "size guide", "returns policy"],
+      "guardrails": ["0 blocks", "2 rewrites"],
+      "preferenceIds": ["pref_usr_demo_001"],
+      "cartItemIds":   ["var_01HZX01T001_M_navy", "var_01HZX01T002_M_white"],
+      "ragSourceIds":  ["chunk_5", "chunk_6"],
+      "mcpToolCalls":  ["mcpcall_001", "mcpcall_002"]
+    },
+    "guardrailResults": [
+      { "rule": "no-unsupported-fit-guarantee", "passed": true, "result": "success" },
+      { "rule": "no-fake-discount", "passed": true, "result": "success" },
+      { "rule": "no-misleading-scarcity", "passed": true, "result": "success" }
+    ],
+    "createdAt": "2026-11-04T09:14:00Z"
+  },
+  "gen_landing_jordan_london": {
+    "assetId": "gen_landing_jordan_london",
+    "type": "landing-section",
+    "title": "Your London Capsule, Jordan",
+    "subtitle": "Curated for a 5-day smart-casual conference trip.",
+    "items": [
+      { "productId": "prd_01HZX01T001", "name": "Charcoal Travel Blazer", "price": 189, "imageUrl": "assets/img/placeholders/jackets-charcoal.svg", "evidence": ["reviews", "sizing", "weather"] },
+      { "productId": "prd_01HZX01T002", "name": "White Oxford Shirt",     "price": 32,  "imageUrl": "assets/img/placeholders/shirts-white.svg", "evidence": ["sizing", "fabric"] },
+      { "productId": "prd_01HZX01T003", "name": "Slim Dark Jeans · 32",   "price": 78,  "imageUrl": "assets/img/placeholders/jeans-darkwash.svg", "evidence": ["reviews", "sizing"] },
+      { "productId": "prd_01HZX01T004", "name": "Waterproof Walking Shoes","price": 124, "imageUrl": "assets/img/placeholders/sneakers-gray.svg", "evidence": ["reviews", "comfort"] }
+    ],
+    "rationale": "Each piece in this capsule was chosen for travel: machine-washable fabrics, neutral colors that mix-and-match, and items you'll wear repeatedly across 5 days. The waterproof walking shoes were picked for all-day comfort in London's cool, rainy November.",
+    "sourceInputs": {
+      "preferenceIds": ["pref_usr_demo_001"],
+      "ragSourceIds":  ["chunk_5", "chunk_6"],
+      "mcpToolCalls":  ["mcpcall_001", "mcpcall_002"]
+    },
+    "guardrailResults": [
+      { "rule": "no-unsupported-fit-guarantee", "passed": true, "result": "success" },
+      { "rule": "no-fake-discount", "passed": true, "result": "success" },
+      { "rule": "no-misleading-scarcity", "passed": true, "result": "success" }
+    ],
+    "createdAt": "2026-11-04T09:14:00Z"
+  },
+  "gen_upsell_jordan_london": {
+    "assetId": "gen_upsell_jordan_london",
+    "type": "upsell-pitch",
+    "title": "Complete your London capsule",
+    "subtitle": "Three small additions reviewers found useful for cool, rainy days — and travel-friendly to pack.",
+    "addOns": [
+      { "productId": "prd_addon_socks",    "name": "Merino Travel Socks",    "price": 18, "imageUrl": "assets/img/placeholders/socks-gray.svg",     "evidence": "Top-rated for blister-free walking days." },
+      { "productId": "prd_addon_umbrella", "name": "Compact Travel Umbrella","price": 24, "imageUrl": "assets/img/placeholders/umbrella-black.svg", "evidence": "London Nov forecast: rain likely." },
+      { "productId": "prd_addon_cubes",    "name": "Packing Cube Set",       "price": 30, "imageUrl": "assets/img/placeholders/cubes-beige.svg",    "evidence": "Capsule packs into one carry-on with cubes." }
+    ],
+    "totalAdded": 72,
+    "loyaltyApplied": true,
+    "rationaleChips": ["reviews", "weather", "memory"],
+    "guardrailResults": [
+      { "rule": "no-misleading-scarcity", "passed": true, "result": "success" },
+      { "rule": "no-pii-leak", "passed": true, "result": "success" },
+      { "rule": "no-unsupported-fit-guarantee", "passed": true, "result": "success" }
+    ],
+    "createdAt": "2026-11-04T09:14:00Z"
+  }
+}

@@ -1,0 +1,221 @@
+StyleMart Firefly Prompts — T-Shirts (`tshirts`)
+18 products × 2 images = 36 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 36 ---
+SAVE AS: tshirt_cream_relaxed-fit_organic-cotton_01.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Cream relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 36 ---
+SAVE AS: tshirt_cream_relaxed-fit_organic-cotton_01_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Cream relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 36 ---
+SAVE AS: tshirt_white_slim-fit_pima-cotton_02.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+White slim-fit crew-neck pima cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 36 ---
+SAVE AS: tshirt_white_slim-fit_pima-cotton_02_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of White slim-fit crew-neck pima cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 36 ---
+SAVE AS: tshirt_off-white_regular-fit_cotton-modal_03.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Off-White regular-fit crew-neck cotton-modal t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 36 ---
+SAVE AS: tshirt_off-white_regular-fit_cotton-modal_03_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Off White regular-fit crew-neck cotton modal t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 36 ---
+SAVE AS: tshirt_sage-green_relaxed-fit_organic-cotton_04.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Sage Green relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 36 ---
+SAVE AS: tshirt_sage-green_relaxed-fit_organic-cotton_04_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Sage Green relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 36 ---
+SAVE AS: tshirt_dusty-rose_regular-fit_cotton_05.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Dusty Rose regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 36 ---
+SAVE AS: tshirt_dusty-rose_regular-fit_cotton_05_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Dusty Rose regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 36 ---
+SAVE AS: tshirt_navy_slim-fit_cotton-blend_06.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Navy slim-fit crew-neck cotton-blend t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 36 ---
+SAVE AS: tshirt_navy_slim-fit_cotton-blend_06_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Navy slim-fit crew-neck cotton blend t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 36 ---
+SAVE AS: tshirt_charcoal_regular-fit_cotton_07.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Charcoal regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 36 ---
+SAVE AS: tshirt_charcoal_regular-fit_cotton_07_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Charcoal regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 36 ---
+SAVE AS: tshirt_ivory_relaxed-fit_organic-cotton_08.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Ivory relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 36 ---
+SAVE AS: tshirt_ivory_relaxed-fit_organic-cotton_08_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Ivory relaxed-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 36 ---
+SAVE AS: tshirt_terracotta_regular-fit_cotton_09.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Terracotta regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 36 ---
+SAVE AS: tshirt_terracotta_regular-fit_cotton_09_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Terracotta regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 36 ---
+SAVE AS: tshirt_olive_relaxed-fit_cotton-blend_10.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Olive relaxed-fit crew-neck cotton-blend t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 36 ---
+SAVE AS: tshirt_olive_relaxed-fit_cotton-blend_10_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Olive relaxed-fit crew-neck cotton blend t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 36 ---
+SAVE AS: tshirt_slate-blue_slim-fit_cotton-modal_11.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Slate Blue slim-fit crew-neck cotton-modal t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 36 ---
+SAVE AS: tshirt_slate-blue_slim-fit_cotton-modal_11_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Slate Blue slim-fit crew-neck cotton modal t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 36 ---
+SAVE AS: tshirt_burgundy_regular-fit_cotton_12.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Burgundy regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 36 ---
+SAVE AS: tshirt_burgundy_regular-fit_cotton_12_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Burgundy regular-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 36 ---
+SAVE AS: tshirt_white_oversized_cotton_13.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+White oversized crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 36 ---
+SAVE AS: tshirt_white_oversized_cotton_13_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of White oversized crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 36 ---
+SAVE AS: tshirt_black_slim-fit_cotton_14.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Black slim-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 36 ---
+SAVE AS: tshirt_black_slim-fit_cotton_14_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Black slim-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 36 ---
+SAVE AS: tshirt_light-gray_regular-fit_cotton-modal_15.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Light Gray regular-fit crew-neck cotton-modal t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 36 ---
+SAVE AS: tshirt_light-gray_regular-fit_cotton-modal_15_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Light Gray regular-fit crew-neck cotton modal t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 36 ---
+SAVE AS: tshirt_sky-blue_slim-fit_pima-cotton_16.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Sky Blue slim-fit crew-neck pima cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 36 ---
+SAVE AS: tshirt_sky-blue_slim-fit_pima-cotton_16_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Sky Blue slim-fit crew-neck pima cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 033 of 36 ---
+SAVE AS: tshirt_mustard_relaxed-fit_cotton_17.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Mustard relaxed-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 034 of 36 ---
+SAVE AS: tshirt_mustard_relaxed-fit_cotton_17_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Mustard relaxed-fit crew-neck cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 035 of 36 ---
+SAVE AS: tshirt_forest-green_regular-fit_organic-cotton_18.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [primary]
+PROMPT:
+Forest Green regular-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down on the backdrop, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 036 of 36 ---
+SAVE AS: tshirt_forest-green_regular-fit_organic-cotton_18_back.png
+CATEGORY: tshirts  (subcategory: crew-neck)  [secondary back]
+PROMPT:
+Back view of Forest Green regular-fit crew-neck organic cotton t-shirt with short sleeves, displayed flat-lay top-down with back side facing up, neckline ribbing visible at the top, hem flat at the bottom, neatly arranged with subtle natural folds. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

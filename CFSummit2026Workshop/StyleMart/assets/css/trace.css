@@ -1,0 +1,234 @@
+/* assets/css/trace.css — Responsive trace panel for workshop projection */
+
+/* ─── Container ─── */
+.trace {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  gap: 0;
+  font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.82rem;
+}
+
+/* ─── Header ─── */
+.trace__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.trace__header .brand-mark {
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--trace-accent);
+  text-transform: uppercase;
+}
+.trace__header-actions {
+  display: flex;
+  gap: var(--sp-1);
+}
+
+/* ─── Scrollable groups area ─── */
+.trace__groups {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var(--sp-2) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.trace__groups::-webkit-scrollbar { width: 6px; }
+.trace__groups::-webkit-scrollbar-track { background: transparent; }
+.trace__groups::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ─── Collapsible groups ─── */
+.trace-group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+.trace-group[open] {
+  border-color: var(--trace-accent);
+}
+.trace-group summary {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+  list-style: none;
+  transition: background 0.15s ease;
+}
+.trace-group summary::-webkit-details-marker { display: none; }
+.trace-group summary::before {
+  content: "▸";
+  font-size: 0.75rem;
+  color: var(--trace-accent);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+.trace-group[open] summary::before {
+  transform: rotate(90deg);
+}
+.trace-group summary:hover {
+  background: var(--surface-alt);
+}
+
+/* Badge counter in summary */
+.trace-group__badge {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--trace-accent);
+  color: #fff;
+  min-width: 18px;
+  text-align: center;
+}
+
+/* ─── Group body ─── */
+.trace-group__body {
+  padding: 6px 14px 12px;
+  font-size: 0.84rem;
+  color: var(--ink);
+  max-height: 180px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.trace-group__body::-webkit-scrollbar { width: 4px; }
+.trace-group__body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* ─── Empty state ─── */
+.trace-empty {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 0.78rem;
+  padding: 4px 0;
+}
+
+/* ─── Event rows ─── */
+.trace-row {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+.trace-row:last-child { border-bottom: none; }
+.trace-row:has(.trace-row__args) { flex-wrap: wrap; }
+.trace-row__args {
+  width: 100%;
+  margin-top: 2px;
+  font-size: 0.78rem;
+  color: var(--text-muted, #888);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trace-row__args code { background: none; padding: 0; font-weight: 400; color: inherit; }
+.trace-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trace-row code {
+  font-size: 0.82rem;
+  background: var(--surface-alt);
+  color: var(--trace-accent);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* ─── Status pills ─── */
+.trace-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  background: var(--surface-alt);
+  color: var(--ink-soft);
+}
+.trace-pill--ok {
+  background: rgba(90, 125, 74, 0.18);
+  color: var(--ok);
+}
+.trace-pill--warn {
+  background: rgba(192, 138, 62, 0.18);
+  color: var(--warn);
+}
+.trace-pill--err {
+  background: rgba(177, 74, 58, 0.18);
+  color: var(--danger);
+}
+
+/* ─── Live event stream ─── */
+.trace__stream-section {
+  flex: 1 1 0;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+  padding-top: 8px;
+  overflow: hidden;
+}
+.trace__stream-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--trace-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0 0 6px;
+  flex-shrink: 0;
+}
+.trace__stream {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  color: var(--ink-soft);
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.trace__stream::-webkit-scrollbar { width: 5px; }
+.trace__stream::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.trace__stream div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 2px 0;
+}
+.trace__stream .trace__stream-delta {
+  color: var(--trace-accent);
+  font-weight: 500;
+}

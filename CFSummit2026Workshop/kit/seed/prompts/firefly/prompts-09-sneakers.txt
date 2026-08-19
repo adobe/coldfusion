@@ -1,0 +1,197 @@
+StyleMart Firefly Prompts — Sneakers (`sneakers`)
+16 products × 2 images = 32 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 32 ---
+SAVE AS: sneakers_white_low-top_knit-textile_01.png
+CATEGORY: sneakers  (subcategory: low top)  [primary]
+PROMPT:
+White low-top walking sneaker, knit textile upper, white rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 32 ---
+SAVE AS: sneakers_white_low-top_knit-textile_01_detail.png
+CATEGORY: sneakers  (subcategory: low top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of White low top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 32 ---
+SAVE AS: sneakers_off-white_minimalist_leather_02.png
+CATEGORY: sneakers  (subcategory: minimalist)  [primary]
+PROMPT:
+Off-White minimalist walking sneaker, leather upper, cushioned EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 32 ---
+SAVE AS: sneakers_off-white_minimalist_leather_02_detail.png
+CATEGORY: sneakers  (subcategory: minimalist)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Off White minimalist sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium leather grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 32 ---
+SAVE AS: sneakers_cream_retro_suede_03.png
+CATEGORY: sneakers  (subcategory: retro)  [primary]
+PROMPT:
+Cream retro walking sneaker, suede upper, gum rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 32 ---
+SAVE AS: sneakers_cream_retro_suede_03_detail.png
+CATEGORY: sneakers  (subcategory: retro)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Cream retro sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium suede grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 32 ---
+SAVE AS: sneakers_navy_low-top_recycled-mesh_04.png
+CATEGORY: sneakers  (subcategory: low top)  [primary]
+PROMPT:
+Navy low-top walking sneaker, recycled mesh upper, treaded EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 32 ---
+SAVE AS: sneakers_navy_low-top_recycled-mesh_04_detail.png
+CATEGORY: sneakers  (subcategory: low top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Navy low top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium recycled mesh grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 32 ---
+SAVE AS: sneakers_all-black_mid-top_knit-textile_05.png
+CATEGORY: sneakers  (subcategory: mid top)  [primary]
+PROMPT:
+All-Black mid-top walking sneaker, knit textile upper, black rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 32 ---
+SAVE AS: sneakers_all-black_mid-top_knit-textile_05_detail.png
+CATEGORY: sneakers  (subcategory: mid top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of All Black mid top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 32 ---
+SAVE AS: sneakers_gray_minimalist_leather_06.png
+CATEGORY: sneakers  (subcategory: minimalist)  [primary]
+PROMPT:
+Gray minimalist walking sneaker, leather upper, white rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 32 ---
+SAVE AS: sneakers_gray_minimalist_leather_06_detail.png
+CATEGORY: sneakers  (subcategory: minimalist)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Gray minimalist sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium leather grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 32 ---
+SAVE AS: sneakers_olive_low-top_suede_07.png
+CATEGORY: sneakers  (subcategory: low top)  [primary]
+PROMPT:
+Olive low-top walking sneaker, suede upper, gum rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 32 ---
+SAVE AS: sneakers_olive_low-top_suede_07_detail.png
+CATEGORY: sneakers  (subcategory: low top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Olive low top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium suede grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 32 ---
+SAVE AS: sneakers_sand_retro_recycled-mesh_08.png
+CATEGORY: sneakers  (subcategory: retro)  [primary]
+PROMPT:
+Sand retro walking sneaker, recycled mesh upper, cushioned EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 32 ---
+SAVE AS: sneakers_sand_retro_recycled-mesh_08_detail.png
+CATEGORY: sneakers  (subcategory: retro)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sand retro sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium recycled mesh grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 32 ---
+SAVE AS: sneakers_charcoal_low-top_knit-textile_09.png
+CATEGORY: sneakers  (subcategory: low top)  [primary]
+PROMPT:
+Charcoal low-top walking sneaker, knit textile upper, treaded EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 32 ---
+SAVE AS: sneakers_charcoal_low-top_knit-textile_09_detail.png
+CATEGORY: sneakers  (subcategory: low top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Charcoal low top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 32 ---
+SAVE AS: sneakers_light-gray_minimalist_recycled-mesh_10.png
+CATEGORY: sneakers  (subcategory: minimalist)  [primary]
+PROMPT:
+Light Gray minimalist walking sneaker, recycled mesh upper, white rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 32 ---
+SAVE AS: sneakers_light-gray_minimalist_recycled-mesh_10_detail.png
+CATEGORY: sneakers  (subcategory: minimalist)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Light Gray minimalist sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium recycled mesh grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 32 ---
+SAVE AS: sneakers_beige_low-top_leather_11.png
+CATEGORY: sneakers  (subcategory: low top)  [primary]
+PROMPT:
+Beige low-top walking sneaker, leather upper, gum rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 32 ---
+SAVE AS: sneakers_beige_low-top_leather_11_detail.png
+CATEGORY: sneakers  (subcategory: low top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Beige low top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium leather grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 32 ---
+SAVE AS: sneakers_sky-blue_retro_knit-textile_12.png
+CATEGORY: sneakers  (subcategory: retro)  [primary]
+PROMPT:
+Sky Blue retro walking sneaker, knit textile upper, cushioned EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 32 ---
+SAVE AS: sneakers_sky-blue_retro_knit-textile_12_detail.png
+CATEGORY: sneakers  (subcategory: retro)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sky Blue retro sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 32 ---
+SAVE AS: sneakers_taupe_minimalist_suede_14.png
+CATEGORY: sneakers  (subcategory: minimalist)  [primary]
+PROMPT:
+Taupe minimalist walking sneaker, suede upper, white rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 32 ---
+SAVE AS: sneakers_taupe_minimalist_suede_14_detail.png
+CATEGORY: sneakers  (subcategory: minimalist)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Taupe minimalist sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium suede grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 32 ---
+SAVE AS: sneakers_ivory_retro_knit-textile_16.png
+CATEGORY: sneakers  (subcategory: retro)  [primary]
+PROMPT:
+Ivory retro walking sneaker, knit textile upper, gum rubber sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 32 ---
+SAVE AS: sneakers_ivory_retro_knit-textile_16_detail.png
+CATEGORY: sneakers  (subcategory: retro)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Ivory retro sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 32 ---
+SAVE AS: sneakers_slate_mid-top_leather_17.png
+CATEGORY: sneakers  (subcategory: mid top)  [primary]
+PROMPT:
+Slate mid-top walking sneaker, leather upper, cushioned EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 32 ---
+SAVE AS: sneakers_slate_mid-top_leather_17_detail.png
+CATEGORY: sneakers  (subcategory: mid top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Slate mid top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium leather grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 32 ---
+SAVE AS: sneakers_white_mid-top_knit-textile_42.png
+CATEGORY: sneakers  (subcategory: mid top)  [primary]
+PROMPT:
+White mid-top walking sneaker, knit textile upper, cushioned EVA sole, photographed at a slight three-quarter angle on the backdrop, laces neatly tied, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 32 ---
+SAVE AS: sneakers_white_mid-top_knit-textile_42_detail.png
+CATEGORY: sneakers  (subcategory: mid top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of White mid top sneakers, focusing on the toe box, eyelet row, lacing, and side-panel stitching, premium knit textile grain visible, subtle reflection on metal eyelets, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

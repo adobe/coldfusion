@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "stylemart-commerce-ops": {
+      "url": "http://localhost:{{PORT}}/CFSummit2026Workshop/StyleMart/api/agent/s6/ref/mcp/index.cfm"
+    },
+    "weather-live": {
+      "command": "{{JAVA_HOME}}/bin/{{JAVA_BIN}}",
+      "args": ["-Dlogging.file.name={{WEBROOT}}/CFSummit2026Workshop/externalservices/weather/live/logs/mcp-weather-live.log", "-jar", "{{WEBROOT}}/CFSummit2026Workshop/externalservices/weather/live/target/mcp-weather-stdio-server.jar", "--spring.profiles.active=stdio"],
+      "env": {"JAVA_HOME": "{{JAVA_HOME}}"},
+      "commandWhitelist": ["{{JAVA_BIN}}"]
+    },
+    "prologics-logistics": {
+      "url": "http://localhost:{{PORT}}/CFSummit2026Workshop/externalservices/prologics/mcp/prologics-mcp-server.cfm"
+    }
+  }
+}

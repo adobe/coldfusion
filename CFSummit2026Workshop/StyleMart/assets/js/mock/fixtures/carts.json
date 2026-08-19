@@ -1,0 +1,15 @@
+{
+  "crt_demo_jordan": {
+    "cartId": "crt_demo_jordan",
+    "userId": "usr_demo_001",
+    "status": "active",
+    "items": [],
+    "subtotal": 0,
+    "discountTotal": 0,
+    "total": 0,
+    "currency": "USD",
+    "appliedCoupon": null,
+    "createdAt": "2026-05-25T10:00:00Z",
+    "updatedAt": "2026-05-25T10:00:00Z"
+  }
+}

@@ -1,0 +1,149 @@
+StyleMart Firefly Prompts — Jeans (`jeans`)
+12 products × 2 images = 24 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 24 ---
+SAVE AS: jeans_indigo_slim-fit_12oz-denim_01.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Indigo slim-fit 12oz denim jeans, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 24 ---
+SAVE AS: jeans_indigo_slim-fit_12oz-denim_01_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Indigo slim-fit 12oz denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 24 ---
+SAVE AS: jeans_black_straight-fit_stretch-denim_02.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Black straight-fit stretch denim jeans, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 24 ---
+SAVE AS: jeans_black_straight-fit_stretch-denim_02_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Black straight-fit stretch denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 24 ---
+SAVE AS: jeans_mid-blue_slim-fit_12oz-denim_03.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Mid-Blue slim-fit 12oz denim jeans, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 24 ---
+SAVE AS: jeans_mid-blue_slim-fit_12oz-denim_03_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Mid Blue slim-fit 12oz denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 24 ---
+SAVE AS: jeans_light-wash-blue_relaxed-fit_lightweight-denim_04.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Light Wash Blue relaxed-fit lightweight denim jeans, light wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 24 ---
+SAVE AS: jeans_light-wash-blue_relaxed-fit_lightweight-denim_04_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Light Wash Blue relaxed-fit lightweight denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 24 ---
+SAVE AS: jeans_charcoal_tapered_stretch-denim_05.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Charcoal tapered stretch denim jeans, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 24 ---
+SAVE AS: jeans_charcoal_tapered_stretch-denim_05_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Charcoal tapered stretch denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 24 ---
+SAVE AS: jeans_raw-indigo_slim-fit_12oz-denim_10.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Raw Indigo slim-fit 12oz denim jeans, raw wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 24 ---
+SAVE AS: jeans_raw-indigo_slim-fit_12oz-denim_10_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Raw Indigo slim-fit 12oz denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 24 ---
+SAVE AS: jeans_vintage-blue_straight-fit_12oz-denim_11.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Vintage Blue straight-fit 12oz denim jeans, vintage wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 24 ---
+SAVE AS: jeans_vintage-blue_straight-fit_12oz-denim_11_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Vintage Blue straight-fit 12oz denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 24 ---
+SAVE AS: jeans_gray_tapered_stretch-denim_12.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Gray tapered stretch denim jeans, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 24 ---
+SAVE AS: jeans_gray_tapered_stretch-denim_12_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Gray tapered stretch denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 24 ---
+SAVE AS: jeans_deep-blue_slim-fit_stretch-denim_14.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Deep Blue slim-fit stretch denim jeans, indigo wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 24 ---
+SAVE AS: jeans_deep-blue_slim-fit_stretch-denim_14_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Deep Blue slim-fit stretch denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 24 ---
+SAVE AS: jeans_black_wide-leg_12oz-denim_15.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Black wide-leg 12oz denim jeans, dark wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 24 ---
+SAVE AS: jeans_black_wide-leg_12oz-denim_15_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Black wide-leg 12oz denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 24 ---
+SAVE AS: jeans_bleached-blue_relaxed-fit_lightweight-denim_18.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Bleached Blue relaxed-fit lightweight denim jeans, light wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 24 ---
+SAVE AS: jeans_bleached-blue_relaxed-fit_lightweight-denim_18_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Bleached Blue relaxed-fit lightweight denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 24 ---
+SAVE AS: jeans_slate_tapered_stretch-denim_19.png
+CATEGORY: jeans  (subcategory: denim)  [primary]
+PROMPT:
+Slate tapered stretch denim jeans, mid wash, displayed flat-lay on the backdrop, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 24 ---
+SAVE AS: jeans_slate_tapered_stretch-denim_19_back.png
+CATEGORY: jeans  (subcategory: denim)  [secondary back]
+PROMPT:
+Back view of Slate tapered stretch denim jeans, displayed flat-lay top-down with back side facing up, two back pockets and waistband loops visible, legs straightened with subtle natural drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

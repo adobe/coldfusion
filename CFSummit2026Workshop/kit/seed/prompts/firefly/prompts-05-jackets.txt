@@ -1,0 +1,197 @@
+StyleMart Firefly Prompts — Jackets & Blazers (`jackets`)
+16 products × 2 images = 32 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 32 ---
+SAVE AS: jacket_navy_tailored_travel-blazer_01.png
+CATEGORY: jackets  (subcategory: travel blazer)  [primary]
+PROMPT:
+Navy tailored travel blazer in wool-poly blend, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 32 ---
+SAVE AS: jacket_navy_tailored_travel-blazer_01_back.png
+CATEGORY: jackets  (subcategory: travel blazer)  [secondary back]
+PROMPT:
+Back view of Navy tailored travel blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 32 ---
+SAVE AS: jacket_charcoal_relaxed_lightweight-bomber_02.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [primary]
+PROMPT:
+Charcoal relaxed lightweight bomber in technical nylon-cotton, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 32 ---
+SAVE AS: jacket_charcoal_relaxed_lightweight-bomber_02_back.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [secondary back]
+PROMPT:
+Back view of Charcoal relaxed lightweight bomber, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 32 ---
+SAVE AS: jacket_camel_tailored_soft-shoulder-blazer_03.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [primary]
+PROMPT:
+Camel tailored soft-shoulder blazer in merino wool, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 32 ---
+SAVE AS: jacket_camel_tailored_soft-shoulder-blazer_03_back.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [secondary back]
+PROMPT:
+Back view of Camel tailored soft shoulder blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 32 ---
+SAVE AS: jacket_olive_relaxed_packable-jacket_04.png
+CATEGORY: jackets  (subcategory: packable jacket)  [primary]
+PROMPT:
+Olive relaxed packable jacket in recycled polyester, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 32 ---
+SAVE AS: jacket_olive_relaxed_packable-jacket_04_back.png
+CATEGORY: jackets  (subcategory: packable jacket)  [secondary back]
+PROMPT:
+Back view of Olive relaxed packable jacket, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 32 ---
+SAVE AS: jacket_slate-gray_tailored_travel-blazer_05.png
+CATEGORY: jackets  (subcategory: travel blazer)  [primary]
+PROMPT:
+Slate Gray tailored travel blazer in wool-poly blend, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 32 ---
+SAVE AS: jacket_slate-gray_tailored_travel-blazer_05_back.png
+CATEGORY: jackets  (subcategory: travel blazer)  [secondary back]
+PROMPT:
+Back view of Slate Gray tailored travel blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 32 ---
+SAVE AS: jacket_deep-burgundy_tailored_soft-shoulder-blazer_06.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [primary]
+PROMPT:
+Deep Burgundy tailored soft-shoulder blazer in merino wool, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 32 ---
+SAVE AS: jacket_deep-burgundy_tailored_soft-shoulder-blazer_06_back.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [secondary back]
+PROMPT:
+Back view of Deep Burgundy tailored soft shoulder blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 32 ---
+SAVE AS: jacket_black_relaxed_lightweight-bomber_07.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [primary]
+PROMPT:
+Black relaxed lightweight bomber in technical nylon-cotton, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 32 ---
+SAVE AS: jacket_black_relaxed_lightweight-bomber_07_back.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [secondary back]
+PROMPT:
+Back view of Black relaxed lightweight bomber, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 32 ---
+SAVE AS: jacket_sand_relaxed_packable-jacket_08.png
+CATEGORY: jackets  (subcategory: packable jacket)  [primary]
+PROMPT:
+Sand relaxed packable jacket in recycled polyester, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 32 ---
+SAVE AS: jacket_sand_relaxed_packable-jacket_08_back.png
+CATEGORY: jackets  (subcategory: packable jacket)  [secondary back]
+PROMPT:
+Back view of Sand relaxed packable jacket, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 32 ---
+SAVE AS: jacket_midnight-blue_tailored_travel-blazer_09.png
+CATEGORY: jackets  (subcategory: travel blazer)  [primary]
+PROMPT:
+Midnight Blue tailored travel blazer in wool-poly blend, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 32 ---
+SAVE AS: jacket_midnight-blue_tailored_travel-blazer_09_back.png
+CATEGORY: jackets  (subcategory: travel blazer)  [secondary back]
+PROMPT:
+Back view of Midnight Blue tailored travel blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 32 ---
+SAVE AS: jacket_forest-green_relaxed_packable-jacket_10.png
+CATEGORY: jackets  (subcategory: packable jacket)  [primary]
+PROMPT:
+Forest Green relaxed packable jacket in recycled polyester, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 32 ---
+SAVE AS: jacket_forest-green_relaxed_packable-jacket_10_back.png
+CATEGORY: jackets  (subcategory: packable jacket)  [secondary back]
+PROMPT:
+Back view of Forest Green relaxed packable jacket, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 32 ---
+SAVE AS: jacket_stone_tailored_soft-shoulder-blazer_11.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [primary]
+PROMPT:
+Stone tailored soft-shoulder blazer in merino wool, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 32 ---
+SAVE AS: jacket_stone_tailored_soft-shoulder-blazer_11_back.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [secondary back]
+PROMPT:
+Back view of Stone tailored soft shoulder blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 32 ---
+SAVE AS: jacket_teal_relaxed_lightweight-bomber_12.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [primary]
+PROMPT:
+Teal relaxed lightweight bomber in technical nylon-cotton, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 32 ---
+SAVE AS: jacket_teal_relaxed_lightweight-bomber_12_back.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [secondary back]
+PROMPT:
+Back view of Teal relaxed lightweight bomber, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 32 ---
+SAVE AS: jacket_graphite_tailored_travel-blazer_13.png
+CATEGORY: jackets  (subcategory: travel blazer)  [primary]
+PROMPT:
+Graphite tailored travel blazer in wool-poly blend, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 32 ---
+SAVE AS: jacket_graphite_tailored_travel-blazer_13_back.png
+CATEGORY: jackets  (subcategory: travel blazer)  [secondary back]
+PROMPT:
+Back view of Graphite tailored travel blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 32 ---
+SAVE AS: jacket_tan_relaxed_packable-jacket_14.png
+CATEGORY: jackets  (subcategory: packable jacket)  [primary]
+PROMPT:
+Tan relaxed packable jacket in recycled polyester, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 32 ---
+SAVE AS: jacket_tan_relaxed_packable-jacket_14_back.png
+CATEGORY: jackets  (subcategory: packable jacket)  [secondary back]
+PROMPT:
+Back view of Tan relaxed packable jacket, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 32 ---
+SAVE AS: jacket_wine_tailored_soft-shoulder-blazer_15.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [primary]
+PROMPT:
+Wine tailored soft-shoulder blazer in merino wool, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 32 ---
+SAVE AS: jacket_wine_tailored_soft-shoulder-blazer_15_back.png
+CATEGORY: jackets  (subcategory: soft shoulder blazer)  [secondary back]
+PROMPT:
+Back view of Wine tailored soft shoulder blazer, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 32 ---
+SAVE AS: jacket_steel-blue_relaxed_lightweight-bomber_16.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [primary]
+PROMPT:
+Steel Blue relaxed lightweight bomber in technical nylon-cotton, hung on a clean wooden hanger against the backdrop, three-quarter angle, lapels visible, stitching detail clearly rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 32 ---
+SAVE AS: jacket_steel-blue_relaxed_lightweight-bomber_16_back.png
+CATEGORY: jackets  (subcategory: lightweight bomber)  [secondary back]
+PROMPT:
+Back view of Steel Blue relaxed lightweight bomber, hung on a wooden hanger against the backdrop, photographed from directly behind, center back seam and yoke visible, sleeves resting straight. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

@@ -1,0 +1,58 @@
+/* assets/css/tokens.css — Warm Editorial design tokens */
+
+:root {
+  /* Color tokens */
+  --bg:            #fdfaf4;
+  --surface:       #ffffff;
+  --surface-alt:   #f5ede0;
+  --ink:           #3d2914;
+  --ink-soft:      #7a5a3a;
+  --accent:        #8b5e34;
+  --accent-hover:  #6b4623;
+  --border:        #e8dfd0;
+  --ok:            #5a7d4a;
+  --warn:          #c08a3e;
+  --danger:        #b14a3a;
+  --trace:         #fff8f0;
+  --trace-accent:  #ff8c42;
+  --trace-bg:      #1a1a2e;
+  --trace-fg:      #e8e8f0;
+  --trace-card:    #222240;
+  --trace-border:  #2d2d44;
+  --trace-hover:   #2a2a4a;
+  --trace-muted:   #777;
+  --trace-stream-bg: #12121f;
+  --trace-stream-fg: #a0a0c0;
+
+  /* Typography */
+  --font-heading: Georgia, "Playfair Display", serif;
+  --font-body:    system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    "SF Mono", Menlo, monospace;
+
+  --fs-xs: 11px;
+  --fs-sm: 13px;
+  --fs-md: 15px;
+  --fs-lg: 18px;
+  --fs-xl: 24px;
+  --fs-2xl: 32px;
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+
+  /* Radius */
+  --r-sm:  4px;
+  --r-md:  8px;
+  --r-pill: 20px;
+
+  /* Elevation */
+  --shadow-soft: 0 2px 8px rgba(61, 41, 20, 0.08);
+
+  /* Layout */
+  --nav-h: 56px;
+}

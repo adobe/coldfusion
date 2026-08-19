@@ -1,0 +1,8 @@
+[
+  { "delayMs": 50,  "event": { "type": "model.start", "payload": { "model": "stylemart-default", "params": { "temperature": 0.6 } } } },
+  { "delayMs": 100, "event": { "type": "model.delta", "payload": { "text": "Here's " } } },
+  { "delayMs": 50,  "event": { "type": "model.delta", "payload": { "text": "a smart-casual " } } },
+  { "delayMs": 50,  "event": { "type": "model.delta", "payload": { "text": "outfit suggestion: navy chinos, white tee, and a tailored blazer." } } },
+  { "delayMs": 30,  "event": { "type": "model.end",   "payload": { "text": "Here's a smart-casual outfit suggestion: navy chinos, white tee, and a tailored blazer.", "tokens": {} } } },
+  { "delayMs": 100, "event": { "type": "done", "payload": { "status": "ok" } } }
+]

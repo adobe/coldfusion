@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "promotionId": "pro_summit_storewide",
+      "name": "CF Summit Weekend",
+      "type": "percentage",
+      "value": 5,
+      "scopeCategories": null,
+      "scopeProductIds": null,
+      "excludeCategories": null,
+      "validFrom": "2026-05-25T00:00:00Z",
+      "validUntil": "2026-06-01T00:00:00Z",
+      "displayBanner": "5% off storewide for CF Summit attendees",
+      "active": true,
+      "priority": 1
+    },
+    {
+      "promotionId": "pro_jackets_seasonal",
+      "name": "Jackets Refresh",
+      "type": "percentage",
+      "value": 15,
+      "scopeCategories": [
+        "jackets",
+        "raincoats"
+      ],
+      "scopeProductIds": null,
+      "excludeCategories": null,
+      "validFrom": "2026-05-17T00:00:00Z",
+      "validUntil": "2026-07-11T00:00:00Z",
+      "displayBanner": "15% off jackets and raincoats \u2014 limited time",
+      "active": true,
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+StyleMart Firefly Prompts — Sunglasses (`sunglasses`)
+14 products × 2 images = 28 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 28 ---
+SAVE AS: sunglasses_tortoise_rectangular_gradient-brown_01.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [primary]
+PROMPT:
+Tortoise rectangular sunglasses with gradient brown lenses in acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 28 ---
+SAVE AS: sunglasses_tortoise_rectangular_gradient-brown_01_detail.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Tortoise rectangular sunglasses, focusing on the temple hinge, frame texture, and gradient brown lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 28 ---
+SAVE AS: sunglasses_matte-black_round_smoke-gray_02.png
+CATEGORY: sunglasses  (subcategory: round)  [primary]
+PROMPT:
+Matte Black round sunglasses with smoke gray lenses in lightweight metal frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 28 ---
+SAVE AS: sunglasses_matte-black_round_smoke-gray_02_detail.png
+CATEGORY: sunglasses  (subcategory: round)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Matte Black round sunglasses, focusing on the temple hinge, frame texture, and smoke gray lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 28 ---
+SAVE AS: sunglasses_gunmetal_aviator_polarized-green_03.png
+CATEGORY: sunglasses  (subcategory: aviator)  [primary]
+PROMPT:
+Gunmetal aviator sunglasses with polarized green lenses in lightweight metal frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 28 ---
+SAVE AS: sunglasses_gunmetal_aviator_polarized-green_03_detail.png
+CATEGORY: sunglasses  (subcategory: aviator)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Gunmetal aviator sunglasses, focusing on the temple hinge, frame texture, and polarized green lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 28 ---
+SAVE AS: sunglasses_clear_wayfarer_mirrored-silver_04.png
+CATEGORY: sunglasses  (subcategory: wayfarer)  [primary]
+PROMPT:
+Clear wayfarer sunglasses with mirrored silver lenses in recycled bio-acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 28 ---
+SAVE AS: sunglasses_clear_wayfarer_mirrored-silver_04_detail.png
+CATEGORY: sunglasses  (subcategory: wayfarer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Clear wayfarer sunglasses, focusing on the temple hinge, frame texture, and mirrored silver lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 28 ---
+SAVE AS: sunglasses_brown_oversized-square_gradient-brown_05.png
+CATEGORY: sunglasses  (subcategory: oversized square)  [primary]
+PROMPT:
+Brown oversized square sunglasses with gradient brown lenses in acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 28 ---
+SAVE AS: sunglasses_brown_oversized-square_gradient-brown_05_detail.png
+CATEGORY: sunglasses  (subcategory: oversized square)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Brown oversized square sunglasses, focusing on the temple hinge, frame texture, and gradient brown lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 28 ---
+SAVE AS: sunglasses_matte-black_rimless_smoke-gray_06.png
+CATEGORY: sunglasses  (subcategory: rimless)  [primary]
+PROMPT:
+Matte Black rimless sunglasses with smoke gray lenses in lightweight metal frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 28 ---
+SAVE AS: sunglasses_matte-black_rimless_smoke-gray_06_detail.png
+CATEGORY: sunglasses  (subcategory: rimless)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Matte Black rimless sunglasses, focusing on the temple hinge, frame texture, and smoke gray lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 28 ---
+SAVE AS: sunglasses_tortoise_round_polarized-green_07.png
+CATEGORY: sunglasses  (subcategory: round)  [primary]
+PROMPT:
+Tortoise round sunglasses with polarized green lenses in recycled bio-acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 28 ---
+SAVE AS: sunglasses_tortoise_round_polarized-green_07_detail.png
+CATEGORY: sunglasses  (subcategory: round)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Tortoise round sunglasses, focusing on the temple hinge, frame texture, and polarized green lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 28 ---
+SAVE AS: sunglasses_gunmetal_rectangular_mirrored-silver_08.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [primary]
+PROMPT:
+Gunmetal rectangular sunglasses with mirrored silver lenses in acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 28 ---
+SAVE AS: sunglasses_gunmetal_rectangular_mirrored-silver_08_detail.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Gunmetal rectangular sunglasses, focusing on the temple hinge, frame texture, and mirrored silver lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 28 ---
+SAVE AS: sunglasses_charcoal_wayfarer_smoke-gray_09.png
+CATEGORY: sunglasses  (subcategory: wayfarer)  [primary]
+PROMPT:
+Charcoal wayfarer sunglasses with smoke gray lenses in lightweight metal frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 28 ---
+SAVE AS: sunglasses_charcoal_wayfarer_smoke-gray_09_detail.png
+CATEGORY: sunglasses  (subcategory: wayfarer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Charcoal wayfarer sunglasses, focusing on the temple hinge, frame texture, and smoke gray lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 28 ---
+SAVE AS: sunglasses_amber_aviator_gradient-brown_10.png
+CATEGORY: sunglasses  (subcategory: aviator)  [primary]
+PROMPT:
+Amber aviator sunglasses with gradient brown lenses in acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 28 ---
+SAVE AS: sunglasses_amber_aviator_gradient-brown_10_detail.png
+CATEGORY: sunglasses  (subcategory: aviator)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Amber aviator sunglasses, focusing on the temple hinge, frame texture, and gradient brown lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 28 ---
+SAVE AS: sunglasses_navy_oversized-square_polarized-green_11.png
+CATEGORY: sunglasses  (subcategory: oversized square)  [primary]
+PROMPT:
+Navy oversized square sunglasses with polarized green lenses in recycled bio-acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 28 ---
+SAVE AS: sunglasses_navy_oversized-square_polarized-green_11_detail.png
+CATEGORY: sunglasses  (subcategory: oversized square)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Navy oversized square sunglasses, focusing on the temple hinge, frame texture, and polarized green lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 28 ---
+SAVE AS: sunglasses_silver_rimless_mirrored-silver_12.png
+CATEGORY: sunglasses  (subcategory: rimless)  [primary]
+PROMPT:
+Silver rimless sunglasses with mirrored silver lenses in lightweight metal frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 28 ---
+SAVE AS: sunglasses_silver_rimless_mirrored-silver_12_detail.png
+CATEGORY: sunglasses  (subcategory: rimless)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Silver rimless sunglasses, focusing on the temple hinge, frame texture, and mirrored silver lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 28 ---
+SAVE AS: sunglasses_olive_rectangular_smoke-gray_13.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [primary]
+PROMPT:
+Olive rectangular sunglasses with smoke gray lenses in acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 28 ---
+SAVE AS: sunglasses_olive_rectangular_smoke-gray_13_detail.png
+CATEGORY: sunglasses  (subcategory: rectangular)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Olive rectangular sunglasses, focusing on the temple hinge, frame texture, and smoke gray lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 28 ---
+SAVE AS: sunglasses_cream_round_gradient-brown_14.png
+CATEGORY: sunglasses  (subcategory: round)  [primary]
+PROMPT:
+Cream round sunglasses with gradient brown lenses in recycled bio-acetate frame, displayed flat-lay top-down on the backdrop, arms slightly open, subtle reflection on the lens. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 28 ---
+SAVE AS: sunglasses_cream_round_gradient-brown_14_detail.png
+CATEGORY: sunglasses  (subcategory: round)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Cream round sunglasses, focusing on the temple hinge, frame texture, and gradient brown lens edge, subtle reflection on the lens, hardware in sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

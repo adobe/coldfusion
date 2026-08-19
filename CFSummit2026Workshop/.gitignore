@@ -1,0 +1,41 @@
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node modules / build artifacts (frontend tooling, if added later)
+node_modules/
+.npm/
+.yarn/
+
+# Python (build/seed scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+
+# CFML server droppings (just in case anyone runs CF locally)
+neo-*.xml
+WEB-INF/cfclasses/
+WEB-INF/cfusion/cache/
+
+# Runtime-generated MCP config (resolved from template with local paths)
+**/mcp-servers.json
+
+# Local environment overrides
+.env
+.env.local
+*.local
+
+# Plan working directory (stashes, baseline diffs, etc.)
+docs/superpowers/plans/work/

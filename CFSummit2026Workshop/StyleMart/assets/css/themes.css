@@ -1,0 +1,104 @@
+/* assets/css/themes.css — Configurable theme system */
+
+/* Default theme: Warm Editorial (current) */
+:root,
+[data-theme="default"] {
+  --bg:            #fdfaf4;
+  --surface:       #ffffff;
+  --surface-alt:   #f5ede0;
+  --ink:           #3d2914;
+  --ink-soft:      #7a5a3a;
+  --accent:        #8b5e34;
+  --accent-hover:  #6b4623;
+  --border:        #e8dfd0;
+  --ok:            #5a7d4a;
+  --warn:          #c08a3e;
+  --danger:        #b14a3a;
+  --trace:         #fff8f0;
+  --trace-accent:  #ff8c42;
+}
+
+/* Modern Blue theme */
+[data-theme="blue"] {
+  --bg:            #f0f4f8;
+  --surface:       #ffffff;
+  --surface-alt:   #e1e8ed;
+  --ink:           #1a202c;
+  --ink-soft:      #4a5568;
+  --accent:        #3182ce;
+  --accent-hover:  #2c5282;
+  --border:        #cbd5e0;
+  --ok:            #38a169;
+  --warn:          #d69e2e;
+  --danger:        #e53e3e;
+  --trace:         #ebf8ff;
+  --trace-accent:  #63b3ed;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg:            #1a1a1a;
+  --surface:       #2d2d2d;
+  --surface-alt:   #3a3a3a;
+  --ink:           #ffffff;
+  --ink-soft:      #b0b0b0;
+  --accent:        #60a5fa;
+  --accent-hover:  #93c5fd;
+  --border:        #404040;
+  --ok:            #4ade80;
+  --warn:          #fbbf24;
+  --danger:        #f87171;
+  --trace:         #252525;
+  --trace-accent:  #60a5fa;
+}
+
+/* Purple Luxe theme */
+[data-theme="purple"] {
+  --bg:            #faf5ff;
+  --surface:       #ffffff;
+  --surface-alt:   #f3e8ff;
+  --ink:           #2d1b4e;
+  --ink-soft:      #6b46c1;
+  --accent:        #7c3aed;
+  --accent-hover:  #5b21b6;
+  --border:        #e9d5ff;
+  --ok:            #10b981;
+  --warn:          #f59e0b;
+  --danger:        #ef4444;
+  --trace:         #faf5ff;
+  --trace-accent:  #c084fc;
+}
+
+/* Green Nature theme */
+[data-theme="green"] {
+  --bg:            #f0fdf4;
+  --surface:       #ffffff;
+  --surface-alt:   #dcfce7;
+  --ink:           #14532d;
+  --ink-soft:      #166534;
+  --accent:        #16a34a;
+  --accent-hover:  #15803d;
+  --border:        #bbf7d0;
+  --ok:            #22c55e;
+  --warn:          #eab308;
+  --danger:        #dc2626;
+  --trace:         #f0fdf4;
+  --trace-accent:  #4ade80;
+}
+
+/* Slate Professional theme */
+[data-theme="slate"] {
+  --bg:            #f8fafc;
+  --surface:       #ffffff;
+  --surface-alt:   #f1f5f9;
+  --ink:           #0f172a;
+  --ink-soft:      #475569;
+  --accent:        #0ea5e9;
+  --accent-hover:  #0284c7;
+  --border:        #e2e8f0;
+  --ok:            #22c55e;
+  --warn:          #f59e0b;
+  --danger:        #ef4444;
+  --trace:         #f8fafc;
+  --trace-accent:  #38bdf8;
+}

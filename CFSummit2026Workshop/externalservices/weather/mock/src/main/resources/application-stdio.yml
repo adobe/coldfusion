@@ -1,0 +1,26 @@
+# STDIO Transport Profile Configuration
+# Use with: java -jar weather-mock-service-1.0.0.jar --spring.profiles.active=stdio
+
+spring:
+  main:
+    web-application-type: none  # Disable HTTP server for STDIO mode
+    banner-mode: off            # No banner on stdout
+    log-startup-info: false     # No startup logs on stdout
+
+  application:
+    name: mock-weather-stdio-server
+
+# MCP Server Configuration
+spring.ai.mcp.server.name: mock-weather-server
+spring.ai.mcp.server.version: 1.0.0
+
+# Logging Configuration for STDIO
+# Console logging is disabled, all logs go to file
+logging:
+  pattern:
+    console:  # Empty pattern = no console logging
+  file:
+    name: ./logs/mock-weather-stdio-server.log
+  level:
+    root: DEBUG
+    mcp.server: DEBUG

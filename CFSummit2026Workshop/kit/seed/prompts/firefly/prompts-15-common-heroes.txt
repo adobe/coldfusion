@@ -1,0 +1,16 @@
+StyleMart Firefly Prompts — Common Heroes (site-wide editorial flat-lays)
+1 hero so far (home page); add more entries here as additional landing pages need imagery.
+Settings: Aspect Ratio = 4:3 (Landscape, ~1408x1024 source); Content type = Photo; Style = None.
+Drop path: StyleMart/assets/img/<filename>.png
+================================================================================
+
+--- PROMPT 001 of 01 ---
+SAVE AS: home-hero.png
+USE: Home page hero (replaces gradient placeholder in .hero__art slot)
+PROMPT:
+An editorial overhead flat-lay of a curated capsule wardrobe on a warm linen surface — two folded button-down shirts (one white, one chambray blue), a folded pair of indigo denim jeans, a folded pair of stone chinos, a pair of tan leather low-top sneakers, a brown leather card wallet, a folded merino wool scarf, and a pair of rectangular tortoiseshell sunglasses, arranged in a loose editorial grid on the right side of the frame. Soft natural overhead window light, generous negative space on the left of the frame, warm linen-beige textured surface, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 4:3 horizontal composition with negative space on the left for headline overlay, sharp focus on featured items, shallow depth of field at the edges, neutral warm color balance.
+
+NOTES:
+- Items chosen to mirror the catalog spine (shirts + jeans + pants + sneakers + accessories + sunglasses) so the homepage hero reads as a curated cross-section of what's for sale.
+- "Negative space on the left" puts the items on the right side of the image. The homepage layout (hero__copy on the left, hero__art on the right) means the headline text ends near the image's negative-space edge — visual flow stays balanced.
+- 4:3 was chosen to match the existing .hero__art slot (aspect-ratio: 4 / 3 in components.css). If you redesign to a full-bleed 16:9 hero later, regenerate with the 16:9 preset and update the CSS.

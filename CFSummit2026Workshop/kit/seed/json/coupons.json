@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "couponId": "cou_summit10",
+      "code": "SUMMIT10",
+      "type": "percentage",
+      "value": 10,
+      "currency": "USD",
+      "minSubtotalCents": 0,
+      "scopeCategories": null,
+      "excludesCategories": null,
+      "validFrom": "2026-04-27T00:00:00Z",
+      "validUntil": "2026-09-24T00:00:00Z",
+      "maxUses": null,
+      "perUserLimit": 1,
+      "active": true,
+      "description": "10% off your order, all attendees."
+    },
+    {
+      "couponId": "cou_welcome15",
+      "code": "WELCOME15",
+      "type": "percentage",
+      "value": 15,
+      "currency": "USD",
+      "minSubtotalCents": 7500,
+      "scopeCategories": null,
+      "excludesCategories": null,
+      "validFrom": "2026-05-13T00:00:00Z",
+      "validUntil": "2026-07-26T00:00:00Z",
+      "maxUses": 500,
+      "perUserLimit": 1,
+      "active": true,
+      "description": "15% off your first order over $75."
+    },
+    {
+      "couponId": "cou_jackets20",
+      "code": "JACKETS20",
+      "type": "percentage",
+      "value": 20,
+      "currency": "USD",
+      "minSubtotalCents": 0,
+      "scopeCategories": [
+        "jackets"
+      ],
+      "excludesCategories": null,
+      "validFrom": "2026-05-20T00:00:00Z",
+      "validUntil": "2026-06-26T00:00:00Z",
+      "maxUses": null,
+      "perUserLimit": 2,
+      "active": true,
+      "description": "20% off jackets and blazers."
+    }
+  ]
+}
