@@ -1,0 +1,12 @@
+order_id,user_id,status,total_cents,order_date,product_id,product_name,size,color,quantity,unit_price_cents
+"ord_ecd33f2507af7011a043aa9a7c9c0f3c","usr_demo_001","confirmed",3749,"2026-06-05","prd_01HZX0161A9D0","Sky Blue Crew Neck Tshirts","M","sky blue",1,3749
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX002DC84B","White Crew Neck Tshirts","S","white",2,3999
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX006E013F","Navy Crew Neck Tshirts","M","navy",1,3299
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX054AA876","Camel Trousers Pants","28","camel",1,8849
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX0573CF7C","White Chinos Pants","32","white",1,8849
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX1096EF12","Translucent Black Double Breasted Trench Raincoats","M","translucent black",1,16449
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX11761294","White Low Top Sneakers","10","white",1,13999
+"ord_ec80fdc2d02880f2165444ccc59aa143","usr_demo_001","confirmed",71003,"2026-06-05","prd_01HZX15734629","Stone Technical Travel Backpacks","ONE_SIZE","stone",1,19449
+"ord_8061c7feb657d30b04e0bb1af40aa434","usr_demo_001","confirmed",11339,"2026-06-03","prd_01HZX0161A9D0","Sky Blue Crew Neck Tshirts","M","sky blue",1,3749
+"ord_8061c7feb657d30b04e0bb1af40aa434","usr_demo_001","confirmed",11339,"2026-06-03","prd_01HZX027E5251","Dusty Blue Button Down Shirts","S","dusty blue",1,8849
+

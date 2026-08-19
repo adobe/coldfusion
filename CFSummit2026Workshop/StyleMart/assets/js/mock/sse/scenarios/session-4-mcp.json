@@ -1,0 +1,10 @@
+[
+  { "delayMs": 30, "event": { "type": "model.start", "payload": { "model": "stylemart-default" } } },
+  { "delayMs": 50, "event": { "type": "mcp.call", "payload": { "server": "stylemart-commerce-ops", "toolName": "getInventory", "args": { "productId": "prd_01HZX01T001", "size": "M", "color": "navy" }, "callId": "mcpcall_001", "transport": "stdio" } } },
+  { "delayMs": 90, "event": { "type": "mcp.result", "payload": { "callId": "mcpcall_001", "status": "ok", "durationMs": 42, "result": { "available": true, "quantity": 7 } } } },
+  { "delayMs": 60, "event": { "type": "mcp.call", "payload": { "server": "weather-mcp", "toolName": "getForecast", "args": { "city": "London", "days": 5 }, "callId": "mcpcall_002", "transport": "http" } } },
+  { "delayMs": 120, "event": { "type": "mcp.result", "payload": { "callId": "mcpcall_002", "status": "ok", "durationMs": 88, "result": { "summary": "Cool 8–14°C with occasional rain" } } } },
+  { "delayMs": 80, "event": { "type": "model.delta", "payload": { "text": "Navy blazer size M is in stock (7 left). London will be cool and rainy — a wool-blend is right." } } },
+  { "delayMs": 30, "event": { "type": "model.end", "payload": { "text": "Navy blazer size M is in stock (7 left). London will be cool and rainy — a wool-blend is right.", "tokens": {} } } },
+  { "delayMs": 80, "event": { "type": "done", "payload": { "status": "ok" } } }
+]

@@ -1,0 +1,221 @@
+StyleMart Firefly Prompts — Dresses (`dresses`)
+18 products × 2 images = 36 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 36 ---
+SAVE AS: dress_black_a-line_midi_01.png
+CATEGORY: dresses  (subcategory: a-line)  [primary]
+PROMPT:
+Black A-line midi jersey dress with V-neck and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 36 ---
+SAVE AS: dress_black_a-line_midi_01_back.png
+CATEGORY: dresses  (subcategory: a-line)  [secondary back]
+PROMPT:
+Back view of Black a-line midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 36 ---
+SAVE AS: dress_navy_sheath_knee-length_02.png
+CATEGORY: dresses  (subcategory: sheath)  [primary]
+PROMPT:
+Navy sheath knee-length jersey dress with crew neck and three-quarter sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 36 ---
+SAVE AS: dress_navy_sheath_knee-length_02_back.png
+CATEGORY: dresses  (subcategory: sheath)  [secondary back]
+PROMPT:
+Back view of Navy sheath knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 36 ---
+SAVE AS: dress_sage_wrap_midi_03.png
+CATEGORY: dresses  (subcategory: wrap)  [primary]
+PROMPT:
+Sage wrap midi jersey dress with wrap neckline and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 36 ---
+SAVE AS: dress_sage_wrap_midi_03_back.png
+CATEGORY: dresses  (subcategory: wrap)  [secondary back]
+PROMPT:
+Back view of Sage wrap midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 36 ---
+SAVE AS: dress_dusty-rose_shift_knee-length_04.png
+CATEGORY: dresses  (subcategory: shift)  [primary]
+PROMPT:
+Dusty Rose shift knee-length jersey dress with square neck and sleeveless, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 36 ---
+SAVE AS: dress_dusty-rose_shift_knee-length_04_back.png
+CATEGORY: dresses  (subcategory: shift)  [secondary back]
+PROMPT:
+Back view of Dusty Rose shift knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 36 ---
+SAVE AS: dress_terracotta_tiered_maxi_05.png
+CATEGORY: dresses  (subcategory: tiered)  [primary]
+PROMPT:
+Terracotta tiered maxi jersey dress with V-neck and long sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 36 ---
+SAVE AS: dress_terracotta_tiered_maxi_05_back.png
+CATEGORY: dresses  (subcategory: tiered)  [secondary back]
+PROMPT:
+Back view of Terracotta tiered maxi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 36 ---
+SAVE AS: dress_ivory_a-line_knee-length_06.png
+CATEGORY: dresses  (subcategory: a-line)  [primary]
+PROMPT:
+Ivory A-line knee-length jersey dress with crew neck and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 36 ---
+SAVE AS: dress_ivory_a-line_knee-length_06_back.png
+CATEGORY: dresses  (subcategory: a-line)  [secondary back]
+PROMPT:
+Back view of Ivory a-line knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 36 ---
+SAVE AS: dress_deep-teal_sheath_midi_07.png
+CATEGORY: dresses  (subcategory: sheath)  [primary]
+PROMPT:
+Deep Teal sheath midi jersey dress with square neck and sleeveless, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 36 ---
+SAVE AS: dress_deep-teal_sheath_midi_07_back.png
+CATEGORY: dresses  (subcategory: sheath)  [secondary back]
+PROMPT:
+Back view of Deep Teal sheath midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 36 ---
+SAVE AS: dress_burgundy_wrap_knee-length_08.png
+CATEGORY: dresses  (subcategory: wrap)  [primary]
+PROMPT:
+Burgundy wrap knee-length jersey dress with wrap neckline and three-quarter sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 36 ---
+SAVE AS: dress_burgundy_wrap_knee-length_08_back.png
+CATEGORY: dresses  (subcategory: wrap)  [secondary back]
+PROMPT:
+Back view of Burgundy wrap knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 36 ---
+SAVE AS: dress_charcoal_shift_midi_09.png
+CATEGORY: dresses  (subcategory: shift)  [primary]
+PROMPT:
+Charcoal shift midi jersey dress with V-neck and long sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 36 ---
+SAVE AS: dress_charcoal_shift_midi_09_back.png
+CATEGORY: dresses  (subcategory: shift)  [secondary back]
+PROMPT:
+Back view of Charcoal shift midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 36 ---
+SAVE AS: dress_coral_a-line_maxi_10.png
+CATEGORY: dresses  (subcategory: a-line)  [primary]
+PROMPT:
+Coral A-line maxi jersey dress with crew neck and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 36 ---
+SAVE AS: dress_coral_a-line_maxi_10_back.png
+CATEGORY: dresses  (subcategory: a-line)  [secondary back]
+PROMPT:
+Back view of Coral a-line maxi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 36 ---
+SAVE AS: dress_plum_sheath_knee-length_11.png
+CATEGORY: dresses  (subcategory: sheath)  [primary]
+PROMPT:
+Plum sheath knee-length jersey dress with square neck and three-quarter sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 36 ---
+SAVE AS: dress_plum_sheath_knee-length_11_back.png
+CATEGORY: dresses  (subcategory: sheath)  [secondary back]
+PROMPT:
+Back view of Plum sheath knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 36 ---
+SAVE AS: dress_olive_wrap_midi_12.png
+CATEGORY: dresses  (subcategory: wrap)  [primary]
+PROMPT:
+Olive wrap midi jersey dress with wrap neckline and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 36 ---
+SAVE AS: dress_olive_wrap_midi_12_back.png
+CATEGORY: dresses  (subcategory: wrap)  [secondary back]
+PROMPT:
+Back view of Olive wrap midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 36 ---
+SAVE AS: dress_midnight-blue_tiered_maxi_13.png
+CATEGORY: dresses  (subcategory: tiered)  [primary]
+PROMPT:
+Midnight Blue tiered maxi jersey dress with V-neck and long sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 36 ---
+SAVE AS: dress_midnight-blue_tiered_maxi_13_back.png
+CATEGORY: dresses  (subcategory: tiered)  [secondary back]
+PROMPT:
+Back view of Midnight Blue tiered maxi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 36 ---
+SAVE AS: dress_blush-pink_a-line_knee-length_14.png
+CATEGORY: dresses  (subcategory: a-line)  [primary]
+PROMPT:
+Blush Pink A-line knee-length jersey dress with crew neck and sleeveless, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 36 ---
+SAVE AS: dress_blush-pink_a-line_knee-length_14_back.png
+CATEGORY: dresses  (subcategory: a-line)  [secondary back]
+PROMPT:
+Back view of Blush Pink a-line knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 36 ---
+SAVE AS: dress_forest-green_sheath_midi_15.png
+CATEGORY: dresses  (subcategory: sheath)  [primary]
+PROMPT:
+Forest Green sheath midi jersey dress with square neck and short sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 36 ---
+SAVE AS: dress_forest-green_sheath_midi_15_back.png
+CATEGORY: dresses  (subcategory: sheath)  [secondary back]
+PROMPT:
+Back view of Forest Green sheath midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 36 ---
+SAVE AS: dress_mustard_shift_knee-length_16.png
+CATEGORY: dresses  (subcategory: shift)  [primary]
+PROMPT:
+Mustard shift knee-length jersey dress with V-neck and three-quarter sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 36 ---
+SAVE AS: dress_mustard_shift_knee-length_16_back.png
+CATEGORY: dresses  (subcategory: shift)  [secondary back]
+PROMPT:
+Back view of Mustard shift knee length dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 033 of 36 ---
+SAVE AS: dress_lavender_wrap_midi_17.png
+CATEGORY: dresses  (subcategory: wrap)  [primary]
+PROMPT:
+Lavender wrap midi jersey dress with wrap neckline and long sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 034 of 36 ---
+SAVE AS: dress_lavender_wrap_midi_17_back.png
+CATEGORY: dresses  (subcategory: wrap)  [secondary back]
+PROMPT:
+Back view of Lavender wrap midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 035 of 36 ---
+SAVE AS: dress_cream_tiered_midi_20.png
+CATEGORY: dresses  (subcategory: tiered)  [primary]
+PROMPT:
+Cream tiered midi jersey dress with V-neck and three-quarter sleeves, displayed on a minimal wooden hanger against the backdrop, fabric falling naturally with slight movement. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 036 of 36 ---
+SAVE AS: dress_cream_tiered_midi_20_back.png
+CATEGORY: dresses  (subcategory: tiered)  [secondary back]
+PROMPT:
+Back view of Cream tiered midi dress, displayed flat-lay top-down with back side facing up, back zip placket or open-back detail visible along the spine, hem fanned softly. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

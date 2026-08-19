@@ -1,0 +1,10 @@
+[
+  { "delayMs": 30, "event": { "type": "model.start", "payload": { "model": "stylemart-default", "params": { "temperature": 0.5 } } } },
+  { "delayMs": 40, "event": { "type": "memory.read", "payload": { "keys": ["topSize", "budget", "colors"], "values": { "topSize": "M", "budget": 500, "colors": ["navy", "gray", "beige"] } } } },
+  { "delayMs": 60, "event": { "type": "memory.write", "payload": { "key": "lastOccasion", "value": "London conference" } } },
+  { "delayMs": 80, "event": { "type": "preference.persist", "payload": { "schemaVersion": 1, "updatedAt": "2026-05-23T09:14:00Z" } } },
+  { "delayMs": 100, "event": { "type": "model.delta", "payload": { "text": "I remember — size M tops, $500 budget, neutral colors. " } } },
+  { "delayMs": 80, "event": { "type": "model.delta", "payload": { "text": "Want me to suggest a capsule for your London trip?" } } },
+  { "delayMs": 30, "event": { "type": "model.end", "payload": { "text": "I remember — size M tops, $500 budget, neutral colors. Want me to suggest a capsule for your London trip?", "tokens": {} } } },
+  { "delayMs": 80, "event": { "type": "done", "payload": { "status": "ok" } } }
+]

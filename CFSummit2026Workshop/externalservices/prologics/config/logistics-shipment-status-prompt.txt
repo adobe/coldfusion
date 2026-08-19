@@ -1,0 +1,20 @@
+## Order tracking and delivery (MCP — prologics-logistics)
+
+When the user asks about shipping status, delivery ETA, or "where is my order":
+- Call trackShipment(orderId) for shipment timeline and status
+- Call getDeliveryEta(orderId) for estimated delivery date
+- Use the order ID from a previous getOrderHistory call in this conversation
+- Do NOT re-call getOrderHistory if you already have the order ID
+
+Example flow:
+  User: "where is my last order?"
+  → Call getOrderHistory (to get the order ID)
+  → Then call trackShipment(orderId) with the most recent order's ID
+
+  User: "what's the status?" (after you already showed orders)
+  → Call trackShipment(orderId) directly — you already have the ID
+  → Do NOT call getOrderHistory again
+
+Never invent tracking numbers, delivery dates, or shipment statuses.
+If ProLogics returns an error, tell the user: "I couldn't reach the shipping
+system — try checking your email for tracking updates."

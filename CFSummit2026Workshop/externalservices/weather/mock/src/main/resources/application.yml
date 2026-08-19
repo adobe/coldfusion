@@ -1,0 +1,30 @@
+# Mock Weather Service Configuration - Default (HTTP) Profile
+# For STDIO mode, use: java -jar weather-mock-service-1.0.0.jar --spring.profiles.active=stdio
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mock-weather-service
+  main:
+    web-application-type: servlet  # HTTP server mode (default)
+    banner-mode: off
+    log-startup-info: true
+
+# MCP Server Configuration
+spring.ai.mcp.server:
+  name: mock-weather-server
+  version: 1.0.0
+  # Capability Configuration - Only Tools Enabled
+  capabilities:
+    tools:
+      enabled: true      # Enable tools capability
+    resources:
+      enabled: false     # Disable resources capability
+    prompts:
+      enabled: false     # Disable prompts capability
+
+# Logging Configuration
+# In HTTP mode: logs go to STDERR and file (configured in logback-spring.xml)
+# In STDIO mode: logs go to file only (configured in application-stdio.yml)

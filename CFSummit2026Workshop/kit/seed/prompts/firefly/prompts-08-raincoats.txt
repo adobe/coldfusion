@@ -1,0 +1,125 @@
+StyleMart Firefly Prompts — Raincoats (`raincoats`)
+10 products × 2 images = 20 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 20 ---
+SAVE AS: raincoat_olive_mid-length_packable_01.png
+CATEGORY: raincoats  (subcategory: packable)  [primary]
+PROMPT:
+Olive mid-length packable raincoat in recycled nylon shell, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 20 ---
+SAVE AS: raincoat_olive_mid-length_packable_01_back.png
+CATEGORY: raincoats  (subcategory: packable)  [secondary back]
+PROMPT:
+Back view of Olive mid length packable raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 20 ---
+SAVE AS: raincoat_navy_hip-length_technical-shell_02.png
+CATEGORY: raincoats  (subcategory: technical shell)  [primary]
+PROMPT:
+Navy hip-length technical shell raincoat in breathable membrane, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 20 ---
+SAVE AS: raincoat_navy_hip-length_technical-shell_02_back.png
+CATEGORY: raincoats  (subcategory: technical shell)  [secondary back]
+PROMPT:
+Back view of Navy hip length technical shell raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 20 ---
+SAVE AS: raincoat_translucent-black_longline_double-breasted-trench_03.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [primary]
+PROMPT:
+Translucent Black longline double-breasted trench raincoat in waxed cotton, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 20 ---
+SAVE AS: raincoat_translucent-black_longline_double-breasted-trench_03_back.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [secondary back]
+PROMPT:
+Back view of Translucent Black longline double breasted trench raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 20 ---
+SAVE AS: raincoat_sand_mid-length_packable_04.png
+CATEGORY: raincoats  (subcategory: packable)  [primary]
+PROMPT:
+Sand mid-length packable raincoat in recycled nylon shell, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 20 ---
+SAVE AS: raincoat_sand_mid-length_packable_04_back.png
+CATEGORY: raincoats  (subcategory: packable)  [secondary back]
+PROMPT:
+Back view of Sand mid length packable raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 20 ---
+SAVE AS: raincoat_slate-gray_hip-length_technical-shell_05.png
+CATEGORY: raincoats  (subcategory: technical shell)  [primary]
+PROMPT:
+Slate Gray hip-length technical shell raincoat in breathable membrane, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 20 ---
+SAVE AS: raincoat_slate-gray_hip-length_technical-shell_05_back.png
+CATEGORY: raincoats  (subcategory: technical shell)  [secondary back]
+PROMPT:
+Back view of Slate Gray hip length technical shell raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 20 ---
+SAVE AS: raincoat_butter-yellow_longline_packable_06.png
+CATEGORY: raincoats  (subcategory: packable)  [primary]
+PROMPT:
+Butter Yellow longline packable raincoat in recycled nylon shell, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 20 ---
+SAVE AS: raincoat_butter-yellow_longline_packable_06_back.png
+CATEGORY: raincoats  (subcategory: packable)  [secondary back]
+PROMPT:
+Back view of Butter Yellow longline packable raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 20 ---
+SAVE AS: raincoat_forest-green_mid-length_double-breasted-trench_07.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [primary]
+PROMPT:
+Forest Green mid-length double-breasted trench raincoat in waxed cotton, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 20 ---
+SAVE AS: raincoat_forest-green_mid-length_double-breasted-trench_07_back.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [secondary back]
+PROMPT:
+Back view of Forest Green mid length double breasted trench raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 20 ---
+SAVE AS: raincoat_charcoal_hip-length_packable_08.png
+CATEGORY: raincoats  (subcategory: packable)  [primary]
+PROMPT:
+Charcoal hip-length packable raincoat in recycled nylon shell, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 20 ---
+SAVE AS: raincoat_charcoal_hip-length_packable_08_back.png
+CATEGORY: raincoats  (subcategory: packable)  [secondary back]
+PROMPT:
+Back view of Charcoal hip length packable raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 20 ---
+SAVE AS: raincoat_midnight-blue_longline_technical-shell_09.png
+CATEGORY: raincoats  (subcategory: technical shell)  [primary]
+PROMPT:
+Midnight Blue longline technical shell raincoat in breathable membrane, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 20 ---
+SAVE AS: raincoat_midnight-blue_longline_technical-shell_09_back.png
+CATEGORY: raincoats  (subcategory: technical shell)  [secondary back]
+PROMPT:
+Back view of Midnight Blue longline technical shell raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 20 ---
+SAVE AS: raincoat_camel_mid-length_double-breasted-trench_10.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [primary]
+PROMPT:
+Camel mid-length double-breasted trench raincoat in waxed cotton, hung on a wooden hanger against the backdrop, three-quarter angle, hood visible, water-repellent surface texture rendered. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 20 ---
+SAVE AS: raincoat_camel_mid-length_double-breasted-trench_10_back.png
+CATEGORY: raincoats  (subcategory: double breasted trench)  [secondary back]
+PROMPT:
+Back view of Camel mid length double breasted trench raincoat, hung on a wooden hanger against the backdrop, photographed from behind, storm flap and center vent visible, water-repellent surface texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

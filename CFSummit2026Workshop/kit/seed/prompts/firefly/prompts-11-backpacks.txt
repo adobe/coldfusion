@@ -1,0 +1,149 @@
+StyleMart Firefly Prompts — Backpacks (`backpacks`)
+12 products × 2 images = 24 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 24 ---
+SAVE AS: backpack_black_minimalist-commuter_recycled-nylon_01.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [primary]
+PROMPT:
+Black minimalist commuter travel backpack in recycled nylon, with padded laptop sleeve panel, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 24 ---
+SAVE AS: backpack_black_minimalist-commuter_recycled-nylon_01_detail.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Black minimalist commuter backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and recycled nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 24 ---
+SAVE AS: backpack_charcoal_technical-travel_ripstop_02.png
+CATEGORY: backpacks  (subcategory: technical travel)  [primary]
+PROMPT:
+Charcoal technical travel travel backpack in ripstop, with double-zip main compartment, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 24 ---
+SAVE AS: backpack_charcoal_technical-travel_ripstop_02_detail.png
+CATEGORY: backpacks  (subcategory: technical travel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Charcoal technical travel backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and ripstop weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 24 ---
+SAVE AS: backpack_olive_daypack_waxed-canvas_03.png
+CATEGORY: backpacks  (subcategory: daypack)  [primary]
+PROMPT:
+Olive daypack travel backpack in waxed canvas, with stowable mesh side pockets, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 24 ---
+SAVE AS: backpack_olive_daypack_waxed-canvas_03_detail.png
+CATEGORY: backpacks  (subcategory: daypack)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Olive daypack backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and waxed canvas weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 24 ---
+SAVE AS: backpack_navy_roll-top_technical-mesh-and-nylon_04.png
+CATEGORY: backpacks  (subcategory: roll top)  [primary]
+PROMPT:
+Navy roll-top travel backpack in technical mesh and nylon, with ergonomic top handle, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 24 ---
+SAVE AS: backpack_navy_roll-top_technical-mesh-and-nylon_04_detail.png
+CATEGORY: backpacks  (subcategory: roll top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Navy roll top backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and technical mesh and nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 24 ---
+SAVE AS: backpack_sand_minimalist-commuter_recycled-nylon_05.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [primary]
+PROMPT:
+Sand minimalist commuter travel backpack in recycled nylon, with double-zip main compartment, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 24 ---
+SAVE AS: backpack_sand_minimalist-commuter_recycled-nylon_05_detail.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sand minimalist commuter backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and recycled nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 24 ---
+SAVE AS: backpack_slate_technical-travel_ripstop_06.png
+CATEGORY: backpacks  (subcategory: technical travel)  [primary]
+PROMPT:
+Slate technical travel travel backpack in ripstop, with padded laptop sleeve panel, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 24 ---
+SAVE AS: backpack_slate_technical-travel_ripstop_06_detail.png
+CATEGORY: backpacks  (subcategory: technical travel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Slate technical travel backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and ripstop weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 24 ---
+SAVE AS: backpack_forest-green_daypack_recycled-nylon_07.png
+CATEGORY: backpacks  (subcategory: daypack)  [primary]
+PROMPT:
+Forest Green daypack travel backpack in recycled nylon, with stowable mesh side pockets, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 24 ---
+SAVE AS: backpack_forest-green_daypack_recycled-nylon_07_detail.png
+CATEGORY: backpacks  (subcategory: daypack)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Forest Green daypack backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and recycled nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 24 ---
+SAVE AS: backpack_tan_minimalist-commuter_waxed-canvas_08.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [primary]
+PROMPT:
+Tan minimalist commuter travel backpack in waxed canvas, with ergonomic top handle, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 24 ---
+SAVE AS: backpack_tan_minimalist-commuter_waxed-canvas_08_detail.png
+CATEGORY: backpacks  (subcategory: minimalist commuter)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Tan minimalist commuter backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and waxed canvas weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 24 ---
+SAVE AS: backpack_graphite_roll-top_ripstop_09.png
+CATEGORY: backpacks  (subcategory: roll top)  [primary]
+PROMPT:
+Graphite roll-top travel backpack in ripstop, with double-zip main compartment, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 24 ---
+SAVE AS: backpack_graphite_roll-top_ripstop_09_detail.png
+CATEGORY: backpacks  (subcategory: roll top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Graphite roll top backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and ripstop weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 24 ---
+SAVE AS: backpack_burgundy_daypack_recycled-nylon_10.png
+CATEGORY: backpacks  (subcategory: daypack)  [primary]
+PROMPT:
+Burgundy daypack travel backpack in recycled nylon, with padded laptop sleeve panel, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 24 ---
+SAVE AS: backpack_burgundy_daypack_recycled-nylon_10_detail.png
+CATEGORY: backpacks  (subcategory: daypack)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Burgundy daypack backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and recycled nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 24 ---
+SAVE AS: backpack_stone_technical-travel_technical-mesh-and-nylon_11.png
+CATEGORY: backpacks  (subcategory: technical travel)  [primary]
+PROMPT:
+Stone technical travel travel backpack in technical mesh and nylon, with stowable mesh side pockets, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 24 ---
+SAVE AS: backpack_stone_technical-travel_technical-mesh-and-nylon_11_detail.png
+CATEGORY: backpacks  (subcategory: technical travel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Stone technical travel backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and technical mesh and nylon weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 24 ---
+SAVE AS: backpack_steel-blue_roll-top_ripstop_14.png
+CATEGORY: backpacks  (subcategory: roll top)  [primary]
+PROMPT:
+Steel Blue roll-top travel backpack in ripstop, with padded laptop sleeve panel, photographed standing upright at a slight three-quarter angle on the backdrop, straps neatly arranged, all hardware visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 24 ---
+SAVE AS: backpack_steel-blue_roll-top_ripstop_14_detail.png
+CATEGORY: backpacks  (subcategory: roll top)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Steel Blue roll top backpack front, focusing on the YKK zipper pull, stitched bartack reinforcement, and ripstop weave texture, hardware crisp in focus, three-quarter angle. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

@@ -1,0 +1,37 @@
+{
+  "tiers": [
+    {
+      "tierId": "tier_bronze",
+      "name": "Bronze",
+      "spendThresholdCents": 0,
+      "perks": [
+        "Free shipping over $75",
+        "Birthday gift"
+      ],
+      "sortOrder": 0
+    },
+    {
+      "tierId": "tier_silver",
+      "name": "Silver",
+      "spendThresholdCents": 50000,
+      "perks": [
+        "Free shipping",
+        "Early access to drops",
+        "Birthday gift"
+      ],
+      "sortOrder": 1
+    },
+    {
+      "tierId": "tier_gold",
+      "name": "Gold",
+      "spendThresholdCents": 150000,
+      "perks": [
+        "Free expedited shipping",
+        "Early access",
+        "Personal stylist chat",
+        "Birthday gift"
+      ],
+      "sortOrder": 2
+    }
+  ]
+}

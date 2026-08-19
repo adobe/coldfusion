@@ -1,0 +1,65 @@
+/* assets/css/theme-switcher.css — Theme switcher UI */
+
+.theme-switcher {
+  position: relative;
+}
+
+.theme-switcher__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft);
+  min-width: 220px;
+  z-index: 100;
+  padding: var(--sp-2);
+}
+
+.theme-switcher__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: var(--sp-3);
+  margin-bottom: var(--sp-1);
+  border-radius: var(--r-sm);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+}
+
+.theme-switcher__item:last-child {
+  margin-bottom: 0;
+}
+
+.theme-switcher__item:hover {
+  background: var(--surface-alt);
+  border-color: var(--accent);
+}
+
+.theme-switcher__item--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--surface);
+}
+
+.theme-switcher__item--active .theme-switcher__name,
+.theme-switcher__item--active .theme-switcher__desc {
+  color: var(--surface);
+}
+
+.theme-switcher__name {
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  margin-bottom: var(--sp-1);
+}
+
+.theme-switcher__desc {
+  font-size: var(--fs-xs);
+  color: var(--ink-soft);
+}

@@ -1,0 +1,12 @@
+[
+  { "delayMs": 30, "event": { "type": "model.start", "payload": { "model": "stylemart-default" } } },
+  { "delayMs": 60, "event": { "type": "tool.call", "payload": { "toolName": "searchCatalog", "kind": "cfc", "args": { "query": "navy blazer" }, "callId": "call_001" } } },
+  { "delayMs": 120, "event": { "type": "tool.result", "payload": { "callId": "call_001", "status": "ok", "durationMs": 87, "summary": "3 products found" } } },
+  { "delayMs": 80, "event": { "type": "tool.call", "payload": { "toolName": "addOutfitToCart", "kind": "cfc", "args": { "productIds": ["prd_01HZX01T001"], "reason": "navy blazer" }, "callId": "call_002" } } },
+  { "delayMs": 30, "event": { "type": "action.required", "payload": { "pendingActionId": "pen_01HZX001", "kind": "outfit-add", "summary": { "itemCount": 1, "subtotal": 189.00, "currency": "USD" }, "expiresAt": "2026-06-15T10:35:00Z" } } },
+  { "delayMs": 30, "event": { "type": "tool.result", "payload": { "callId": "call_002", "status": "staged", "durationMs": 156, "summary": "Outfit staged for confirmation" } } },
+  { "delayMs": 60, "event": { "type": "model.delta", "payload": { "text": "I've staged the navy blazer ($189, size M) for your cart. " } } },
+  { "delayMs": 60, "event": { "type": "model.delta", "payload": { "text": "Please confirm in the panel to add it." } } },
+  { "delayMs": 30, "event": { "type": "model.end", "payload": { "text": "I've staged the navy blazer ($189, size M) for your cart. Please confirm in the panel to add it.", "tokens": {} } } },
+  { "delayMs": 50, "event": { "type": "done", "payload": { "status": "ok" } } }
+]

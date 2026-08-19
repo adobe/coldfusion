@@ -1,0 +1,341 @@
+StyleMart Firefly Prompts — Accessories (`accessories`)
+28 products × 2 images = 56 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 56 ---
+SAVE AS: winter_navy_beanie_recycled-wool_04.png
+CATEGORY: accessories  (subcategory: beanie)  [primary]
+PROMPT:
+Navy midweight beanie in recycled wool, ribbed cuffs, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 56 ---
+SAVE AS: winter_navy_beanie_recycled-wool_04_detail.png
+CATEGORY: accessories  (subcategory: beanie)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Navy beanie accessory, close-up of the ribbed cuff and crown knit pattern, fiber texture and stitch loops crisp in focus, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 56 ---
+SAVE AS: winter_camel_scarf_brushed-alpaca_05.png
+CATEGORY: accessories  (subcategory: scarf)  [primary]
+PROMPT:
+Camel chunky scarf in brushed alpaca, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 56 ---
+SAVE AS: winter_camel_scarf_brushed-alpaca_05_detail.png
+CATEGORY: accessories  (subcategory: scarf)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Camel scarf accessory, close-up of the cable knit pattern and fringed edge, individual fibers visible, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 56 ---
+SAVE AS: winter_black_beanie_recycled-wool_09.png
+CATEGORY: accessories  (subcategory: beanie)  [primary]
+PROMPT:
+Black midweight beanie in recycled wool, ribbed cuffs, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 56 ---
+SAVE AS: winter_black_beanie_recycled-wool_09_detail.png
+CATEGORY: accessories  (subcategory: beanie)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Black beanie accessory, close-up of the ribbed cuff and crown knit pattern, fiber texture and stitch loops crisp in focus, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 56 ---
+SAVE AS: winter_deep-teal_scarf_merino-wool_10.png
+CATEGORY: accessories  (subcategory: scarf)  [primary]
+PROMPT:
+Deep Teal lightweight scarf in merino wool, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 56 ---
+SAVE AS: winter_deep-teal_scarf_merino-wool_10_detail.png
+CATEGORY: accessories  (subcategory: scarf)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Deep Teal scarf accessory, close-up of the cable knit pattern and fringed edge, individual fibers visible, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 56 ---
+SAVE AS: winter_olive_beanie_cashmere-blend_14.png
+CATEGORY: accessories  (subcategory: beanie)  [primary]
+PROMPT:
+Olive lightweight beanie in cashmere blend, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 56 ---
+SAVE AS: winter_olive_beanie_cashmere-blend_14_detail.png
+CATEGORY: accessories  (subcategory: beanie)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Olive beanie accessory, close-up of the ribbed cuff and crown knit pattern, fiber texture and stitch loops crisp in focus, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 56 ---
+SAVE AS: winter_wine_scarf_recycled-wool_15.png
+CATEGORY: accessories  (subcategory: scarf)  [primary]
+PROMPT:
+Wine chunky scarf in recycled wool, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 56 ---
+SAVE AS: winter_wine_scarf_recycled-wool_15_detail.png
+CATEGORY: accessories  (subcategory: scarf)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Wine scarf accessory, close-up of the cable knit pattern and fringed edge, individual fibers visible, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 56 ---
+SAVE AS: winter_espresso_beanie_merino-wool_19.png
+CATEGORY: accessories  (subcategory: beanie)  [primary]
+PROMPT:
+Espresso midweight beanie in merino wool, ribbed cuffs, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 56 ---
+SAVE AS: winter_espresso_beanie_merino-wool_19_detail.png
+CATEGORY: accessories  (subcategory: beanie)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Espresso beanie accessory, close-up of the ribbed cuff and crown knit pattern, fiber texture and stitch loops crisp in focus, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 56 ---
+SAVE AS: winter_sage_scarf_cashmere-blend_20.png
+CATEGORY: accessories  (subcategory: scarf)  [primary]
+PROMPT:
+Sage lightweight scarf in cashmere blend, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 56 ---
+SAVE AS: winter_sage_scarf_cashmere-blend_20_detail.png
+CATEGORY: accessories  (subcategory: scarf)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sage scarf accessory, close-up of the cable knit pattern and fringed edge, individual fibers visible, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 56 ---
+SAVE AS: travel_compact_black_ripstop-nylon_01.png
+CATEGORY: accessories  (subcategory: umbrella)  [primary]
+PROMPT:
+Compact Travel Umbrella (Closed) in black ripstop nylon, zip pulls visible, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 56 ---
+SAVE AS: travel_compact_black_ripstop-nylon_01_detail.png
+CATEGORY: accessories  (subcategory: umbrella)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Black umbrella accessory, close-up of the canopy seam, tip cap, and ripstop fabric weave, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 56 ---
+SAVE AS: travel_set_charcoal_recycled-polyester_02.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [primary]
+PROMPT:
+Set Of Three Packing Cubes in charcoal recycled polyester, mesh window panels, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 56 ---
+SAVE AS: travel_set_charcoal_recycled-polyester_02_detail.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Charcoal packing cubes accessory, close-up of the YKK zipper, webbing handle, and ripstop fabric panel, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 56 ---
+SAVE AS: travel_merino_olive_merino-wool_03.png
+CATEGORY: accessories  (subcategory: socks)  [primary]
+PROMPT:
+Merino Travel Socks in olive merino wool, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 56 ---
+SAVE AS: travel_merino_olive_merino-wool_03_detail.png
+CATEGORY: accessories  (subcategory: socks)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Olive socks accessory, close-up of the heel reinforcement and ribbed cuff, knit grid sharply focused, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 56 ---
+SAVE AS: travel_leather_navy_full-grain-leather_04.png
+CATEGORY: accessories  (subcategory: wallet)  [primary]
+PROMPT:
+Leather Card Wallet in navy full-grain leather, woven label, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 56 ---
+SAVE AS: travel_leather_navy_full-grain-leather_04_detail.png
+CATEGORY: accessories  (subcategory: wallet)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Navy wallet accessory, close-up of the corner stitch, beveled edge finishing, and full-grain leather texture, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 56 ---
+SAVE AS: travel_microfiber_sand_microfiber_05.png
+CATEGORY: accessories  (subcategory: towel)  [primary]
+PROMPT:
+Microfiber Travel Towel in sand microfiber, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 56 ---
+SAVE AS: travel_microfiber_sand_microfiber_05_detail.png
+CATEGORY: accessories  (subcategory: towel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sand towel accessory, close-up of the looped pile texture and stitched edge binding, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 56 ---
+SAVE AS: travel_travel_slate_recycled-polyester_06.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [primary]
+PROMPT:
+Travel Cable Organizer Pouch in slate recycled polyester, zip pulls visible, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 56 ---
+SAVE AS: travel_travel_slate_recycled-polyester_06_detail.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Slate cable organizer accessory, close-up of the elastic loop array, zipper teeth, and webbing handle, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 029 of 56 ---
+SAVE AS: travel_compact_forest-green_ripstop-nylon_07.png
+CATEGORY: accessories  (subcategory: umbrella)  [primary]
+PROMPT:
+Compact Travel Umbrella (Closed) in forest green ripstop nylon, mesh window panels, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 030 of 56 ---
+SAVE AS: travel_compact_forest-green_ripstop-nylon_07_detail.png
+CATEGORY: accessories  (subcategory: umbrella)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Forest Green umbrella accessory, close-up of the canopy seam, tip cap, and ripstop fabric weave, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 031 of 56 ---
+SAVE AS: travel_set_tan_recycled-polyester_08.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [primary]
+PROMPT:
+Set Of Three Packing Cubes in tan recycled polyester, woven label, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 032 of 56 ---
+SAVE AS: travel_set_tan_recycled-polyester_08_detail.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Tan packing cubes accessory, close-up of the YKK zipper, webbing handle, and ripstop fabric panel, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 033 of 56 ---
+SAVE AS: travel_merino_graphite_merino-wool_09.png
+CATEGORY: accessories  (subcategory: socks)  [primary]
+PROMPT:
+Merino Travel Socks in graphite merino wool, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 034 of 56 ---
+SAVE AS: travel_merino_graphite_merino-wool_09_detail.png
+CATEGORY: accessories  (subcategory: socks)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Graphite socks accessory, close-up of the heel reinforcement and ribbed cuff, knit grid sharply focused, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 035 of 56 ---
+SAVE AS: travel_leather_burgundy_full-grain-leather_10.png
+CATEGORY: accessories  (subcategory: wallet)  [primary]
+PROMPT:
+Leather Card Wallet in burgundy full-grain leather, zip pulls visible, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 036 of 56 ---
+SAVE AS: travel_leather_burgundy_full-grain-leather_10_detail.png
+CATEGORY: accessories  (subcategory: wallet)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Burgundy wallet accessory, close-up of the corner stitch, beveled edge finishing, and full-grain leather texture, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 037 of 56 ---
+SAVE AS: travel_microfiber_stone_microfiber_11.png
+CATEGORY: accessories  (subcategory: towel)  [primary]
+PROMPT:
+Microfiber Travel Towel in stone microfiber, mesh window panels, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 038 of 56 ---
+SAVE AS: travel_microfiber_stone_microfiber_11_detail.png
+CATEGORY: accessories  (subcategory: towel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Stone towel accessory, close-up of the looped pile texture and stitched edge binding, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 039 of 56 ---
+SAVE AS: travel_travel_midnight-blue_recycled-polyester_12.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [primary]
+PROMPT:
+Travel Cable Organizer Pouch in midnight blue recycled polyester, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 040 of 56 ---
+SAVE AS: travel_travel_midnight-blue_recycled-polyester_12_detail.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Midnight Blue cable organizer accessory, close-up of the elastic loop array, zipper teeth, and webbing handle, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 041 of 56 ---
+SAVE AS: travel_compact_camel_ripstop-nylon_13.png
+CATEGORY: accessories  (subcategory: umbrella)  [primary]
+PROMPT:
+Compact Travel Umbrella (Closed) in camel ripstop nylon, woven label, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 042 of 56 ---
+SAVE AS: travel_compact_camel_ripstop-nylon_13_detail.png
+CATEGORY: accessories  (subcategory: umbrella)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Camel umbrella accessory, close-up of the canopy seam, tip cap, and ripstop fabric weave, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 043 of 56 ---
+SAVE AS: travel_set_steel-blue_recycled-polyester_14.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [primary]
+PROMPT:
+Set Of Three Packing Cubes in steel blue recycled polyester, zip pulls visible, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 044 of 56 ---
+SAVE AS: travel_set_steel-blue_recycled-polyester_14_detail.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Steel Blue packing cubes accessory, close-up of the YKK zipper, webbing handle, and ripstop fabric panel, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 045 of 56 ---
+SAVE AS: travel_merino_espresso_merino-wool_15.png
+CATEGORY: accessories  (subcategory: socks)  [primary]
+PROMPT:
+Merino Travel Socks in espresso merino wool, mesh window panels, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 046 of 56 ---
+SAVE AS: travel_merino_espresso_merino-wool_15_detail.png
+CATEGORY: accessories  (subcategory: socks)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Espresso socks accessory, close-up of the heel reinforcement and ribbed cuff, knit grid sharply focused, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 047 of 56 ---
+SAVE AS: travel_leather_sage_full-grain-leather_16.png
+CATEGORY: accessories  (subcategory: wallet)  [primary]
+PROMPT:
+Leather Card Wallet in sage full-grain leather, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 048 of 56 ---
+SAVE AS: travel_leather_sage_full-grain-leather_16_detail.png
+CATEGORY: accessories  (subcategory: wallet)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sage wallet accessory, close-up of the corner stitch, beveled edge finishing, and full-grain leather texture, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 049 of 56 ---
+SAVE AS: travel_microfiber_pewter_microfiber_17.png
+CATEGORY: accessories  (subcategory: towel)  [primary]
+PROMPT:
+Microfiber Travel Towel in pewter microfiber, woven label, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 050 of 56 ---
+SAVE AS: travel_microfiber_pewter_microfiber_17_detail.png
+CATEGORY: accessories  (subcategory: towel)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Pewter towel accessory, close-up of the looped pile texture and stitched edge binding, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 051 of 56 ---
+SAVE AS: travel_travel_rust_recycled-polyester_18.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [primary]
+PROMPT:
+Travel Cable Organizer Pouch in rust recycled polyester, zip pulls visible, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 052 of 56 ---
+SAVE AS: travel_travel_rust_recycled-polyester_18_detail.png
+CATEGORY: accessories  (subcategory: cable-organizer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Rust cable organizer accessory, close-up of the elastic loop array, zipper teeth, and webbing handle, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 053 of 56 ---
+SAVE AS: travel_compact_ivory_ripstop-nylon_19.png
+CATEGORY: accessories  (subcategory: umbrella)  [primary]
+PROMPT:
+Compact Travel Umbrella (Closed) in ivory ripstop nylon, contrast stitching, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 054 of 56 ---
+SAVE AS: travel_compact_ivory_ripstop-nylon_19_detail.png
+CATEGORY: accessories  (subcategory: umbrella)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Ivory umbrella accessory, close-up of the canopy seam, tip cap, and ripstop fabric weave, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 055 of 56 ---
+SAVE AS: travel_set_teal_recycled-polyester_20.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [primary]
+PROMPT:
+Set Of Three Packing Cubes in teal recycled polyester, mesh window panels, displayed flat-lay top-down on the backdrop, neatly arranged with hardware and stitching visible. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 056 of 56 ---
+SAVE AS: travel_set_teal_recycled-polyester_20_detail.png
+CATEGORY: accessories  (subcategory: packing-cubes)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Teal packing cubes accessory, close-up of the YKK zipper, webbing handle, and ripstop fabric panel, soft directional light, sharp focus. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

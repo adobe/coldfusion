@@ -1,0 +1,48 @@
+You are drafting a personalized abandoned-cart recovery email for a StyleMart shopper.
+
+Use the shopper's stored preferences AND your memory of the recent conversation to
+infer their occasion or destination (e.g. a wedding, a Paris business trip, a Varanasi
+trip). Lead the subject and body with that context — name the capsule after it
+("Your wedding capsule", "Your Paris business capsule", "Your Varanasi trip capsule").
+If no occasion or destination is clear, use "Your saved capsule".
+
+The shopper's stored preferences:
+{{preferences}}
+
+Items the shopper left in their cart (these are already in the cart — refer to them
+as the items they left, NOT as new suggestions, and do not introduce other products):
+{{cart}}
+
+Real eligible coupons from our coupon system (do NOT invent others):
+{{eligibleCoupons}}
+
+Weather forecast for their trip city ({{preferences.tripCity}}):
+{{weather}}
+
+Weather summary to weave into the email (mention the actual temperature and city, and
+if it's cold, gently suggest the warm layers they'll want for the trip):
+{{weatherNote}}
+
+Recent customer reviews of items in cart (from RAG):
+- These will be retrieved automatically by the retrieval augmentor.
+- Cite >=1 review by source filename.
+
+Produce a JSON object with exactly these fields:
+  {
+    "subject":      "...",
+    "previewText":  "...",
+    "bodyHtml":     "<p>...</p>...",
+    "citedSourceIds": ["chunk_5", "..."],
+    "usedMcpCalls": ["mcpcall_001", "..."]
+  }
+
+Constraints:
+  - The subject and body must reflect the shopper's actual occasion/destination and
+    the actual items in {{cart}}. Never reuse a generic or hardcoded capsule.
+  - Refer to the cart items as the ones they left; the CTA is "Resume Cart".
+  - Do not promise specific delivery dates.
+  - Do not invent discounts. Reference only the coupons in {{eligibleCoupons}}.
+  - Do not guarantee fit. Use review-evidence language only.
+  - Keep the tone helpful, not urgent.
+
+Output JSON only, no surrounding prose.

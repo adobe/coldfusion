@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "userId": "usr_demo_001",
+      "username": "jordan",
+      "email": "jordan@example.com",
+      "firstName": "Jordan",
+      "lastName": "Lee",
+      "tierId": "tier_silver",
+      "createdAt": "2026-01-27T00:00:00Z"
+    },
+    {
+      "userId": "usr_demo_002",
+      "username": "sam",
+      "email": "sam@example.com",
+      "firstName": "Sam",
+      "lastName": "Patel",
+      "tierId": "tier_bronze",
+      "createdAt": "2026-03-28T00:00:00Z"
+    },
+    {
+      "userId": "usr_demo_003",
+      "username": "riley",
+      "email": "riley@example.com",
+      "firstName": "Riley",
+      "lastName": "Chen",
+      "tierId": "tier_gold",
+      "createdAt": "2025-04-22T00:00:00Z"
+    },
+    {
+      "userId": "usr_demo_004",
+      "username": "alex",
+      "email": "alex@example.com",
+      "firstName": "Alex",
+      "lastName": "Nguyen",
+      "tierId": "tier_silver",
+      "createdAt": "2025-11-28T00:00:00Z"
+    },
+    {
+      "userId": "usr_demo_005",
+      "username": "morgan",
+      "email": "morgan@example.com",
+      "firstName": "Morgan",
+      "lastName": "Garcia",
+      "tierId": "tier_bronze",
+      "createdAt": "2026-04-27T00:00:00Z"
+    }
+  ]
+}

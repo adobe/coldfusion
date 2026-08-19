@@ -1,0 +1,62 @@
+{
+  "usr_demo_001": {
+    "shopperId": "usr_demo_001",
+    "userId": "usr_demo_001",
+    "username": "jordan",
+    "displayName": "Jordan Lee",
+    "firstName": "Jordan",
+    "lastName": "Lee",
+    "email": "jordan@example.com",
+    "loyaltyTier": "silver",
+    "loyaltyTierId": "tier_silver",
+    "memberSince": "2026-01-27T00:00:00Z"
+  },
+  "usr_demo_002": {
+    "shopperId": "usr_demo_002",
+    "userId": "usr_demo_002",
+    "username": "sam",
+    "displayName": "Sam Patel",
+    "firstName": "Sam",
+    "lastName": "Patel",
+    "email": "sam@example.com",
+    "loyaltyTier": "bronze",
+    "loyaltyTierId": "tier_bronze",
+    "memberSince": "2026-03-28T00:00:00Z"
+  },
+  "usr_demo_003": {
+    "shopperId": "usr_demo_003",
+    "userId": "usr_demo_003",
+    "username": "riley",
+    "displayName": "Riley Chen",
+    "firstName": "Riley",
+    "lastName": "Chen",
+    "email": "riley@example.com",
+    "loyaltyTier": "gold",
+    "loyaltyTierId": "tier_gold",
+    "memberSince": "2025-04-22T00:00:00Z"
+  },
+  "usr_demo_004": {
+    "shopperId": "usr_demo_004",
+    "userId": "usr_demo_004",
+    "username": "alex",
+    "displayName": "Alex Nguyen",
+    "firstName": "Alex",
+    "lastName": "Nguyen",
+    "email": "alex@example.com",
+    "loyaltyTier": "silver",
+    "loyaltyTierId": "tier_silver",
+    "memberSince": "2025-11-28T00:00:00Z"
+  },
+  "usr_demo_005": {
+    "shopperId": "usr_demo_005",
+    "userId": "usr_demo_005",
+    "username": "morgan",
+    "displayName": "Morgan Garcia",
+    "firstName": "Morgan",
+    "lastName": "Garcia",
+    "email": "morgan@example.com",
+    "loyaltyTier": "bronze",
+    "loyaltyTierId": "tier_bronze",
+    "memberSince": "2026-04-27T00:00:00Z"
+  }
+}

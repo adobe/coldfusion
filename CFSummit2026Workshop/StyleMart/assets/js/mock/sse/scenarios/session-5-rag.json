@@ -1,0 +1,16 @@
+[
+  { "delayMs": 20, "event": { "type": "model.start", "payload": { "model": "gpt-4o-mini" } } },
+  { "delayMs": 30, "event": { "type": "memory.read", "payload": { "messages": "managed-by-agent" } } },
+  { "delayMs": 50, "event": { "type": "retrieval.start", "payload": { "query": "fabric care wool blazer machine wash", "loaders": ["pdf", "csv"], "splitter": "recursive", "chunkSize": 500, "chunkOverlap": 100, "maxResults": 4, "minScore": 0.5, "metadataFilter": {} } } },
+  { "delayMs": 80, "event": { "type": "retrieval.hit", "payload": { "chunkId": "chunk_wool_care_01", "score": 0.81, "metadata": { "docType": "policy", "source": "wool-care.pdf", "file_name": "wool-care.pdf" }, "snippet": "Wool-blend jackets can be machine-washed on a cold/delicate cycle (30C or below). Use a mesh laundry bag to prevent snagging." } } },
+  { "delayMs": 40, "event": { "type": "retrieval.hit", "payload": { "chunkId": "chunk_wool_care_02", "score": 0.74, "metadata": { "docType": "policy", "source": "wool-care.pdf", "file_name": "wool-care.pdf" }, "snippet": "Tumble dry on low heat for no more than 10 minutes, then reshape while damp and lay flat to finish drying." } } },
+  { "delayMs": 40, "event": { "type": "retrieval.hit", "payload": { "chunkId": "chunk_size_guide_01", "score": 0.65, "metadata": { "docType": "policy", "source": "size-guide-tops.pdf", "file_name": "size-guide-tops.pdf" }, "snippet": "Size M tops fit a chest of 38-40 inches. Regular fit: standard cut with moderate ease." } } },
+  { "delayMs": 40, "event": { "type": "retrieval.hit", "payload": { "chunkId": "chunk_returns_01", "score": 0.63, "metadata": { "docType": "policy", "source": "returns-policy.pdf", "file_name": "returns-policy.pdf" }, "snippet": "All items may be returned within 30 days of delivery for a full refund. Items must be unworn with tags attached." } } },
+  { "delayMs": 80, "event": { "type": "model.delta", "payload": { "text": "Yes! Wool-blend jackets like the Travel Blazer can be machine-washed " } } },
+  { "delayMs": 60, "event": { "type": "model.delta", "payload": { "text": "on a cold/delicate cycle — just use a mesh bag to prevent snagging. " } } },
+  { "delayMs": 60, "event": { "type": "model.delta", "payload": { "text": "Tumble dry on low for 10 minutes max, then reshape while damp (source: wool-care.pdf). " } } },
+  { "delayMs": 60, "event": { "type": "model.delta", "payload": { "text": "And if the fit isn't right, you have 30 days to return it unworn (source: returns-policy.pdf)." } } },
+  { "delayMs": 30, "event": { "type": "model.end", "payload": { "text": "Yes! Wool-blend jackets like the Travel Blazer can be machine-washed on a cold/delicate cycle — just use a mesh bag to prevent snagging. Tumble dry on low for 10 minutes max, then reshape while damp (source: wool-care.pdf). And if the fit isn't right, you have 30 days to return it unworn (source: returns-policy.pdf).", "tokens": { "input": 1842, "output": 67 } } } },
+  { "delayMs": 20, "event": { "type": "memory.write", "payload": { "messages": "appended-by-agent" } } },
+  { "delayMs": 30, "event": { "type": "done", "payload": { "status": "ok" } } }
+]

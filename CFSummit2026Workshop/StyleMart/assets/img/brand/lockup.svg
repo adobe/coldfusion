@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" role="img" aria-label="StyleMart">
+  <title>StyleMart</title>
+  <rect x="2" y="2" width="28" height="28" rx="3"
+        fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="16" y="24"
+        font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+        font-size="22" font-style="italic" font-weight="700"
+        fill="currentColor" text-anchor="middle" letter-spacing="-0.5">S</text>
+  <text x="40" y="24"
+        font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+        font-size="22" font-style="italic" font-weight="700"
+        fill="currentColor" letter-spacing="0.5">StyleMart</text>
+</svg>

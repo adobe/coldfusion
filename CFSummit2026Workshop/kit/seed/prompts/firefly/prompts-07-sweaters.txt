@@ -1,0 +1,173 @@
+StyleMart Firefly Prompts — Sweaters & Cardigans (`sweaters`)
+14 products × 2 images = 28 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 28 ---
+SAVE AS: winter_charcoal_crew-neck-sweater_merino-wool_01.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [primary]
+PROMPT:
+Charcoal midweight crew-neck sweater in merino wool, ribbed cuffs, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 28 ---
+SAVE AS: winter_charcoal_crew-neck-sweater_merino-wool_01_back.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [secondary back]
+PROMPT:
+Back view of Charcoal crew neck sweater in merino wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 28 ---
+SAVE AS: winter_oatmeal_half-zip-pullover_lambswool_02.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [primary]
+PROMPT:
+Oatmeal chunky half-zip pullover in lambswool, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 28 ---
+SAVE AS: winter_oatmeal_half-zip-pullover_lambswool_02_back.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [secondary back]
+PROMPT:
+Back view of Oatmeal half zip pullover in lambswool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 28 ---
+SAVE AS: winter_forest-green_cardigan_cashmere-blend_03.png
+CATEGORY: sweaters  (subcategory: cardigan)  [primary]
+PROMPT:
+Forest Green lightweight cardigan in cashmere blend, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 28 ---
+SAVE AS: winter_forest-green_cardigan_cashmere-blend_03_back.png
+CATEGORY: sweaters  (subcategory: cardigan)  [secondary back]
+PROMPT:
+Back view of Forest Green cardigan in cashmere blend, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 28 ---
+SAVE AS: winter_burgundy_crew-neck-sweater_merino-wool_06.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [primary]
+PROMPT:
+Burgundy midweight crew-neck sweater in merino wool, raglan sleeve, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 28 ---
+SAVE AS: winter_burgundy_crew-neck-sweater_merino-wool_06_back.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [secondary back]
+PROMPT:
+Back view of Burgundy crew neck sweater in merino wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 28 ---
+SAVE AS: winter_slate_half-zip-pullover_lambswool_07.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [primary]
+PROMPT:
+Slate lightweight half-zip pullover in lambswool, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 28 ---
+SAVE AS: winter_slate_half-zip-pullover_lambswool_07_back.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [secondary back]
+PROMPT:
+Back view of Slate half zip pullover in lambswool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 28 ---
+SAVE AS: winter_cream_cardigan_cashmere-blend_08.png
+CATEGORY: sweaters  (subcategory: cardigan)  [primary]
+PROMPT:
+Cream chunky cardigan in cashmere blend, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 28 ---
+SAVE AS: winter_cream_cardigan_cashmere-blend_08_back.png
+CATEGORY: sweaters  (subcategory: cardigan)  [secondary back]
+PROMPT:
+Back view of Cream cardigan in cashmere blend, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 28 ---
+SAVE AS: winter_rust_crew-neck-sweater_lambswool_11.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [primary]
+PROMPT:
+Rust midweight crew-neck sweater in lambswool, raglan sleeve, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 28 ---
+SAVE AS: winter_rust_crew-neck-sweater_lambswool_11_back.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [secondary back]
+PROMPT:
+Back view of Rust crew neck sweater in lambswool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 28 ---
+SAVE AS: winter_graphite_half-zip-pullover_brushed-alpaca_12.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [primary]
+PROMPT:
+Graphite chunky half-zip pullover in brushed alpaca, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 28 ---
+SAVE AS: winter_graphite_half-zip-pullover_brushed-alpaca_12_back.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [secondary back]
+PROMPT:
+Back view of Graphite half zip pullover in brushed alpaca, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 28 ---
+SAVE AS: winter_ivory_cardigan_merino-wool_13.png
+CATEGORY: sweaters  (subcategory: cardigan)  [primary]
+PROMPT:
+Ivory midweight cardigan in merino wool, ribbed cuffs, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 28 ---
+SAVE AS: winter_ivory_cardigan_merino-wool_13_back.png
+CATEGORY: sweaters  (subcategory: cardigan)  [secondary back]
+PROMPT:
+Back view of Ivory cardigan in merino wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 28 ---
+SAVE AS: winter_steel-blue_crew-neck-sweater_merino-wool_16.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [primary]
+PROMPT:
+Steel Blue midweight crew-neck sweater in merino wool, raglan sleeve, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 28 ---
+SAVE AS: winter_steel-blue_crew-neck-sweater_merino-wool_16_back.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [secondary back]
+PROMPT:
+Back view of Steel Blue crew neck sweater in merino wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 28 ---
+SAVE AS: winter_mustard_half-zip-pullover_lambswool_17.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [primary]
+PROMPT:
+Mustard lightweight half-zip pullover in lambswool, fine gauge knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 28 ---
+SAVE AS: winter_mustard_half-zip-pullover_lambswool_17_back.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [secondary back]
+PROMPT:
+Back view of Mustard half zip pullover in lambswool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 28 ---
+SAVE AS: winter_plum_cardigan_brushed-alpaca_18.png
+CATEGORY: sweaters  (subcategory: cardigan)  [primary]
+PROMPT:
+Plum chunky cardigan in brushed alpaca, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 28 ---
+SAVE AS: winter_plum_cardigan_brushed-alpaca_18_back.png
+CATEGORY: sweaters  (subcategory: cardigan)  [secondary back]
+PROMPT:
+Back view of Plum cardigan in brushed alpaca, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 28 ---
+SAVE AS: winter_maroon_crew-neck-sweater_recycled-wool_21.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [primary]
+PROMPT:
+Maroon midweight crew-neck sweater in recycled wool, raglan sleeve, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 28 ---
+SAVE AS: winter_maroon_crew-neck-sweater_recycled-wool_21_back.png
+CATEGORY: sweaters  (subcategory: crew-neck-sweater)  [secondary back]
+PROMPT:
+Back view of Maroon crew neck sweater in recycled wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 28 ---
+SAVE AS: winter_pebble-gray_half-zip-pullover_merino-wool_22.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [primary]
+PROMPT:
+Pebble Gray chunky half-zip pullover in merino wool, cable knit, displayed flat-lay on the backdrop, neatly folded with visible knit pattern and fiber texture. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 28 ---
+SAVE AS: winter_pebble-gray_half-zip-pullover_merino-wool_22_back.png
+CATEGORY: sweaters  (subcategory: half-zip-pullover)  [secondary back]
+PROMPT:
+Back view of Pebble Gray half zip pullover in merino wool, displayed flat-lay top-down with back side facing up, knit pattern and ribbed hem visible, neatly folded with subtle drape. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

@@ -1,0 +1,95 @@
+StyleMart Firefly Prompts — Category Hero Banners (16:9 Lifestyle)
+15 category banners (13 leaf + 2 parent)
+Settings: Aspect Ratio = 16:9 (Widescreen, 1792x1024 source; upscale to 1920x1080 for /static/img/cat-*.png)
+================================================================================
+
+--- PROMPT 001 of 15 ---
+SAVE AS: cat-tshirts.png
+CATEGORY HERO: tshirts
+PROMPT:
+An oak side table with a neat stack of three folded t-shirts in cream, navy, and sage green, a leather watchband resting on top, soft window light from the left, warm minimalist styling on a warm light gray wall. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 002 of 15 ---
+SAVE AS: cat-shirts.png
+CATEGORY HERO: shirts
+PROMPT:
+An open oak shelving unit with three neatly folded button-down shirts in white, soft pink, and chambray blue arranged on the middle shelf, a single dried botanical sprig in a small ceramic vessel beside them, soft side window light, warm light gray wall behind. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 003 of 15 ---
+SAVE AS: cat-jeans.png
+CATEGORY HERO: jeans
+PROMPT:
+A simple oak wooden chair with a folded pair of indigo denim jeans draped over the seat, a tan leather belt coiled on top, soft afternoon window light, warm light gray wall behind, premium minimalist composition. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 004 of 15 ---
+SAVE AS: cat-pants.png
+CATEGORY HERO: pants
+PROMPT:
+A wooden valet stand with a neatly folded pair of stone chinos and a pair of brown leather loafers placed on the floor below, soft directional window light from the right, warm light gray wall, refined minimalist palette. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 005 of 15 ---
+SAVE AS: cat-jackets.png
+CATEGORY HERO: jackets
+PROMPT:
+A rustic oak coat rack with three blazers hung in earthy tones (charcoal, navy, and olive), garments slightly overlapping, soft afternoon light filtering from the right, warm light gray wall behind, premium minimalist composition. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 006 of 15 ---
+SAVE AS: cat-dresses.png
+CATEGORY HERO: dresses
+PROMPT:
+A bright dressing-area corner with a sage-green silk a-line dress hung from a brass wall hook, a folded ivory wrap dress resting on a low oak bench beneath, a large potted fig plant softly out of focus on the right, warm light gray walls. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 007 of 15 ---
+SAVE AS: cat-sweaters.png
+CATEGORY HERO: sweaters
+PROMPT:
+A round oak coffee table with three folded knitwear pieces stacked at left (cream cardigan, charcoal crew-neck, oatmeal half-zip), a ceramic mug of tea with steam rising on the right, soft window light, warm light gray wall behind. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 008 of 15 ---
+SAVE AS: cat-raincoats.png
+CATEGORY HERO: raincoats
+PROMPT:
+A foyer scene with a beige trench coat hung from a wall hook, a long umbrella resting against the wall beneath, a pair of dark leather rain boots placed on the oak floorboards, soft side window light, warm light gray walls, premium minimalist composition. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 009 of 15 ---
+SAVE AS: cat-sneakers.png
+CATEGORY HERO: sneakers
+PROMPT:
+A polished oak sideboard with two pairs of premium leather sneakers (white low-top and tan retro) placed at left, a folded chambray pocket square beside them, soft directional window light, warm light gray wall behind, refined minimalist editorial aesthetic. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 010 of 15 ---
+SAVE AS: cat-formal-shoes.png
+CATEGORY HERO: formal-shoes
+PROMPT:
+A classic oak shoeshine bench with two pairs of polished leather shoes (black oxford and brown loafer) arranged at left, a horsehair brush and a small tin of polish beside them, soft directional window light, warm light gray wall behind. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 011 of 15 ---
+SAVE AS: cat-backpacks.png
+CATEGORY HERO: backpacks
+PROMPT:
+A wooden hallway bench with a structured leather commuter backpack leaning against the wall on the left, a folded wool scarf draped beside it and a pair of leather gloves on the bench, soft morning window light, warm light gray walls. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 012 of 15 ---
+SAVE AS: cat-sunglasses.png
+CATEGORY HERO: sunglasses
+PROMPT:
+An oak desk surface with three pairs of sunglasses arranged diagonally at left (rectangular, round, aviator), arms slightly open, soft shadows beneath them, a single dried wildflower stem to the right, warm light gray wall behind, soft directional light. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 013 of 15 ---
+SAVE AS: cat-accessories.png
+CATEGORY HERO: accessories
+PROMPT:
+A circular oak tray with assorted small leather goods at left (card wallet, sunglasses case, key fob), a folded merino scarf and a beanie next to them, soft side window light, warm light gray wall behind, refined neutral premium palette. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 014 of 15 ---
+SAVE AS: cat-menswear.png
+CATEGORY HERO: menswear
+PROMPT:
+A sunlit walk-in closet corner with a row of neatly hung shirts and a folded sweater on the shelf above, a pair of leather loafers on the lower oak shelf, warm light gray walls, soft afternoon light filtering from the right, premium minimalist closet styling. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+
+--- PROMPT 015 of 15 ---
+SAVE AS: cat-womenswear.png
+CATEGORY HERO: womenswear
+PROMPT:
+A bright open dressing-area corner with hung silk blouses on the left, a folded knit cardigan on a low oak bench, a large potted fig plant softly out of focus on the right, warm light gray walls, soft natural window light, refined editorial styling. Lifestyle interior photography, warm light gray walls and natural oak surfaces, soft directional window light, no people, no faces, no text, no logos, no branding, premium minimalist editorial aesthetic, 16:9 horizontal composition with generous negative space on the right for category-name overlay, sharp focus on featured items, shallow depth of field on background, neutral warm color balance.
+

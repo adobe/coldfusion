@@ -1,0 +1,83 @@
+{
+  "provider": "openai",
+  "baseUrl": "https://api.openai.com/v1",
+  "modelName": "gpt-4o-mini",
+  "apiKey": "",
+  "temperature": 0.4,
+  "topP": 0.9,
+  "maxTokens": 2400,
+  "systemPromptFile": "system-prompt.txt",
+
+  "chatMemory": {
+    "type": "messageWindowChatMemory",
+    "maxMessages": 20,
+    "perUser": true,
+    "persistentStore": ""
+  },
+
+  "tools": [
+    {"cfc": "api.agent.s6.lab.tools.SearchCatalog"},
+    {"cfc": "api.agent.s6.lab.tools.GetProductDetails"},
+    {"cfc": "api.agent.s6.lab.tools.CompareProducts"},
+    {"cfc": "api.agent.s6.lab.tools.GetCart"},
+    {"cfc": "api.agent.s6.lab.tools.GetOrderHistory"},
+    {"cfc": "api.agent.s6.lab.tools.AddToCart"},
+    {"cfc": "api.agent.s6.lab.tools.RemoveFromCart"},
+    {"cfc": "api.agent.s6.lab.tools.GetProductReviews"},
+    {"cfc": "api.agent.s6.lab.tools.SubmitReview"}
+  ],
+
+  "mcpConfigFile": "mcp-servers.json",
+  "weatherMode": "live",
+
+  "promptExtensions": [
+    "system-prompt-weather.txt",
+    "system-prompt-logistics.txt"
+  ],
+
+  "rag": {
+    "enabled": true,
+    "embeddingProvider": "openai",
+    "embeddingModel": "text-embedding-3-small",
+    "vectorStoreProvider": "INMEMORY",
+    "chunkSize": 500,
+    "chunkOverlap": 100,
+    "maxResults": 4,
+    "minScore": 0.5,
+    "splitterType": "recursive",
+    "corpora": ["catalog", "policy", "reviews"],
+    "contentInjectorTemplate": "KNOWLEDGE BASE CONTEXT (policies, care guides, product background, customer reviews):\n---\n{{contents}}\n---\n\nUse this context to ENRICH your responses — combine it with tool results. This context does NOT replace tool calls. If the user is searching or browsing products, you MUST still call searchCatalog (for UI cards) AND use this context to add value (e.g., review highlights, care tips, recommendations). Cite sources when drawing from this context.\n\nUser question: {{userMessage}}"
+  },
+
+  "guardrails": {
+    "input": [
+      "guardrails/input/DiscountFabricationGuard.cfc",
+      "guardrails/input/PromptInjectionGuard.cfc",
+      "guardrails/input/PiiIntakeGuard.cfc"
+    ],
+    "output": [
+      "guardrails/output/FitGuaranteeGuard.cfc",
+      "guardrails/output/FakeDiscountGuard.cfc",
+      "guardrails/output/PiiLeakGuard.cfc",
+      "guardrails/output/MisleadingScarcityGuard.cfc"
+    ]
+  },
+
+  "upsellPitch": {
+    "temperature": 0.6,
+    "maxTokens":   600,
+    "promptTemplateFile": "/api/agent/s6/config/upsell-pitch-prompt.txt"
+  },
+
+  "landingSection": {
+    "temperature": 0.5,
+    "maxTokens":   700,
+    "promptTemplateFile": "/api/agent/s6/config/landing-section-prompt.txt"
+  },
+
+  "recoveryEmail": {
+    "temperature": 0.6,
+    "maxTokens":   600,
+    "promptTemplateFile": "/api/agent/s6/config/recovery-email-prompt.txt"
+  }
+}

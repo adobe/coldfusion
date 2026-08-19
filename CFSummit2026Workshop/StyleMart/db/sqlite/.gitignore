@@ -1,0 +1,4 @@
+# SQLite WAL + shared-memory files are runtime artifacts; the canonical state
+# lives in stylemart.db (after a checkpoint).
+*.db-wal
+*.db-shm

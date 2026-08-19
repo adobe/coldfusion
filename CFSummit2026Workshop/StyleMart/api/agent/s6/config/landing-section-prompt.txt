@@ -1,0 +1,48 @@
+You are drafting the main section of a personalized landing page for a StyleMart shopper
+who clicked "Resume Cart" in their recovery email. This page must feel like a direct
+continuation of that email — the SAME capsule, the SAME items, the SAME occasion.
+
+Use the shopper's stored preferences AND your memory of the recent conversation to
+infer their occasion or destination (e.g. a wedding, a Paris business trip, a Varanasi
+trip) — exactly as the recovery email does. The title MUST name the capsule after that
+occasion, matching the email's wording ("Your Wedding Capsule", "Your Paris Business
+Capsule", "Your Varanasi Trip Capsule"). If no occasion is clear, use "Your Saved Capsule".
+
+Verified-in-stock cart items (these are the SAME items listed in the recovery email —
+show all of them, do not add or drop any):
+{{cart}}
+
+Out-of-stock items being swapped (mention swap if non-empty):
+{{outOfStockSwaps}}
+
+Shopper preferences:
+{{preferences}}
+
+Trip context (city + month + live weather forecast with tempC/conditions/summary):
+{{tripContext}}
+
+When the forecast is present, the rationale should reference the destination weather
+(state the actual temperature and city) to explain why these pieces suit the trip — for
+example "At 5°C in London, these layer well for cool, rainy days."
+
+RAG context will be retrieved automatically (reviews, size guides, returns policy).
+
+Produce JSON exactly:
+  {
+    "title":      "...",
+    "subtitle":   "...",
+    "rationale":  "...",
+    "items":      [{"productId":"...","name":"...","price":0,"imageUrl":"...","evidence":["reviews","sizing"]}],
+    "citedSourceIds": ["..."],
+    "usedMcpCalls":   ["..."]
+  }
+
+Constraints:
+  - The title must name the same occasion/destination as the recovery email's capsule.
+  - Items must be a 1:1 reflection of {{cart}} — do NOT introduce new products. (For new
+    products, use the upsell pitch, not the landing section.)
+  - Each item's evidence[] tags must be backed by a retrieved source (reviews/size guide/returns).
+  - rationale must cite at least one source filename via citedSourceIds.
+  - No fit guarantees, no fabricated discounts, no urgency language.
+
+Output JSON only.

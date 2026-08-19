@@ -1,0 +1,173 @@
+StyleMart Firefly Prompts — Formal Shoes (`formal-shoes`)
+14 products × 2 images = 28 prompts
+Settings: Aspect Ratio = 3:4 (Portrait, 1024x1408 source; upscale to 1200x1600 for /static/img/)
+================================================================================
+
+--- PROMPT 001 of 28 ---
+SAVE AS: formal-shoes_black_oxford_smooth_01.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [primary]
+PROMPT:
+Black oxford formal shoe in smooth leather, cap-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 002 of 28 ---
+SAVE AS: formal-shoes_black_oxford_smooth_01_detail.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Black oxford formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished smooth grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 003 of 28 ---
+SAVE AS: formal-shoes_dark-brown_derby_full-grain_02.png
+CATEGORY: formal-shoes  (subcategory: derby)  [primary]
+PROMPT:
+Dark Brown derby formal shoe in full-grain leather, plain-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 004 of 28 ---
+SAVE AS: formal-shoes_dark-brown_derby_full-grain_02_detail.png
+CATEGORY: formal-shoes  (subcategory: derby)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Dark Brown derby formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished full grain grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 005 of 28 ---
+SAVE AS: formal-shoes_oxblood_loafer_suede_03.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [primary]
+PROMPT:
+Oxblood loafer formal shoe in suede leather, penny-strap, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 006 of 28 ---
+SAVE AS: formal-shoes_oxblood_loafer_suede_03_detail.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Oxblood loafer formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished suede grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 007 of 28 ---
+SAVE AS: formal-shoes_tan_monk-strap_pebbled_04.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [primary]
+PROMPT:
+Tan monk-strap formal shoe in pebbled leather, brogued perforations, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 008 of 28 ---
+SAVE AS: formal-shoes_tan_monk-strap_pebbled_04_detail.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Tan monk-strap formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished pebbled grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 009 of 28 ---
+SAVE AS: formal-shoes_walnut_oxford_full-grain_05.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [primary]
+PROMPT:
+Walnut oxford formal shoe in full-grain leather, cap-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 010 of 28 ---
+SAVE AS: formal-shoes_walnut_oxford_full-grain_05_detail.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Walnut oxford formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished full grain grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 011 of 28 ---
+SAVE AS: formal-shoes_black_derby_smooth_06.png
+CATEGORY: formal-shoes  (subcategory: derby)  [primary]
+PROMPT:
+Black derby formal shoe in smooth leather, plain-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 012 of 28 ---
+SAVE AS: formal-shoes_black_derby_smooth_06_detail.png
+CATEGORY: formal-shoes  (subcategory: derby)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Black derby formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished smooth grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 013 of 28 ---
+SAVE AS: formal-shoes_cognac_loafer_full-grain_07.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [primary]
+PROMPT:
+Cognac loafer formal shoe in full-grain leather, penny-strap, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 014 of 28 ---
+SAVE AS: formal-shoes_cognac_loafer_full-grain_07_detail.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Cognac loafer formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished full grain grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 015 of 28 ---
+SAVE AS: formal-shoes_charcoal_monk-strap_suede_08.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [primary]
+PROMPT:
+Charcoal monk-strap formal shoe in suede leather, plain-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 016 of 28 ---
+SAVE AS: formal-shoes_charcoal_monk-strap_suede_08_detail.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Charcoal monk-strap formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished suede grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 017 of 28 ---
+SAVE AS: formal-shoes_midnight-blue_oxford_pebbled_09.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [primary]
+PROMPT:
+Midnight Blue oxford formal shoe in pebbled leather, brogued perforations, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 018 of 28 ---
+SAVE AS: formal-shoes_midnight-blue_oxford_pebbled_09_detail.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Midnight Blue oxford formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished pebbled grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 019 of 28 ---
+SAVE AS: formal-shoes_espresso_derby_smooth_10.png
+CATEGORY: formal-shoes  (subcategory: derby)  [primary]
+PROMPT:
+Espresso derby formal shoe in smooth leather, cap-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 020 of 28 ---
+SAVE AS: formal-shoes_espresso_derby_smooth_10_detail.png
+CATEGORY: formal-shoes  (subcategory: derby)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Espresso derby formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished smooth grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 021 of 28 ---
+SAVE AS: formal-shoes_sand_loafer_suede_11.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [primary]
+PROMPT:
+Sand loafer formal shoe in suede leather, plain-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 022 of 28 ---
+SAVE AS: formal-shoes_sand_loafer_suede_11_detail.png
+CATEGORY: formal-shoes  (subcategory: loafer)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Sand loafer formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished suede grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 023 of 28 ---
+SAVE AS: formal-shoes_burgundy_monk-strap_full-grain_12.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [primary]
+PROMPT:
+Burgundy monk-strap formal shoe in full-grain leather, brogued perforations, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 024 of 28 ---
+SAVE AS: formal-shoes_burgundy_monk-strap_full-grain_12_detail.png
+CATEGORY: formal-shoes  (subcategory: monk-strap)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Burgundy monk-strap formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished full grain grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 025 of 28 ---
+SAVE AS: formal-shoes_graphite_oxford_smooth_13.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [primary]
+PROMPT:
+Graphite oxford formal shoe in smooth leather, plain-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 026 of 28 ---
+SAVE AS: formal-shoes_graphite_oxford_smooth_13_detail.png
+CATEGORY: formal-shoes  (subcategory: oxford)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Graphite oxford formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished smooth grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 027 of 28 ---
+SAVE AS: formal-shoes_camel_derby_pebbled_14.png
+CATEGORY: formal-shoes  (subcategory: derby)  [primary]
+PROMPT:
+Camel derby formal shoe in pebbled leather, cap-toe, photographed at a slight three-quarter angle on the backdrop, polished and centered, minimal shadow. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+
+--- PROMPT 028 of 28 ---
+SAVE AS: formal-shoes_camel_derby_pebbled_14_detail.png
+CATEGORY: formal-shoes  (subcategory: derby)  [secondary detail]
+PROMPT:
+Extreme close-up macro detail shot of Camel derby formal shoe, focusing on the toe cap, brogue perforations or vamp stitching, and welted edge, polished pebbled grain visible, soft directional light. Studio e-commerce catalog photography, seamless warm light gray backdrop, soft diffused overhead lighting, neutral color balance, sharp focus, visible fabric texture, minimal premium aesthetic, centered composition, no text, no logos, no branding, no people, no patterned background.
+

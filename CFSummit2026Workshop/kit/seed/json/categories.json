@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "slug": "menswear",
+      "displayName": "Menswear",
+      "parentSlug": null,
+      "heroImageUrl": "assets/img/cat-menswear.png",
+      "productCount": 182,
+      "sortOrder": 0
+    },
+    {
+      "slug": "womenswear",
+      "displayName": "Womenswear",
+      "parentSlug": null,
+      "heroImageUrl": "assets/img/cat-womenswear.png",
+      "productCount": 186,
+      "sortOrder": 1
+    },
+    {
+      "slug": "tshirts",
+      "displayName": "T-Shirts",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-tshirts.png",
+      "productCount": 18,
+      "sortOrder": 0
+    },
+    {
+      "slug": "shirts",
+      "displayName": "Button-Down Shirts",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-shirts.png",
+      "productCount": 18,
+      "sortOrder": 1
+    },
+    {
+      "slug": "jeans",
+      "displayName": "Jeans",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-jeans.png",
+      "productCount": 12,
+      "sortOrder": 2
+    },
+    {
+      "slug": "pants",
+      "displayName": "Pants & Trousers",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-pants.png",
+      "productCount": 10,
+      "sortOrder": 3
+    },
+    {
+      "slug": "jackets",
+      "displayName": "Jackets & Blazers",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-jackets.png",
+      "productCount": 16,
+      "sortOrder": 4
+    },
+    {
+      "slug": "dresses",
+      "displayName": "Dresses",
+      "parentSlug": "womenswear",
+      "heroImageUrl": "assets/img/cat-dresses.png",
+      "productCount": 18,
+      "sortOrder": 0
+    },
+    {
+      "slug": "sweaters",
+      "displayName": "Sweaters & Cardigans",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-sweaters.png",
+      "productCount": 14,
+      "sortOrder": 5
+    },
+    {
+      "slug": "raincoats",
+      "displayName": "Raincoats",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-raincoats.png",
+      "productCount": 10,
+      "sortOrder": 6
+    },
+    {
+      "slug": "sneakers",
+      "displayName": "Sneakers",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-sneakers.png",
+      "productCount": 16,
+      "sortOrder": 7
+    },
+    {
+      "slug": "formal-shoes",
+      "displayName": "Formal Shoes",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-formal-shoes.png",
+      "productCount": 14,
+      "sortOrder": 8
+    },
+    {
+      "slug": "backpacks",
+      "displayName": "Backpacks",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-backpacks.png",
+      "productCount": 12,
+      "sortOrder": 9
+    },
+    {
+      "slug": "sunglasses",
+      "displayName": "Sunglasses",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-sunglasses.png",
+      "productCount": 14,
+      "sortOrder": 10
+    },
+    {
+      "slug": "accessories",
+      "displayName": "Accessories",
+      "parentSlug": "menswear",
+      "heroImageUrl": "assets/img/cat-accessories.png",
+      "productCount": 28,
+      "sortOrder": 11
+    }
+  ]
+}

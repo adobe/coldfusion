@@ -1,0 +1,16 @@
+heroSeq,categorySlug,filename,heroImageUrl,aspectRatio
+H1,tshirts,cat-tshirts.png,/static/img/cat-tshirts.png,16:9
+H2,shirts,cat-shirts.png,/static/img/cat-shirts.png,16:9
+H3,jeans,cat-jeans.png,/static/img/cat-jeans.png,16:9
+H4,pants,cat-pants.png,/static/img/cat-pants.png,16:9
+H5,jackets,cat-jackets.png,/static/img/cat-jackets.png,16:9
+H6,dresses,cat-dresses.png,/static/img/cat-dresses.png,16:9
+H7,sweaters,cat-sweaters.png,/static/img/cat-sweaters.png,16:9
+H8,raincoats,cat-raincoats.png,/static/img/cat-raincoats.png,16:9
+H9,sneakers,cat-sneakers.png,/static/img/cat-sneakers.png,16:9
+H10,formal-shoes,cat-formal-shoes.png,/static/img/cat-formal-shoes.png,16:9
+H11,backpacks,cat-backpacks.png,/static/img/cat-backpacks.png,16:9
+H12,sunglasses,cat-sunglasses.png,/static/img/cat-sunglasses.png,16:9
+H13,accessories,cat-accessories.png,/static/img/cat-accessories.png,16:9
+H14,menswear,cat-menswear.png,/static/img/cat-menswear.png,16:9
+H15,womenswear,cat-womenswear.png,/static/img/cat-womenswear.png,16:9
