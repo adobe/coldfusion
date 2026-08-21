@@ -36,7 +36,6 @@
         writeOutput("#testThread2#: " & variables.t2msg & "<br>")
     </cfscript>
         
-    <cf_expectedresults>
         <cfscript>
             writeOutput("Thread #testThread1# is RUNNING.<br>") ///1
             writeOutput("Thread #testThread1# is COMPLETED.<br>") ///2
